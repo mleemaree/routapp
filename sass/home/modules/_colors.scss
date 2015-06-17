@@ -1,0 +1,57 @@
+@mixin blue($a){
+	background-color:rgba(1,57,76,$a)
+} 
+
+$blue: rgba(1,57,76,1);
+
+$green: rgba(216,238,26,1);
+
+$gray: #d7d6d6;
+
+.blue{
+	@include blue(1);
+}
+
+nav{
+	color:white;
+}
+
+.navbar-inverse .navbar-brand{
+	color:$green;
+}
+
+.navbar-nav>li>a{
+	color:white;
+}
+
+a.btn.btn-default{
+	color:$green !important; 
+	border-color:$green;
+	@include blue(1);
+}
+
+.navbar-inverse .navbar-nav>.active>a, 
+.navbar-inverse .navbar-nav>.active>a:focus, 
+.navbar-inverse .navbar-nav>.active>a:hover{
+	background-color:$blue;
+}
+
+.offcanvas{
+	color:black;
+}
+
+.bottom{
+	border-bottom:1px solid $blue;
+}
+
+.bottom-nav{
+	background-color: $gray;
+}
+
+#filtro-busqueda{
+	color:$blue;
+}
+
+.navbar-default .navbar-nav>li>a{
+	color:$blue;
+}
