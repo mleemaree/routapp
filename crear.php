@@ -6,8 +6,7 @@
 	<?php include ('php-calls/header.php'); ?>
 </head>
 <body>
-
-<?php include ('rutas.php'); ?>
+<?php include('php-calls/top-menu.php') ?>
 
 
 

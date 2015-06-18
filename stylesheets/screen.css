@@ -123,32 +123,33 @@ body {
 
 @font-face {
   font-family: "DIN Condensed Bold";
-  src: url('/fonts/DIN Condensed Bold.ttf?1410303204') format('truetype');
+  src: url('/fonts/DIN Condensed Bold.ttf?1434550259') format('truetype');
 }
-/* line 3, ../sass/home/partials/_typography.scss */
+/*@include font-face("raleway", font-files("Raleway-Black.ttf", "Raleway-BlackItalic.ttf"));*/
+/* line 5, ../sass/home/partials/_typography.scss */
 body {
   font-family: raleway;
 }
 
-/* line 7, ../sass/home/partials/_typography.scss */
+/* line 9, ../sass/home/partials/_typography.scss */
 nav {
   font-size: 0.8em;
 }
 
-/* line 11, ../sass/home/partials/_typography.scss */
+/* line 13, ../sass/home/partials/_typography.scss */
 .navbar-inverse .navbar-brand {
   font-size: 2em;
   font-weight: bold;
 }
 
-/* line 16, ../sass/home/partials/_typography.scss */
+/* line 18, ../sass/home/partials/_typography.scss */
 .number {
   font-family: "DIN Condensed Bold";
   font-size: 2em;
   font-weight: bold;
 }
 
-/* line 22, ../sass/home/partials/_typography.scss */
+/* line 24, ../sass/home/partials/_typography.scss */
 .route-info p {
   font-size: 0.8em;
 }
@@ -169,168 +170,218 @@ nav {
 }
 
 /* line 23, ../sass/home/modules/_colors.scss */
-.navbar-nav > li > a {
-  color: white;
-}
-
-/* line 27, ../sass/home/modules/_colors.scss */
 a.btn.btn-default {
   color: #d8ee1a !important;
   border-color: #d8ee1a;
   background-color: #01394c;
 }
 
-/* line 33, ../sass/home/modules/_colors.scss */
+/* line 29, ../sass/home/modules/_colors.scss */
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:focus,
 .navbar-inverse .navbar-nav > .active > a:hover {
   background-color: #01394c;
 }
 
-/* line 39, ../sass/home/modules/_colors.scss */
+/* line 35, ../sass/home/modules/_colors.scss */
 .offcanvas {
   color: black;
 }
 
-/* line 43, ../sass/home/modules/_colors.scss */
+/* line 39, ../sass/home/modules/_colors.scss */
 .bottom {
   border-bottom: 1px solid #01394c;
 }
 
-/* line 47, ../sass/home/modules/_colors.scss */
+/* line 43, ../sass/home/modules/_colors.scss */
 .bottom-nav {
   background-color: #d7d6d6;
 }
 
-/* line 51, ../sass/home/modules/_colors.scss */
+/* line 47, ../sass/home/modules/_colors.scss */
 #filtro-busqueda {
   color: #01394c;
 }
 
-/* line 55, ../sass/home/modules/_colors.scss */
+/* line 51, ../sass/home/modules/_colors.scss */
 .navbar-default .navbar-nav > li > a {
   color: #01394c;
 }
 
+/* line 55, ../sass/home/modules/_colors.scss */
+.middle {
+  background-color: #01394c;
+}
+
+/* line 60, ../sass/home/modules/_colors.scss */
+.middle li a {
+  color: #fff !important;
+}
+
+/* line 64, ../sass/home/modules/_colors.scss */
+#userName a {
+  color: #fff;
+}
+
 /*=======topnav====*/
-/* line 9, ../sass/home.scss */
+/* line 3, ../sass/home/partials/_top-nav.scss */
 .navbar {
   border-radius: 0;
 }
 
-/* line 13, ../sass/home.scss */
+/* line 7, ../sass/home/partials/_top-nav.scss */
 .blue {
   height: 65px;
 }
 
-/* line 17, ../sass/home.scss */
+/* line 11, ../sass/home/partials/_top-nav.scss */
 .left {
   width: 20%;
 }
 
-/* line 21, ../sass/home.scss */
+/* line 15, ../sass/home/partials/_top-nav.scss */
 .middle {
   width: 60%;
 }
-/* line 23, ../sass/home.scss */
+/* line 17, ../sass/home/partials/_top-nav.scss */
 .middle li {
   width: 20%;
 }
 
-/* line 28, ../sass/home.scss */
+/* line 22, ../sass/home/partials/_top-nav.scss */
 a.btn.btn-default {
   height: 48px;
   border-radius: 10px;
   padding: 7.5% 0;
 }
 
-/* line 34, ../sass/home.scss */
+/* line 28, ../sass/home/partials/_top-nav.scss */
 .right {
   width: 20%;
   text-align: right;
+  position: relative;
+  bottom: 50px;
 }
-/* line 37, ../sass/home.scss */
-.right a {
-  text-align: right;
+/* line 33, ../sass/home/partials/_top-nav.scss */
+.right a span {
+  color: #d8ee1a;
 }
 
-/* line 42, ../sass/home.scss */
+/* line 39, ../sass/home/partials/_top-nav.scss */
 #userName, #userPhoto {
   display: inline-block;
 }
 
-/* line 46, ../sass/home.scss */
+/* line 43, ../sass/home/partials/_top-nav.scss */
 #userPhoto {
-  padding: 1% 0;
+  padding: 1% 10% 1% 0;
   height: 45px;
 }
 
-/*=====offcanvas menu====*/
-/* line 53, ../sass/home.scss */
-.offcanvas-help {
-  width: 200px;
-  margin-bottom: 0;
+/* line 48, ../sass/home/partials/_top-nav.scss */
+.menu-name {
+  display: inline;
 }
-/* line 56, ../sass/home.scss */
-.offcanvas-help span {
-  padding: 9% 0;
+
+/* line 52, ../sass/home/partials/_top-nav.scss */
+#logged-user-name {
+  padding: 5%;
+  position: relative;
+  top: 18px;
+}
+
+/* line 58, ../sass/home/partials/_top-nav.scss */
+#user-dropdown-menu {
+  background-color: #01394c;
+  position: absolute;
+  top: 56px;
+  width: 75%;
+}
+/* line 63, ../sass/home/partials/_top-nav.scss */
+#user-dropdown-menu li a {
+  color: #d8ee1a;
+  text-align: center;
 }
 
 /*=====bottom menu =======*/
-/* line 63, ../sass/home.scss */
+/* line 11, ../sass/home.scss */
 .offcanvas-help {
   border-right: 1px solid #01394c;
 }
 
-/* line 67, ../sass/home.scss */
-#bottom-bar {
-  width: 70.5%;
+/* line 15, ../sass/home.scss */
+#bs-example-navbar-collapse-2 {
+  height: 50px;
 }
-/* line 69, ../sass/home.scss */
+
+/* line 19, ../sass/home.scss */
+#bottom-bar {
+  width: 100%;
+  position: absolute;
+}
+/* line 22, ../sass/home.scss */
 #bottom-bar li {
-  width: 25%;
   border-right: 1px solid #01394c;
 }
-/* line 73, ../sass/home.scss */
+/* line 25, ../sass/home.scss */
 #bottom-bar a {
   padding: 14px;
 }
-/* line 75, ../sass/home.scss */
+/* line 27, ../sass/home.scss */
 #bottom-bar a img {
   height: 23px;
   margin: 0;
   vertical-align: middle;
 }
 
-/* line 83, ../sass/home.scss */
+/* line 35, ../sass/home.scss */
 .bottom {
   margin-bottom: 0;
 }
 
-/* line 87, ../sass/home.scss */
+/* line 39, ../sass/home.scss */
 .hide {
   visibility: hidden;
 }
-/* line 89, ../sass/home.scss */
+/* line 41, ../sass/home.scss */
 .hide a {
   height: 100%;
 }
 
-/* line 94, ../sass/home.scss */
+/* line 46, ../sass/home.scss */
 .menu-name {
   padding: 0 10%;
 }
 
+/* line 50, ../sass/home.scss */
+#fdb {
+  width: 18%;
+}
+
+/* line 54, ../sass/home.scss */
+#listado, #mapa {
+  width: 10%;
+}
+
+/* line 58, ../sass/home.scss */
+#ordenar {
+  width: 15%;
+  border-left: 1px solid #01394c;
+  position: relative;
+  right: 18%;
+}
+
 /*===possible sidemenu ====*/
-/* line 100, ../sass/home.scss */
+/* line 67, ../sass/home.scss */
 .screw {
   width: 17%;
   background-color: #ffffff;
   position: absolute;
   z-index: 1;
+  display: none;
 }
 
-/* line 107, ../sass/home.scss */
+/* line 75, ../sass/home.scss */
 #menu-search, #province-select {
   -moz-border-radius: 20px;
   -webkit-border-radius: 20px;
@@ -341,7 +392,7 @@ a.btn.btn-default {
   margin: 5% 0;
 }
 
-/* line 120, ../sass/home.scss */
+/* line 88, ../sass/home.scss */
 .filtro-name {
   font-size: 1em;
   font-color: #01394c !important;
@@ -349,22 +400,22 @@ a.btn.btn-default {
   margin-top: 5%;
 }
 
-/* line 127, ../sass/home.scss */
+/* line 95, ../sass/home.scss */
 .filtro-type {
   line-height: 1.5em;
 }
 
-/* line 131, ../sass/home.scss */
+/* line 99, ../sass/home.scss */
 .filter {
   margin: 5%;
 }
 
-/* line 135, ../sass/home.scss */
+/* line 103, ../sass/home.scss */
 .category {
   margin: 5% 0;
 }
 
-/* line 139, ../sass/home.scss */
+/* line 107, ../sass/home.scss */
 #submit-filters {
   background-color: #d8ee1a;
   width: 100%;
@@ -380,29 +431,461 @@ a.btn.btn-default {
 }
 
 /*=====Route cards ====*/
-/* line 151, ../sass/home.scss */
+/* line 119, ../sass/home.scss */
 .route-info {
   padding: 0;
 }
-/* line 153, ../sass/home.scss */
+/* line 121, ../sass/home.scss */
 .route-info p {
   display: inline-block;
 }
 
-/* line 158, ../sass/home.scss */
+/* line 126, ../sass/home.scss */
 .route-card {
   -moz-box-shadow: #d7d6d6 1px 1px 8px;
   -webkit-box-shadow: #d7d6d6 1px 1px 8px;
   box-shadow: #d7d6d6 1px 1px 8px;
 }
 
-/* line 162, ../sass/home.scss */
+/* line 130, ../sass/home.scss */
 .map {
   background-image: url(../images/map.png);
   height: 100%;
 }
 
-/* line 167, ../sass/home.scss */
+/* line 135, ../sass/home.scss */
 .user-image {
   padding: 1%;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 141, ../sass/home.scss */
+  .left {
+    width: 100%;
+  }
+
+  /* line 145, ../sass/home.scss */
+  .middle {
+    padding: 0 2%;
+    width: 20%;
+  }
+  /* line 148, ../sass/home.scss */
+  .middle li {
+    width: 100%;
+    margin-bottom: 5%;
+  }
+}
+@media screen and (min-width: 980px) {
+  /* line 156, ../sass/home.scss */
+  .navbar-toggle {
+    display: none;
+  }
+}
+/*======bought route card =====*/
+/* line 164, ../sass/home.scss */
+.bought-route-card {
+  background-image: url(../images/banarse.png);
+  height: 130px;
+  background-position: right;
+  -moz-box-shadow: gray 1px 1px 8px;
+  -webkit-box-shadow: gray 1px 1px 8px;
+  box-shadow: gray 1px 1px 8px;
+}
+
+/* line 171, ../sass/home.scss */
+.banarse {
+  background-image: url(../images/bluething.png);
+  height: 130px;
+  width: 113.5%;
+}
+/* line 175, ../sass/home.scss */
+.banarse h2 {
+  color: #fff;
+  font-size: 2.6em;
+  padding: 1.5% 0 0 2%;
+  font-family: "DIN condensed bold";
+}
+/* line 181, ../sass/home.scss */
+.banarse hr {
+  margin: 0 2%;
+}
+/* line 184, ../sass/home.scss */
+.banarse p {
+  color: #fff;
+  margin-left: 2%;
+  padding-top: 1%;
+  font-size: 0.9em;
+}
+
+/* line 192, ../sass/home.scss */
+.km {
+  font-size: 3em;
+  font-family: "DIN condensed bold";
+  display: inline-block;
+  color: #d8ee1a;
+}
+
+/* line 199, ../sass/home.scss */
+.routes-info {
+  margin-left: 0;
+  width: 48%;
+  padding-top: 1%;
+}
+
+/* line 205, ../sass/home.scss */
+.first {
+  padding-top: 1%;
+}
+/* line 207, ../sass/home.scss */
+.first p {
+  display: inline-block;
+  font-family: "DIN condensed bold";
+}
+
+/* line 213, ../sass/home.scss */
+.second {
+  text-align: center;
+}
+/* line 215, ../sass/home.scss */
+.second h3 {
+  font-size: 2.5em;
+  color: #ef4a42;
+  font-family: "DIN condensed bold";
+}
+/* line 220, ../sass/home.scss */
+.second p {
+  position: relative;
+  bottom: 8px;
+  font-size: 0.9em;
+  font-family: "DIN condensed bold";
+}
+
+/* line 228, ../sass/home.scss */
+.third {
+  text-align: center;
+}
+/* line 230, ../sass/home.scss */
+.third p {
+  font-family: "DIN condensed bold";
+}
+/* line 233, ../sass/home.scss */
+.third h3 {
+  font-size: 2.4em;
+  color: #00beff;
+  font-family: "DIN condensed bold";
+}
+
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 11, ../sass/profile/partials/_base.scss */
+.full-width {
+  width: 100%;
+}
+
+/*----JASNY STUFF --*/
+/* line 17, ../sass/profile/partials/_base.scss */
+html, body {
+  height: 100%;
+}
+
+/* line 21, ../sass/profile/partials/_base.scss */
+body {
+  margin: 0 auto;
+  background-color: #ededed;
+}
+
+/* line 26, ../sass/profile/partials/_base.scss */
+.navbar-toggle {
+  float: left;
+  margin-left: 15px;
+}
+
+@media (min-width: 0) {
+  /* line 32, ../sass/profile/partials/_base.scss */
+  .navbar-toggle {
+    display: block;
+    /* force showing the toggle */
+  }
+}
+@media (min-width: 992px) {
+  /* line 38, ../sass/profile/partials/_base.scss */
+  body {
+    padding: 0;
+  }
+
+  /* line 41, ../sass/profile/partials/_base.scss */
+  .navbar {
+    right: auto;
+    background: none;
+    border: none;
+  }
+}
+/* line 48, ../sass/profile/partials/_base.scss */
+.container {
+  padding: 0;
+}
+
+/* line 52, ../sass/profile/partials/_base.scss */
+.col-xs-10 {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "DIN Condensed Bold";
+  src: url('/fonts/DIN Condensed Bold.ttf?1434550259') format('truetype');
+}
+/*@include font-face("raleway", font-files("Raleway-Black.ttf", "Raleway-BlackItalic.ttf"));*/
+/* line 5, ../sass/profile/partials/_typography.scss */
+body {
+  font-family: raleway;
+}
+
+/* line 9, ../sass/profile/partials/_typography.scss */
+nav {
+  font-size: 0.8em;
+}
+
+/* line 13, ../sass/profile/partials/_typography.scss */
+.navbar-inverse .navbar-brand {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+/* line 18, ../sass/profile/partials/_typography.scss */
+.number {
+  font-family: "DIN Condensed Bold";
+  font-size: 2em;
+  font-weight: bold;
+}
+
+/* line 24, ../sass/profile/partials/_typography.scss */
+.route-info p {
+  font-size: 0.8em;
+}
+
+/* line 11, ../sass/profile/modules/_colors.scss */
+.blue {
+  background-color: #01394c;
+}
+
+/* line 15, ../sass/profile/modules/_colors.scss */
+nav {
+  color: white;
+}
+
+/* line 19, ../sass/profile/modules/_colors.scss */
+.navbar-inverse .navbar-brand {
+  color: #d8ee1a;
+}
+
+/* line 23, ../sass/profile/modules/_colors.scss */
+a.btn.btn-default {
+  color: #d8ee1a !important;
+  border-color: #d8ee1a;
+  background-color: #01394c;
+}
+
+/* line 29, ../sass/profile/modules/_colors.scss */
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .active > a:hover {
+  background-color: #01394c;
+}
+
+/* line 35, ../sass/profile/modules/_colors.scss */
+.offcanvas {
+  color: black;
+}
+
+/* line 39, ../sass/profile/modules/_colors.scss */
+.bottom {
+  border-bottom: 1px solid #01394c;
+}
+
+/* line 43, ../sass/profile/modules/_colors.scss */
+.bottom-nav {
+  background-color: #d7d6d6;
+}
+
+/* line 47, ../sass/profile/modules/_colors.scss */
+#filtro-busqueda {
+  color: #01394c;
+}
+
+/* line 51, ../sass/profile/modules/_colors.scss */
+.navbar-default .navbar-nav > li > a {
+  color: #01394c;
+}
+
+/* line 55, ../sass/profile/modules/_colors.scss */
+.middle {
+  background-color: #01394c;
+}
+
+/* line 60, ../sass/profile/modules/_colors.scss */
+.middle li a {
+  color: #fff !important;
+}
+
+/* line 64, ../sass/profile/modules/_colors.scss */
+#userName a {
+  color: #fff;
+}
+
+/*=======topnav====*/
+/* line 3, ../sass/profile/partials/_top-nav.scss */
+.navbar {
+  border-radius: 0;
+}
+
+/* line 7, ../sass/profile/partials/_top-nav.scss */
+.blue {
+  height: 65px;
+}
+
+/* line 11, ../sass/profile/partials/_top-nav.scss */
+.left {
+  width: 20%;
+}
+
+/* line 15, ../sass/profile/partials/_top-nav.scss */
+.middle {
+  width: 60%;
+}
+/* line 17, ../sass/profile/partials/_top-nav.scss */
+.middle li {
+  width: 20%;
+}
+
+/* line 22, ../sass/profile/partials/_top-nav.scss */
+a.btn.btn-default {
+  height: 48px;
+  border-radius: 10px;
+  padding: 7.5% 0;
+}
+
+/* line 28, ../sass/profile/partials/_top-nav.scss */
+.right {
+  width: 20%;
+  text-align: right;
+  position: relative;
+  bottom: 50px;
+}
+/* line 33, ../sass/profile/partials/_top-nav.scss */
+.right a span {
+  color: #d8ee1a;
+}
+
+/* line 39, ../sass/profile/partials/_top-nav.scss */
+#userName, #userPhoto {
+  display: inline-block;
+}
+
+/* line 43, ../sass/profile/partials/_top-nav.scss */
+#userPhoto {
+  padding: 1% 10% 1% 0;
+  height: 45px;
+}
+
+/* line 48, ../sass/profile/partials/_top-nav.scss */
+.menu-name {
+  display: inline;
+}
+
+/* line 52, ../sass/profile/partials/_top-nav.scss */
+#logged-user-name {
+  padding: 5%;
+  position: relative;
+  top: 18px;
+}
+
+/* line 58, ../sass/profile/partials/_top-nav.scss */
+#user-dropdown-menu {
+  background-color: #01394c;
+  position: absolute;
+  top: 56px;
+  width: 75%;
+}
+/* line 63, ../sass/profile/partials/_top-nav.scss */
+#user-dropdown-menu li a {
+  color: #d8ee1a;
+  text-align: center;
+}
+
+/*===Profile main nav====*/
+/* line 11, ../sass/profile.scss */
+#profile-background {
+  background-image: url(../images/profile-background.png);
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  height: 394px;
+  width: 100%;
+}
+
+/* line 18, ../sass/profile.scss */
+.logged-user-image {
+  display: inline;
+  vertical-align: middle;
+  margin: 11% 2%;
+}
+
+/* line 24, ../sass/profile.scss */
+h2.user-name {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: inline;
+  vertical-align: middle;
+}
+
+/* line 32, ../sass/profile.scss */
+.profile-menu {
+  height: 50px;
+  background-color: #fff;
+  text-align: center;
+}
+
+/* line 38, ../sass/profile.scss */
+.profile-menu-option {
+  height: 50px;
+  display: inline-block;
+  width: 24.7%;
+  padding: 0;
+  text-align: center;
+  border-right: 1px solid #01394c;
+}
+/* line 45, ../sass/profile.scss */
+.profile-menu-option span {
+  position: relative;
+  top: 33%;
+  font-size: 0.9em;
+  color: #01394c;
+}
+/* line 51, ../sass/profile.scss */
+.profile-menu-option:last-child {
+  border: none;
+}
+/* line 54, ../sass/profile.scss */
+.profile-menu-option.active {
+  background-color: #01394c;
+}
+/* line 56, ../sass/profile.scss */
+.profile-menu-option.active span {
+  color: white;
+}
+
+/*====Mis rutas=====*/
+/* line 65, ../sass/profile.scss */
+#ruta-map {
+  margin: 3% 0;
+}
+
+/* line 69, ../sass/profile.scss */
+#route-map {
+  width: 100%;
 }

@@ -1,0 +1,71 @@
+@import "profile/partials/base";
+@import "profile/partials/typography";
+
+
+@import "profile/modules/colors";
+
+@import "profile/partials/top-nav";
+
+/*===Profile main nav====*/
+
+#profile-background{
+	background-image: url(../images/profile-background.png);
+	@include background-size(cover);
+	height:394px;
+	width:100%;
+}
+
+.logged-user-image{
+	display:inline;
+	vertical-align:middle;
+	margin:11% 2%;
+}
+
+h2.user-name{
+	color:#fff;
+	text-transform:uppercase;
+	font-weight:bold;
+	display:inline;
+	vertical-align:middle;
+}
+
+.profile-menu{
+	height:50px;
+	background-color:#fff;
+	text-align:center;
+}
+
+.profile-menu-option{
+	height:50px;
+	display:inline-block;
+	width:24.7%;
+	padding:0;
+	text-align:center;
+	border-right:1px solid $blue;
+	span{
+		position:relative;
+		top:33%;
+		font-size:0.9em;
+		color:$blue;
+	}
+	&:last-child{
+		border:none;
+	}
+	&.active{
+		background-color:$blue;
+		span{
+			color:white;
+		}
+	}
+}
+
+
+/*====Mis rutas=====*/
+
+#ruta-map{
+	margin:3% 0;
+}
+
+#route-map{
+	width:100%;
+}
