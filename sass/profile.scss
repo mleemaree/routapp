@@ -6,6 +6,8 @@
 
 @import "profile/partials/top-nav";
 
+
+
 /*===Profile main nav====*/
 
 #profile-background{
@@ -68,4 +70,35 @@ h2.user-name{
 
 #route-map{
 	width:100%;
+}
+
+.rc{
+	margin:3% 0;
+}
+
+/*====mis rutas menu====*/
+
+.mis-rutas-menu-wrapper{
+	padding-bottom:1%;
+	border-bottom:1px solid $blue;
+}
+
+.mis-rutas-menu{
+	width:70%;
+	display:inline-block;
+}
+
+.mis-rutas-menu-option{
+	display:inline-block;
+	width:33%;
+	span{
+		font-weight:bold;
+		text-transform:uppercase;
+		color:$blue;
+	}
+}
+
+#mis-rutas-filtro{
+	display:inline-block;
+	float:right;
 }

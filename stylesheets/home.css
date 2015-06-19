@@ -450,127 +450,52 @@ a.btn.btn-default {
 /* line 130, ../sass/home.scss */
 .map {
   background-image: url(../images/map.png);
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
   height: 100%;
 }
 
-/* line 135, ../sass/home.scss */
+/* line 136, ../sass/home.scss */
 .user-image {
   padding: 1%;
 }
 
 @media screen and (max-width: 768px) {
-  /* line 141, ../sass/home.scss */
+  /* line 142, ../sass/home.scss */
   .left {
     width: 100%;
   }
 
-  /* line 145, ../sass/home.scss */
+  /* line 146, ../sass/home.scss */
   .middle {
     padding: 0 2%;
     width: 20%;
   }
-  /* line 148, ../sass/home.scss */
+  /* line 149, ../sass/home.scss */
   .middle li {
     width: 100%;
     margin-bottom: 5%;
   }
 }
 @media screen and (min-width: 980px) {
-  /* line 156, ../sass/home.scss */
+  /* line 157, ../sass/home.scss */
   .navbar-toggle {
     display: none;
   }
 }
 /*======bought route card =====*/
-/* line 164, ../sass/home.scss */
+/* line 165, ../sass/home.scss */
 .bought-route-card {
-  background-image: url(../images/banarse.png);
-  height: 130px;
+  background-image: url(../images/bought-route-card.png);
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  height: 170px;
   background-position: right;
   -moz-box-shadow: gray 1px 1px 8px;
   -webkit-box-shadow: gray 1px 1px 8px;
   box-shadow: gray 1px 1px 8px;
-}
-
-/* line 171, ../sass/home.scss */
-.banarse {
-  background-image: url(../images/bluething.png);
-  height: 130px;
-  width: 113.5%;
-}
-/* line 175, ../sass/home.scss */
-.banarse h2 {
-  color: #fff;
-  font-size: 2.6em;
-  padding: 1.5% 0 0 2%;
-  font-family: "DIN condensed bold";
-}
-/* line 181, ../sass/home.scss */
-.banarse hr {
-  margin: 0 2%;
-}
-/* line 184, ../sass/home.scss */
-.banarse p {
-  color: #fff;
-  margin-left: 2%;
-  padding-top: 1%;
-  font-size: 0.9em;
-}
-
-/* line 192, ../sass/home.scss */
-.km {
-  font-size: 3em;
-  font-family: "DIN condensed bold";
-  display: inline-block;
-  color: #d8ee1a;
-}
-
-/* line 199, ../sass/home.scss */
-.routes-info {
-  margin-left: 0;
-  width: 48%;
-  padding-top: 1%;
-}
-
-/* line 205, ../sass/home.scss */
-.first {
-  padding-top: 1%;
-}
-/* line 207, ../sass/home.scss */
-.first p {
-  display: inline-block;
-  font-family: "DIN condensed bold";
-}
-
-/* line 213, ../sass/home.scss */
-.second {
-  text-align: center;
-}
-/* line 215, ../sass/home.scss */
-.second h3 {
-  font-size: 2.5em;
-  color: #ef4a42;
-  font-family: "DIN condensed bold";
-}
-/* line 220, ../sass/home.scss */
-.second p {
-  position: relative;
-  bottom: 8px;
-  font-size: 0.9em;
-  font-family: "DIN condensed bold";
-}
-
-/* line 228, ../sass/home.scss */
-.third {
-  text-align: center;
-}
-/* line 230, ../sass/home.scss */
-.third p {
-  font-family: "DIN condensed bold";
-}
-/* line 233, ../sass/home.scss */
-.third h3 {
-  font-size: 2.4em;
-  color: #00beff;
-  font-family: "DIN condensed bold";
 }

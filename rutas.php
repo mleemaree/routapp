@@ -45,56 +45,56 @@
 <div class="content-wrapper">
 
 <div class="container" style="margin-top:2%;">
-	<div class="row">
+	<div class="row rc">
 		<div class="col-xs-1"></div>
 		<div class="col-xs-10" style="">
       <?php include ('home-php-calls/featured-route.php'); ?>
 		</div>
 		<div class="col-xs-1"></div>
 	</div>
-	<div class="row">
+	<div class="row rc">
 		<div class="col-xs-1"></div>
 		<div class="col-xs-10" style="">
       <?php include ('home-php-calls/route-card.php'); ?>
 		</div>
 		<div class="col-xs-1"></div>
 	</div>
-	<div class="row">
+	<div class="row rc">
 		<div class="col-xs-1"></div>
 		<div class="col-xs-10" style="">
       <?php include ('home-php-calls/bought-route-card.php'); ?>
     </div>
 		<div class="col-xs-1"></div>
 	</div>
-	<div class="row">
-		<div class="col-xs-1"></div>
-		<div class="col-xs-10" style="">
-      <?php include ('home-php-calls/route-card.php'); ?>
-    </div>
-		<div class="col-xs-1"></div>
-	</div>
-	<div class="row">
+	<div class="row rc">
 		<div class="col-xs-1"></div>
 		<div class="col-xs-10" style="">
       <?php include ('home-php-calls/route-card.php'); ?>
     </div>
 		<div class="col-xs-1"></div>
 	</div>
-  <div class="row">
+	<div class="row rc">
+		<div class="col-xs-1"></div>
+		<div class="col-xs-10" style="">
+      <?php include ('home-php-calls/route-card.php'); ?>
+    </div>
+		<div class="col-xs-1"></div>
+	</div>
+  <div class="row rc">
     <div class="col-xs-1"></div>
     <div class="col-xs-10" style="">
       <?php include ('home-php-calls/bought-route-card.php'); ?>
     </div>
     <div class="col-xs-1"></div>
   </div>
-  <div class="row">
+  <div class="row rc">
     <div class="col-xs-1"></div>
     <div class="col-xs-10" style="">
       <?php include ('home-php-calls/bought-route-card.php'); ?>
     </div>
     <div class="col-xs-1"></div>
   </div>
-  <div class="row">
+  <div class="row rc">
     <div class="col-xs-1"></div>
     <div class="col-xs-10" style="">
       <?php include ('home-php-calls/route-card.php'); ?>

@@ -8,7 +8,7 @@
 <body>
 <?php include('php-calls/top-menu.php') ?>
 	
-
+<div style="background-color:white; max-width:1200px; margin: 0 auto;">
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12" id="profile-background">
@@ -27,19 +27,24 @@
 			</div>
 		</div>
 	</div><!--container-->
-	<div class="container" id="my-routes">
-		<div class="row">
-			<div id="ruta-map">
-				<img class="img-responsive" id="route-map" src="images/trazado.png">
-			</div>
+<div class="container" id="profile-routes">	
+	<div class="row" id="profile-box">
+		<div class="col-xs-12" id="mis-rutas-profile">
+			<?php include('profile-php-calls/mis-rutas.php') ?>
 		</div>
-
-
-
-
-
+		<div class="col-xs-12" id="estadisticas-profile">
+			<?php include('profile-php-calls/estadisticas.php') ?>
+		</div>
+		<div class="col-xs-12" id="creditos-profile">
+			<?php include('profile-php-calls/creditos.php') ?>
+		</div>
+		<div class="col-xs-12" id="informacion-profile">
+			<?php include('profile-php-calls/informacion.php') ?>
+		</div>
 	</div>
+</div>
 
+</div>
 
 
 <?php include ('php-calls/scripts.php'); ?>
