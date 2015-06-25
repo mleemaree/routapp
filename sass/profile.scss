@@ -35,6 +35,7 @@ h2.user-name{
 	height:50px;
 	background-color:#fff;
 	text-align:center;
+	border-bottom:1px solid $blue;
 }
 
 .profile-menu-option{
@@ -80,7 +81,6 @@ h2.user-name{
 
 .mis-rutas-menu-wrapper{
 	padding-bottom:1%;
-	border-bottom:1px solid $blue;
 }
 
 .mis-rutas-menu{
@@ -101,4 +101,28 @@ h2.user-name{
 #mis-rutas-filtro{
 	display:inline-block;
 	float:right;
+}
+
+
+/*---Mis Rutas Compradas--*/
+
+#mis-rutas-compradas-pane, #mis-rutas-creadas-pane{	
+	border-top:1px solid $blue;
+	border-bottom:1px solid $blue;
+	background-color:white;
+	/*display:none;*/
+}
+
+#comprar-rutas-button{
+	margin:2% 0 5%;
+}
+
+#comprar-ruta, #crear-ruta{
+	margin-right:1%;
+	border-color:1px solid $blue;
+	background-color:$green;
+	color:$blue;
+	font-weight:bold;
+	padding:1% 2%;
+	border-radius:30px;
 }
