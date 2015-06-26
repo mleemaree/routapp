@@ -25,13 +25,13 @@
 	</div><!--container-->
 <div class="container" id="mis-rutas-panes">	
 	<div class="row" id="mis-rutas-box">
-		<div class="col-xs-12" id="mis-rutas-creadas-pane">
+		<div class="col-xs-12" class="mis-rutas-pane">
 			<?php include('tipos-mis-rutas/mis-rutas-creadas-pane.php') ?>
 		</div>
-		<div class="col-xs-12" id="mis-rutas-favoritas-pane">
+		<div class="col-xs-12" class="mis-rutas-pane">
 			<?php include('tipos-mis-rutas/mis-rutas-favoritas-pane.php') ?>
 		</div>
-		<div class="col-xs-12" id="mis-rutas-compradas-pane">
+		<div class="col-xs-12" class="mis-rutas-pane">
 			<?php include('tipos-mis-rutas/mis-rutas-compradas-pane.php') ?>
 		</div>
 	</div>

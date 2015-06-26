@@ -19,7 +19,9 @@
         <li><a href="#">App</a></li><li>
         <li><a href="#">Tienda</a></li>
         <li>
-          <a class="btn btn-default" href="crear.php">Crear Ruta</a>
+          <a class="btn btn-default" href="crear.php">
+            <span>Crear Ruta</span>
+          </a>
         </li>
       </ul>
     </div><!-- /.navbar-collapse -->

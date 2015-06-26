@@ -79,10 +79,6 @@ h2.user-name{
 
 /*====mis rutas menu====*/
 
-.mis-rutas-menu-wrapper{
-	padding-bottom:1%;
-}
-
 .mis-rutas-menu{
 	width:70%;
 	display:inline-block;
@@ -106,18 +102,26 @@ h2.user-name{
 
 /*---Mis Rutas Compradas--*/
 
-#mis-rutas-compradas-pane, #mis-rutas-creadas-pane{	
+#mis-rutas-panes{
+	margin-bottom:5%;
+}
+
+#mis-rutas-compradas-pane, #mis-rutas-creadas-pane, #mis-rutas-favoritas-pane{	
 	border-top:1px solid $blue;
 	border-bottom:1px solid $blue;
 	background-color:white;
-	/*display:none;*/
+	margin-bottom:5%;
+}
+
+#mis-rutas-compradas-pane-wrapper, #mis-rutas-favoritas-pane-wrapper{
+	display:none;
 }
 
 #comprar-rutas-button{
 	margin:2% 0 5%;
 }
 
-#comprar-ruta, #crear-ruta{
+#comprar-ruta, #crear-ruta,{
 	margin-right:1%;
 	border-color:1px solid $blue;
 	background-color:$green;

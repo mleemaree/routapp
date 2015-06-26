@@ -39,7 +39,7 @@
 			<?php include('profile-php-calls/creditos.php') ?>
 		</div>
 		<div class="col-xs-12" id="informacion-profile">
-			<?php include('profile-php-calls/informacion.php') ?>
+			<?php include('profile-php-calls/user_profile.php') ?>
 		</div>
 	</div>
 </div>
@@ -48,5 +48,6 @@
 
 
 <?php include ('php-calls/scripts.php'); ?>
+<script type="text/javascript" src="js/mis-rutas.js"></script>
 </body>
 </html>
