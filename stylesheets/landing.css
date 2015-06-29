@@ -560,12 +560,12 @@ nav {
   border: 1px solid #01394c;
 }
 
-/* line 277, ../sass/landing.scss */
+/* line 279, ../sass/landing.scss */
 .modal-footer {
   text-align: center;
 }
 
-/* line 281, ../sass/landing.scss */
+/* line 283, ../sass/landing.scss */
 .hvr-glow {
   border: none;
   background-color: #d8ee1a;
@@ -576,17 +576,25 @@ nav {
   border-radius: 10px;
 }
 
-/* line 291, ../sass/landing.scss */
-#register-modal-subtitle {
+/* line 293, ../sass/landing.scss */
+#register-modal-subtitle, .header {
   font-weight: bold;
   color: #01394c;
   padding: 5%;
 }
 
-/* line 297, ../sass/landing.scss */
+/* line 299, ../sass/landing.scss */
 .modal-header {
   background-color: #01394c;
   font-weight: bold;
   color: white;
-  height: 10%;
+  height: 100px;
+}
+
+/* line 306, ../sass/landing.scss */
+.brand {
+  color: #d8ee1a;
+  font-size: 1.5em;
+  font-weight: bold;
+  padding-top: 6%;
 }

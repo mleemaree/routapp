@@ -274,6 +274,8 @@ nav{
 	border:1px solid $blue;
 }
 
+.header{}
+
 .modal-footer{
 	text-align:center;
 }
@@ -288,7 +290,7 @@ nav{
   border-radius: 10px;
 }
 
-#register-modal-subtitle{
+#register-modal-subtitle, .header{
 	font-weight:bold;
 	color:$blue;
 	padding:5%;
@@ -298,5 +300,13 @@ nav{
 	background-color:$blue;
 	font-weight:bold;
 	color:white;
-	height:10%;
+	height:100px;
 }
+
+.brand{
+	color:$green;
+	font-size:1.5em;
+	font-weight:bold;
+	padding-top:6%;
+}
+

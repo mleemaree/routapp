@@ -1,39 +1,26 @@
 <?php 
-+session_start();
-+
-+$_SESSION['name']='user';
-+
-+if (isset($_POST['email']) and isset($_POST['password'])) {
-+
-+ require_once('conexion-routapp.php');
-+ 
-+ $sql="SELECT * FROM users WHERE email='".$_POST['email']."';";
-+ 
-+ if ($result = $conexion->query($sql)) {
-+   $fila = $result->fetch_assoc();
-+   if ($fila['password']!="" and $fila['password']==$_POST['password']) {
-+     $_SESSION['user']=$fila;
-+   } else {
-+     $_SESSION['user']=false;    
-+   }
-+   $result->close();
-+ }
-+ 
-+} 
-+
-+?>
+session_start();
+include('conexion-routapp.php');
+$message="";
 
-<?php if ($_SESSION['user'] and $_SESSION['user']['userID']!=0)  { 
-+
-+ ?> 
-+
-+
-+ <?php include('routes.php');
-+
-+
-+} else { ?>
+if(count($_POST)>0) {
 
-		<form action="register-php-calls/login.php" method="post">
+$result = mysql_query("SELECT * FROM users WHERE email='" . $_POST["email"] . "' and password = '". $_POST["password"]."'");
+$row  = mysql_fetch_array($result);
+if(is_array($row)) {
+$_SESSION["userID"] = $row[userID];
+$_SESSION["email"] = $row[email];
+} else {
+$message = "Invalid Username or Password!";
+}
+}
+if(isset($_SESSION["userID"])) {
+}
+
+?>
+
+
+		<form action="login.php" method="post">
 
 			<p class="header"><b>Fill the following to login</b></p>
 
@@ -48,7 +35,11 @@
         <input type="submit" class="hvr-glow" value="Login">
       </form>
 
-+<?php } ?>
+      <?php if($message!=""){
+      	echo $message;
+      
+      }
+      ?>
 
 
 
