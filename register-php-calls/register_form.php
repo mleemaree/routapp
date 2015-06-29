@@ -15,7 +15,7 @@ $_SESSION['name']='user';
 
 
 		
-			<input class="unete-input" type="text" name="username" placeholder="Nombre">	
+			<input class="unete-input" type="text" name="username" placeholder="Nombre de usuario">	
 
 			<input class="unete-input" type="text" name="email" placeholder="Cuenta de correo">
 		
