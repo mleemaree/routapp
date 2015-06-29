@@ -551,20 +551,21 @@ nav {
 
 /*------Unete Modal -----*/
 /* line 268, ../sass/landing.scss */
-.unete-input {
+.unete-input, .login-input {
   display: block;
   margin: 2% auto;
   padding: 3%;
   width: 90%;
   border-radius: 30px;
+  border: 1px solid #01394c;
 }
 
-/* line 276, ../sass/landing.scss */
+/* line 277, ../sass/landing.scss */
 .modal-footer {
   text-align: center;
 }
 
-/* line 280, ../sass/landing.scss */
+/* line 281, ../sass/landing.scss */
 .hvr-glow {
   border: none;
   background-color: #d8ee1a;
@@ -575,14 +576,14 @@ nav {
   border-radius: 10px;
 }
 
-/* line 290, ../sass/landing.scss */
+/* line 291, ../sass/landing.scss */
 #register-modal-subtitle {
   font-weight: bold;
   color: #01394c;
   padding: 5%;
 }
 
-/* line 296, ../sass/landing.scss */
+/* line 297, ../sass/landing.scss */
 .modal-header {
   background-color: #01394c;
   font-weight: bold;

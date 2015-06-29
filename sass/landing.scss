@@ -265,12 +265,13 @@ nav{
 
 /*------Unete Modal -----*/
 
-.unete-input{
+.unete-input, .login-input{
 	display:block;
 	margin: 2% auto;
 	padding:3%;
 	width:90%;
 	border-radius:30px;
+	border:1px solid $blue;
 }
 
 .modal-footer{
