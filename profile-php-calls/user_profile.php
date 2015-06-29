@@ -4,15 +4,15 @@
 
 session_start();
 $_SESSION['name']='user';
-include('conexion-routapp.php');
+include('../conexion-php-calls/conexion-routapp.php');
 
 
 $sql="SELECT * FROM users WHERE userID=".$_SESSION['user']['userID'];
 $sql1="SELECT * FROM users WHERE username=".$_SESSION['user']['username'];
 
 
-echo $sql;
-echo $sql1;
+//echo $sql;
+//echo $sql1;
 
 ?>
 
@@ -32,7 +32,7 @@ echo $sql1;
 
 <h3>Información general de perfil</h3>
 
-<form action="register_user_profile.php" method="post" enctype="multipart/form-data">
+<form action="../register-php-calls/register_user_profile.php" method="post" enctype="multipart/form-data">
 
 	<table>
 

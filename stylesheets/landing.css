@@ -1,0 +1,542 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 11, ../sass/landing/partials/_base.scss */
+.full-width {
+  width: 100%;
+}
+
+@font-face {
+  font-family: "DIN Condensed Bold";
+  src: url('/fonts/DIN Condensed Bold.ttf?1434550259') format('truetype');
+}
+/*@include font-face("raleway", font-files("Raleway-Black.ttf", "Raleway-BlackItalic.ttf"));*/
+/* line 5, ../sass/landing/partials/_typography.scss */
+body {
+  font-family: raleway;
+}
+
+/* line 9, ../sass/landing/partials/_typography.scss */
+nav {
+  font-size: 0.8em;
+}
+
+/* line 13, ../sass/landing/partials/_typography.scss */
+.navbar-inverse .navbar-brand {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+/* line 18, ../sass/landing/partials/_typography.scss */
+.number {
+  font-family: "DIN Condensed Bold";
+  font-size: 2em;
+  font-weight: bold;
+}
+
+/* line 24, ../sass/landing/partials/_typography.scss */
+.route-info p {
+  font-size: 0.8em;
+}
+
+/* line 11, ../sass/landing/modules/_colors.scss */
+.blue {
+  background-color: #01394c;
+}
+
+/* line 15, ../sass/landing/modules/_colors.scss */
+nav {
+  color: white;
+}
+
+/* line 19, ../sass/landing/modules/_colors.scss */
+.navbar-brand {
+  color: #d8ee1a !important;
+}
+
+/* line 23, ../sass/landing/modules/_colors.scss */
+a.btn.btn-default {
+  color: #d8ee1a !important;
+  border-color: #d8ee1a;
+  background-color: #01394c;
+}
+
+/* line 29, ../sass/landing/modules/_colors.scss */
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+  background-color: transparent;
+  color: #d8ee1a;
+}
+
+/* line 36, ../sass/landing/modules/_colors.scss */
+.offcanvas {
+  color: black;
+}
+
+/* line 40, ../sass/landing/modules/_colors.scss */
+.bottom {
+  border-bottom: 1px solid #01394c;
+}
+
+/* line 44, ../sass/landing/modules/_colors.scss */
+.bottom-nav {
+  background-color: #d7d6d6;
+}
+
+/* line 48, ../sass/landing/modules/_colors.scss */
+#filtro-busqueda {
+  color: #01394c;
+}
+
+/* line 52, ../sass/landing/modules/_colors.scss */
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+}
+
+/* line 56, ../sass/landing/modules/_colors.scss */
+.navbar-default {
+  background-color: transparent;
+  border: none;
+}
+
+/* line 61, ../sass/landing/modules/_colors.scss */
+.middle {
+  background-color: #01394c;
+}
+
+/* line 66, ../sass/landing/modules/_colors.scss */
+.middle li a {
+  color: #fff !important;
+}
+
+/* line 70, ../sass/landing/modules/_colors.scss */
+#userName a {
+  color: #fff;
+}
+
+/* line 35, ../sass/landing.scss */
+nav {
+  margin-top: 1%;
+}
+
+/* line 39, ../sass/landing.scss */
+.navbar-brand {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+/* line 44, ../sass/landing.scss */
+.nav li a {
+  font-size: 1.4em;
+}
+
+/* line 48, ../sass/landing.scss */
+.navbar-nav {
+  width: 50%;
+}
+
+/* line 52, ../sass/landing.scss */
+.nav > li {
+  margin: 0 3%;
+}
+
+/* line 56, ../sass/landing.scss */
+.btn-default {
+  border: 1px solid #d8ee1a;
+  color: #d8ee1a;
+  background-color: transparent;
+  padding: 7% 20%;
+  border-radius: 5px;
+  font-size: 1.4em;
+}
+/* line 63, ../sass/landing.scss */
+.btn-default:hover, .btn-default:focus, .btn-default:visited {
+  background-color: transparent;
+  color: #01394c;
+}
+
+/* line 69, ../sass/landing.scss */
+.intro {
+  background: url('/images/landing/landing-background.png?1435577035');
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+  position: relative;
+}
+
+/* line 73, ../sass/landing.scss */
+#title-content-wrapper {
+  position: relative;
+  top: 30%;
+}
+
+/* line 78, ../sass/landing.scss */
+.title-content, .title-wrapper {
+  text-align: center;
+}
+
+/* line 82, ../sass/landing.scss */
+#title {
+  width: 75%;
+  margin: 0 auto;
+}
+
+/* line 87, ../sass/landing.scss */
+#subtitle {
+  color: white;
+  font-size: 2.4em;
+  margin: 2%;
+}
+
+/* line 93, ../sass/landing.scss */
+.landing-button {
+  background-color: #d8ee1a;
+  color: #01394c;
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 2% 7%;
+  border-radius: 15px;
+  border: none;
+  margin: 5%;
+}
+
+/* line 104, ../sass/landing.scss */
+#unete-gratis {
+  background-color: #d8ee1a;
+  color: #01394c;
+  font-size: 1.8em;
+  font-weight: bold;
+  padding: 2% 7%;
+  border-radius: 60px;
+}
+
+/* line 113, ../sass/landing.scss */
+.crea {
+  background: url('/images/../images/landing/background-crea.png?1435589468');
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+  position: relative;
+}
+
+/* line 117, ../sass/landing.scss */
+.ciudad {
+  background: url('/images/../images/landing/background-ciudad.png?1435578294');
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+  position: relative;
+}
+
+/* line 121, ../sass/landing.scss */
+.trainer {
+  background: url('/images/../images/landing/background-trainer.png?1435589289');
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+  position: relative;
+}
+
+/* line 125, ../sass/landing.scss */
+.descarga {
+  background: url('/images/../images/landing/background-descarga.png?1435578355');
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+  position: relative;
+}
+
+/* line 129, ../sass/landing.scss */
+.crea-title-wrapper {
+  background: url('/images/../images/landing/crea-bg-title.png?1435583629');
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 2.5em;
+  color: #d8ee1a;
+  font-family: din condensed bold;
+  height: 80px;
+}
+
+/* line 133, ../sass/landing.scss */
+.crea-list-wrapper {
+  background: url('/images/../images/landing/crea-bg.png?1435583653');
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  width: 97%;
+  font-family: raleway;
+  color: #01394c;
+}
+
+/* line 140, ../sass/landing.scss */
+.ciudad-title-wrapper {
+  background: url('/images/../images/landing/ciudad-bg-title.png?1435585050');
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 2.5em;
+  color: #d8ee1a;
+  font-family: din condensed bold;
+  height: 80px;
+}
+
+/* line 144, ../sass/landing.scss */
+.ciudad-list-wrapper {
+  background: url('/images/../images/landing/ciudad-bg.png?1435585038');
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  width: 97%;
+  font-family: raleway;
+  color: #01394c;
+  float: right;
+}
+
+/* line 149, ../sass/landing.scss */
+.trainer-title-wrapper {
+  background: url('/images/../images/landing/trainer-bg-title.png?1435585005');
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 2.5em;
+  color: #d8ee1a;
+  font-family: din condensed bold;
+  height: 80px;
+}
+
+/* line 153, ../sass/landing.scss */
+.trainer-list-wrapper {
+  background: url('/images/../images/landing/trainer-bg.png?1435589162');
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  width: 97%;
+  font-family: raleway;
+  color: #01394c;
+}
+
+/* line 157, ../sass/landing.scss */
+.descarga-title-wrapper {
+  background: url('/images/../images/landing/descarga-bg-title.png?1435585018');
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 2.5em;
+  color: #d8ee1a;
+  font-family: din condensed bold;
+  height: 80px;
+}
+
+/* line 161, ../sass/landing.scss */
+.descarga-list-wrapper {
+  background: url('/images/../images/landing/descarga-bg.png?1435585651');
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  width: 97%;
+  font-family: raleway;
+  color: #01394c;
+}
+
+/*===------lists-----*/
+/* line 167, ../sass/landing.scss */
+.sub {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+/* line 172, ../sass/landing.scss */
+.sub-left {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+/* line 177, ../sass/landing.scss */
+.landing-foto {
+  padding: 5%;
+}
+
+/* line 181, ../sass/landing.scss */
+.info {
+  margin: 5% 0;
+  padding: 0;
+}
+
+/* line 186, ../sass/landing.scss */
+h3 {
+  position: relative;
+  top: 28px;
+  font-style: italic;
+}
+
+/* line 192, ../sass/landing.scss */
+.content-wrapper li {
+  padding: 5%;
+}
+
+/* line 196, ../sass/landing.scss */
+.content-wrapper ul {
+  padding: 5%;
+}
+
+/* line 201, ../sass/landing.scss */
+.crea-title-wrapper {
+  text-align: right;
+  padding-right: 15%;
+}
+
+/* line 206, ../sass/landing.scss */
+#crear-rutas {
+  float: right;
+  margin-right: 20%;
+}
+
+/* line 211, ../sass/landing.scss */
+.ciudad-list {
+  margin-left: 15%;
+}
+
+/* line 215, ../sass/landing.scss */
+.sub-ciudad {
+  margin-left: -5%;
+}
+
+/* line 219, ../sass/landing.scss */
+#ciudad-title {
+  padding-left: 15%;
+}
+
+/* line 223, ../sass/landing.scss */
+#trainer-title {
+  text-align: right;
+  padding-right: 17%;
+}
+
+/* line 228, ../sass/landing.scss */
+#crear-perfil {
+  position: relative;
+  left: 29%;
+}
+
+/* line 233, ../sass/landing.scss */
+#descarga-title {
+  padding-left: 10%;
+}
+
+/*------Unete Modal -----*/
+/* line 241, ../sass/landing.scss */
+.unete-input {
+  display: block;
+  margin: 0 auto;
+}
+
+/* line 246, ../sass/landing.scss */
+.modal-footer {
+  text-align: center;
+}
+
+/* line 250, ../sass/landing.scss */
+.hvr-glow {
+  border: none;
+  background-color: #d8ee1a;
+  color: #01394c;
+  padding: 3% 8%;
+  font-size: 1.1em;
+  font-weight: bold;
+  border-radius: 10px;
+}

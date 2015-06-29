@@ -1,0 +1,258 @@
+@import "landing/partials/base";
+@import "landing/partials/typography";
+
+
+@import "landing/modules/colors";
+
+
+@mixin landing-background($foto-background){
+	@include background(image-url($foto-background));
+	@include background-size(cover);
+	background-position:center center;
+	height:100%;
+	position:relative;
+}
+
+@mixin title-wrapper($img-title){
+	@include background(image-url($img-title));
+	@include background-size(cover);
+	background-repeat:no-repeat;
+	font-size: 2.5em;
+    color: $green ;
+    font-family: din condensed bold;
+    height:80px;
+}
+
+@mixin list-wrapper($img-list){
+	@include background(image-url($img-list));
+	@include background-size(cover);
+	width:97%;
+	font-family:raleway;
+	color:$blue;
+
+}
+
+nav{
+	margin-top:1%;
+}
+
+.navbar-brand{
+	font-size:2.5em;
+	font-weight:bold;
+}
+
+.nav li a{
+	font-size:1.4em;
+}
+
+.navbar-nav{
+	width:50%;
+}
+
+.nav>li{
+	margin: 0 3%;
+}
+
+.btn-default{
+	border:1px solid $green;
+	color: $green;
+	background-color:transparent;
+	padding:7% 20%;
+	border-radius:5px;
+	font-size:1.4em;
+	&:hover, &:focus, &:visited{
+		background-color:transparent;
+		color:$blue;
+	}
+}
+
+.intro{
+	@include landing-background("/images/landing/landing-background.png");
+}
+
+#title-content-wrapper{
+	position:relative;
+	top:30%;
+}
+
+.title-content, .title-wrapper{
+	text-align:center;
+}
+
+#title{
+	width:75%;
+	margin:0 auto;
+}
+
+#subtitle{
+  color: white;
+  font-size: 2.4em;
+  margin: 2%;
+}
+
+.landing-button{
+	background-color:$green;
+	color:$blue;
+	font-size:1.5em;
+	font-weight:bold;
+	padding:2% 7%;
+	border-radius:15px;
+	border:none;
+	margin:5%;
+}
+
+#unete-gratis{
+	background-color:$green;
+	color:$blue;
+	font-size:1.8em;
+	font-weight:bold;
+	padding:2% 7%;
+	border-radius:60px;
+}
+
+.crea{
+	@include landing-background("../images/landing/background-crea.png");
+}
+
+.ciudad{
+	@include landing-background("../images/landing/background-ciudad.png");
+}
+
+.trainer{
+	@include landing-background("../images/landing/background-trainer.png");
+}
+
+.descarga{
+	@include landing-background("../images/landing/background-descarga.png");
+}
+
+.crea-title-wrapper{
+	@include title-wrapper("../images/landing/crea-bg-title.png");
+}
+
+.crea-list-wrapper{
+	@include list-wrapper("../images/landing/crea-bg.png");
+}
+
+#crea-title, #ciudad-title{
+}
+
+.ciudad-title-wrapper{
+	@include title-wrapper("../images/landing/ciudad-bg-title.png");
+}
+
+.ciudad-list-wrapper{
+	@include list-wrapper("../images/landing/ciudad-bg.png");
+	float:right;
+}
+
+.trainer-title-wrapper{
+	@include title-wrapper("../images/landing/trainer-bg-title.png");
+}
+
+.trainer-list-wrapper{
+	@include list-wrapper("../images/landing/trainer-bg.png");
+}
+
+.descarga-title-wrapper{
+	@include title-wrapper("../images/landing/descarga-bg-title.png");
+}
+
+.descarga-list-wrapper{
+	@include list-wrapper("../images/landing/descarga-bg.png");
+}
+
+/*===------lists-----*/
+
+.sub{
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.sub-left{
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.landing-foto{
+	padding:5%;
+}
+
+.info{
+	margin:5% 0;
+	padding: 0;
+}
+
+h3{
+  position: relative;
+  top: 28px;
+  font-style:italic;
+}
+
+.content-wrapper li{
+	padding:5%;
+}
+
+.content-wrapper ul{
+	padding:5%;
+}
+
+
+.crea-title-wrapper{
+	text-align:right;
+	padding-right:15%;
+}
+
+#crear-rutas{
+	float:right;
+	margin-right:20%;
+}
+
+.ciudad-list{
+	margin-left:15%;
+}
+
+.sub-ciudad{
+	margin-left:-5%;
+}
+
+#ciudad-title{
+	padding-left:15%;
+}
+
+#trainer-title{
+	text-align:right;
+	padding-right:17%;
+}
+
+#crear-perfil{
+	position:relative;
+	left:29%;
+}
+
+#descarga-title{
+	padding-left:10%;
+}
+
+
+
+/*------Unete Modal -----*/
+
+.unete-input{
+	display:block;
+	margin: 0 auto;
+}
+
+.modal-footer{
+	text-align:center;
+}
+
+.hvr-glow{
+  border:none;
+  background-color: $green;
+  color: $blue;
+  padding: 3% 8%;
+  font-size: 1.1em;
+  font-weight: bold;
+  border-radius: 10px;
+}

@@ -1,0 +1,72 @@
+@mixin blue($a){
+	background-color:rgba(1,57,76,$a)
+} 
+
+$blue: rgba(1,57,76,1);
+
+$green: rgba(216,238,26,1);
+
+$gray: #d7d6d6;
+
+.blue{
+	@include blue(1);
+}
+
+nav{
+	color:white;
+}
+
+.navbar-brand{
+	color:$green !important;
+}
+
+a.btn.btn-default{
+	color:$green !important; 
+	border-color:$green;
+	@include blue(1);
+}
+
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:focus, 
+.navbar-default .navbar-nav>.active>a:hover{
+	background-color:transparent;
+	color:$green;
+}
+
+.offcanvas{
+	color:black;
+}
+
+.bottom{
+	border-bottom:1px solid $blue;
+}
+
+.bottom-nav{
+	background-color: $gray;
+}
+
+#filtro-busqueda{
+	color:$blue;
+}
+
+.navbar-default .navbar-nav>li>a{
+	color:#fff;
+}
+
+.navbar-default{
+	background-color:transparent;
+	border:none;
+}
+
+.middle{
+	background-color: $blue;
+}
+
+
+.middle  li  a{
+	color:#fff !important;
+}
+
+#userName a{
+	color:#fff;
+}

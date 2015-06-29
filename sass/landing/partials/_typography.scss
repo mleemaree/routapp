@@ -1,0 +1,26 @@
+@include font-face("DIN Condensed Bold", font-files("DIN Condensed Bold.ttf"));
+
+/*@include font-face("raleway", font-files("Raleway-Black.ttf", "Raleway-BlackItalic.ttf"));*/
+
+body{
+	font-family:raleway;
+}
+
+nav{
+	font-size:0.8em;
+}
+
+.navbar-inverse .navbar-brand{
+	font-size:2em;
+	font-weight:bold;
+}
+
+.number{
+	font-family: "DIN Condensed Bold";
+	font-size:2em;
+	font-weight:bold;
+}
+
+.route-info p{
+	font-size:0.8em;
+}

@@ -527,32 +527,25 @@ body {
   margin-left: 15px;
 }
 
-@media (min-width: 0) {
-  /* line 32, ../sass/profile/partials/_base.scss */
-  .navbar-toggle {
-    display: block;
-    /* force showing the toggle */
-  }
-}
 @media (min-width: 992px) {
-  /* line 38, ../sass/profile/partials/_base.scss */
+  /* line 33, ../sass/profile/partials/_base.scss */
   body {
     padding: 0;
   }
 
-  /* line 41, ../sass/profile/partials/_base.scss */
+  /* line 36, ../sass/profile/partials/_base.scss */
   .navbar {
     right: auto;
     background: none;
     border: none;
   }
 }
-/* line 48, ../sass/profile/partials/_base.scss */
+/* line 43, ../sass/profile/partials/_base.scss */
 .container {
   padding: 0;
 }
 
-/* line 52, ../sass/profile/partials/_base.scss */
+/* line 47, ../sass/profile/partials/_base.scss */
 .col-xs-10 {
   padding: 0;
   margin: 0;
