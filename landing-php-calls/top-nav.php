@@ -43,6 +43,7 @@
       </div>
       <div class="modal-footer">
         <input type="submit" class="hvr-glow" value="¡VAMOS A POR ELLO!">
+      </form>
       </div>
     </div>
 

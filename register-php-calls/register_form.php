@@ -8,6 +8,7 @@ $_SESSION['name']='user';
 
 
 	<div id="unete-form">
+		<h3 id="register-modal-subtitle">Regístrate y comienza a crear tus propias rutas</h3>
 
 <form action="register-php-calls/register_routapp.php" method="post" enctype="multipart/form-data">
 
@@ -21,7 +22,6 @@ $_SESSION['name']='user';
 			<input class="unete-input" type="password" name="password" placeholder="Contraseña">
 	
 		
-</form>
 
 </div>
 
