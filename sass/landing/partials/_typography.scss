@@ -1,6 +1,6 @@
 @include font-face("DIN Condensed Bold", font-files("DIN Condensed Bold.ttf"));
 
-@include font-face("raleway", font-files("Raleway-Black.ttf", "Raleway-BlackItalic.ttf", "Raleway-Bold.ttf", "Raleway-BoldItalic.ttf", "Raleway-ExtraBold.ttf"));
+@include font-face("raleway", font-files("Raleway-Black.ttf"));
 
 body{
 	font-family:raleway;
