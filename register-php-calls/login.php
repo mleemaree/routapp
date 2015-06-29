@@ -20,6 +20,17 @@ if(isset($_SESSION["userID"])) {
 ?>
 
 
++<?php if ($_SESSION['user'] and $_SESSION['user']['userID']!=0)  { 
++
++ ?> 
++
++
++ <?php include('rutas.php');
++
++
++} else { ?>
+
+
 		<form action="login.php" method="post">
 
 			<p class="header"><b>Fill the following to login</b></p>
@@ -34,12 +45,7 @@ if(isset($_SESSION["userID"])) {
       <div class="modal-footer">
         <input type="submit" class="hvr-glow" value="Login">
       </form>
-
-      <?php if($message!=""){
-      	echo $message;
-      
-      }
-      ?>
++<?php } ?>
 
 
 

@@ -74,6 +74,9 @@ nav{
 	border:none;
 	font-size:1em;
 	padding:0;
+	&:hover, &:active, &:focus{
+		background-color:transparent;
+	}
 }
 
 .login-input{
