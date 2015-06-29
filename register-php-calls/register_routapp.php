@@ -53,7 +53,7 @@ if (($_SESSION['user']['userID']) == 0) {
 
 else {
 ?>
-<script> alert ("Gracias por registrar en Routapp! Haga clic aquí para entrar"); window.location="../rutas.php"; </script>
+<meta http-equiv="refresh" content="0;URL=../rutas.php" /> 
 <?php
 }
 
