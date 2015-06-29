@@ -18,9 +18,10 @@
         <li><a href="#">Explora</a></li>
         <li><a href="#">BeTrainer</a></li>
         <li><a href="#">App</a></li>
-        <li><a href="#">LOGIN</a></li>
+        <li><a href="#"><button type="button" class="btn btn-default login-button"
+          data-toggle="modal" data-target="#login">LOGIN</button></a></li>
         <li>
-          <button type="button" class="btn btn-default"
+          <button type="button" class="btn btn-default unete-button"
           data-toggle="modal" data-target="#unete">Únete Gratis</button>
         </li>
       </ul>
@@ -49,3 +50,27 @@
 
   </div>
 </div>
+
+<div id="login" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title brand">routapp</h4>
+      </div>
+      <div class="modal-body">
+        <?php include('register-php-calls/login.php'); ?>
+
+        hello!
+      </div>
+      <div class="modal-footer">
+        <input type="submit" class="hvr-glow" value="Login">
+      </form>
+      </div>
+    </div>
+
+  </div>
+</div>
+

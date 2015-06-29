@@ -50,10 +50,11 @@ nav{
 }
 
 .nav>li{
-	margin: 0 3%;
+	width:15%;
+	text-align:center;
 }
 
-.btn-default{
+.unete-button{
 	border:1px solid $green;
 	color: $green;
 	background-color:transparent;
