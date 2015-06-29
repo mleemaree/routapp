@@ -76,7 +76,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-family: "DIN Condensed Bold";
   src: url('/fonts/DIN Condensed Bold.ttf?1434550259') format('truetype');
 }
-/*@include font-face("raleway", font-files("Raleway-Black.ttf", "Raleway-BlackItalic.ttf"));*/
+@font-face {
+  font-family: "raleway";
+  src: url('/fonts/Raleway-Regular.ttf?1415107620') format('truetype');
+}
 /* line 5, ../sass/landing/partials/_typography.scss */
 body {
   font-family: raleway;
@@ -458,7 +461,7 @@ nav {
 }
 
 /* line 186, ../sass/landing.scss */
-h3 {
+.title {
   position: relative;
   top: 28px;
   font-style: italic;

@@ -39,7 +39,7 @@
 			<?php include('profile-php-calls/creditos.php') ?>
 		</div>
 		<div class="col-xs-12" id="informacion-profile">
-			<?php include('profile-php-calls/user_profile.php') ?>
+			<?php //include('profile-php-calls/user_profile.php') ?>
 		</div>
 	</div>
 </div>
