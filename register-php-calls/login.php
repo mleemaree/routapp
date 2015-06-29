@@ -35,6 +35,12 @@ if(isset($_SESSION["userID"])) {
         <input type="submit" class="hvr-glow" value="Login">
       </form>
 
+      <?php if($message!=""){
+      	echo $message;
+      
+      }
+      ?>
+
 
 
 

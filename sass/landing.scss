@@ -257,13 +257,20 @@ nav{
 	padding-left:10%;
 }
 
+.modal-dialog{
+	width:25%;
+}
+
 
 
 /*------Unete Modal -----*/
 
 .unete-input{
 	display:block;
-	margin: 0 auto;
+	margin: 2% auto;
+	padding:3%;
+	width:90%;
+	border-radius:30px;
 }
 
 .modal-footer{
@@ -278,4 +285,17 @@ nav{
   font-size: 1.1em;
   font-weight: bold;
   border-radius: 10px;
+}
+
+#register-modal-subtitle{
+	font-weight:bold;
+	color:$blue;
+	padding:5%;
+}
+
+.modal-header{
+	background-color:$blue;
+	font-weight:bold;
+	color:white;
+	height:10%;
 }
