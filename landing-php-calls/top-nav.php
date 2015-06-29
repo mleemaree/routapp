@@ -62,12 +62,6 @@
       </div>
       <div class="modal-body">
         <?php include('register-php-calls/login.php'); ?>
-
-        hello!
-      </div>
-      <div class="modal-footer">
-        <input type="submit" class="hvr-glow" value="Login">
-      </form>
       </div>
     </div>
 

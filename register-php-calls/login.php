@@ -26,13 +26,14 @@ if(isset($_SESSION["userID"])) {
 
 
 
-						<label for="email">Email</label>
-						<input type="text" name="email">			
+						<input class="login-input" type="text" name="email" placeholder="Email">			
 
-						<label for="password">Password</label>
-						<input type="password" name="password">				
+						<input class="login-input" type="password" name="password" placeholder="Contraseña">				
 
-
+      </div>
+      <div class="modal-footer">
+        <input type="submit" class="hvr-glow" value="Login">
+      </form>
 
 
 

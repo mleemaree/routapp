@@ -223,6 +223,32 @@ nav {
 }
 
 /* line 70, ../sass/landing.scss */
+.login-button {
+  background-color: transparent;
+  color: white;
+  text-align: center;
+  border: none;
+  font-size: 1em;
+  padding: 0;
+}
+
+/* line 79, ../sass/landing.scss */
+.login-input {
+  display: block;
+  margin: 0 auto;
+}
+
+/* line 84, ../sass/landing.scss */
+.header {
+  text-align: center;
+}
+
+/* line 88, ../sass/landing.scss */
+.brand, #register-modal-subtitle {
+  text-align: center;
+}
+
+/* line 92, ../sass/landing.scss */
 .intro {
   background: url('/images/landing/landing-background.png?1435577035');
   -moz-background-size: cover;
@@ -234,31 +260,31 @@ nav {
   position: relative;
 }
 
-/* line 74, ../sass/landing.scss */
+/* line 96, ../sass/landing.scss */
 #title-content-wrapper {
   position: relative;
   top: 30%;
 }
 
-/* line 79, ../sass/landing.scss */
+/* line 101, ../sass/landing.scss */
 .title-content, .title-wrapper {
   text-align: center;
 }
 
-/* line 83, ../sass/landing.scss */
+/* line 105, ../sass/landing.scss */
 #title {
   width: 75%;
   margin: 0 auto;
 }
 
-/* line 88, ../sass/landing.scss */
+/* line 110, ../sass/landing.scss */
 #subtitle {
   color: white;
   font-size: 2.4em;
   margin: 2%;
 }
 
-/* line 94, ../sass/landing.scss */
+/* line 116, ../sass/landing.scss */
 .landing-button {
   background-color: #d8ee1a;
   color: #01394c;
@@ -270,7 +296,7 @@ nav {
   margin: 5%;
 }
 
-/* line 105, ../sass/landing.scss */
+/* line 127, ../sass/landing.scss */
 #unete-gratis {
   background-color: #d8ee1a;
   color: #01394c;
@@ -280,7 +306,7 @@ nav {
   border-radius: 60px;
 }
 
-/* line 114, ../sass/landing.scss */
+/* line 136, ../sass/landing.scss */
 .crea {
   background: url('/images/../images/landing/background-crea.png?1435589468');
   -moz-background-size: cover;
@@ -292,7 +318,7 @@ nav {
   position: relative;
 }
 
-/* line 118, ../sass/landing.scss */
+/* line 140, ../sass/landing.scss */
 .ciudad {
   background: url('/images/../images/landing/background-ciudad.png?1435578294');
   -moz-background-size: cover;
@@ -304,7 +330,7 @@ nav {
   position: relative;
 }
 
-/* line 122, ../sass/landing.scss */
+/* line 144, ../sass/landing.scss */
 .trainer {
   background: url('/images/../images/landing/background-trainer.png?1435589289');
   -moz-background-size: cover;
@@ -316,7 +342,7 @@ nav {
   position: relative;
 }
 
-/* line 126, ../sass/landing.scss */
+/* line 148, ../sass/landing.scss */
 .descarga {
   background: url('/images/../images/landing/background-descarga.png?1435578355');
   -moz-background-size: cover;
@@ -328,7 +354,7 @@ nav {
   position: relative;
 }
 
-/* line 130, ../sass/landing.scss */
+/* line 152, ../sass/landing.scss */
 .crea-title-wrapper {
   background: url('/images/../images/landing/crea-bg-title.png?1435583629');
   -moz-background-size: cover;
@@ -342,7 +368,7 @@ nav {
   height: 80px;
 }
 
-/* line 134, ../sass/landing.scss */
+/* line 156, ../sass/landing.scss */
 .crea-list-wrapper {
   background: url('/images/../images/landing/crea-bg.png?1435583653');
   -moz-background-size: cover;
@@ -354,7 +380,7 @@ nav {
   color: #01394c;
 }
 
-/* line 141, ../sass/landing.scss */
+/* line 163, ../sass/landing.scss */
 .ciudad-title-wrapper {
   background: url('/images/../images/landing/ciudad-bg-title.png?1435585050');
   -moz-background-size: cover;
@@ -368,7 +394,7 @@ nav {
   height: 80px;
 }
 
-/* line 145, ../sass/landing.scss */
+/* line 167, ../sass/landing.scss */
 .ciudad-list-wrapper {
   background: url('/images/../images/landing/ciudad-bg.png?1435585038');
   -moz-background-size: cover;
@@ -381,7 +407,7 @@ nav {
   float: right;
 }
 
-/* line 150, ../sass/landing.scss */
+/* line 172, ../sass/landing.scss */
 .trainer-title-wrapper {
   background: url('/images/../images/landing/trainer-bg-title.png?1435585005');
   -moz-background-size: cover;
@@ -395,7 +421,7 @@ nav {
   height: 80px;
 }
 
-/* line 154, ../sass/landing.scss */
+/* line 176, ../sass/landing.scss */
 .trainer-list-wrapper {
   background: url('/images/../images/landing/trainer-bg.png?1435589162');
   -moz-background-size: cover;
@@ -407,7 +433,7 @@ nav {
   color: #01394c;
 }
 
-/* line 158, ../sass/landing.scss */
+/* line 180, ../sass/landing.scss */
 .descarga-title-wrapper {
   background: url('/images/../images/landing/descarga-bg-title.png?1435585018');
   -moz-background-size: cover;
@@ -421,7 +447,7 @@ nav {
   height: 80px;
 }
 
-/* line 162, ../sass/landing.scss */
+/* line 184, ../sass/landing.scss */
 .descarga-list-wrapper {
   background: url('/images/../images/landing/descarga-bg.png?1435585651');
   -moz-background-size: cover;
@@ -434,103 +460,103 @@ nav {
 }
 
 /*===------lists-----*/
-/* line 168, ../sass/landing.scss */
+/* line 190, ../sass/landing.scss */
 .sub {
   font-size: 1.2em;
   font-weight: bold;
 }
 
-/* line 173, ../sass/landing.scss */
+/* line 195, ../sass/landing.scss */
 .sub-left {
   font-size: 1.2em;
   font-weight: bold;
 }
 
-/* line 178, ../sass/landing.scss */
+/* line 200, ../sass/landing.scss */
 .landing-foto {
   padding: 5%;
 }
 
-/* line 182, ../sass/landing.scss */
+/* line 204, ../sass/landing.scss */
 .info {
   margin: 5% 0;
   padding: 0;
 }
 
-/* line 187, ../sass/landing.scss */
+/* line 209, ../sass/landing.scss */
 .title {
   position: relative;
   top: 28px;
   font-style: italic;
 }
 
-/* line 193, ../sass/landing.scss */
+/* line 215, ../sass/landing.scss */
 .content-wrapper li {
   padding: 5%;
 }
 
-/* line 197, ../sass/landing.scss */
+/* line 219, ../sass/landing.scss */
 .content-wrapper ul {
   padding: 5%;
 }
 
-/* line 202, ../sass/landing.scss */
+/* line 224, ../sass/landing.scss */
 .crea-title-wrapper {
   text-align: right;
   padding-right: 15%;
 }
 
-/* line 207, ../sass/landing.scss */
+/* line 229, ../sass/landing.scss */
 #crear-rutas {
   float: right;
   margin-right: 20%;
 }
 
-/* line 212, ../sass/landing.scss */
+/* line 234, ../sass/landing.scss */
 .ciudad-list {
   margin-left: 15%;
 }
 
-/* line 216, ../sass/landing.scss */
+/* line 238, ../sass/landing.scss */
 .sub-ciudad {
   margin-left: -5%;
 }
 
-/* line 220, ../sass/landing.scss */
+/* line 242, ../sass/landing.scss */
 #ciudad-title {
   padding-left: 15%;
 }
 
-/* line 224, ../sass/landing.scss */
+/* line 246, ../sass/landing.scss */
 #trainer-title {
   text-align: right;
   padding-right: 17%;
 }
 
-/* line 229, ../sass/landing.scss */
+/* line 251, ../sass/landing.scss */
 #crear-perfil {
   position: relative;
   left: 29%;
 }
 
-/* line 234, ../sass/landing.scss */
+/* line 256, ../sass/landing.scss */
 #descarga-title {
   padding-left: 10%;
 }
 
 /*------Unete Modal -----*/
-/* line 242, ../sass/landing.scss */
+/* line 264, ../sass/landing.scss */
 .unete-input {
   display: block;
   margin: 0 auto;
 }
 
-/* line 247, ../sass/landing.scss */
+/* line 269, ../sass/landing.scss */
 .modal-footer {
   text-align: center;
 }
 
-/* line 251, ../sass/landing.scss */
+/* line 273, ../sass/landing.scss */
 .hvr-glow {
   border: none;
   background-color: #d8ee1a;

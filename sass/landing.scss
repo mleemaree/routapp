@@ -67,6 +67,28 @@ nav{
 	}
 }
 
+.login-button{
+	background-color:transparent;
+	color:white;
+	text-align:center;
+	border:none;
+	font-size:1em;
+	padding:0;
+}
+
+.login-input{
+	display:block;
+	margin:0 auto;
+}
+
+.header{
+	text-align: center;
+}
+
+.brand, #register-modal-subtitle{
+	text-align:center;
+}
+
 .intro{
 	@include landing-background("/images/landing/landing-background.png");
 }
