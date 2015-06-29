@@ -52,16 +52,9 @@ if (($_SESSION['user']['userID']) == 0) {
 
 
 else {
-
 ?>
-
-
-<p>Success!!!</p>
-
-	<?php $msg='<a href="user_profile.php" class="success_message">User Profile »</a>';
-
-	echo $msg; 
-
+<script> alert ("Gracias por registrar en Routapp! Haga clic aquí para entrar"); window.location="../rutas.php"; </script>
+<?php
 }
 
 ?>
