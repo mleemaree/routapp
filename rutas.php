@@ -20,7 +20,7 @@
         <li id="fdb">
           <a href="#"><img src="images/filtros.png"><span class="menu-name">Filtro de Busqueda</span></a>
         </li>
-        <li id="listado"><a href="#"><img src="images/listado.png"><span class="menu-name">Listado</span><span class="sr-only">(current)</span></a></li>
+        <li id="listado"><a href="rutas.php"><img src="images/listado.png"><span class="menu-name">Listado</span><span class="sr-only">(current)</span></a></li>
         <li id="mapa"><a href="#"><img src="images/mapa.png"><span class="menu-name">Mapa</span></a></li>
         <li class="dropdown pull-right" id="ordenar">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="menu-name">Ordenar vista por</span><span class="caret"></span></a>

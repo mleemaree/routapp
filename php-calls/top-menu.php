@@ -38,7 +38,7 @@
             <li class="divider"></li>
             <li><a href="#" class="dropdown-top">Mis Rutas</a></li>
             <li class="divider"></li>
-            <li><a href="#" class="dropdown-top">Cerar Sesión</a></li>
+            <li><a href="register-php-calls/logout.php" class="dropdown-top">Cerar Sesión</a></li>
           </ul>
       </ul>
     </div>

@@ -44,7 +44,7 @@ if (isset($_POST['email']) and isset($_POST['password'])) {
 	?> 
 
 
-	<?php //header('Location: 'rutas.php);
+	<?php 
 
 
 } else { ?>
@@ -67,7 +67,9 @@ if (isset($_POST['email']) and isset($_POST['password'])) {
 
 		</form>
 
-<?php } ?>
+<?php } 
+header('Location: rutas.php');
+?>
 
 
 

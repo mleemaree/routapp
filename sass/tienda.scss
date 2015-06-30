@@ -1,0 +1,85 @@
+
+@import "compass/css3";
+
+@mixin blue($a){
+	background-color:rgba(1,57,76,$a)
+} 
+
+$blue: rgba(1,57,76,1);
+
+$green: rgba(216,238,26,1);
+
+$gray: #d7d6d6;
+
+body{
+	background-color:#fff;
+}
+
+#store-subtitle, .invite-friends-title{
+	font-size:1.3em;
+	color:$blue;
+	text-align:center;
+	margin-top:2%;
+}
+
+hr{
+	border-top:1px solid $blue;
+}
+
+.credit-container{
+	text-align:center;
+}
+
+.credits{
+	background-color:$blue;
+	height:100px;
+}
+
+.smiley{
+	margin-top:10%;
+	text-align:center;
+}
+
+.invite{
+  background-color: $blue;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border-radius: 5px;
+  height: 50px;
+  span{
+  	color:$green;
+  	font-family:din condensed bold;
+  	font-size:2.1em;
+  }
+}
+
+span.w{
+	color:#fff;
+	font-size:1em;
+}
+
+#introduce-correo{
+	width:100%;
+	border-radius: 15px;
+    height: 36px;
+    margin: 7px 0;
+}
+
+.enviar-button-wrapper{
+	text-align:center;
+	input{
+		background-color: $green;
+  		border-radius: 11px;
+  		padding: 4% 10%;
+		border: 1px solid $blue;
+		color: $blue;
+		font-weight:bold;
+	}
+}
+
+.estado{
+  border-bottom: 1px solid $blue;
+  margin-top: 3%;
+  margin-bottom: 3%;
+
+}
