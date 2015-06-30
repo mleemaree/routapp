@@ -1,3 +1,10 @@
+<?php
+session_start();
+$_SESSION['name']='user';
+include('conexion-php-calls/conexion-routapp.php');
+?>
+
+
 <!doctype html>
 <html>
 <head>

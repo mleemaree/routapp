@@ -20,7 +20,7 @@
         <li><a href="tienda.php">Tienda</a></li>
         <li>
           <a class="btn btn-default" href="crear.php">
-            <span>Crear Ruta</span>
+            <span style="position:relative; top:-2.5px;">Crear Ruta</span>
           </a>
         </li>
       </ul>
@@ -31,7 +31,7 @@
         <a href="#" class="dropdown-toggle" id="logged-user-name" data-toggle="dropdown" role="button" aria-expanded="false">
           <span class="menu-name"></span>
           <span class="caret"></span>
-          <span id="user-name">Alejandro</span>
+          <span id="user-name"><?php echo $_SESSION['user']['username']; ?></span>
         </a>
         <ul class="dropdown-menu" id="user-dropdown-menu" role="menu">
             <li><a href="../profile.php" class="dropdown-top">Perfil de Usuario</a></li>

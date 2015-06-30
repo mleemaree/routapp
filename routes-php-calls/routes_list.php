@@ -15,16 +15,60 @@ if ($result = $conexion->query($sql)) {
 
     			?>
 
-    			<div class="featured-route">
-
-						<?php echo $fila['title']; ?>
-						<?php echo $fila['subtitle']; ?>
-						<?php echo $fila['credits']; ?>
-						<?php echo $fila['distance'];?>
-						<?php echo $fila['calories'];?>
-						<?php echo $fila['exerciseNum'];?>
-						
-
+    			<div class="container featured-route">
+    				<div class="row routes-list-row topRow routes-list-row">
+    					<div class="col-xs-12 col-sm-6 title">
+    						<h2 class="featured-route-card-title">
+								<?php echo $fila['title']; ?>
+							</h2>
+						</div>
+						<div class="hidden-xs col-sm-6 credits">
+							<span class="credit-cost"><?php echo $fila['credits']; ?></span>
+						</div>
+					</div>
+					<div class="row routes-list-row">
+    					<div class="col-xs-12 col-sm-6">
+    						<h2 class="featured-route-card-subtitle">
+								<?php echo $fila['subtitle']; ?>
+							</h2>
+						</div>
+						<div class="hidden-xs col-sm-6"></div>
+					</div>
+					<div class="row routes-list-row">
+						<div class="col-xs-12 col-sm-6 metric-guages">
+							<div class="row routes-list-row">
+								<div class="col-xs-4">
+									<h4 class="metrics">KILÓMETROS</h4>
+									<img class="metric-image" src="../images/shoe.png">
+								</div>
+								<div class="col-xs-4">
+									<h4 class="metrics">KILCALORÍAS</h4>
+									<img class="metric-image" src="../images/fire.png">
+								</div>
+								<div class="col-xs-4">
+									<h4 class="metrics">EJERCICIOS</h4>
+									<img class="metric-image" src="../images/arm.png">
+								</div>
+							</div>
+						</div>
+						<div class="hidden-xs col-sm-6"></div>
+					</div>
+					<div class="row routes-list-row">
+						<div class="col-xs-12 col-sm-6 mins">
+							<div class="row routes-list-row">
+								<div class="col-xs-4">
+									<h4 class="metric-numbers"><?php echo $fila['distance'];?></h4>
+								</div>
+								<div class="col-xs-4">
+									<h4 class="metric-numbers"><?php echo $fila['calories'];?></h4>
+								</div>
+								<div class="col-xs-4">
+									<h4 class="metric-numbers"><?php echo $fila['exerciseNum'];?></h4>
+								</div>
+							</div>
+						</div>
+						<div class="hidden-xs col-sm-6"></div>
+					</div>
 				</div>
 			<?php echo '<hr>'; ?>
 				<?php    			
@@ -38,7 +82,6 @@ if ($result = $conexion->query($sql)) {
 
 						<?php echo $fila['title']; ?>
 						<?php echo $fila['subtitle']; ?>
-						<?php echo $fila['credits']; ?>
 						<?php echo $fila['distance'];?>
 						<?php echo $fila['calories'];?>
 						<?php echo $fila['exerciseNum'];?>
@@ -53,7 +96,7 @@ if ($result = $conexion->query($sql)) {
     			?>
 
 		    	<div class="route-card">
-		    		<div class="row">
+		    		<div class="row routes-list-row">
 						<div class="col-xs-12 col-sm-6" class="map" style="height:150px; padding:0;">
 							<div class="map" class="map">
 								<div class="user">
@@ -62,7 +105,7 @@ if ($result = $conexion->query($sql)) {
 							</div>
 						</div>
 						<div class="col-xs-12 col-sm-6 whiteness">
-							<div class="row" style="padding: 2% 5%;">
+							<div class="row routes-list-row" style="padding: 2% 5%;">
 								<div class="col-xs-10">
 									<?php echo $fila['title']; ?>
 								</div>
@@ -72,7 +115,7 @@ if ($result = $conexion->query($sql)) {
 									</div>
 								</div>
 							</div>
-							<div class="row" style="padding:10% 5% 0;">
+							<div class="row routes-list-row" style="padding:10% 5% 0;">
 								<div class="col-xs-3 route-info">
 									<img src="../images/shoe.png">
 									<span class="number"><?php echo $fila['distance'];?></span>

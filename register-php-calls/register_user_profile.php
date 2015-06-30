@@ -2,7 +2,7 @@
 
 session_start();
 $_SESSION['name']='user';
-include('conexion-routapp.php');
+include('../conexion-php-calls/conexion-routapp.php');
 
 echo $_SESSION['user']['username'];
 
@@ -59,6 +59,8 @@ $sql2 = "UPDATE routes SET avatar= '".$img."' WHERE username=".$_SESSION['user']
 			$conexion->query($sql1);
 			$conexion->query($sql2);
 			echo $_SESSION['user']['username'];
+			echo $_SESSION['user']['avatar'];
+
 		}
 ?>
 

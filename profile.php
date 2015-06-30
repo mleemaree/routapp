@@ -1,21 +1,13 @@
 <?php
-
-//test
-
 session_start();
 $_SESSION['name']='user';
-include('conexion-routapp.php');
+include('conexion-php-calls/conexion-routapp.php');
 
-
-$sql="SELECT * FROM users WHERE userID=".$_SESSION['user']['userID'];
-$sql1="SELECT * FROM users WHERE username=".$_SESSION['user']['username'];
-
+$sql="SELECT * FROM users WHERE username=".$_SESSION['user']['username'];
 
 echo $sql;
-//echo $sql1;
-
+echo $_SESSION['user']['avatar'];
 ?>
-
 
 <!doctype html>
 <html>
@@ -29,9 +21,9 @@ echo $sql;
 	
 <div style="background-color:white; max-width:1200px; margin: 0 auto;">
 	<div class="container">
-		<div class="row">
+		<div class="row no-before">
 			<div class="col-xs-12" id="profile-background">
-				<img class="logged-user-image" src="images/alejandro-large.png">
+				<img class="logged-user-image" src="register-php-calls/user_images/<?php //echo $_SESSION['user']['username']."-".$_SESSION['user']['avatar']; ?>">
 				<h2 class="user-name">Alejandro</h2>
 			</div>
 		</div>
@@ -58,7 +50,7 @@ echo $sql;
 			<?php include('profile-php-calls/creditos.php') ?>
 		</div>
 		<div class="col-xs-12" id="informacion-profile">
-			<?php //include('profile-php-calls/user_profile.php') ?>
+			<?php include('profile-php-calls/user_profile.php') ?>
 		</div>
 	</div>
 </div>
