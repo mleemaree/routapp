@@ -37,7 +37,7 @@ echo $sql;
 		</div>
 		<div class="row">
 			<div class="col-xs-12" style="padding:0;">
-				<ul class="profile-menu" style="padding:0;">
+				<ul class="profile-menu nav nav-tabs nav-justified" style="padding:0;">
 					<li class="active profile-menu-option" id="mis-rutas"><span>Mis Rutas</span></li>
 					<li class="profile-menu-option" id="estadisticas"><span>Estadísticas</span></li>
 					<li class="profile-menu-option" id="creditos"><span>Créditos</span></li>

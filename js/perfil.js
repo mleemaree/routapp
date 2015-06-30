@@ -1,9 +1,34 @@
 //Mi perfile panes-------
 
 $('#estadisticas').click(function(){
+	$('#estadisticas-profile').show();
+	$('#mis-rutas-profile').hide();
+	$('#creditos-profile').hide();
+	$('#informacion-profile').hide();
+});
+
+$('#mis-rutas').click(function(){
+	$('#estadisticas-profile').hide();
+	$('#mis-rutas-profile').show();
+	$('#creditos-profile').hide();
+	$('#informacion-profile').hide();
+});
+
+$('#creditos').click(function(){
 	$('#estadisticas-profile').hide();
 	$('#mis-rutas-profile').hide();
+	$('#creditos-profile').show();
+	$('#informacion-profile').hide();
 });
+
+$('#informacion').click(function(){
+	$('#estadisticas-profile').hide();
+	$('#mis-rutas-profile').hide();
+	$('#creditos-profile').hide();
+	$('#informacion-profile').show();
+});
+
+
 
 //----Mis Rutas Panes
 

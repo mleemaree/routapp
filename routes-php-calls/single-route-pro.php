@@ -2,23 +2,13 @@
 
 session_start();
 $_SESSION['name']='user';
-include('conexion-routapp.php');
+include('../conexion-php-calls/conexion-routapp.php');
 
 $sql1="SELECT * FROM routes where routeID='15'";
 $sql2="SELECT * FROM zones where routeID='15'";
 $sql3="SELECT * FROM exercise where zoneNum='1'";
 ?>
 
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-
-   <title> Logged in </title>
-
-
-</head>
-<body>
 
 <p class="">ROUTE PREVIEW</p>
 
@@ -43,8 +33,7 @@ $sql3="SELECT * FROM exercise where zoneNum='1'";
 				<?php echo $fila['groundType'];?><br>
 				<?php echo $fila['other'];?><br>
 			</p>
-				
-				<?php echo '<hr>'; 
+	<?php			 
 
 			$result->close();
 			include('zones_single_route.php');
@@ -52,6 +41,4 @@ $sql3="SELECT * FROM exercise where zoneNum='1'";
 	} 
 	?>	
 
-</body>
-</html>
 

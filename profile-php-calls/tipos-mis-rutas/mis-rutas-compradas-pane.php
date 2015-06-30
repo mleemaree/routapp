@@ -21,9 +21,9 @@
 	<div class="container" id="comprar-rutas-button">
 		<div class="row">
 			<div class="col-xs-12">
-				<button  class="pull-right" id="comprar-ruta" type="button">
+				<a href="tienda.php"><button  class="pull-right" id="comprar-ruta" type="button">
 					<span>Comprar Rutas</span>
-				</button>
+				</button></a>
 			</div>
 		</div>
 	</div>

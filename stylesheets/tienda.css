@@ -82,3 +82,9 @@ span.w {
   margin-top: 3%;
   margin-bottom: 3%;
 }
+
+/* line 87, ../sass/tienda.scss */
+.resend, .delete {
+  background-color: transparent;
+  border: none;
+}

@@ -1,62 +1,99 @@
 <?php
 
-session_start();
-$_SESSION['name']='user';
-include('conexion-routapp.php');
-
 $sql="SELECT * FROM routes ";
 
 ?>
 
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-
-   <title> Routes list </title>
-
-</head>
-<body>
-
+<div class="container routes">
 <?php
 
 if ($result = $conexion->query($sql)) {
 		$fila = $result->fetch_assoc(); 
     	do  { 
 
-    		if ($fila['username'] == "routapp") {
+    		if ($fila['routeID'] == "15") {
 
     			?>
 
-    			<p class="bought-route-card">
+    			<div class="featured-route">
 
-						<?php echo $fila['title']; ?><br>
-						<?php echo $fila['subtitle']; ?><br>
-						<?php echo $fila['credits']; ?><br><br>
-						<?php echo $fila['distance'];?><br>
-						<?php echo $fila['calories'];?><br>
-						<?php echo $fila['exerciseNum'];?><br>
+						<?php echo $fila['title']; ?>
+						<?php echo $fila['subtitle']; ?>
+						<?php echo $fila['credits']; ?>
+						<?php echo $fila['distance'];?>
+						<?php echo $fila['calories'];?>
+						<?php echo $fila['exerciseNum'];?>
 						
 
-				</p>
-			
-						<?php echo '<hr>';?>
+				</div>
+			<?php echo '<hr>'; ?>
+				<?php    			
+    		}
+
+    		else if ($fila['username'] == "routapp") {
+
+    			?>
+
+    			<div class="bought-route-card">
+
+						<?php echo $fila['title']; ?>
+						<?php echo $fila['subtitle']; ?>
+						<?php echo $fila['credits']; ?>
+						<?php echo $fila['distance'];?>
+						<?php echo $fila['calories'];?>
+						<?php echo $fila['exerciseNum'];?>
+						
+
+				</div>
+			<?php echo '<hr>'; ?>
 				<?php    			
     		}
 
     		else{
     			?>
 
-		    	<p class="route-card">
-
-						<?php echo $fila['title']; ?><br>
-						<?php echo $fila['credits']; ?><br><br>
-						<?php echo $fila['distance'];?><br>
-						<?php echo $fila['calories'];?><br>
-						<?php echo $fila['exerciseNum'];?><br>
-						<img src="user_images/<?php echo $fila['avatar']?>">
-						
-				</p>
+		    	<div class="route-card">
+		    		<div class="row">
+						<div class="col-xs-12 col-sm-6" class="map" style="height:150px; padding:0;">
+							<div class="map" class="map">
+								<div class="user">
+		    						<img src="register-php-calls/user_images/<?php echo $fila['avatar']?>">
+		    					</div>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-6 whiteness">
+							<div class="row" style="padding: 2% 5%;">
+								<div class="col-xs-10">
+									<?php echo $fila['title']; ?>
+								</div>
+								<div class="col-xs-2" style="padding:0;">
+									<div class="star-rating">
+										<img src="../images/stars.png">
+									</div>
+								</div>
+							</div>
+							<div class="row" style="padding:10% 5% 0;">
+								<div class="col-xs-3 route-info">
+									<img src="../images/shoe.png">
+									<span class="number"><?php echo $fila['distance'];?></span>
+									<p>km</p>
+								</div>
+							
+								<div class="col-xs-4 route-info">
+									<img src="../images/fire.png">
+									<span class="number"><?php echo $fila['calories'];?></span>
+									<p>Kcal</p>
+								</div>
+								<div class="col-xs-4 route-info">
+									<img src="../images/arm.png">
+									<span class="number"><?php echo $fila['exerciseNum'];?></span>
+									<p>Ejercicios</p>
+								</div>
+								<div class="col-xs-1"></div>
+							</div>
+						</div>
+					</div>
+				</div>
 			
 						<?php echo '<hr>'; ?>
 		    	<?php
@@ -70,7 +107,4 @@ if ($result = $conexion->query($sql)) {
 
 				?>	
 
-
-</body>
-</html>
-
+</div><!--routes container-->

@@ -15,7 +15,7 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav middle">
         <li class="active"><a href="index.php">Rutas <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Explora</a></li>
+        <li><a href="rutas.php">Explora</a></li>
         <li><a href="#">App</a></li><li>
         <li><a href="tienda.php">Tienda</a></li>
         <li>

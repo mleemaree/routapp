@@ -31,23 +31,12 @@ h2.user-name{
 	vertical-align:middle;
 }
 
-.profile-menu{
-	height:50px;
-	background-color:#fff;
-	text-align:center;
-	border-bottom:1px solid $blue;
-}
 
 .profile-menu-option{
 	height:50px;
-	display:inline-block;
-	width:24.7%;
-	padding:0;
 	text-align:center;
 	border-right:1px solid $blue;
 	span{
-		position:relative;
-		top:33%;
 		font-size:0.9em;
 		color:$blue;
 	}
@@ -60,6 +49,10 @@ h2.user-name{
 			color:white;
 		}
 	}
+}
+
+.profile-menu{
+	border-bottom:1px solid $blue !important;
 }
 
 
@@ -133,4 +126,29 @@ h2.user-name{
 	font-weight:bold;
 	padding:1% 2%;
 	border-radius:30px;
+}
+
+
+
+
+
+/* ESTADISTICAS============*/
+
+
+
+.purple{
+	background-color:lavender; 
+	height:500px; 
+	width:100%;
+}
+
+.green{
+	background-color:#B8FFDB;
+	height:500px;
+	width:100%;
+}
+
+#estadisticas-profile, #creditos-profile,
+#informacion-profile{
+	display:none;
 }

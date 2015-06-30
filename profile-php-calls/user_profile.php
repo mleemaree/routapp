@@ -3,7 +3,6 @@
 
 <form action="register-php-calls/register_user_profile.php" method="post" enctype="multipart/form-data">
 
-	<table>
 
 		<?php 
 
@@ -12,53 +11,53 @@
 			$fila = $result->fetch_assoc();
 		?>
 
-		<tr>
-			<td><label for="firstName">Nombre</label></td>
-			<td><input type="text" name="firstName" value="<?php echo $fila['firstName'];?>"></td>
-		</tr>
-		<tr>
-			<td><label for="username">Username</label></td>
-			<td><input type="text" name="username" value="<?php echo $fila['username'];?>"></td>		
-		</tr>
-		<tr>
-			<td><label for="lastName1">Apellido 1</label></td>
-			<td><input type="text" name="lastName1" value="<?php echo $fila['lastName1'];?>"></td>		
-		</tr>
-		<tr>
-			<td><label for="lastName2">Apellido 2</label></td>
-			<td><input type="text" name="lastName2" value="<?php echo $fila['lastName2'];?>"></td>	
-		</tr>
-		<tr>
-			<td><label for="birthday">Fecha de nacimiento</label></td>
-			<td><input type="date" name="birthday" value="<?php echo $fila['birthday'];?>"> dd/mm/yyyy</td>	
-		</tr>
-		<tr>
-			<td><label for="gender">Género</label></td>
-			<td><select name="gender"> 
+		
+			<label for="firstName">Nombre</label>
+			<input type="text" name="firstName" value="<?php echo $fila['firstName'];?>">
+		
+		
+			<label for="username">Username</label>
+			<input type="text" name="username" value="<?php echo $fila['username'];?>">		
+		
+		
+			<label for="lastName1">Apellido 1</label>
+			<input type="text" name="lastName1" value="<?php echo $fila['lastName1'];?>">		
+		
+		
+			<label for="lastName2">Apellido 2</label>
+			<input type="text" name="lastName2" value="<?php echo $fila['lastName2'];?>">	
+		
+		
+			<label for="birthday">Fecha de nacimiento</label>
+			<input type="date" name="birthday" value="<?php echo $fila['birthday'];?>"> dd/mm/yyyy	
+		
+		
+			<label for="gender">Género</label>
+			<select name="gender"> 
 					<option value="<?php echo $fila['gender'];?>" selected="selected"><?php echo $fila['gender'];?></option>
 					<option value="Masculino">Masculino</option> 
 					<option value="Feminino">Feminino</option> 			
-			</td>	
-		</tr>
-		<tr>
-			<td><label for="height">Altura (cm)</label></td>
-			<td><input type="text" name="height" value="<?php echo $fila['height'];?>"></td>
-		</tr>
-		<tr>
-			<td><label for="weight">Peso (kg)</label></td>
-			<td><input type="text" name="weight" value="<?php echo $fila['weight'];?>"></td>
-		</tr>
-		<tr>
-			<td><label for="street">Calle</label></td>
-			<td><input type="text" name="street" value="<?php echo $fila['street'];?>"></td>
-		</tr>
-		<tr>
-			<td><label for="postalCode">Código Postal</label></td>
-			<td><input type="text" name="postalCode" value="<?php echo $fila['postalCode'];?>"></td>
-		</tr>
-		<tr>
-			<td><label for="city">Ciudad</label></td>
-			<td><select name="city"> 
+				
+		
+		
+			<label for="height">Altura (cm)</label>
+			<input type="text" name="height" value="<?php echo $fila['height'];?>">
+		
+		
+			<label for="weight">Peso (kg)</label>
+			<input type="text" name="weight" value="<?php echo $fila['weight'];?>">
+		
+		
+			<label for="street">Calle</label>
+			<input type="text" name="street" value="<?php echo $fila['street'];?>">
+		
+		
+			<label for="postalCode">Código Postal</label>
+			<input type="text" name="postalCode" value="<?php echo $fila['postalCode'];?>">
+		
+		
+			<label for="city">Ciudad</label>
+			<select name="city"> 
 					<option value="<?php echo $fila['city'];?>" selected="selected"><?php echo $fila['city'];?></option>
 					<option value="Madrid">Madrid</option>
 					<option value="Barcelona">Barcelona</option> 
@@ -71,64 +70,58 @@
 					<option value="Las Palmas de Gran Canaria">Las Palmas de Gran Canaria</option>
 					<option value="Bilbao">Bilbao</option>					
 					</select>
-			</td>	
-		</tr>
-		<tr>
-			<td><label for="avatar">Foto (avatar)</label></td>
-			<td><input type="file" name="avatar"></td>		
-		</tr>
-
-	</table>
+				
+		
+		
+			<label for="avatar">Foto (avatar)</label>
+			<input type="file" name="avatar">		
+		
 
 
  <h3>Preferencias deportivas</h3>
-	<table>
 
-		<tr>
-			<td><label for="sportLevel">Nivel Deportivo</label></td>
-			<td><select name="sportLevel"> 
+		
+			<label for="sportLevel">Nivel Deportivo</label>
+			<select name="sportLevel"> 
 					<option value="<?php echo $fila['sportLevel'];?>" selected="selected"><?php echo $fila['sportLevel'];?></option>
 					<option value="Principiante">Principiante</option> 
 					<option value="Intermedio">Intermedio</option> 	
 					<option value="Avanzado">Avanzado</option> 			
-			</td>	
-		</tr>   
-		<tr>
-			<td><label for="motivation">¿Motivación para hacer deporte?</label></td>
-			<td><textarea name="motivation"><?php echo $fila['motivation'];?></textarea></td>		
-		</tr>
-		<tr>
-			<td><label for="goals">¿Cuáles son tus metas?</label></td>
-			<td><textarea name="goals"><?php echo $fila['goals'];?></textarea></td>		
-		</tr>
+				
+		   
+		
+			<label for="motivation">¿Motivación para hacer deporte?</label>
+			<textarea name="motivation"><?php echo $fila['motivation'];?></textarea>		
+		
+		
+			<label for="goals">¿Cuáles son tus metas?</label>
+			<textarea name="goals"><?php echo $fila['goals'];?></textarea>		
+		
 
-	</table>
 
  <h3>Email y Contraseñas</h3>
-	<table>
 
-		<tr>
-			<td><label for="email">Cambiar email</label></td>
-			<td><input type="text" name="email" size="30" value="<?php echo $fila['email'];?>"
+		
+			<label for="email">Cambiar email</label>
+			<input type="text" name="email" size="30" value="<?php echo $fila['email'];?>"
 					   onblur="if (this.value == '') {this.value = '<?php echo $fila['email'];?>';}"
 			 		   onfocus="if (this.value == '<?php echo $fila['email'];?>') {this.value = '';}" 
-			 		   placeholder="introduce el nuevo email"></td>	
-		</tr>
-		<tr>
-			<td><label for="password">Cambiar contraseña</label></td>
-			<td><input type="password" name="password" size="30" value="<?php echo $fila['password'];?>"
+			 		   placeholder="introduce el nuevo email">	
+		
+		
+			<label for="password">Cambiar contraseña</label>
+			<input type="password" name="password" size="30" value="<?php echo $fila['password'];?>"
 					   onblur="if (this.value == '') {this.value = '<?php echo $fila['password'];?>';}"
 			 		   onfocus="if (this.value == '<?php echo $fila['password'];?>') {this.value = '';}"
-			 		   placeholder="entrar nueva contraseña"></td>
-			<td><input type="password" name="password2" size="30" value="<?php echo $fila['password'];?>"
+			 		   placeholder="entrar nueva contraseña">
+			<input type="password" name="password2" size="30" value="<?php echo $fila['password'];?>"
 					   onblur="if (this.value == '') {this.value = '<?php echo $fila['password'];?>';}"
 			 		   onfocus="if (this.value == '<?php echo $fila['password'];?>') {this.value = '';}"
-			 		   placeholder="confirmar nueva contraseña"></td>
-		</tr>
-		<tr>
-			<td></td><td><input type="submit" value="Guardar"></td>	
-		</tr>		
-	</table>
+			 		   placeholder="confirmar nueva contraseña">
+		
+		
+			<input type="submit" value="Guardar">	
+				
 
 </form>
 

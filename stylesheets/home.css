@@ -435,22 +435,28 @@ a.btn.btn-default {
 
 /*=====Route cards ====*/
 /* line 119, ../sass/home.scss */
+.whiteness {
+  background-color: white;
+  height: 150px;
+}
+
+/* line 124, ../sass/home.scss */
 .route-info {
   padding: 0;
 }
-/* line 121, ../sass/home.scss */
+/* line 126, ../sass/home.scss */
 .route-info p {
   display: inline-block;
 }
 
-/* line 126, ../sass/home.scss */
+/* line 131, ../sass/home.scss */
 .route-card {
   -moz-box-shadow: #d7d6d6 1px 1px 8px;
   -webkit-box-shadow: #d7d6d6 1px 1px 8px;
   box-shadow: #d7d6d6 1px 1px 8px;
 }
 
-/* line 130, ../sass/home.scss */
+/* line 135, ../sass/home.scss */
 .map {
   background-image: url(../images/map.png);
   -moz-background-size: cover;
@@ -460,36 +466,48 @@ a.btn.btn-default {
   height: 100%;
 }
 
-/* line 136, ../sass/home.scss */
+/* line 141, ../sass/home.scss */
 .user-image {
   padding: 1%;
 }
 
 @media screen and (max-width: 768px) {
-  /* line 142, ../sass/home.scss */
+  /* line 147, ../sass/home.scss */
   .left {
     width: 100%;
   }
 
-  /* line 146, ../sass/home.scss */
+  /* line 151, ../sass/home.scss */
   .middle {
     padding: 0 2%;
     width: 20%;
   }
-  /* line 149, ../sass/home.scss */
+  /* line 154, ../sass/home.scss */
   .middle li {
     width: 100%;
     margin-bottom: 5%;
   }
 }
 @media screen and (min-width: 980px) {
-  /* line 157, ../sass/home.scss */
+  /* line 162, ../sass/home.scss */
   .navbar-toggle {
     display: none;
   }
 }
+/*========FEATURED ROUTE=======*/
+/* line 170, ../sass/home.scss */
+.featured-route {
+  background-image: url(../images/featured-route.png);
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  height: 500px;
+  margin: 5% 0;
+}
+
 /*======bought route card =====*/
-/* line 165, ../sass/home.scss */
+/* line 182, ../sass/home.scss */
 .bought-route-card {
   background-image: url(../images/bought-route-card.png);
   -moz-background-size: cover;
