@@ -25,8 +25,8 @@
         <li class="dropdown pull-right" id="ordenar">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="menu-name">Ordenar vista por</span><span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="landing.php">Action</a></li>
-            <li><a href="#">Another action</a></li>
+            <li><a href="landing.php">Landing</a></li>
+            <li><a href="profile-php-calls/user_profile.php">User Profile</a></li>
             <li><a href="#">Something else here</a></li>
             <li class="divider"></li>
             <li><a href="#">Separated link</a></li>
@@ -46,42 +46,42 @@
 
 <div class="container" style="margin-top:2%;">
 	<div class="row rc">
-		<div class="col-xs-12" style="">
+		<div class="col-xs-12 col-sm-10 col-sm-offset-1 cards" style="">
       <?php include ('home-php-calls/featured-route.php'); ?>
 		</div>
 	</div>
 	<div class="row rc">
-		<div class="col-xs-12" style="">
+		<div class="col-xs-12 col-sm-10 col-sm-offset-1 cards" style="">
       <?php include ('home-php-calls/route-card.php'); ?>
 		</div>
 	</div>
 	<div class="row rc">
-		<div class="col-xs-12" style="">
+		<div class="col-xs-12 col-sm-10 col-sm-offset-1 bought-cards" style="">
       <?php include ('home-php-calls/bought-route-card.php'); ?>
     </div>
 	</div>
 	<div class="row rc">
-		<div class="col-xs-12" style="">
+		<div class="col-xs-12 col-sm-10 col-sm-offset-1 cards" style="">
       <?php include ('home-php-calls/route-card.php'); ?>
     </div>
 	</div>
 	<div class="row rc">
-		<div class="col-xs-12" style="">
+		<div class="col-xs-12 col-sm-10 col-sm-offset-1 cards" style="">
       <?php include ('home-php-calls/route-card.php'); ?>
     </div>
 	</div>
   <div class="row rc">
-    <div class="col-xs-12" style="">
+    <div class="col-xs-12 col-sm-10 col-sm-offset-1 bought-cards" style="">
       <?php include ('home-php-calls/bought-route-card.php'); ?>
     </div>
   </div>
   <div class="row rc">
-    <div class="col-xs-12" style="">
+    <div class="col-xs-12 col-sm-10 col-sm-offset-1 bought-cards" style="">
       <?php include ('home-php-calls/bought-route-card.php'); ?>
     </div>
   </div>
   <div class="row rc">
-    <div class="col-xs-12" style="">
+    <div class="col-xs-12 col-sm-10 col-sm-offset-1 cards" style="">
       <?php include ('home-php-calls/route-card.php'); ?>
     </div>
   </div>
@@ -105,3 +105,8 @@
 
 
 </div>
+
+<?php include ('php-calls/scripts.php'); ?>
+
+</body>
+</html>

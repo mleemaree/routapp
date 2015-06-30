@@ -820,38 +820,43 @@ h2.user-name {
   margin: 3% 0;
 }
 
+/* line 80, ../sass/profile.scss */
+.bought-cards {
+  padding: 0;
+}
+
 /*====mis rutas menu====*/
-/* line 82, ../sass/profile.scss */
+/* line 86, ../sass/profile.scss */
 .mis-rutas-menu {
   width: 70%;
   display: inline-block;
 }
 
-/* line 87, ../sass/profile.scss */
+/* line 91, ../sass/profile.scss */
 .mis-rutas-menu-option {
   display: inline-block;
   width: 33%;
 }
-/* line 90, ../sass/profile.scss */
+/* line 94, ../sass/profile.scss */
 .mis-rutas-menu-option span {
   font-weight: bold;
   text-transform: uppercase;
   color: #01394c;
 }
 
-/* line 97, ../sass/profile.scss */
+/* line 101, ../sass/profile.scss */
 #mis-rutas-filtro {
   display: inline-block;
   float: right;
 }
 
 /*---Mis Rutas Compradas--*/
-/* line 105, ../sass/profile.scss */
+/* line 109, ../sass/profile.scss */
 #mis-rutas-panes {
   margin-bottom: 5%;
 }
 
-/* line 109, ../sass/profile.scss */
+/* line 113, ../sass/profile.scss */
 #mis-rutas-compradas-pane, #mis-rutas-creadas-pane, #mis-rutas-favoritas-pane {
   border-top: 1px solid #01394c;
   border-bottom: 1px solid #01394c;
@@ -859,17 +864,17 @@ h2.user-name {
   margin-bottom: 5%;
 }
 
-/* line 116, ../sass/profile.scss */
+/* line 120, ../sass/profile.scss */
 #mis-rutas-compradas-pane-wrapper, #mis-rutas-favoritas-pane-wrapper {
   display: none;
 }
 
-/* line 120, ../sass/profile.scss */
+/* line 124, ../sass/profile.scss */
 #comprar-rutas-button {
   margin: 2% 0 5%;
 }
 
-/* line 124, ../sass/profile.scss */
+/* line 128, ../sass/profile.scss */
 #comprar-ruta, #crear-ruta {
   margin-right: 1%;
   border-color: 1px solid #01394c;

@@ -17,7 +17,7 @@
         <li class="active"><a href="index.php">Rutas <span class="sr-only">(current)</span></a></li>
         <li><a href="#">Explora</a></li>
         <li><a href="#">App</a></li><li>
-        <li><a href="#">Tienda</a></li>
+        <li><a href="tienda.php">Tienda</a></li>
         <li>
           <a class="btn btn-default" href="crear.php">
             <span>Crear Ruta</span>

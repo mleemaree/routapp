@@ -14,8 +14,8 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
-        <li class="active"><a href="#">Rutas <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Explora</a></li>
+        <li class="active"><a href="rutas.php">Rutas <span class="sr-only">(current)</span></a></li>
+        <li><a href="rutas.php">Explora</a></li>
         <li><a href="#">BeTrainer</a></li>
         <li><a href="#">App</a></li>
         <li><a href="#"><button type="button" class="btn btn-default login-button"
@@ -61,7 +61,7 @@
         <h4 class="modal-title brand">routapp</h4>
       </div>
       <div class="modal-body">
-        <?php include('register-php-calls/login.php'); ?>
+        <?php include('register-php-calls/index-routapp.php'); ?>
       </div>
     </div>
 

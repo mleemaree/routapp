@@ -1,3 +1,22 @@
+<?php
+
+//test
+
+session_start();
+$_SESSION['name']='user';
+include('conexion-routapp.php');
+
+
+$sql="SELECT * FROM users WHERE userID=".$_SESSION['user']['userID'];
+$sql1="SELECT * FROM users WHERE username=".$_SESSION['user']['username'];
+
+
+echo $sql;
+//echo $sql1;
+
+?>
+
+
 <!doctype html>
 <html>
 <head>
@@ -48,6 +67,6 @@
 
 
 <?php include ('php-calls/scripts.php'); ?>
-<script type="text/javascript" src="js/mis-rutas.js"></script>
+<script type="text/javascript" src="js/perfil.js"></script>
 </body>
 </html>

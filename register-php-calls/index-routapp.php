@@ -44,40 +44,32 @@ if (isset($_POST['email']) and isset($_POST['password'])) {
 	?> 
 
 
-	<?php include('routes.php');
+	<?php //header('Location: 'rutas.php);
 
 
 } else { ?>
 
-<div id="login"> 
 
-	<div id="mydiv">
-
-		<form action="index-routapp.php" method="post">
+		<form action="register-php-calls/index-routapp.php" method="post">
 
 			<p class="header"><b>Fill the following to login</b></p>
 
-				<table id="sample">
-
-					<tr>
-						<td><label for="email">Email</label></td>
-						<td><input type="text" name="email"></td>			
-				</tr>
-				<tr>
-						<td><label for="password">Password</label></td>
-						<td><input type="password" name="password"></td>			
-				</tr>
-				<tr>
-						<td></td><td><input type="submit" class="hvr-glow" value="Login"></td>	
-				</tr>
+						<label for="email">Email</label>
+						<input type="text" name="email">			
+	
+				
+						<label for="password">Password</label>
+						<input type="password" name="password">			
+	
+				
+						<input type="submit" class="hvr-glow" value="Login">	
+	
 
 		</form>
 
 <?php } ?>
 
-	</div>
 
-</div>
 
 </body>
 </html>

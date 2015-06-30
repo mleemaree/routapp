@@ -1,38 +1,7 @@
-<?php
-
-//test
-
-session_start();
-$_SESSION['name']='user';
-include('../conexion-php-calls/conexion-routapp.php');
-
-
-$sql="SELECT * FROM users WHERE userID=".$_SESSION['user']['userID'];
-$sql1="SELECT * FROM users WHERE username=".$_SESSION['user']['username'];
-
-
-//echo $sql;
-//echo $sql1;
-
-?>
-
-
-<!DOCTYPE html>
-<head>
-<meta charset="UTF-8">
-
-   <title> User Profile </title>
-
-</head>
-
-</head>
-
-<body>
-
 
 <h3>Información general de perfil</h3>
 
-<form action="../register-php-calls/register_user_profile.php" method="post" enctype="multipart/form-data">
+<form action="register-php-calls/register_user_profile.php" method="post" enctype="multipart/form-data">
 
 	<table>
 
@@ -172,6 +141,3 @@ $sql1="SELECT * FROM users WHERE username=".$_SESSION['user']['username'];
 } 
 ?>
 
-
-</body>
-</html>

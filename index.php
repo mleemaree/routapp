@@ -11,6 +11,5 @@
 
 
 
-<?php include ('php-calls/scripts.php'); ?>
 </body>
 </html>

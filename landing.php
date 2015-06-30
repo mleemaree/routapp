@@ -157,7 +157,8 @@
 					</div>
 				</div>
 			</div>
-			<button class="landing-button" id="crear-perfil" type="button">
+			<button type="button" id="crear-perfil" class="btn btn-default landing-button"
+          data-toggle="modal" data-target="#unete">
 				<span>CREAR PERFIL "BE A TRAINER"</span>
 			</button>
 		</div>
