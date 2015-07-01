@@ -10,7 +10,7 @@ if (($_POST['username'])== null or ($_POST['email'])== null or ($_POST['password
 		$previousPage = $_SERVER["HTTP_REFERER"];
 	    header('Location: '.$previousPage);	
 
-		}
+		} 
 
 		else if (isset($_POST['username'])==true and isset($_POST['email'])==true and isset($_POST['password'])==true) {
 

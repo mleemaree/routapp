@@ -8,7 +8,7 @@ include('conexion-php-calls/conexion-routapp.php');
 <!doctype html>
 <html>
 <head>
-	<title>RouteApp</title>
+	<title>Routapp</title>
 	<meta charset="utf-8">
 	<?php include ('php-calls/header.php'); ?>
 	<link href="stylesheets/tienda.css" media="screen, projection" rel="stylesheet" type="text/css" />

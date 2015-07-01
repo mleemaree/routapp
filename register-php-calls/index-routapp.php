@@ -3,9 +3,17 @@ session_start();
 
 $_SESSION['name']='user';
 
-if (isset($_POST['email']) and isset($_POST['password'])) {
+if (($_POST['email'])== null or ($_POST['password'])== null) { 
 
-	require_once('conexion-php-calls/conexion-routapp.php');
+
+		$previousPage = $_SERVER["HTTP_REFERER"];
+	    header('Location: '.$previousPage);	
+
+		}
+
+else if (isset($_POST['email']) and isset($_POST['password'])) {
+
+	require_once('../conexion-php-calls/conexion-routapp.php');
 	
 	$sql="SELECT * FROM users WHERE email='".$_POST['email']."';";
 	
@@ -25,12 +33,20 @@ if (isset($_POST['email']) and isset($_POST['password'])) {
 
 
 
-<?php if ($_SESSION['user'] and $_SESSION['user']['userID']!=0)  { 
-
-	?> 
+<?php if ($_SESSION['user'] and $_SESSION['user']['userID']!=0)  {  ?>
 
 
-	<?php 
+	<script>
+	window.setTimeout(function() {
+	    window.location = '../rutas.php';
+	  }, 2500);
+	</script>
+	<p align="center"><img src="../images/welcome-dinos.jpg"></p>
+	<p align="center">Bienvenido a Routapp! Le estamos dando a la página principal</p>
+
+<?php
+
+
 
 
 } else { ?>
@@ -54,6 +70,6 @@ if (isset($_POST['email']) and isset($_POST['password'])) {
 		</form>
 
 <?php } 
-header('Location: rutas.php');
+
 ?>
 
