@@ -54,17 +54,20 @@ else if (isset($_POST['email']) and isset($_POST['password'])) {
 
 		<form action="register-php-calls/index-routapp.php" method="post">
 
-			<p class="header"><b>Fill the following to login</b></p>
+			<p class="header"><b>Rellene el siguiente para iniciar sesión</b></p>
+ 
 
-						<label for="email">Email</label>
-						<input class="login-input" type="text" name="email">			
+						<input class="login-input" type="text" name="email" placeholder="Email">			
 	
+						<input class="login-input" type="password" name="password" placeholder="Contraseña">		
+
+						<hr>	
+
+					<p align="center">
 				
-						<label for="password">Password</label>
-						<input class="login-input" type="password" name="password">			
-	
-				
-						<input type="submit" class="hvr-glow" value="Login">	
+						<input type="submit" class="hvr-glow" value="Login">
+
+					</p>
 	
 
 		</form>
