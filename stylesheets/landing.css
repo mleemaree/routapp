@@ -608,3 +608,8 @@ nav {
 .nav-wrapper {
   background-color: #01394c;
 }
+
+/* line 328, ../sass/landing.scss */
+.trainer-img {
+  text-align: center;
+}
