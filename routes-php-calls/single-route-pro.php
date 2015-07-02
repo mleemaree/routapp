@@ -13,8 +13,8 @@ $sql3="SELECT * FROM exercise where zoneNum='1'";
 
 	<?php
 
-	if ($result = $conexion->query($sql1)) {
-			$fila = $result->fetch_assoc(); 
+	if ($result1 = $conexion->query($sql1)) {
+			$fila1 = $result1->fetch_assoc(); 
 	    ?>
 
 
@@ -25,17 +25,17 @@ $sql3="SELECT * FROM exercise where zoneNum='1'";
 	<div class="row routes-list-row topRow routes-list-row">
 		<div class="col-xs-12 col-sm-6 title">
 			<h2 class="featured-route-card-title">
-				<?php echo $fila['title']; ?>
+				<?php echo $fila1['title']; ?>
 			</h2>
 		</div>
 		<div class="hidden-xs col-sm-6 credits">
-			<span class="credit-cost"><?php echo $fila['credits']; ?></span>
+			<span class="credit-cost"><?php echo $fila1['credits']; ?></span>
 		</div>
 	</div>
 	<div class="row routes-list-row">
 		<div class="col-xs-12 col-sm-6">
 			<h2 class="featured-route-card-subtitle">
-				<?php echo $fila['subtitle']; ?>
+				<?php echo $fila1['subtitle']; ?>
 			</h2>
 		</div>
 		<div class="hidden-xs col-sm-6"></div>
@@ -63,13 +63,13 @@ $sql3="SELECT * FROM exercise where zoneNum='1'";
 		<div class="col-xs-12 col-sm-6 mins">
 			<div class="row routes-list-row">
 				<div class="col-xs-4">
-					<h4 class="metric-numbers"><?php echo $fila['distance'];?></h4>
+					<h4 class="metric-numbers"><?php echo $fila1['distance'];?></h4>
 				</div>
 				<div class="col-xs-4">
-					<h4 class="metric-numbers"><?php echo $fila['calories'];?></h4>
+					<h4 class="metric-numbers"><?php echo $fila1['calories'];?></h4>
 				</div>
 				<div class="col-xs-4">
-					<h4 class="metric-numbers"><?php echo $fila['exerciseNum'];?></h4>
+					<h4 class="metric-numbers"><?php echo $fila1['exerciseNum'];?></h4>
 				</div>
 			</div>
 		</div>
@@ -94,7 +94,7 @@ $sql3="SELECT * FROM exercise where zoneNum='1'";
 	</div>
 	<div class="row desc-text">
 		<div class="col-xs-12">
-			<p><?php echo $fila['description'];?></p>
+			<p><?php echo $fila1['description'];?></p>
 		</div>
 	</div>
 
@@ -116,7 +116,7 @@ $sql3="SELECT * FROM exercise where zoneNum='1'";
 					<p>Tipos de Ejercicio:</p>
 				</div>
 				<div class="col-xs-6 type">
-					<span id="exercType"><?php echo $fila['exercType'];?></span>
+					<span id="exercType"><?php echo $fila1['exercType'];?></span>
 				</div>
 			</div>
 			<div class="row charac">
@@ -124,7 +124,7 @@ $sql3="SELECT * FROM exercise where zoneNum='1'";
 					<p>Partes a Ejercitar:</p>
 				</div>
 				<div class="col-xs-6 type">
-					<span id="exercParts"><?php echo $fila['exercParts'];?></span>
+					<span id="exercParts"><?php echo $fila1['exercParts'];?></span>
 				</div>
 			</div>
 			<div class="row charac">
@@ -132,7 +132,7 @@ $sql3="SELECT * FROM exercise where zoneNum='1'";
 					<p>Zonas de Ejercicios:</p>
 				</div>
 				<div class="col-xs-6 type">
-					<span id="exercZones"><?php echo $fila['exercZones'];?></span>
+					<span id="exercZones"><?php echo $fila1['exercZones'];?></span>
 				</div>
 			</div>
 			<div class="row charac">
@@ -140,7 +140,7 @@ $sql3="SELECT * FROM exercise where zoneNum='1'";
 					<p>Material Adicional:</p>
 				</div>
 				<div class="col-xs-6 type">
-					<span id="material"><?php echo $fila['material'];?></span>
+					<span id="material"><?php echo $fila1['material'];?></span>
 				</div>
 			</div>
 			<div class="row charac">
@@ -148,7 +148,7 @@ $sql3="SELECT * FROM exercise where zoneNum='1'";
 					<p>Tipo de Suelo:</p>
 				</div>
 				<div class="col-xs-6 type">
-					<span id="groundType"><?php echo $fila['groundType'];?></span>
+					<span id="groundType"><?php echo $fila1['groundType'];?></span>
 				</div>
 			</div>
 			<div class="row charac">
@@ -156,7 +156,7 @@ $sql3="SELECT * FROM exercise where zoneNum='1'";
 					<p>Otras:</p>
 				</div>
 				<div class="col-xs-6 type">
-					<span id="other"><?php echo $fila['other'];?></span>
+					<span id="other"><?php echo $fila1['other'];?></span>
 				</div>
 			</div>
 		</div>
@@ -187,7 +187,7 @@ $sql3="SELECT * FROM exercise where zoneNum='1'";
 
 	<?php			 
 
-			$result->close();
+			$result1->close();
 			include('zones_single_route.php');
 						
 	} 

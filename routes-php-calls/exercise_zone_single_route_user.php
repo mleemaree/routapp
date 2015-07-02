@@ -1,52 +1,44 @@
 <?php
 
-if ($result = $conexion->query($sql3)) {
-		$fila = $result->fetch_assoc(); 
+$sql3="SELECT * FROM exercise where (zoneNum='".$y."') and (routeID='".$_GET['routeID']."')";
+
+if ($result3 = $conexion->query($sql3)) {
+		$fila3 = $result3->fetch_assoc(); 
 
 		$i=1;
 
     	do  {     		
 
     			?>
-	<div class="row inciniando">
-		<div class="col-xs-1 flags">
-			<img class="start-flag" src="">
-		</div>
-		<div class="col-xs-11 zones-titles infosman" style="float:right;">
-			<div class="row zone-title-wrapper zones-row">
-				<div class="col-xs-12">
-					<h4 class="in-title zone-title">ZONE <span id="zone-num"><?php echo $fila ['zoneID']; ?></span></h4>
-					<img class="in-title running-guy" src="images/iconos/runner.png">
-					<span class="in-title zone-distance"><?php echo $fila['km']; ?> Km</span>
-				</div>
-			</div>
-		</div>
-	</div>
+
 		<div class="mini-zones-wrapper" style="width:91.6%; float:right;">
 			<div class="row zone-info-wrapper">
 				<div class="col-xs-12">
 					<div class="row">
 						<div class="col-xs-6 col-sm-4">
-							<p>Nombre del ejercicio: <?php echo $i;?> - <?php echo $fila['exName']; ?></p>
-						</div>
-						<div class="col-xs-6 col-sm-3">
-							<p>Tipo: <?php echo $fila['type']; ?></p>
+							<p>Nombre del ejercicio: <span class="result-zone-info" style="font-weight:bold;"><?php echo $fila3['exName']; ?></span></p>
 						</div>
 						<div class="col-xs-6 col-sm-2">
-							<p>Series: <?php echo $fila['series']; ?></p>
+							<p>Tipo: <span class="result-zone-info" style="font-weight:bold;"><?php echo $fila3['type']; ?></span></p>
 						</div>
-						<div class="col-xs-6 col-sm-3">
-							<p>Repeticiones: <?php echo $fila['repetition'];?></p>
+						<div class="col-xs-6 col-sm-2">
+							<p>Series: <span class="result-zone-info" style="font-weight:bold;"><?php echo $fila3['series']; ?></span></p>
+						</div>
+						<div class="col-xs-6 col-sm-2">
+							<p>Repeticiones: <span class="result-zone-info" style="font-weight:bold;"><?php echo $fila3['repetition'];?></span></p>
+						</div>
+						<div class="col-xs-6 col-sm-2">
+							<p>Descanso: <span class="result-zone-info" style="font-weight:bold;"><?php echo $fila3['rest'];?></span></p>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div class="row exercise-title-wrapper">
-				<h4 id="exercise-title">Descripción del Ejercicio</h4>
+				<h4 id="exercise-title"><span class="result-zone-info" style="font-weight:bold;">Descripción del Ejercicio</span></h4>
 			</div>
 			<div class="row desc-exer">
 				<div class="col-xs-12 col-sm-6">
-					<p><?php echo $fila['descriptionEx'];?></p>
+					<p><?php echo $fila3['descriptionEx'];?></p>
 				</div>
 				<div class="col-xs-12 col-sm-6">
 					<div class="row">
@@ -71,8 +63,8 @@ if ($result = $conexion->query($sql3)) {
 
 		    	<?php
 
-    				} while ($fila = $result->fetch_assoc());
-					$result->close();
+    				} while ($fila3 = $result3->fetch_assoc());
+					$result3->close();
 } 
 
 ?>	

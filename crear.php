@@ -16,6 +16,8 @@ include('conexion-php-calls/conexion-routapp.php');
 
 
 
-<?php include ('php-calls/scripts.php'); ?>
+<?php include ('php-calls/scripts.php'); 
+		include ('php-calls/footer.php');
+?>
 </body>
 </html>
