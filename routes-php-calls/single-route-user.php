@@ -19,22 +19,24 @@ $sql3="SELECT * FROM exercise where (zoneID='4') or (routeID='17')";
 
 
 <div class="container user-route-title">
-	<div class="col-xs-12 col-sm-8">
-		<h2><?php echo $fila['title']; ?><br></h2>
-	</div>
-	<div class="col-xs-12 col-sm-4">
-		<div class="row">
-			<div class="col-xs-6">
-				<img src="stars.png">
-			</div>
-			<div class="col-xs-2">
-				<img src="../images/iconos/download_pro.png">
-			</div>
-			<div class="col-xs-2">
-				<img src="../images/iconos/share_pro.png">
-			</div>
-			<div class="col-xs-2">
-				<img src="../images/iconos/favorite_pro.png">
+	<div class="row user-route-title-wrapper">
+		<div class="col-xs-12 col-sm-8">
+			<h2 class="user-route-title"><?php echo $fila['title']; ?><br></h2>
+		</div>
+		<div class="col-xs-12 col-sm-4">
+			<div class="row">
+				<div class="col-xs-6">
+					<img src="stars.png">
+				</div>
+				<div class="col-xs-2">
+					<img src="../images/iconos/download_pro.png">
+				</div>
+				<div class="col-xs-2">
+					<img src="../images/iconos/share_pro.png">
+				</div>
+				<div class="col-xs-2">
+					<img src="../images/iconos/favorite_pro.png">
+				</div>
 			</div>
 		</div>
 	</div>
@@ -50,6 +52,7 @@ $sql3="SELECT * FROM exercise where (zoneID='4') or (routeID='17')";
 					<?php echo $fila['calories'];?>
 				</div>
 				<div class="col-xs-4">
+					<img src="images/arm.png">
 					<?php echo $fila['exerciseNum'];?>
 				</div>
 			</div>
@@ -80,7 +83,7 @@ $sql3="SELECT * FROM exercise where (zoneID='4') or (routeID='17')";
 
 
 <div class="container">
-	<div class="row info-ruta-menu-wrapper">
+	<div class="row info-ruta-menu-wrapper" style="margin:2% -15px;">
 		<div class="col-xs-12">
 			<ul class="info-ruta-menu nav nav-tabs nav-justified">
 				<li class="active info-ruta-menu-option">
@@ -107,5 +110,6 @@ $sql3="SELECT * FROM exercise where (zoneID='4') or (routeID='17')";
 	} 
 	?>	
 </div>
+</div><!---inciniando-->
 
 

@@ -17,6 +17,10 @@ $sql3="SELECT * FROM exercise where zoneNum='1'";
 			$fila = $result->fetch_assoc(); 
 	    ?>
 
+
+
+
+
 <div class="container featured-route">
 	<div class="row routes-list-row topRow routes-list-row">
 		<div class="col-xs-12 col-sm-6 title">
@@ -190,6 +194,10 @@ $sql3="SELECT * FROM exercise where zoneNum='1'";
 	?>	
 
 </div>
+
+
+
+
 
 
 

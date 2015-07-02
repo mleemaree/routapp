@@ -163,70 +163,65 @@ nav {
 }
 
 /* line 15, ../sass/home/modules/_colors.scss */
-body {
-  color: #01394c;
-}
-
-/* line 19, ../sass/home/modules/_colors.scss */
 nav {
   color: white;
 }
 
-/* line 23, ../sass/home/modules/_colors.scss */
+/* line 19, ../sass/home/modules/_colors.scss */
 .navbar-inverse .navbar-brand {
   color: #d8ee1a;
 }
 
-/* line 27, ../sass/home/modules/_colors.scss */
+/* line 23, ../sass/home/modules/_colors.scss */
 a.btn.btn-default {
   color: #d8ee1a !important;
   border-color: #d8ee1a;
   background-color: #01394c;
 }
 
-/* line 33, ../sass/home/modules/_colors.scss */
+/* line 29, ../sass/home/modules/_colors.scss */
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:focus,
 .navbar-inverse .navbar-nav > .active > a:hover {
   background-color: #01394c;
 }
 
-/* line 39, ../sass/home/modules/_colors.scss */
+/* line 35, ../sass/home/modules/_colors.scss */
 .offcanvas {
   color: black;
 }
 
-/* line 43, ../sass/home/modules/_colors.scss */
+/* line 39, ../sass/home/modules/_colors.scss */
 .bottom {
   border-bottom: 1px solid #01394c;
 }
 
-/* line 47, ../sass/home/modules/_colors.scss */
+/* line 43, ../sass/home/modules/_colors.scss */
 .bottom-nav {
   background-color: #d7d6d6;
 }
 
-/* line 51, ../sass/home/modules/_colors.scss */
+/* line 47, ../sass/home/modules/_colors.scss */
 #filtro-busqueda {
   color: #01394c;
 }
 
-/* line 55, ../sass/home/modules/_colors.scss */
+/* line 51, ../sass/home/modules/_colors.scss */
 .navbar-default .navbar-nav > li > a {
   color: #01394c;
 }
 
-/* line 59, ../sass/home/modules/_colors.scss */
+/* line 55, ../sass/home/modules/_colors.scss */
 .middle {
   background-color: #01394c;
 }
 
-/* line 64, ../sass/home/modules/_colors.scss */
+/* line 60, ../sass/home/modules/_colors.scss */
 .middle li a {
   color: #fff !important;
 }
 
-/* line 68, ../sass/home/modules/_colors.scss */
+/* line 64, ../sass/home/modules/_colors.scss */
 #userName a {
   color: #fff;
 }

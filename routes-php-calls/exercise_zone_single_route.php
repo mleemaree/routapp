@@ -48,7 +48,7 @@ if ($result = $conexion->query($sql3)) {
 						<p class="ex-desc-title">Descripción</p>
 					</div>
 					<div class="row descriptionΕ-text">
-						<span id="descriptionΕ"><?php echo $fila['descriptionΕ'];?></span>
+						<span id="descriptionΕ"><?php echo $fila['descriptionEx'];?></span>
 					</div>
 				</div>
 			</div>
