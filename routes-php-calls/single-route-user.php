@@ -65,7 +65,7 @@ $sql3="SELECT * FROM exercise where (zoneID='4') or (routeID='17')";
 	</div>
 </div>
 
-
+<div class="col-xs-12 user-map"></div>
 
 
 <div class="container desc">

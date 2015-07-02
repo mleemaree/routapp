@@ -1335,19 +1335,30 @@ h2.user-name {
   display: none;
 }
 
-/* line 11, ../sass/explora.scss */
+/* line 10, ../sass/explora.scss */
+.user-map {
+  background-image: url(../images/explora/user-map.png);
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  height: 500px;
+  margin: 2% 0;
+}
+
+/* line 17, ../sass/explora.scss */
 .explora-subtitle {
   text-align: center;
   font-size: 1.3em;
   line-height: 1.3em;
   padding: 2%;
 }
-/* line 16, ../sass/explora.scss */
+/* line 22, ../sass/explora.scss */
 .explora-subtitle strong {
   font-weight: bold;
 }
 
-/* line 22, ../sass/explora.scss */
+/* line 28, ../sass/explora.scss */
 .explora-map {
   background-image: url(../images/explora/explora-map-1.png);
   -moz-background-size: cover;
@@ -1360,19 +1371,19 @@ h2.user-name {
   position: relative;
 }
 
-/* line 31, ../sass/explora.scss */
+/* line 37, ../sass/explora.scss */
 #barcelona-pin {
   position: absolute;
   top: 294px;
   right: 212px;
 }
 
-/* line 37, ../sass/explora.scss */
+/* line 43, ../sass/explora.scss */
 .zones {
   padding: 0 15px;
 }
 
-/* line 41, ../sass/explora.scss */
+/* line 47, ../sass/explora.scss */
 .explora-exercise-title-wrapper {
   background-color: #01394c;
   margin: 0 -30px;
@@ -1382,7 +1393,7 @@ h2.user-name {
   margin-bottom: 1%;
 }
 
-/* line 50, ../sass/explora.scss */
+/* line 56, ../sass/explora.scss */
 .explora-exercise-name, .explora-exercise-info {
   line-height: 2em;
 }

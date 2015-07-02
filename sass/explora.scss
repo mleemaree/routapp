@@ -7,6 +7,12 @@
 @import "home/partials/top-nav";
 
 
+.user-map{
+	@include background-image(url(../images/explora/user-map.png));
+	@include background-size(cover);
+	height:500px;
+	margin:2% 0;
+}
 
 .explora-subtitle{
 	text-align:center;
