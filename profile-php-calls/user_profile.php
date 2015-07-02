@@ -124,9 +124,6 @@ $sql1="SELECT * FROM users WHERE username=".$_SESSION['user']['username'];
 				</select>
 			</div>
 		</div>
-		<div class="row">
-			<button value="submit">Guardar Cambios</button>
-		</div>
 	</div>
 <hr>
 
@@ -172,7 +169,6 @@ $sql1="SELECT * FROM users WHERE username=".$_SESSION['user']['username'];
 			</div>
 		</div>
 		<div class="row">
-			<button value="submit">Guardar Cambios</button>
 		</div>
 	</div>
 
@@ -200,14 +196,15 @@ $sql1="SELECT * FROM users WHERE username=".$_SESSION['user']['username'];
 					   onblur="if (this.value == '') {this.value = '<?php echo $fila['password'];?>';}"
 			 		   onfocus="if (this.value == '<?php echo $fila['password'];?>') {this.value = '';}"
 			 		   placeholder="entrar nueva contraseña">
-			<input class="email-button" type="submit" value="Guardar">
 		</div>
 		<div class="row">
 			<input class="email-input" type="password" name="password2" size="30" value="<?php echo $fila['password'];?>"
 					   onblur="if (this.value == '') {this.value = '<?php echo $fila['password'];?>';}"
 			 		   onfocus="if (this.value == '<?php echo $fila['password'];?>') {this.value = '';}"
 			 		   placeholder="confirmar nueva contraseña">
-			<input class="email-button" type="submit" value="Guardar">
+		</div>
+		<div class="row">
+			<input class="email-button" type="submit" value="Guardar">			
 		</div>
 				
 		   
