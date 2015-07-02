@@ -7,6 +7,7 @@
 @import "profile/partials/top-nav";
 
 
+$pink: #d1005d;
 
 /*===Profile main nav====*/
 
@@ -137,12 +138,252 @@ h2.user-name{
 /* ESTADISTICAS============*/
 
 
-
+/*test
 .purple{
 	background-color:lavender; 
 	height:500px; 
 	width:100%;
 }
+*/
+
+.titles{
+	text-align:center;
+	h2{
+		font-weight: bold;
+		margin: 15% 0 2%;
+		color:$blue;
+	}
+}
+
+#circle{
+	text-align:center;
+	position:relative;
+	canvas{
+		margin:10%;
+	}
+}
+
+.nivel-percentaje{
+	position:absolute;
+	top:102px;
+	left:159px;
+	font-family:din condensed bold;
+	p{
+		font-size:1.1em;
+	}
+	strong{
+		font-size:3.5em;
+	}
+}
+
+.estadisticas-menu{
+	margin:5% 0;
+	border-bottom:1px solid $blue;
+}
+
+.estadisticas-menu-option{
+	text-align:center;
+	font-weight:bold;
+	color:$blue;
+	padding-bottom:2%;
+}
+
+#rutas-completadas li{
+	padding:3% 0 1% 4%;
+	border-bottom:1px solid $blue;
+	color:$blue;
+	h3{
+		font-weight:bold;
+		padding-bottom:3%;
+	}
+}
+
+.points{
+	font-family:din condensed bold;
+	font-size:2em;
+	font-style:italic;
+	color:$pink;
+}
+
+.has{
+	color:$blue;
+	font-weight:bold;
+	text-align:center;
+}
+
+.lower{
+	text-align:center;
+	padding-top:8%;
+}
+
+.pnum{
+	display:inline-block;
+	font-family:din condensed bold;
+	font-size:4em;
+	color:$pink;
+	padding-right:2%;
+}
+
+.meas{
+	display:inline-block;
+	font-family:din condensed bold;
+	font-size:2em;
+}
+
+.recorrido-graphic{
+	padding-bottom:5%;
+	border-bottom:1px solid #d3d3d3;
+	margin:0;
+}
+
+.quemado, .entrenado{
+	padding:3% 0;
+	border-bottom:1px solid #d3d3d3;
+	margin:0;
+}
+
+.compare{
+	color:$blue;
+	span{
+		font-weight:bold;
+	}
+}
+
+.equal{
+	font-weight:bold;
+	padding-bottom:3%;
+}
+
+#descargar-estadisticas{
+	margin:3% 0 10%;
+	background-color:$blue;
+	color:#fff;
+	border-radius:5px;
+	border:none;
+	padding:1.2% 2%;
+}
+
+
+
+/*--=-----INFO Y AJUSTES------*/
+
+
+.info-title-wrapper{
+	border-bottom:1px solid $blue;
+	margin:0
+}
+
+.info-title{
+	font-size:1.2em;
+	font-weight:bold;
+	padding:1% 0;
+	color:$blue;
+}
+
+$backgray:#f0f0f0;
+$bordergray:#c0c0c0;
+
+#info-adjusts{
+	width:85%;
+	color:$blue;
+	.row{
+		margin:0;
+	}
+	input, select{
+		line-height:2em;
+		background-color:$backgray;
+		border:1px solid $bordergray;
+		width:100%;
+		color:$blue;
+	}
+	select{
+		height:2.2em;
+	}
+	button{
+  margin: 3% 1%;
+  background-color: $blue;
+  color: white;
+  border: none;
+  border-radius: 29px;
+  padding: 1.5% 3%;
+	}
+}
+
+.info-gen-title{
+	padding:3% 1% 0;
+	font-weight:bold;
+	color:$blue;
+}
+
+.labels{
+	padding:2% 0 0.5%;
+}
+
+.pref-dep{
+	width:85%;
+	color:$blue;
+	textarea{
+		width:40%;
+		height:150px;
+		background-color: $backgray;
+		border: 1px solid $bordergray;
+	}
+	button{
+		margin: 3% 1%;
+    	background-color: $blue;
+    	color: white;
+    	border: none;
+    	border-radius: 29px;
+    	padding: 1.5% 3%;
+
+	}
+	.row{
+		margin:0;
+	}
+}
+
+.pref-labels{
+	padding-top:2%;
+	padding-bottom:1%;
+}
+
+#sportLevel{
+	width:20%;
+	background-color: $backgray;
+	border: 1px solid $bordergray;
+	height:2.2em;
+}
+
+.email-contrasena{
+	width:85%;
+	color:$blue;
+	.row{
+		margin:0 15px;
+	}
+	.email-input, select{
+		line-height:2em;
+		background-color:$backgray;
+		border:1px solid $bordergray;
+		width:40%;
+		color:$blue;
+	}
+	select{
+		height:2.2em;
+	}
+}
+
+.email-button{
+	margin: 3% 1%;
+    	background-color: $blue;
+    	color: white;
+    	border: none;
+    	border-radius: 29px;
+    	padding: 1.5% 3%;
+}
+
+
+
+
 
 .green{
 	background-color:#B8FFDB;

@@ -1,0 +1,261 @@
+@charset "UTF-8";
+/* line 11, ../sass/ind-route-pro.scss */
+.featured-route-ind-wrapper {
+  margin: 0 15px 0 15px;
+}
+
+/* line 15, ../sass/ind-route-pro.scss */
+.featured-route {
+  background-image: url(../images/featured-route.png);
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  height: 500px;
+  position: relative;
+  margin: 0;
+  width: 100%;
+}
+
+/* line 24, ../sass/ind-route-pro.scss */
+.topRow {
+  margin-top: 50px;
+}
+
+/* line 28, ../sass/ind-route-pro.scss */
+.featured-route-card-title {
+  font-size: 4.5em;
+  font-family: din condensed bold;
+  font-style: italic;
+  color: white;
+  text-shadow: 1px 1px #d8ee1a;
+}
+
+/* line 36, ../sass/ind-route-pro.scss */
+.title {
+  border-bottom: 1px solid #d8ee1a;
+}
+
+/* line 40, ../sass/ind-route-pro.scss */
+.credits {
+  text-align: right;
+}
+
+/* line 44, ../sass/ind-route-pro.scss */
+.credit-cost {
+  font-size: 3em;
+  font-weight: bold;
+  position: absolute;
+  right: 12.5%;
+  top: -6px;
+}
+
+/* line 52, ../sass/ind-route-pro.scss */
+.featured-route-card-subtitle {
+  font-style: italic;
+  color: white;
+  margin: 2% 0;
+  font-size: 1.2em;
+}
+
+/* line 59, ../sass/ind-route-pro.scss */
+.metrics {
+  font-family: din condensed bold;
+  font-size: 1.4em;
+  font-style: italic;
+  color: #01394c;
+  display: inline;
+  padding-right: 1%;
+}
+
+/* line 68, ../sass/ind-route-pro.scss */
+.metric-image {
+  height: 1.4em;
+}
+
+/* line 72, ../sass/ind-route-pro.scss */
+.metric-guages {
+  position: absolute;
+  top: 257px;
+}
+
+/* line 77, ../sass/ind-route-pro.scss */
+.metric-numbers {
+  font-size: 5em;
+  font-family: din condensed bold;
+  font-style: italic;
+  color: #01394c;
+}
+
+/* line 84, ../sass/ind-route-pro.scss */
+.mins {
+  position: absolute;
+  bottom: 122px;
+}
+
+/*========DESCRIPTION & Characteristics====*/
+/* line 91, ../sass/ind-route-pro.scss */
+.desc-title, .char-title {
+  padding-top: 2%;
+  border-bottom: 1px solid #01394c;
+  margin-bottom: 2%;
+}
+
+/* line 97, ../sass/ind-route-pro.scss */
+.char {
+  margin-bottom: 5%;
+}
+
+/* line 101, ../sass/ind-route-pro.scss */
+.desc h2, .char h2 {
+  font-family: din condensed bold;
+  font-size: 3em;
+  font-style: italic;
+  text-shadow: 1px 1px #d8ee1a;
+  color: #01394c;
+}
+
+/* line 111, ../sass/ind-route-pro.scss */
+.ruta-opt li {
+  display: inline-block;
+}
+
+/* line 116, ../sass/ind-route-pro.scss */
+#map {
+  height: 400px;
+  background-color: gray;
+}
+
+/* line 121, ../sass/ind-route-pro.scss */
+.desc-text, .char-info {
+  line-height: 2;
+  color: #01394c;
+}
+
+/* line 126, ../sass/ind-route-pro.scss */
+.type span {
+  font-weight: bold;
+}
+
+/* line 130, ../sass/ind-route-pro.scss */
+.charac {
+  margin-bottom: 5%;
+}
+
+/*=====zone information====*/
+/* line 137, ../sass/ind-route-pro.scss */
+.info-ruta-menu {
+  border: 1px solid #01394c !important;
+  color: #01394c;
+  border-radius: 13px;
+}
+
+/* line 144, ../sass/ind-route-pro.scss */
+.info-ruta-menu-option {
+  vertical-align: middle;
+  padding: 2%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+/* line 149, ../sass/ind-route-pro.scss */
+.info-ruta-menu-option.active {
+  background-color: #01394c;
+  color: white;
+}
+
+/* line 155, ../sass/ind-route-pro.scss */
+.zones-row {
+  margin: 2% 0;
+  background-color: #01394c;
+  padding: 1.5% 0;
+  color: white;
+  border-radius: 15px;
+}
+
+/* line 163, ../sass/ind-route-pro.scss */
+.in-title {
+  display: inline-block;
+}
+
+/* line 167, ../sass/ind-route-pro.scss */
+.names span {
+  display: block;
+}
+
+/* line 171, ../sass/ind-route-pro.scss */
+.zone-title {
+  padding-right: 5%;
+}
+
+/* line 175, ../sass/ind-route-pro.scss */
+.running-guy {
+  vertical-align: middle;
+  padding-right: 1%;
+}
+
+/* line 180, ../sass/ind-route-pro.scss */
+.zone-distance {
+  color: #d8ee1a;
+  vertical-align: middle;
+}
+
+/* line 185, ../sass/ind-route-pro.scss */
+.zone-img {
+  text-align: center;
+}
+
+/* line 189, ../sass/ind-route-pro.scss */
+#zone-img {
+  width: 80%;
+}
+
+/* line 193, ../sass/ind-route-pro.scss */
+.types p, .name {
+  color: #01394c;
+  line-height: 2em;
+}
+
+/* line 198, ../sass/ind-route-pro.scss */
+.name {
+  font-weight: bold;
+}
+
+/* line 202, ../sass/ind-route-pro.scss */
+.desc-name {
+  color: #01394c;
+  font-weight: bold;
+  line-height: 1.2em;
+}
+
+/* line 208, ../sass/ind-route-pro.scss */
+#exercise-title {
+  font-weight: bold;
+  padding-bottom: 1%;
+  color: #01394c;
+}
+
+/* line 214, ../sass/ind-route-pro.scss */
+.exercise-title-wrapper {
+  border-bottom: 1px solid #01394c;
+  margin: 3%;
+}
+
+/* line 219, ../sass/ind-route-pro.scss */
+.descriptionΕ-title {
+  margin: 5% 0;
+  font-weight: bold;
+  color: #01394c;
+}
+
+/* line 225, ../sass/ind-route-pro.scss */
+.descriptionΕ-text {
+  margin: 0;
+  color: #01394c;
+  line-height: 1.2em;
+}
+
+/* line 231, ../sass/ind-route-pro.scss */
+.infosman2 {
+  float: right;
+  margin-bottom: 10%;
+}

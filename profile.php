@@ -5,8 +5,6 @@ include('conexion-php-calls/conexion-routapp.php');
 
 $sql="SELECT * FROM users WHERE username=".$_SESSION['user']['username'];
 
-echo $sql;
-echo $_SESSION['user']['avatar'];
 ?>
 
 <!doctype html>

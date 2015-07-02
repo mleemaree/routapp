@@ -523,7 +523,7 @@ a.btn.btn-default {
   font-family: din condensed bold;
   font-style: italic;
   color: white;
-  text-shadow: 2px 2px 1px #d8ee1a;
+  text-shadow: 1px 1px #d8ee1a;
 }
 
 /* line 195, ../sass/home.scss */
@@ -596,11 +596,70 @@ a.btn.btn-default {
   -o-background-size: cover;
   -webkit-background-size: cover;
   background-size: cover;
-  height: 170px;
+  height: 221px;
   background-position: right;
   -moz-box-shadow: gray 1px 1px 8px;
   -webkit-box-shadow: gray 1px 1px 8px;
   box-shadow: gray 1px 1px 8px;
+  position: relative;
+}
+
+/* line 259, ../sass/home.scss */
+.bought-route-card-title {
+  font-family: din condensed bold;
+  font-style: italic;
+  color: white;
+  text-shadow: 1px 1px #d8ee1a;
+  font-size: 4em;
+  padding: 2% 0 0;
+}
+
+/* line 268, ../sass/home.scss */
+.bought-title {
+  border-bottom: 1px solid #d8ee1a;
+}
+
+/* line 272, ../sass/home.scss */
+.bought-route-card-subtitle {
+  font-style: italic;
+  color: white;
+  margin: 1% 0;
+  font-size: 1.2em;
+}
+
+/* line 279, ../sass/home.scss */
+.bought-metrics {
+  font-family: din condensed bold;
+  font-size: 1.5em;
+  font-style: italic;
+  color: #01394c;
+  display: inline;
+  padding-right: 1%;
+}
+
+/* line 288, ../sass/home.scss */
+.bought-metric-image {
+  height: 1.1em;
+}
+
+/* line 292, ../sass/home.scss */
+.bought-metric-guages {
+  position: absolute;
+  bottom: 60px;
+}
+
+/* line 297, ../sass/home.scss */
+.bought-metric-numbers {
+  font-size: 3em;
+  font-family: din condensed bold;
+  font-style: italic;
+  color: #01394c;
+}
+
+/* line 304, ../sass/home.scss */
+.bought-mins {
+  position: absolute;
+  bottom: 2px;
 }
 
 /* Welcome to Compass.
@@ -840,7 +899,7 @@ a.btn.btn-default {
 }
 
 /*===Profile main nav====*/
-/* line 13, ../sass/profile.scss */
+/* line 14, ../sass/profile.scss */
 #profile-background {
   background-image: url(../images/profile-background.png);
   -moz-background-size: cover;
@@ -851,14 +910,14 @@ a.btn.btn-default {
   width: 100%;
 }
 
-/* line 20, ../sass/profile.scss */
+/* line 21, ../sass/profile.scss */
 .logged-user-image {
   display: inline;
   vertical-align: middle;
   margin: 11% 2%;
 }
 
-/* line 26, ../sass/profile.scss */
+/* line 27, ../sass/profile.scss */
 h2.user-name {
   color: #fff;
   text-transform: uppercase;
@@ -867,90 +926,90 @@ h2.user-name {
   vertical-align: middle;
 }
 
-/* line 35, ../sass/profile.scss */
+/* line 36, ../sass/profile.scss */
 .profile-menu-option {
   height: 50px;
   text-align: center;
   border-right: 1px solid #01394c;
 }
-/* line 39, ../sass/profile.scss */
+/* line 40, ../sass/profile.scss */
 .profile-menu-option span {
   font-size: 0.9em;
   color: #01394c;
   position: relative;
   top: 18px;
 }
-/* line 45, ../sass/profile.scss */
+/* line 46, ../sass/profile.scss */
 .profile-menu-option:last-child {
   border: none;
 }
-/* line 48, ../sass/profile.scss */
+/* line 49, ../sass/profile.scss */
 .profile-menu-option.active {
   background-color: #01394c;
 }
-/* line 50, ../sass/profile.scss */
+/* line 51, ../sass/profile.scss */
 .profile-menu-option.active span {
   color: white;
 }
 
-/* line 56, ../sass/profile.scss */
+/* line 57, ../sass/profile.scss */
 .profile-menu {
   border-bottom: 1px solid #01394c !important;
 }
 
 /*====Mis rutas=====*/
-/* line 63, ../sass/profile.scss */
+/* line 64, ../sass/profile.scss */
 #ruta-map {
   margin: 3% 0;
 }
 
-/* line 67, ../sass/profile.scss */
+/* line 68, ../sass/profile.scss */
 #route-map {
   width: 100%;
 }
 
-/* line 71, ../sass/profile.scss */
+/* line 72, ../sass/profile.scss */
 .rc {
   margin: 3% 0;
 }
 
-/* line 75, ../sass/profile.scss */
+/* line 76, ../sass/profile.scss */
 .bought-cards {
   padding: 0;
 }
 
 /*====mis rutas menu====*/
-/* line 81, ../sass/profile.scss */
+/* line 82, ../sass/profile.scss */
 .mis-rutas-menu {
   width: 70%;
   display: inline-block;
 }
 
-/* line 86, ../sass/profile.scss */
+/* line 87, ../sass/profile.scss */
 .mis-rutas-menu-option {
   display: inline-block;
   width: 33%;
 }
-/* line 89, ../sass/profile.scss */
+/* line 90, ../sass/profile.scss */
 .mis-rutas-menu-option span {
   font-weight: bold;
   text-transform: uppercase;
   color: #01394c;
 }
 
-/* line 96, ../sass/profile.scss */
+/* line 97, ../sass/profile.scss */
 #mis-rutas-filtro {
   display: inline-block;
   float: right;
 }
 
 /*---Mis Rutas Compradas--*/
-/* line 104, ../sass/profile.scss */
+/* line 105, ../sass/profile.scss */
 #mis-rutas-panes {
   margin-bottom: 5%;
 }
 
-/* line 108, ../sass/profile.scss */
+/* line 109, ../sass/profile.scss */
 #mis-rutas-compradas-pane, #mis-rutas-creadas-pane, #mis-rutas-favoritas-pane {
   border-top: 1px solid #01394c;
   border-bottom: 1px solid #01394c;
@@ -958,17 +1017,17 @@ h2.user-name {
   margin-bottom: 5%;
 }
 
-/* line 115, ../sass/profile.scss */
+/* line 116, ../sass/profile.scss */
 #mis-rutas-compradas-pane-wrapper, #mis-rutas-favoritas-pane-wrapper {
   display: none;
 }
 
-/* line 119, ../sass/profile.scss */
+/* line 120, ../sass/profile.scss */
 #comprar-rutas-button {
   margin: 2% 0 5%;
 }
 
-/* line 123, ../sass/profile.scss */
+/* line 124, ../sass/profile.scss */
 #comprar-ruta, #crear-ruta {
   margin-right: 1%;
   border-color: 1px solid #01394c;
@@ -980,21 +1039,290 @@ h2.user-name {
 }
 
 /* ESTADISTICAS============*/
-/* line 141, ../sass/profile.scss */
-.purple {
-  background-color: lavender;
-  height: 500px;
-  width: 100%;
+/*test
+.purple{
+	background-color:lavender; 
+	height:500px; 
+	width:100%;
+}
+*/
+/* line 149, ../sass/profile.scss */
+.titles {
+  text-align: center;
+}
+/* line 151, ../sass/profile.scss */
+.titles h2 {
+  font-weight: bold;
+  margin: 15% 0 2%;
+  color: #01394c;
 }
 
-/* line 147, ../sass/profile.scss */
+/* line 158, ../sass/profile.scss */
+#circle {
+  text-align: center;
+  position: relative;
+}
+/* line 161, ../sass/profile.scss */
+#circle canvas {
+  margin: 10%;
+}
+
+/* line 166, ../sass/profile.scss */
+.nivel-percentaje {
+  position: absolute;
+  top: 102px;
+  left: 159px;
+  font-family: din condensed bold;
+}
+/* line 171, ../sass/profile.scss */
+.nivel-percentaje p {
+  font-size: 1.1em;
+}
+/* line 174, ../sass/profile.scss */
+.nivel-percentaje strong {
+  font-size: 3.5em;
+}
+
+/* line 179, ../sass/profile.scss */
+.estadisticas-menu {
+  margin: 5% 0;
+  border-bottom: 1px solid #01394c;
+}
+
+/* line 184, ../sass/profile.scss */
+.estadisticas-menu-option {
+  text-align: center;
+  font-weight: bold;
+  color: #01394c;
+  padding-bottom: 2%;
+}
+
+/* line 191, ../sass/profile.scss */
+#rutas-completadas li {
+  padding: 3% 0 1% 4%;
+  border-bottom: 1px solid #01394c;
+  color: #01394c;
+}
+/* line 195, ../sass/profile.scss */
+#rutas-completadas li h3 {
+  font-weight: bold;
+  padding-bottom: 3%;
+}
+
+/* line 201, ../sass/profile.scss */
+.points {
+  font-family: din condensed bold;
+  font-size: 2em;
+  font-style: italic;
+  color: #d1005d;
+}
+
+/* line 208, ../sass/profile.scss */
+.has {
+  color: #01394c;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* line 214, ../sass/profile.scss */
+.lower {
+  text-align: center;
+  padding-top: 8%;
+}
+
+/* line 219, ../sass/profile.scss */
+.pnum {
+  display: inline-block;
+  font-family: din condensed bold;
+  font-size: 4em;
+  color: #d1005d;
+  padding-right: 2%;
+}
+
+/* line 227, ../sass/profile.scss */
+.meas {
+  display: inline-block;
+  font-family: din condensed bold;
+  font-size: 2em;
+}
+
+/* line 233, ../sass/profile.scss */
+.recorrido-graphic {
+  padding-bottom: 5%;
+  border-bottom: 1px solid #d3d3d3;
+  margin: 0;
+}
+
+/* line 239, ../sass/profile.scss */
+.quemado, .entrenado {
+  padding: 3% 0;
+  border-bottom: 1px solid #d3d3d3;
+  margin: 0;
+}
+
+/* line 245, ../sass/profile.scss */
+.compare {
+  color: #01394c;
+}
+/* line 247, ../sass/profile.scss */
+.compare span {
+  font-weight: bold;
+}
+
+/* line 252, ../sass/profile.scss */
+.equal {
+  font-weight: bold;
+  padding-bottom: 3%;
+}
+
+/* line 257, ../sass/profile.scss */
+#descargar-estadisticas {
+  margin: 3% 0 10%;
+  background-color: #01394c;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  padding: 1.2% 2%;
+}
+
+/*--=-----INFO Y AJUSTES------*/
+/* line 271, ../sass/profile.scss */
+.info-title-wrapper {
+  border-bottom: 1px solid #01394c;
+  margin: 0;
+}
+
+/* line 276, ../sass/profile.scss */
+.info-title {
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 1% 0;
+  color: #01394c;
+}
+
+/* line 286, ../sass/profile.scss */
+#info-adjusts {
+  width: 85%;
+  color: #01394c;
+}
+/* line 289, ../sass/profile.scss */
+#info-adjusts .row {
+  margin: 0;
+}
+/* line 292, ../sass/profile.scss */
+#info-adjusts input, #info-adjusts select {
+  line-height: 2em;
+  background-color: #f0f0f0;
+  border: 1px solid #c0c0c0;
+  width: 100%;
+  color: #01394c;
+}
+/* line 299, ../sass/profile.scss */
+#info-adjusts select {
+  height: 2.2em;
+}
+/* line 302, ../sass/profile.scss */
+#info-adjusts button {
+  margin: 3% 1%;
+  background-color: #01394c;
+  color: white;
+  border: none;
+  border-radius: 29px;
+  padding: 1.5% 3%;
+}
+
+/* line 312, ../sass/profile.scss */
+.info-gen-title {
+  padding: 3% 1% 0;
+  font-weight: bold;
+  color: #01394c;
+}
+
+/* line 318, ../sass/profile.scss */
+.labels {
+  padding: 2% 0 0.5%;
+}
+
+/* line 322, ../sass/profile.scss */
+.pref-dep {
+  width: 85%;
+  color: #01394c;
+}
+/* line 325, ../sass/profile.scss */
+.pref-dep textarea {
+  width: 40%;
+  height: 150px;
+  background-color: #f0f0f0;
+  border: 1px solid #c0c0c0;
+}
+/* line 331, ../sass/profile.scss */
+.pref-dep button {
+  margin: 3% 1%;
+  background-color: #01394c;
+  color: white;
+  border: none;
+  border-radius: 29px;
+  padding: 1.5% 3%;
+}
+/* line 340, ../sass/profile.scss */
+.pref-dep .row {
+  margin: 0;
+}
+
+/* line 345, ../sass/profile.scss */
+.pref-labels {
+  padding-top: 2%;
+  padding-bottom: 1%;
+}
+
+/* line 350, ../sass/profile.scss */
+#sportLevel {
+  width: 20%;
+  background-color: #f0f0f0;
+  border: 1px solid #c0c0c0;
+  height: 2.2em;
+}
+
+/* line 357, ../sass/profile.scss */
+.email-contrasena {
+  width: 85%;
+  color: #01394c;
+}
+/* line 360, ../sass/profile.scss */
+.email-contrasena .row {
+  margin: 0 15px;
+}
+/* line 363, ../sass/profile.scss */
+.email-contrasena .email-input, .email-contrasena select {
+  line-height: 2em;
+  background-color: #f0f0f0;
+  border: 1px solid #c0c0c0;
+  width: 40%;
+  color: #01394c;
+}
+/* line 370, ../sass/profile.scss */
+.email-contrasena select {
+  height: 2.2em;
+}
+
+/* line 375, ../sass/profile.scss */
+.email-button {
+  margin: 3% 1%;
+  background-color: #01394c;
+  color: white;
+  border: none;
+  border-radius: 29px;
+  padding: 1.5% 3%;
+}
+
+/* line 388, ../sass/profile.scss */
 .green {
   background-color: #B8FFDB;
   height: 500px;
   width: 100%;
 }
 
-/* line 153, ../sass/profile.scss */
+/* line 394, ../sass/profile.scss */
 #estadisticas-profile, #creditos-profile,
 #informacion-profile {
   display: none;

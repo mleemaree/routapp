@@ -1,8 +1,12 @@
 <script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
 <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
 
-<!--JASNY -->
-<script type="text/javascript" src="bower_components/jasny-bootstrap/dist/js/jasny-bootstrap.js"></script>
+<!--Circle Progress -->
+<script src="bower_components/jquery-circle-progress/dist/circle-progress.js"></script>
+
+<!---Chart.js-->
+
+<script src="bower_components/Chart.js/Chart.min.js"></script>
 
 
 <!--stylesheet-->

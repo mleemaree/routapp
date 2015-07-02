@@ -1,0 +1,234 @@
+@import "compass/css3";
+
+
+$blue: rgba(1,57,76,1);
+
+$green: rgba(216,238,26,1);
+
+$gray: #d7d6d6;
+
+
+.featured-route-ind-wrapper{
+	margin:0 15px 0 15px;
+}
+
+.featured-route{
+	@include background-image(url(../images/featured-route.png));
+	@include background-size(cover);
+	height:500px;
+	position:relative;
+	margin:0;
+	width:100%;
+}
+
+.topRow{
+	margin-top:50px;
+}
+
+.featured-route-card-title{
+  font-size: 4.5em;
+  font-family: din condensed bold;
+  font-style: italic;
+  color: white;
+  text-shadow: 1px 1px $green;
+}
+
+.title{
+	border-bottom:1px solid $green;
+}
+
+.credits{
+	text-align:right;
+}
+
+.credit-cost{
+  font-size: 3em;
+  font-weight: bold;
+  position: absolute;
+  right: 12.5%;
+  top: -6px;
+}
+
+.featured-route-card-subtitle{
+  font-style: italic;
+  color: white;
+  margin: 2% 0;
+  font-size: 1.2em;
+}
+
+.metrics{
+  font-family: din condensed bold;
+  font-size: 1.4em;
+  font-style: italic;
+  color: $blue;
+  display: inline;
+  padding-right: 1%;
+}
+
+.metric-image{
+	height:1.4em;
+}
+
+.metric-guages{
+	position:absolute;
+	top:257px;
+}
+
+.metric-numbers{
+  font-size: 5em;
+  font-family: din condensed bold;
+  font-style: italic;
+  color: $blue;
+}
+
+.mins{
+	position:absolute;
+	bottom:122px;
+}
+
+/*========DESCRIPTION & Characteristics====*/
+
+.desc-title, .char-title{
+	padding-top:2%;
+	border-bottom:1px solid $blue;
+	margin-bottom:2%;
+}
+
+.char{
+	margin-bottom:5%;
+}
+
+.desc h2, .char h2{
+  font-family: din condensed bold;
+  font-size: 3em;
+  font-style: italic;
+  text-shadow: 1px 1px $green;
+  color:$blue;
+
+
+}
+
+.ruta-opt li{
+	display:inline-block;
+}
+
+
+#map{
+	height:400px;
+	background-color:gray;
+}
+
+.desc-text, .char-info{
+	line-height:2;
+	color:$blue;
+}
+
+.type span{
+	font-weight:bold;
+}
+
+.charac{
+	margin-bottom:5%;
+}
+
+
+/*=====zone information====*/
+
+.info-ruta-menu{
+  border: 1px solid $blue !important;
+  color: $blue;
+  border-radius: 13px;
+
+}
+
+.info-ruta-menu-option{
+	vertical-align:middle;
+	padding:2%;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	&.active{
+		background-color:$blue;
+		color:white;
+	}
+}
+
+.zones-row{
+	margin:2% 0;
+	background-color:$blue;
+	padding:1.5% 0;
+	color:white;
+	border-radius:15px;
+}
+
+.in-title{
+	display:inline-block;
+}
+
+.names span{
+	display:block;
+}
+
+.zone-title{
+	padding-right:5%;
+}
+
+.running-guy{
+	vertical-align:middle;
+	padding-right:1%;
+}
+
+.zone-distance{
+	color:$green;
+	vertical-align:middle;
+}
+
+.zone-img{
+	text-align:center;
+}
+
+#zone-img{
+	width:80%;
+}
+
+.types p, .name{
+	color: $blue;
+	line-height:2em;
+}
+
+.name{
+	font-weight:bold;
+}
+
+.desc-name{
+	color:$blue;
+	font-weight:bold;
+	line-height:1.2em;
+}
+
+#exercise-title{
+	font-weight:bold;
+	padding-bottom:1%;
+	color:$blue;
+}
+
+.exercise-title-wrapper{
+	border-bottom:1px solid $blue;
+	margin:3%;
+}
+
+.descriptionΕ-title{
+	margin:5% 0;
+	font-weight:bold;
+	color:$blue;
+}
+
+.descriptionΕ-text{
+	margin:0;
+	color:$blue;
+	line-height:1.2em;
+}
+
+.infosman2{
+	float:right;
+	margin-bottom:10%;
+}

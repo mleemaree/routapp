@@ -15,6 +15,7 @@ if ($result = $conexion->query($sql)) {
 
     			?>
 
+    		<a href="ind-route-pro.php">
     			<div class="container featured-route">
     				<div class="row routes-list-row topRow routes-list-row">
     					<div class="col-xs-12 col-sm-6 title">
@@ -42,7 +43,7 @@ if ($result = $conexion->query($sql)) {
 									<img class="metric-image" src="../images/shoe.png">
 								</div>
 								<div class="col-xs-4">
-									<h4 class="metrics">KILCALORÍAS</h4>
+									<h4 class="metrics">KILOCALORÍAS</h4>
 									<img class="metric-image" src="../images/fire.png">
 								</div>
 								<div class="col-xs-4">
@@ -70,6 +71,8 @@ if ($result = $conexion->query($sql)) {
 						<div class="hidden-xs col-sm-6"></div>
 					</div>
 				</div>
+
+			</a>
 			<?php echo '<hr>'; ?>
 				<?php    			
     		}
@@ -79,14 +82,57 @@ if ($result = $conexion->query($sql)) {
     			?>
 
     			<div class="bought-route-card">
-
-						<?php echo $fila['title']; ?>
-						<?php echo $fila['subtitle']; ?>
-						<?php echo $fila['distance'];?>
-						<?php echo $fila['calories'];?>
-						<?php echo $fila['exerciseNum'];?>
-						
-
+    				<div class="row routes-list-row bought-topRow">
+    					<div class="col-xs-12 col-sm-6 bought-title">
+    						<h2 class="bought-route-card-title">
+								<?php echo $fila['title']; ?>
+							</h2>
+						</div>
+						<div class="hidden-xs col-sm-6"></div>
+					</div>
+					<div class="row routes-list-row">
+    					<div class="col-xs-12 col-sm-6">
+    						<h2 class="bought-route-card-subtitle">
+								<?php echo $fila['subtitle']; ?>
+							</h2>
+						</div>
+						<div class="hidden-xs col-sm-6"></div>
+					</div>
+					<div class="row routes-list-row">
+						<div class="col-xs-12 col-sm-6 bought-metric-guages">
+							<div class="row routes-list-row">
+								<div class="col-xs-4">
+									<h4 class="bought-metrics">KILÓMETROS</h4>
+									<img class="bought-metric-image" src="../images/shoe.png">
+								</div>
+								<div class="col-xs-4">
+									<h4 class="bought-metrics">KILOCALORÍAS</h4>
+									<img class="bought-metric-image" src="../images/fire.png">
+								</div>
+								<div class="col-xs-4">
+									<h4 class="bought-metrics">EJERCICIOS</h4>
+									<img class="bought-metric-image" src="../images/arm.png">
+								</div>
+							</div>
+						</div>
+						<div class="hidden-xs col-sm-6"></div>
+					</div>
+					<div class="row routes-list-row">
+						<div class="col-xs-12 col-sm-6 bought-mins">
+							<div class="row routes-list-row">
+								<div class="col-xs-4">
+									<h4 class="bought-metric-numbers"><?php echo $fila['distance'];?></h4>
+								</div>
+								<div class="col-xs-4">
+									<h4 class="bought-metric-numbers"><?php echo $fila['calories'];?></h4>
+								</div>
+								<div class="col-xs-4">
+									<h4 class="bought-metric-numbers"><?php echo $fila['exerciseNum'];?></h4>
+								</div>
+							</div>
+						</div>
+						<div class="hidden-xs col-sm-6"></div>
+					</div>
 				</div>
 			<?php echo '<hr>'; ?>
 				<?php    			

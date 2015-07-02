@@ -523,7 +523,7 @@ a.btn.btn-default {
   font-family: din condensed bold;
   font-style: italic;
   color: white;
-  text-shadow: 2px 2px 1px #d8ee1a;
+  text-shadow: 1px 1px #d8ee1a;
 }
 
 /* line 195, ../sass/home.scss */
@@ -596,9 +596,68 @@ a.btn.btn-default {
   -o-background-size: cover;
   -webkit-background-size: cover;
   background-size: cover;
-  height: 170px;
+  height: 221px;
   background-position: right;
   -moz-box-shadow: gray 1px 1px 8px;
   -webkit-box-shadow: gray 1px 1px 8px;
   box-shadow: gray 1px 1px 8px;
+  position: relative;
+}
+
+/* line 259, ../sass/home.scss */
+.bought-route-card-title {
+  font-family: din condensed bold;
+  font-style: italic;
+  color: white;
+  text-shadow: 1px 1px #d8ee1a;
+  font-size: 4em;
+  padding: 2% 0 0;
+}
+
+/* line 268, ../sass/home.scss */
+.bought-title {
+  border-bottom: 1px solid #d8ee1a;
+}
+
+/* line 272, ../sass/home.scss */
+.bought-route-card-subtitle {
+  font-style: italic;
+  color: white;
+  margin: 1% 0;
+  font-size: 1.2em;
+}
+
+/* line 279, ../sass/home.scss */
+.bought-metrics {
+  font-family: din condensed bold;
+  font-size: 1.5em;
+  font-style: italic;
+  color: #01394c;
+  display: inline;
+  padding-right: 1%;
+}
+
+/* line 288, ../sass/home.scss */
+.bought-metric-image {
+  height: 1.1em;
+}
+
+/* line 292, ../sass/home.scss */
+.bought-metric-guages {
+  position: absolute;
+  bottom: 60px;
+}
+
+/* line 297, ../sass/home.scss */
+.bought-metric-numbers {
+  font-size: 3em;
+  font-family: din condensed bold;
+  font-style: italic;
+  color: #01394c;
+}
+
+/* line 304, ../sass/home.scss */
+.bought-mins {
+  position: absolute;
+  bottom: 2px;
 }

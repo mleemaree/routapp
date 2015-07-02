@@ -208,6 +208,5 @@ $_SESSION['name']='user';
 
 
 <?php include ('php-calls/scripts.php'); ?>
-<script type="text/javascript" src="js/mis-rutas.js"></script>
 </body>
 </html>

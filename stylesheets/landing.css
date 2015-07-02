@@ -602,3 +602,9 @@ nav {
   font-weight: bold;
   padding-top: 6%;
 }
+
+/*------BE TRAINER----*/
+/* line 324, ../sass/landing.scss */
+.nav-wrapper {
+  background-color: #01394c;
+}

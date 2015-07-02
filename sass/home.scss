@@ -189,7 +189,7 @@
   font-family: din condensed bold;
   font-style: italic;
   color: white;
-  text-shadow: 2px 2px 1px $green;
+  text-shadow: 1px 1px $green;
 }
 
 .title{
@@ -250,11 +250,58 @@
 .bought-route-card {
 	background-image: url(../images/bought-route-card.png);
 	@include background-size(cover);
-	height:170px;
+	height:221px;
 	background-position:right;
 	@include box-shadow(gray 1px 1px 8px);
+	position:relative;
 }
 
+.bought-route-card-title{
+	font-family: din condensed bold;
+  font-style: italic;
+  color: white;
+  text-shadow: 1px 1px $green;
+  font-size:4em;
+  padding:2% 0 0;
+}
 
+.bought-title{
+	border-bottom:1px solid $green;
+}
 
+.bought-route-card-subtitle{
+  font-style: italic;
+  color: white;
+  margin: 1% 0;
+  font-size: 1.2em;
+}
 
+.bought-metrics{
+  font-family: din condensed bold;
+  font-size: 1.5em;
+  font-style: italic;
+  color: $blue;
+  display: inline;
+  padding-right: 1%;
+}
+
+.bought-metric-image{
+	height:1.1em;
+}
+
+.bought-metric-guages{
+	position:absolute;
+	bottom:60px;
+}
+
+.bought-metric-numbers{
+  font-size: 3em;
+  font-family: din condensed bold;
+  font-style: italic;
+  color: $blue;
+}
+
+.bought-mins{
+	position:absolute;
+	bottom:2px;
+}

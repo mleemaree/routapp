@@ -16,7 +16,7 @@
       <ul class="nav navbar-nav navbar-right">
         <li class="active"><a href="rutas.php">Rutas <span class="sr-only">(current)</span></a></li>
         <li><a href="rutas.php">Explora</a></li>
-        <li><a href="#">BeTrainer</a></li>
+        <li><a href="be-trainer.php">BeTrainer</a></li>
         <li><a href="#">App</a></li>
         <li><a href="#"><button type="button" class="btn btn-default login-button"
           data-toggle="modal" data-target="#login">LOGIN</button></a></li>
