@@ -42,7 +42,7 @@ else if (isset($_POST['email']) and isset($_POST['password'])) {
 	  }, 2500);
 	</script>
 	<p align="center"><img src="../images/welcome-dinos.jpg"></p>
-	<p align="center">Bienvenido a Routapp! Le estamos dando a la página principal</p>
+	<p align="center">Bienvenido a Routapp! Le estamos dando a la página principal!</p>
 
 <?php
 
