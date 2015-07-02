@@ -4,7 +4,7 @@ session_start();
 $_SESSION['name']='user';
 include('../conexion-php-calls/conexion-routapp.php');
 
-echo $_SESSION['user']['username'];
+
 
 
 if ($_FILES['avatar']['error'] == 0) {
@@ -49,7 +49,7 @@ $sql2 = "UPDATE routes SET avatar= '".$img."' WHERE username=".$_SESSION['user']
          if (($_POST['password']) != ($_POST['password2']) ){
 
 ?>			
-			<script> alert ("Passwords doesn't match!"); window.location="user_profile.php"; </script>
+			<script> alert ("Passwords doesn't match!"); window.history.back(); </script>
 <?php
 		}
 
@@ -58,38 +58,15 @@ $sql2 = "UPDATE routes SET avatar= '".$img."' WHERE username=".$_SESSION['user']
 			$conexion->query($sql);
 			$conexion->query($sql1);
 			$conexion->query($sql2);
-			echo $_SESSION['user']['username'];
-			
 
-			echo $_SESSION['user']['avatar'];
 			$_SESSION['user']['avatar']=$_SESSION['user']['username'].'-'.$image_name;
 
 		}
+
+
+echo "string";
+
 ?>
 
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Register User Profile</title>
-</head>
-
-<body>
-
-<table id="sample">
-
-	<tr>
-		<td><p>Success!!!</p></td>
-	</tr>
-	<tr>
-		<td><?php $msg='<a href="user_profile.php" class="success_message">User Profile »</a>';
-
-			echo $msg; ?></td>
-	</tr>
-	
-</table>
-
-</body>
-</html>
 
 
