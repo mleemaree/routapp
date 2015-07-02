@@ -327,4 +327,146 @@ nav{
 
 .trainer-img{
 	text-align:center;
+	margin-top:5%;
+}
+
+#trainers{
+	position:relative;
+	top:2px;
+}
+
+.trainer-title{
+  font-family: din condensed bold;
+  font-style: italic;
+  font-size: 3em;
+  color: $green;
+  background-color: $blue;
+  line-height: 2em;
+  text-align: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.round{
+	background-color:#fff;
+	border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color:$blue;
+    padding-bottom:10%;
+    -webkit-box-shadow: 6px 9px 8px -2px rgba(189,189,189,0.67);
+	-moz-box-shadow: 6px 9px 8px -2px rgba(189,189,189,0.67);
+	box-shadow: 6px 9px 8px -2px rgba(189,189,189,0.67);
+}
+
+.titler{
+	width:100%;
+	margin: 0 auto 3%;
+}
+
+.eres-title{
+	border-bottom:1px solid $blue;
+	h3{
+		padding:3% 0;
+	}
+}
+
+.bt-puntos-wrapper{
+	padding: 0 5%;
+}
+
+.subtitles{
+		padding-bottom:4%;
+		font-weight:bold;
+		font-size:1.1em;
+	}
+
+
+.bt-puntos{
+	list-style-type:disc;
+	padding:0 5%;
+	line-height:2.8em;
+}
+
+.email{
+  border: 1px solid $blue;
+  width: 90%;
+  line-height: 2em;
+  padding: 1%;
+  border-radius: 20px;
+}
+
+.add{
+	padding-top:10%;
+}
+
+#bt-archivo{
+	padding:5% 0;
+}
+
+#esol{
+  width: 90%;
+  font-weight: bold;
+  color: $blue;
+  background-color: $green;
+  border: none;
+  padding: 4%;
+  border-radius: 10px;
+  margin-top:5%;
+}
+
+
+
+/*=====app====*/
+
+.app{
+	@include background(image-url("/images/app-bkg.png"));
+	@include background-size(cover);
+	height:100%;
+	background-position:center center;
+}
+
+#app-title{
+	@include background(image-url("/images/bkg-title-app.png"));
+	@include background-size(cover);
+	height:100%;
+}
+
+.title-app{
+  color: $green;
+  font-family: din condensed bold;
+  font-size: 2.2em;
+  font-style: italic;
+  line-height: 2em;
+  padding-left: 10%;
+  position:relative;
+  top:5px;
+}
+
+.subtitle-app{
+  color: $blue;
+  font-weight: bold;
+  width: 80%;
+  margin: 0 auto;
+  padding: 3%;
+}
+
+.app-puntos{
+  width: 55%;
+  list-style-type: disc;
+  margin: 0 auto;
+  line-height: 3em;
+  color:$blue;
+}
+
+.descarga-app{
+  width: 61%;
+  margin: 0 auto;
+  padding: 3% 0px;
+  font-weight: bold;
+  color: $blue;
+}
+
+.tiendas{
+	width:60%;
+	margin:0 auto;
 }

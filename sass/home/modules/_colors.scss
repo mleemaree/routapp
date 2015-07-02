@@ -12,6 +12,10 @@ $gray: #d7d6d6;
 	@include blue(1);
 }
 
+body{
+	color:$blue;
+}
+
 nav{
 	color:white;
 }

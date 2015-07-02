@@ -1,0 +1,35 @@
+@import "home/partials/base";
+@import "home/partials/typography";
+
+
+@import "home/modules/colors";
+
+@import "home/partials/top-nav";
+
+
+
+.explora-subtitle{
+	text-align:center;
+	font-size:1.3em;
+	line-height:1.3em;
+	padding:2%;
+	strong{
+		font-weight:bold;
+	}
+}
+
+
+.explora-map{
+	@include background-image(url(../images/explora/explora-map-1.png));
+	@include background-size(cover);
+	height:800px;
+	margin:0;
+	width:100%;
+	position:relative;
+}
+
+#barcelona-pin{
+	position:absolute;
+	top:294px;
+	right:212px;
+}

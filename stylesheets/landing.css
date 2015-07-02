@@ -612,4 +612,168 @@ nav {
 /* line 328, ../sass/landing.scss */
 .trainer-img {
   text-align: center;
+  margin-top: 5%;
+}
+
+/* line 333, ../sass/landing.scss */
+#trainers {
+  position: relative;
+  top: 2px;
+}
+
+/* line 338, ../sass/landing.scss */
+.trainer-title {
+  font-family: din condensed bold;
+  font-style: italic;
+  font-size: 3em;
+  color: #d8ee1a;
+  background-color: #01394c;
+  line-height: 2em;
+  text-align: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+/* line 350, ../sass/landing.scss */
+.round {
+  background-color: #fff;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: #01394c;
+  padding-bottom: 10%;
+  -webkit-box-shadow: 6px 9px 8px -2px rgba(189, 189, 189, 0.67);
+  -moz-box-shadow: 6px 9px 8px -2px rgba(189, 189, 189, 0.67);
+  box-shadow: 6px 9px 8px -2px rgba(189, 189, 189, 0.67);
+}
+
+/* line 361, ../sass/landing.scss */
+.titler {
+  width: 100%;
+  margin: 0 auto 3%;
+}
+
+/* line 366, ../sass/landing.scss */
+.eres-title {
+  border-bottom: 1px solid #01394c;
+}
+/* line 368, ../sass/landing.scss */
+.eres-title h3 {
+  padding: 3% 0;
+}
+
+/* line 373, ../sass/landing.scss */
+.bt-puntos-wrapper {
+  padding: 0 5%;
+}
+
+/* line 377, ../sass/landing.scss */
+.subtitles {
+  padding-bottom: 4%;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+/* line 384, ../sass/landing.scss */
+.bt-puntos {
+  list-style-type: disc;
+  padding: 0 5%;
+  line-height: 2.8em;
+}
+
+/* line 390, ../sass/landing.scss */
+.email {
+  border: 1px solid #01394c;
+  width: 90%;
+  line-height: 2em;
+  padding: 1%;
+  border-radius: 20px;
+}
+
+/* line 398, ../sass/landing.scss */
+.add {
+  padding-top: 10%;
+}
+
+/* line 402, ../sass/landing.scss */
+#bt-archivo {
+  padding: 5% 0;
+}
+
+/* line 406, ../sass/landing.scss */
+#esol {
+  width: 90%;
+  font-weight: bold;
+  color: #01394c;
+  background-color: #d8ee1a;
+  border: none;
+  padding: 4%;
+  border-radius: 10px;
+  margin-top: 5%;
+}
+
+/*=====app====*/
+/* line 421, ../sass/landing.scss */
+.app {
+  background: url('/images/app-bkg.png?1435838035');
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  background-position: center center;
+}
+
+/* line 428, ../sass/landing.scss */
+#app-title {
+  background: url('/images/bkg-title-app.png?1435838351');
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  height: 100%;
+}
+
+/* line 434, ../sass/landing.scss */
+.title-app {
+  color: #d8ee1a;
+  font-family: din condensed bold;
+  font-size: 2.2em;
+  font-style: italic;
+  line-height: 2em;
+  padding-left: 10%;
+  position: relative;
+  top: 5px;
+}
+
+/* line 445, ../sass/landing.scss */
+.subtitle-app {
+  color: #01394c;
+  font-weight: bold;
+  width: 80%;
+  margin: 0 auto;
+  padding: 3%;
+}
+
+/* line 453, ../sass/landing.scss */
+.app-puntos {
+  width: 55%;
+  list-style-type: disc;
+  margin: 0 auto;
+  line-height: 3em;
+  color: #01394c;
+}
+
+/* line 461, ../sass/landing.scss */
+.descarga-app {
+  width: 61%;
+  margin: 0 auto;
+  padding: 3% 0px;
+  font-weight: bold;
+  color: #01394c;
+}
+
+/* line 469, ../sass/landing.scss */
+.tiendas {
+  width: 60%;
+  margin: 0 auto;
 }

@@ -15,8 +15,8 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav middle">
         <li class="active"><a href="index.php">Rutas <span class="sr-only">(current)</span></a></li>
-        <li><a href="rutas.php">Explora</a></li>
-        <li><a href="#">App</a></li><li>
+        <li><a href="explora.php">Explora</a></li>
+        <li><a href="app.php">App</a></li><li>
         <li><a href="tienda.php">Tienda</a></li>
         <li>
           <a class="btn btn-default" href="crear.php">
@@ -26,7 +26,7 @@
       </ul>
     </div><!-- /.navbar-collapse -->
     <div class="signed-in-user">
-      <ul class="nav navbar-nav navbar-right right dropdown">
+      <ul class="nav navbar-nav navbar-right right dropdown user-info-small">
         <img id="userPhoto" class="pull-right" src="register-php-calls/user_images/<?php echo $_SESSION['user']['avatar']?>">
         <a href="#" class="dropdown-toggle" id="logged-user-name" data-toggle="dropdown" role="button" aria-expanded="false">
           <span class="menu-name"></span>
@@ -36,7 +36,7 @@
         <ul class="dropdown-menu" id="user-dropdown-menu" role="menu">
             <li><a href="../profile.php" class="dropdown-top">Perfil de Usuario</a></li>
             <li class="divider"></li>
-            <li><a href="#" class="dropdown-top">Mis Rutas</a></li>
+            <li><a href="profile.php" class="dropdown-top">Mis Rutas</a></li>
             <li class="divider"></li>
             <li><a href="register-php-calls/logout.php" class="dropdown-top">Cerar Sesión</a></li>
           </ul>
