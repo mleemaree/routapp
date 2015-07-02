@@ -1,4 +1,5 @@
-<div id="explora-zona-exercises-wrapper">
+<div style="background-color:white; margin:0 -30px;">
+<div id="explora-zona-exercises-wrapper" style="margin:0 30px;">
 
 <div class="row explora-exercise-title-wrapper">
 	<h3 class="explora-exercise-title">Parc Joan Miró</h3>
@@ -105,25 +106,26 @@
 
 <div class="row explora-exercise-form">
 	<div class="col-xs-4 col-sm-2">
-		<p>Imagen</p>
+		<p class="explora-exercise-name">Imagen</p>
 		<div class="image-subir"><img src="images/explora/img-upload.png"></div>
 	</div>
 	<div class="col-xs-8 col-sm-4">
-		<p>Nombre del Ejercicio</p>
-		<input type="text" id="nombre-ejercicio">
-		<p>Zona a ejercitar</p>
-		<input type="text" id="zona-ejercicio">
+		<p class="explora-exercise-name">Nombre del Ejercicio</p>
+		<input class="crear-ex-form-input" type="text" id="nombre-ejercicio">
+		<p class="explora-exercise-name">Zona a ejercitar</p>
+		<input class="crear-ex-form-input" type="text" id="zona-ejercicio">
 	</div>
 	<div class="col-xs-12 col-sm-6">
-		<p>Descripción del Ejercicio</p>
-		<input type="textarea" id="descripcion-ejercicio">
+		<p class="explora-exercise-name">Descripción del Ejercicio</p>
+		<input class="crear-ex-form-input" type="textarea" id="descripcion-ejercicio">
 	</div>
 </div>
 <div class="row">
-	<button type="submit">Guardar Ejercicio</button>
+	<button id="guardar-ejercicio" type="submit">Guardar Ejercicio</button>
 </div>
 
 
 
 </div><!--ZONA EXPLORA WRAPPER-->
+</div>
 

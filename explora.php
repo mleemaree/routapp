@@ -52,7 +52,6 @@ include('conexion-php-calls/conexion-routapp.php');
 <div class="content-wrapper" style="background-color:#fff; height:100%; max-width:1200px; margin: 0 auto;">
 
 
-
 <div class="container">
   <div class="row explora-subtitle">
     <h2>No tienes tiempo para ir al gimnasio? ¿Viajas continuamente y quieres estar en forma?</h2>
@@ -61,7 +60,7 @@ include('conexion-php-calls/conexion-routapp.php');
   </div>
 </div>
 
-<div class="container explora-map">
+<div class="container" id="explora-map">
   <div class="row">
     <div class="hidden-xs col-sm-3">
       <div class="hint">
@@ -88,6 +87,8 @@ include('conexion-php-calls/conexion-routapp.php');
     <div class="hidden-xs col-sm-3"></div>
   </div>
   <img id="barcelona-pin" src="images/explora/barcelona-pin.png">
+  <img id="joan-pin" src="images/explora/pin.png">
+  <img id="pop-up" src="images/explora/pop-up.png">
 </div>
 <div class="container zones" style="width:100;">
   <?php include('explora-php-calls/zones-explora.php'); ?>
@@ -106,6 +107,7 @@ include('conexion-php-calls/conexion-routapp.php');
 
 
 <?php include ('php-calls/scripts.php'); ?>
+<script type="text/javascript" src="js/explora.js"></script>
 
 </body>
 </html>

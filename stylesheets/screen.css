@@ -918,105 +918,118 @@ a.btn.btn-default {
 }
 
 /* line 27, ../sass/profile.scss */
-.logged-user-image {
-  display: inline;
-  vertical-align: middle;
-  margin: 11% 2%;
+#profile-background {
+  position: relative;
 }
 
-/* line 33, ../sass/profile.scss */
+/* line 31, ../sass/profile.scss */
+.user-info-top {
+  position: absolute;
+  top: 25%;
+}
+
+/* line 36, ../sass/profile.scss */
+.logged-user-image {
+  display: inline;
+  border-radius: 50px;
+  height: 200px;
+}
+
+/* line 43, ../sass/profile.scss */
 h2.user-name {
   color: #fff;
   text-transform: uppercase;
   font-weight: bold;
   display: inline;
-  vertical-align: middle;
+  position: relative;
+  bottom: 96px;
+  margin-left: 10px;
 }
 
-/* line 42, ../sass/profile.scss */
+/* line 54, ../sass/profile.scss */
 .profile-menu-option {
   height: 50px;
   text-align: center;
   border-right: 1px solid #01394c;
 }
-/* line 46, ../sass/profile.scss */
+/* line 58, ../sass/profile.scss */
 .profile-menu-option span {
   font-size: 0.9em;
   color: #01394c;
   position: relative;
   top: 18px;
 }
-/* line 52, ../sass/profile.scss */
+/* line 64, ../sass/profile.scss */
 .profile-menu-option:last-child {
   border: none;
 }
-/* line 55, ../sass/profile.scss */
+/* line 67, ../sass/profile.scss */
 .profile-menu-option.active {
   background-color: #01394c;
 }
-/* line 57, ../sass/profile.scss */
+/* line 69, ../sass/profile.scss */
 .profile-menu-option.active span {
   color: white;
 }
 
-/* line 63, ../sass/profile.scss */
+/* line 75, ../sass/profile.scss */
 .profile-menu {
   border-bottom: 1px solid #01394c !important;
 }
 
 /*====Mis rutas=====*/
-/* line 70, ../sass/profile.scss */
+/* line 82, ../sass/profile.scss */
 #ruta-map {
   margin: 3% 0;
 }
 
-/* line 74, ../sass/profile.scss */
+/* line 86, ../sass/profile.scss */
 #route-map {
   width: 100%;
 }
 
-/* line 78, ../sass/profile.scss */
+/* line 90, ../sass/profile.scss */
 .rc {
   margin: 3% 0;
 }
 
-/* line 82, ../sass/profile.scss */
+/* line 94, ../sass/profile.scss */
 .bought-cards {
   padding: 0;
 }
 
 /*====mis rutas menu====*/
-/* line 88, ../sass/profile.scss */
+/* line 100, ../sass/profile.scss */
 .mis-rutas-menu {
   width: 70%;
   display: inline-block;
 }
 
-/* line 93, ../sass/profile.scss */
+/* line 105, ../sass/profile.scss */
 .mis-rutas-menu-option {
   display: inline-block;
   width: 33%;
 }
-/* line 96, ../sass/profile.scss */
+/* line 108, ../sass/profile.scss */
 .mis-rutas-menu-option span {
   font-weight: bold;
   text-transform: uppercase;
   color: #01394c;
 }
 
-/* line 103, ../sass/profile.scss */
+/* line 115, ../sass/profile.scss */
 #mis-rutas-filtro {
   display: inline-block;
   float: right;
 }
 
 /*---Mis Rutas Compradas--*/
-/* line 111, ../sass/profile.scss */
+/* line 123, ../sass/profile.scss */
 #mis-rutas-panes {
   margin-bottom: 5%;
 }
 
-/* line 115, ../sass/profile.scss */
+/* line 127, ../sass/profile.scss */
 #mis-rutas-compradas-pane, #mis-rutas-creadas-pane, #mis-rutas-favoritas-pane {
   border-top: 1px solid #01394c;
   border-bottom: 1px solid #01394c;
@@ -1024,17 +1037,17 @@ h2.user-name {
   margin-bottom: 5%;
 }
 
-/* line 122, ../sass/profile.scss */
+/* line 134, ../sass/profile.scss */
 #mis-rutas-compradas-pane-wrapper, #mis-rutas-favoritas-pane-wrapper {
   display: none;
 }
 
-/* line 126, ../sass/profile.scss */
+/* line 138, ../sass/profile.scss */
 #comprar-rutas-button {
   margin: 2% 0 5%;
 }
 
-/* line 130, ../sass/profile.scss */
+/* line 142, ../sass/profile.scss */
 #comprar-ruta, #crear-ruta {
   margin-right: 1%;
   border-color: 1px solid #01394c;
@@ -1053,50 +1066,50 @@ h2.user-name {
 	width:100%;
 }
 */
-/* line 155, ../sass/profile.scss */
+/* line 167, ../sass/profile.scss */
 .titles {
   text-align: center;
 }
-/* line 157, ../sass/profile.scss */
+/* line 169, ../sass/profile.scss */
 .titles h2 {
   font-weight: bold;
   margin: 15% 0 2%;
   color: #01394c;
 }
 
-/* line 164, ../sass/profile.scss */
+/* line 176, ../sass/profile.scss */
 #circle {
   text-align: center;
   position: relative;
 }
-/* line 167, ../sass/profile.scss */
+/* line 179, ../sass/profile.scss */
 #circle canvas {
   margin: 10%;
 }
 
-/* line 172, ../sass/profile.scss */
+/* line 184, ../sass/profile.scss */
 .nivel-percentaje {
   position: absolute;
   top: 102px;
   left: 159px;
   font-family: din condensed bold;
 }
-/* line 177, ../sass/profile.scss */
+/* line 189, ../sass/profile.scss */
 .nivel-percentaje p {
   font-size: 1.1em;
 }
-/* line 180, ../sass/profile.scss */
+/* line 192, ../sass/profile.scss */
 .nivel-percentaje strong {
   font-size: 3.5em;
 }
 
-/* line 185, ../sass/profile.scss */
+/* line 197, ../sass/profile.scss */
 .estadisticas-menu {
   margin: 5% 0;
   border-bottom: 1px solid #01394c;
 }
 
-/* line 190, ../sass/profile.scss */
+/* line 202, ../sass/profile.scss */
 .estadisticas-menu-option {
   text-align: center;
   font-weight: bold;
@@ -1104,19 +1117,19 @@ h2.user-name {
   padding-bottom: 2%;
 }
 
-/* line 197, ../sass/profile.scss */
+/* line 209, ../sass/profile.scss */
 #rutas-completadas li {
   padding: 3% 0 1% 4%;
   border-bottom: 1px solid #01394c;
   color: #01394c;
 }
-/* line 201, ../sass/profile.scss */
+/* line 213, ../sass/profile.scss */
 #rutas-completadas li h3 {
   font-weight: bold;
   padding-bottom: 3%;
 }
 
-/* line 207, ../sass/profile.scss */
+/* line 219, ../sass/profile.scss */
 .points {
   font-family: din condensed bold;
   font-size: 2em;
@@ -1124,20 +1137,20 @@ h2.user-name {
   color: #d1005d;
 }
 
-/* line 214, ../sass/profile.scss */
+/* line 226, ../sass/profile.scss */
 .has {
   color: #01394c;
   font-weight: bold;
   text-align: center;
 }
 
-/* line 220, ../sass/profile.scss */
+/* line 232, ../sass/profile.scss */
 .lower {
   text-align: center;
   padding-top: 8%;
 }
 
-/* line 225, ../sass/profile.scss */
+/* line 237, ../sass/profile.scss */
 .pnum {
   display: inline-block;
   font-family: din condensed bold;
@@ -1146,43 +1159,43 @@ h2.user-name {
   padding-right: 2%;
 }
 
-/* line 233, ../sass/profile.scss */
+/* line 245, ../sass/profile.scss */
 .meas {
   display: inline-block;
   font-family: din condensed bold;
   font-size: 2em;
 }
 
-/* line 239, ../sass/profile.scss */
+/* line 251, ../sass/profile.scss */
 .recorrido-graphic {
   padding-bottom: 5%;
   border-bottom: 1px solid #d3d3d3;
   margin: 0;
 }
 
-/* line 245, ../sass/profile.scss */
+/* line 257, ../sass/profile.scss */
 .quemado, .entrenado {
   padding: 3% 0;
   border-bottom: 1px solid #d3d3d3;
   margin: 0;
 }
 
-/* line 251, ../sass/profile.scss */
+/* line 263, ../sass/profile.scss */
 .compare {
   color: #01394c;
 }
-/* line 253, ../sass/profile.scss */
+/* line 265, ../sass/profile.scss */
 .compare span {
   font-weight: bold;
 }
 
-/* line 258, ../sass/profile.scss */
+/* line 270, ../sass/profile.scss */
 .equal {
   font-weight: bold;
   padding-bottom: 3%;
 }
 
-/* line 263, ../sass/profile.scss */
+/* line 275, ../sass/profile.scss */
 #descargar-estadisticas {
   margin: 3% 0 10%;
   background-color: #01394c;
@@ -1193,13 +1206,13 @@ h2.user-name {
 }
 
 /*--=-----INFO Y AJUSTES------*/
-/* line 277, ../sass/profile.scss */
+/* line 289, ../sass/profile.scss */
 .info-title-wrapper {
   border-bottom: 1px solid #01394c;
   margin: 0;
 }
 
-/* line 282, ../sass/profile.scss */
+/* line 294, ../sass/profile.scss */
 .info-title {
   font-size: 1.2em;
   font-weight: bold;
@@ -1207,16 +1220,16 @@ h2.user-name {
   color: #01394c;
 }
 
-/* line 292, ../sass/profile.scss */
+/* line 304, ../sass/profile.scss */
 #info-adjusts {
   width: 85%;
   color: #01394c;
 }
-/* line 295, ../sass/profile.scss */
+/* line 307, ../sass/profile.scss */
 #info-adjusts .row {
   margin: 0;
 }
-/* line 298, ../sass/profile.scss */
+/* line 310, ../sass/profile.scss */
 #info-adjusts input, #info-adjusts select {
   line-height: 2em;
   background-color: #f0f0f0;
@@ -1224,11 +1237,11 @@ h2.user-name {
   width: 100%;
   color: #01394c;
 }
-/* line 305, ../sass/profile.scss */
+/* line 317, ../sass/profile.scss */
 #info-adjusts select {
   height: 2.2em;
 }
-/* line 308, ../sass/profile.scss */
+/* line 320, ../sass/profile.scss */
 #info-adjusts button {
   margin: 3% 1%;
   background-color: #01394c;
@@ -1238,31 +1251,31 @@ h2.user-name {
   padding: 1.5% 3%;
 }
 
-/* line 318, ../sass/profile.scss */
+/* line 330, ../sass/profile.scss */
 .info-gen-title {
   padding: 3% 1% 0;
   font-weight: bold;
   color: #01394c;
 }
 
-/* line 324, ../sass/profile.scss */
+/* line 336, ../sass/profile.scss */
 .labels {
   padding: 2% 0 0.5%;
 }
 
-/* line 328, ../sass/profile.scss */
+/* line 340, ../sass/profile.scss */
 .pref-dep {
   width: 85%;
   color: #01394c;
 }
-/* line 331, ../sass/profile.scss */
+/* line 343, ../sass/profile.scss */
 .pref-dep textarea {
   width: 40%;
   height: 150px;
   background-color: #f0f0f0;
   border: 1px solid #c0c0c0;
 }
-/* line 337, ../sass/profile.scss */
+/* line 349, ../sass/profile.scss */
 .pref-dep button {
   margin: 3% 1%;
   background-color: #01394c;
@@ -1271,18 +1284,18 @@ h2.user-name {
   border-radius: 29px;
   padding: 1.5% 3%;
 }
-/* line 346, ../sass/profile.scss */
+/* line 358, ../sass/profile.scss */
 .pref-dep .row {
   margin: 0;
 }
 
-/* line 351, ../sass/profile.scss */
+/* line 363, ../sass/profile.scss */
 .pref-labels {
   padding-top: 2%;
   padding-bottom: 1%;
 }
 
-/* line 356, ../sass/profile.scss */
+/* line 368, ../sass/profile.scss */
 #sportLevel {
   width: 20%;
   background-color: #f0f0f0;
@@ -1290,16 +1303,16 @@ h2.user-name {
   height: 2.2em;
 }
 
-/* line 363, ../sass/profile.scss */
+/* line 375, ../sass/profile.scss */
 .email-contrasena {
   width: 85%;
   color: #01394c;
 }
-/* line 366, ../sass/profile.scss */
+/* line 378, ../sass/profile.scss */
 .email-contrasena .row {
   margin: 0 15px;
 }
-/* line 369, ../sass/profile.scss */
+/* line 381, ../sass/profile.scss */
 .email-contrasena .email-input, .email-contrasena select {
   line-height: 2em;
   background-color: #f0f0f0;
@@ -1307,12 +1320,12 @@ h2.user-name {
   width: 40%;
   color: #01394c;
 }
-/* line 376, ../sass/profile.scss */
+/* line 388, ../sass/profile.scss */
 .email-contrasena select {
   height: 2.2em;
 }
 
-/* line 381, ../sass/profile.scss */
+/* line 393, ../sass/profile.scss */
 .email-button {
   margin: 3% 1%;
   background-color: #01394c;
@@ -1322,20 +1335,25 @@ h2.user-name {
   padding: 1.5% 3%;
 }
 
-/* line 394, ../sass/profile.scss */
+/* line 406, ../sass/profile.scss */
 .green {
   background-color: #B8FFDB;
   height: 500px;
   width: 100%;
 }
 
-/* line 400, ../sass/profile.scss */
+/* line 412, ../sass/profile.scss */
 #estadisticas-profile, #creditos-profile,
 #informacion-profile {
   display: none;
 }
 
 /* line 10, ../sass/explora.scss */
+#explora-zona-exercises-wrapper {
+  color: #01394c;
+}
+
+/* line 14, ../sass/explora.scss */
 .user-map {
   background-image: url(../images/explora/user-map.png);
   -moz-background-size: cover;
@@ -1346,20 +1364,30 @@ h2.user-name {
   margin: 2% 0;
 }
 
-/* line 17, ../sass/explora.scss */
+/* line 21, ../sass/explora.scss */
+#user-photo {
+  display: inline-block;
+}
+
+/* line 25, ../sass/explora.scss */
+.creada-por {
+  display: inline-block;
+}
+
+/* line 29, ../sass/explora.scss */
 .explora-subtitle {
   text-align: center;
   font-size: 1.3em;
   line-height: 1.3em;
   padding: 2%;
 }
-/* line 22, ../sass/explora.scss */
+/* line 34, ../sass/explora.scss */
 .explora-subtitle strong {
   font-weight: bold;
 }
 
-/* line 28, ../sass/explora.scss */
-.explora-map {
+/* line 40, ../sass/explora.scss */
+#explora-map {
   background-image: url(../images/explora/explora-map-1.png);
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1371,19 +1399,40 @@ h2.user-name {
   position: relative;
 }
 
-/* line 37, ../sass/explora.scss */
+/* line 49, ../sass/explora.scss */
 #barcelona-pin {
   position: absolute;
   top: 294px;
   right: 212px;
 }
 
-/* line 43, ../sass/explora.scss */
+/* line 55, ../sass/explora.scss */
+#joan-pin {
+  display: none;
+  position: absolute;
+  top: 544px;
+  left: 380px;
+}
+
+/* line 62, ../sass/explora.scss */
+#pop-up {
+  position: absolute;
+  top: 420px;
+  left: 335px;
+  display: none;
+}
+
+/* line 69, ../sass/explora.scss */
+#explora-zona-exercises-wrapper {
+  display: none;
+}
+
+/* line 73, ../sass/explora.scss */
 .zones {
   padding: 0 15px;
 }
 
-/* line 47, ../sass/explora.scss */
+/* line 77, ../sass/explora.scss */
 .explora-exercise-title-wrapper {
   background-color: #01394c;
   margin: 0 -30px;
@@ -1393,7 +1442,47 @@ h2.user-name {
   margin-bottom: 1%;
 }
 
-/* line 56, ../sass/explora.scss */
+/* line 86, ../sass/explora.scss */
 .explora-exercise-name, .explora-exercise-info {
   line-height: 2em;
+}
+
+/* line 90, ../sass/explora.scss */
+.explora-exercise-name {
+  font-weight: bold;
+}
+
+/* line 94, ../sass/explora.scss */
+hr {
+  border-color: #01394c;
+}
+
+/* line 98, ../sass/explora.scss */
+.image-subir {
+  margin: 5% 0;
+}
+
+/* line 102, ../sass/explora.scss */
+.crear-ex-form-input {
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid #01394c;
+}
+
+/* line 109, ../sass/explora.scss */
+#descripcion-ejercicio {
+  height: 132px;
+}
+
+/* line 113, ../sass/explora.scss */
+#guardar-ejercicio {
+  margin: 2% 0 5%;
+  background-color: #d8ee1a;
+  color: #01394c;
+  font-weight: bold;
+  line-height: 3em;
+  padding: 0 5%;
+  border-radius: 30px;
+  float: right;
 }

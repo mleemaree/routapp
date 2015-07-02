@@ -24,18 +24,30 @@ $pink: #d1005d;
 	right:0;
 }
 
+#profile-background{
+	position:relative;
+}
+
+.user-info-top{
+	position:absolute;
+	top:25%;
+}
+
 .logged-user-image{
 	display:inline;
-	vertical-align:middle;
-	margin:11% 2%;
+	border-radius:50px;
+	height:200px;	
 }
+
 
 h2.user-name{
 	color:#fff;
 	text-transform:uppercase;
 	font-weight:bold;
 	display:inline;
-	vertical-align:middle;
+	position:relative;
+	bottom:96px;
+	margin-left:10px;
 }
 
 

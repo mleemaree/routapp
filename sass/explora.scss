@@ -7,11 +7,23 @@
 @import "home/partials/top-nav";
 
 
+#explora-zona-exercises-wrapper{
+	color:$blue;
+}
+
 .user-map{
 	@include background-image(url(../images/explora/user-map.png));
 	@include background-size(cover);
 	height:500px;
 	margin:2% 0;
+}
+
+#user-photo{
+	display:inline-block;
+}
+
+.creada-por{
+	display:inline-block;
 }
 
 .explora-subtitle{
@@ -25,7 +37,7 @@
 }
 
 
-.explora-map{
+#explora-map{
 	@include background-image(url(../images/explora/explora-map-1.png));
 	@include background-size(cover);
 	height:800px;
@@ -38,6 +50,24 @@
 	position:absolute;
 	top:294px;
 	right:212px;
+}
+
+#joan-pin{
+	display:none;
+	position:absolute;
+	top:544px;
+	left:380px;
+}
+
+#pop-up{
+	position:absolute;
+	top:420px;
+	left:335px;
+	display:none;
+}
+
+#explora-zona-exercises-wrapper{
+	display:none;
 }
 
 .zones{
@@ -55,4 +85,38 @@
 
 .explora-exercise-name, .explora-exercise-info{
 	line-height:2em;
+}
+
+.explora-exercise-name{
+	font-weight:bold;
+}
+
+hr{
+	border-color:$blue;
+}
+
+.image-subir{
+	margin:5% 0;
+}
+
+.crear-ex-form-input{
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid $blue;
+}
+
+#descripcion-ejercicio{
+	height:132px;
+}
+
+#guardar-ejercicio{
+  margin: 2% 0 5%;
+  background-color: $green;
+  color: $blue;
+  font-weight: bold;
+  line-height: 3em;
+  padding: 0 5%;
+  border-radius: 30px;
+  float: right;
 }

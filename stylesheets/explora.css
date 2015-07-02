@@ -307,6 +307,11 @@ a.btn.btn-default {
 }
 
 /* line 10, ../sass/explora.scss */
+#explora-zona-exercises-wrapper {
+  color: #01394c;
+}
+
+/* line 14, ../sass/explora.scss */
 .user-map {
   background-image: url(../images/explora/user-map.png);
   -moz-background-size: cover;
@@ -317,20 +322,30 @@ a.btn.btn-default {
   margin: 2% 0;
 }
 
-/* line 17, ../sass/explora.scss */
+/* line 21, ../sass/explora.scss */
+#user-photo {
+  display: inline-block;
+}
+
+/* line 25, ../sass/explora.scss */
+.creada-por {
+  display: inline-block;
+}
+
+/* line 29, ../sass/explora.scss */
 .explora-subtitle {
   text-align: center;
   font-size: 1.3em;
   line-height: 1.3em;
   padding: 2%;
 }
-/* line 22, ../sass/explora.scss */
+/* line 34, ../sass/explora.scss */
 .explora-subtitle strong {
   font-weight: bold;
 }
 
-/* line 28, ../sass/explora.scss */
-.explora-map {
+/* line 40, ../sass/explora.scss */
+#explora-map {
   background-image: url(../images/explora/explora-map-1.png);
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -342,19 +357,40 @@ a.btn.btn-default {
   position: relative;
 }
 
-/* line 37, ../sass/explora.scss */
+/* line 49, ../sass/explora.scss */
 #barcelona-pin {
   position: absolute;
   top: 294px;
   right: 212px;
 }
 
-/* line 43, ../sass/explora.scss */
+/* line 55, ../sass/explora.scss */
+#joan-pin {
+  display: none;
+  position: absolute;
+  top: 544px;
+  left: 380px;
+}
+
+/* line 62, ../sass/explora.scss */
+#pop-up {
+  position: absolute;
+  top: 420px;
+  left: 335px;
+  display: none;
+}
+
+/* line 69, ../sass/explora.scss */
+#explora-zona-exercises-wrapper {
+  display: none;
+}
+
+/* line 73, ../sass/explora.scss */
 .zones {
   padding: 0 15px;
 }
 
-/* line 47, ../sass/explora.scss */
+/* line 77, ../sass/explora.scss */
 .explora-exercise-title-wrapper {
   background-color: #01394c;
   margin: 0 -30px;
@@ -364,7 +400,47 @@ a.btn.btn-default {
   margin-bottom: 1%;
 }
 
-/* line 56, ../sass/explora.scss */
+/* line 86, ../sass/explora.scss */
 .explora-exercise-name, .explora-exercise-info {
   line-height: 2em;
+}
+
+/* line 90, ../sass/explora.scss */
+.explora-exercise-name {
+  font-weight: bold;
+}
+
+/* line 94, ../sass/explora.scss */
+hr {
+  border-color: #01394c;
+}
+
+/* line 98, ../sass/explora.scss */
+.image-subir {
+  margin: 5% 0;
+}
+
+/* line 102, ../sass/explora.scss */
+.crear-ex-form-input {
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid #01394c;
+}
+
+/* line 109, ../sass/explora.scss */
+#descripcion-ejercicio {
+  height: 132px;
+}
+
+/* line 113, ../sass/explora.scss */
+#guardar-ejercicio {
+  margin: 2% 0 5%;
+  background-color: #d8ee1a;
+  color: #01394c;
+  font-weight: bold;
+  line-height: 3em;
+  padding: 0 5%;
+  border-radius: 30px;
+  float: right;
 }
