@@ -337,3 +337,23 @@ a.btn.btn-default {
   top: 294px;
   right: 212px;
 }
+
+/* line 37, ../sass/explora.scss */
+.zones {
+  padding: 0 15px;
+}
+
+/* line 41, ../sass/explora.scss */
+.explora-exercise-title-wrapper {
+  background-color: #01394c;
+  margin: 0 -30px;
+  line-height: 4;
+  padding-left: 2%;
+  color: white;
+  margin-bottom: 1%;
+}
+
+/* line 50, ../sass/explora.scss */
+.explora-exercise-name, .explora-exercise-info {
+  line-height: 2em;
+}

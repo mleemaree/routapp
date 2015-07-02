@@ -89,7 +89,7 @@ include('conexion-php-calls/conexion-routapp.php');
   </div>
   <img id="barcelona-pin" src="images/explora/barcelona-pin.png">
 </div>
-<div class="container zones" style="margin:0; width:100%;">
+<div class="container zones" style="width:100;">
   <?php include('explora-php-calls/zones-explora.php'); ?>
 </div>
 <div class="container zones-explora-add-form" style="margin:0; width:100%;">
