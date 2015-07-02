@@ -80,7 +80,7 @@ if ($result = $conexion->query($sql)) {
     		else if ($fila['username'] == "routapp") {
 
     			?>
-
+    		<a href="ind-route-pro.php">
     			<div class="bought-route-card">
     				<div class="row routes-list-row bought-topRow">
     					<div class="col-xs-12 col-sm-6 bought-title">
@@ -134,13 +134,16 @@ if ($result = $conexion->query($sql)) {
 						<div class="hidden-xs col-sm-6"></div>
 					</div>
 				</div>
+			</a>
+
+
 			<?php echo '<hr>'; ?>
 				<?php    			
     		}
 
     		else{
     			?>
-
+    		<a href="ind-route-user.php">
 		    	<div class="route-card">
 		    		<div class="row routes-list-row">
 						<div class="col-xs-12 col-sm-6" class="map" style="height:150px; padding:0;">
@@ -183,6 +186,7 @@ if ($result = $conexion->query($sql)) {
 						</div>
 					</div>
 				</div>
+			</a>
 			
 						<?php echo '<hr>'; ?>
 		    	<?php
