@@ -21,8 +21,8 @@ $sql="SELECT * FROM users WHERE username=".$_SESSION['user']['username'];
 	<div class="container">
 		<div class="row no-before">
 			<div class="col-xs-12" id="profile-background">
-				<img class="logged-user-image" src="register-php-calls/user_images/<?php //echo $_SESSION['user']['username']."-".$_SESSION['user']['avatar']; ?>">
-				<h2 class="user-name">Alejandro</h2>
+				<img class="logged-user-image" src="register-php-calls/user_images/<?php echo $_SESSION['user']['avatar']; ?>">
+				<h2 class="user-name"><?php echo $_SESSION['user']['username'];?></h2>
 			</div>
 		</div>
 		<div class="row">

@@ -27,7 +27,7 @@
     </div><!-- /.navbar-collapse -->
     <div class="signed-in-user">
       <ul class="nav navbar-nav navbar-right right dropdown">
-        <img id="userPhoto" class="pull-right" src="images/alejandro.png">
+        <img id="userPhoto" class="pull-right" src="register-php-calls/user_images/<?php echo $_SESSION['user']['avatar']?>">
         <a href="#" class="dropdown-toggle" id="logged-user-name" data-toggle="dropdown" role="button" aria-expanded="false">
           <span class="menu-name"></span>
           <span class="caret"></span>
