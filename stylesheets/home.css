@@ -93,8 +93,7 @@ body {
 @media (min-width: 0) {
   /* line 32, ../sass/home/partials/_base.scss */
   .navbar-toggle {
-    display: block;
-    /* force showing the toggle */
+    /*display: block;  force showing the toggle */
   }
 }
 @media (min-width: 992px) {
