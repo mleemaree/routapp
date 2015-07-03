@@ -7,8 +7,6 @@ $_SESSION['name']='user';
 include('../conexion-php-calls/conexion-routapp.php');
 
 
-
-
 if ($_FILES['avatar']['error'] == 0) {
 	$image_name=$_FILES['avatar']['name'];
 	move_uploaded_file($_FILES['avatar']['tmp_name'], 'user_images/'.$_SESSION['user']['username'].'-'.$image_name); 
@@ -63,6 +61,8 @@ $sql2 = "UPDATE routes SET avatar= '".$_SESSION['user']['avatar']."' WHERE usern
 			$conexion->query($sql);
 			$conexion->query($sql1);
 			$conexion->query($sql2);
+
+
 
 			
 

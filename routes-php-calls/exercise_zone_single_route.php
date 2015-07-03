@@ -1,5 +1,7 @@
 <?php
 
+$sql3="SELECT * FROM exercise where (routeID='".$_GET['routeID']."')";
+
 if ($result3 = $conexion->query($sql3)) {
 		$fila3 = $result3->fetch_assoc(); 
 
@@ -12,7 +14,7 @@ if ($result3 = $conexion->query($sql3)) {
 		<div style="float:right; margin:15px;">
 			<div class="row ejercicio-title">
 				<div class="col-xs-12 exercise-title-wrapper">
-					<h3 id="exercise-title">Ejercicio <?php echo $i;?> - <?php echo $fila3['title']; ?></h3>
+					<h3 id="exercise-title">Ejercicio <?php echo $i;?> - <?php echo $fila3['exName']; ?></h3>
 				</div>
 			</div>
 			<div class="row exercise-info">

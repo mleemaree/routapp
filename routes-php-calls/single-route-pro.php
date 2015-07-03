@@ -4,9 +4,8 @@ session_start();
 $_SESSION['name']='user';
 include('../conexion-php-calls/conexion-routapp.php');
 
-$sql1="SELECT * FROM routes where routeID='15'";
-$sql2="SELECT * FROM zones where routeID='15'";
-$sql3="SELECT * FROM exercise where zoneNum='1'";
+$sql1="SELECT * FROM routes where routeID=".$_GET['routeID'];
+$sql2="SELECT * FROM zones where routeID=".$_GET['routeID'];
 ?>
 
 
@@ -16,10 +15,6 @@ $sql3="SELECT * FROM exercise where zoneNum='1'";
 	if ($result1 = $conexion->query($sql1)) {
 			$fila1 = $result1->fetch_assoc(); 
 	    ?>
-
-
-
-
 
 <div class="container featured-route">
 	<div class="row routes-list-row topRow routes-list-row">
@@ -166,7 +161,7 @@ $sql3="SELECT * FROM exercise where zoneNum='1'";
 
 
 <div class="container">
-	<div class="row info-ruta-menu-wrapper">
+	<div class="row info-ruta-menu-wrapper" style="margin:2% -15px;">
 		<div class="col-xs-12">
 			<ul class="info-ruta-menu nav nav-tabs nav-justified">
 				<li class="active info-ruta-menu-option">
@@ -183,12 +178,48 @@ $sql3="SELECT * FROM exercise where zoneNum='1'";
 
 <div class="container" id="zones-info">
 
+	<div class="row inciniando">
+		<div class="col-xs-1 flags">
+			<img class="start-flag" src="">
+		</div>
+		<div class="col-xs-11 zones-titles infosman">
+			<div class="row zone-title-wrapper zones-row">
+				<div class="col-xs-12">
+					<h4 class="in-title zone-title">Inicio de la Ruta</h4>
+					<img class="in-title running-guy" src="images/iconos/runner.png">
+					<span class="in-title zone-distance">0 Km</span>
+				</div>
+			</div>
+		</div>
+	</div>
 
+
+
+			<?php 
+
+				include('zones_single_route.php'); ?>
+
+	<div style="float:right; width:100%">
+		<div class="row inciniando">
+			<div class="col-xs-1 flags">
+				<img class="start-flag" src="">
+			</div>
+			<div class="col-xs-11 zones-titles infosman">
+				<div class="row zone-title-wrapper zones-row">
+					<div class="col-xs-12">
+						<h4 class="in-title zone-title">Final de la ruta</h4>
+						<img class="in-title running-guy" src="images/iconos/runner.png">
+						<span class="in-title zone-distance"><?php echo $fila1['distance']; ?></span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
 	<?php			 
 
 			$result1->close();
-			include('zones_single_route.php');
+			
 						
 	} 
 	?>	
