@@ -51,8 +51,13 @@ include('conexion-php-calls/conexion-routapp.php');
 
 <div class="content-wrapper">
 
+<div id="routes-list-pane-wrapper">
+  <?php include('routes-php-calls/routes_list.php'); ?>
+</div>
 
-<?php include('routes-php-calls/routes_list.php'); ?>
+<div id="routes-map-pane-wrapper">
+  <?php include('routes-php-calls/routes_map.php'); ?>
+</div>
 
 
 

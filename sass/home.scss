@@ -309,3 +309,60 @@ a{
 	position:absolute;
 	bottom:2px;
 }
+
+
+
+/*-------MAPA USER CARDS--------*/
+
+#routes-map-pane-wrapper{
+	margin-bottom:5%;
+}
+
+#mapa-mapa{
+	width:100%;
+}
+
+.mapa-user-card{
+	background-color:#fff;
+	height:150px;
+	margin:5% 0;
+	position:relative;
+	padding-top:3%;
+}
+
+.mapa-user-card-metrics{
+	position:absolute;
+	bottom:0;
+	text-align:center;
+	width:100%;
+	margin-left:-8px;
+
+}
+
+.mapa-user-card-info{
+	display:inline;
+}
+
+.ind-metric{
+	padding:0;
+	text-align:center;
+}
+
+.met-num{
+	font-family:din condensed bold;
+	font-size:2em;
+	font-style:italic;
+}
+
+.mapa-user-card-info{
+	font-weight:bold;
+}
+
+.its{
+	margin:0;
+}
+
+.mapa-route-card-list{
+	height:941px;
+	overflow-y:scroll;
+}

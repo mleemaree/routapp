@@ -665,3 +665,66 @@ a {
   position: absolute;
   bottom: 2px;
 }
+
+/*-------MAPA USER CARDS--------*/
+/* line 317, ../sass/home.scss */
+#routes-map-pane-wrapper {
+  margin-bottom: 5%;
+}
+
+/* line 321, ../sass/home.scss */
+#mapa-mapa {
+  width: 100%;
+}
+
+/* line 325, ../sass/home.scss */
+.mapa-user-card {
+  background-color: #fff;
+  height: 150px;
+  margin: 5% 0;
+  position: relative;
+  padding-top: 3%;
+}
+
+/* line 333, ../sass/home.scss */
+.mapa-user-card-metrics {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  margin-left: -8px;
+}
+
+/* line 342, ../sass/home.scss */
+.mapa-user-card-info {
+  display: inline;
+}
+
+/* line 346, ../sass/home.scss */
+.ind-metric {
+  padding: 0;
+  text-align: center;
+}
+
+/* line 351, ../sass/home.scss */
+.met-num {
+  font-family: din condensed bold;
+  font-size: 2em;
+  font-style: italic;
+}
+
+/* line 357, ../sass/home.scss */
+.mapa-user-card-info {
+  font-weight: bold;
+}
+
+/* line 361, ../sass/home.scss */
+.its {
+  margin: 0;
+}
+
+/* line 365, ../sass/home.scss */
+.mapa-route-card-list {
+  height: 941px;
+  overflow-y: scroll;
+}
