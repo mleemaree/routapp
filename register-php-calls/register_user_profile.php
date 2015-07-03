@@ -2,6 +2,8 @@
 
 session_start();
 $_SESSION['name']='user';
+
+
 include('../conexion-php-calls/conexion-routapp.php');
 
 
@@ -12,6 +14,9 @@ if ($_FILES['avatar']['error'] == 0) {
 	move_uploaded_file($_FILES['avatar']['tmp_name'], 'user_images/'.$_SESSION['user']['username'].'-'.$image_name); 
 	chmod('user_images/'.$_SESSION['user']['username'].'-'.$image_name, 511); 
 	$img=", avatar='".$_SESSION['user']['username'].'-'.$image_name."'";
+
+	$_SESSION['user']['avatar']=$_SESSION['user']['username'].'-'.$image_name;
+	echo $_SESSION['user']['avatar'];
 
 
 }
@@ -37,7 +42,7 @@ $sql1 = "UPDATE users SET firstName='".$_POST['firstName']."',
 							 ".$img."
          WHERE userID=".$_SESSION['user']['userID'];
 
-$sql2 = "UPDATE routes SET avatar= '".$img."' WHERE username=".$_SESSION['user']['username'];
+$sql2 = "UPDATE routes SET avatar= '".$_SESSION['user']['avatar']."' WHERE username='".$_SESSION['user']['username']."'";
 
 
 
@@ -59,7 +64,7 @@ $sql2 = "UPDATE routes SET avatar= '".$img."' WHERE username=".$_SESSION['user']
 			$conexion->query($sql1);
 			$conexion->query($sql2);
 
-			$_SESSION['user']['avatar']=$_SESSION['user']['username'].'-'.$image_name;
+			
 
 		}
 
