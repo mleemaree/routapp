@@ -313,65 +313,70 @@ a.btn.btn-default {
 
 /*=====bottom menu =======*/
 /* line 16, ../sass/home.scss */
+a {
+  color: black;
+}
+
+/* line 20, ../sass/home.scss */
 .offcanvas-help {
   border-right: 1px solid #01394c;
 }
 
-/* line 20, ../sass/home.scss */
+/* line 24, ../sass/home.scss */
 #bs-example-navbar-collapse-2 {
   height: 50px;
 }
 
-/* line 24, ../sass/home.scss */
+/* line 28, ../sass/home.scss */
 #bottom-bar {
   width: 100%;
   position: absolute;
 }
-/* line 27, ../sass/home.scss */
+/* line 31, ../sass/home.scss */
 #bottom-bar li {
   border-right: 1px solid #01394c;
 }
-/* line 30, ../sass/home.scss */
+/* line 34, ../sass/home.scss */
 #bottom-bar a {
   padding: 14px;
 }
-/* line 32, ../sass/home.scss */
+/* line 36, ../sass/home.scss */
 #bottom-bar a img {
   height: 23px;
   margin: 0;
   vertical-align: middle;
 }
 
-/* line 40, ../sass/home.scss */
+/* line 44, ../sass/home.scss */
 .bottom {
   margin-bottom: 0;
 }
 
-/* line 44, ../sass/home.scss */
+/* line 48, ../sass/home.scss */
 .hide {
   visibility: hidden;
 }
-/* line 46, ../sass/home.scss */
+/* line 50, ../sass/home.scss */
 .hide a {
   height: 100%;
 }
 
-/* line 51, ../sass/home.scss */
+/* line 55, ../sass/home.scss */
 .menu-name {
   padding: 0 10%;
 }
 
-/* line 55, ../sass/home.scss */
+/* line 59, ../sass/home.scss */
 #fdb {
   width: 18%;
 }
 
-/* line 59, ../sass/home.scss */
+/* line 63, ../sass/home.scss */
 #listado, #mapa {
   width: 10%;
 }
 
-/* line 63, ../sass/home.scss */
+/* line 67, ../sass/home.scss */
 #ordenar {
   width: 15%;
   border-left: 1px solid #01394c;
@@ -380,7 +385,7 @@ a.btn.btn-default {
 }
 
 /*===possible sidemenu ====*/
-/* line 72, ../sass/home.scss */
+/* line 76, ../sass/home.scss */
 .screw {
   width: 17%;
   background-color: #ffffff;
@@ -389,7 +394,7 @@ a.btn.btn-default {
   display: none;
 }
 
-/* line 80, ../sass/home.scss */
+/* line 84, ../sass/home.scss */
 #menu-search, #province-select {
   -moz-border-radius: 20px;
   -webkit-border-radius: 20px;
@@ -400,7 +405,7 @@ a.btn.btn-default {
   margin: 5% 0;
 }
 
-/* line 93, ../sass/home.scss */
+/* line 97, ../sass/home.scss */
 .filtro-name {
   font-size: 1em;
   font-color: #01394c !important;
@@ -408,22 +413,22 @@ a.btn.btn-default {
   margin-top: 5%;
 }
 
-/* line 100, ../sass/home.scss */
+/* line 104, ../sass/home.scss */
 .filtro-type {
   line-height: 1.5em;
 }
 
-/* line 104, ../sass/home.scss */
+/* line 108, ../sass/home.scss */
 .filter {
   margin: 5%;
 }
 
-/* line 108, ../sass/home.scss */
+/* line 112, ../sass/home.scss */
 .category {
   margin: 5% 0;
 }
 
-/* line 112, ../sass/home.scss */
+/* line 116, ../sass/home.scss */
 #submit-filters {
   background-color: #d8ee1a;
   width: 100%;
@@ -439,29 +444,29 @@ a.btn.btn-default {
 }
 
 /*=====Route cards ====*/
-/* line 124, ../sass/home.scss */
+/* line 128, ../sass/home.scss */
 .whiteness {
   background-color: white;
   height: 150px;
 }
 
-/* line 129, ../sass/home.scss */
+/* line 133, ../sass/home.scss */
 .route-info {
   padding: 0;
 }
-/* line 131, ../sass/home.scss */
+/* line 135, ../sass/home.scss */
 .route-info p {
   display: inline-block;
 }
 
-/* line 136, ../sass/home.scss */
+/* line 140, ../sass/home.scss */
 .route-card {
   -moz-box-shadow: #d7d6d6 1px 1px 8px;
   -webkit-box-shadow: #d7d6d6 1px 1px 8px;
   box-shadow: #d7d6d6 1px 1px 8px;
 }
 
-/* line 140, ../sass/home.scss */
+/* line 144, ../sass/home.scss */
 .map {
   background-image: url(../images/map.png);
   -moz-background-size: cover;
@@ -471,36 +476,36 @@ a.btn.btn-default {
   height: 100%;
 }
 
-/* line 146, ../sass/home.scss */
+/* line 150, ../sass/home.scss */
 .user-image {
   padding: 1%;
 }
 
 @media screen and (max-width: 768px) {
-  /* line 152, ../sass/home.scss */
+  /* line 156, ../sass/home.scss */
   .left {
     width: 100%;
   }
 
-  /* line 156, ../sass/home.scss */
+  /* line 160, ../sass/home.scss */
   .middle {
     padding: 0 2%;
     width: 20%;
   }
-  /* line 159, ../sass/home.scss */
+  /* line 163, ../sass/home.scss */
   .middle li {
     width: 100%;
     margin-bottom: 5%;
   }
 }
 @media screen and (min-width: 980px) {
-  /* line 167, ../sass/home.scss */
+  /* line 171, ../sass/home.scss */
   .navbar-toggle {
     display: none;
   }
 }
 /*========FEATURED ROUTE=======*/
-/* line 175, ../sass/home.scss */
+/* line 179, ../sass/home.scss */
 .featured-route {
   background-image: url(../images/featured-route.png);
   -moz-background-size: cover;
@@ -512,12 +517,12 @@ a.btn.btn-default {
   position: relative;
 }
 
-/* line 183, ../sass/home.scss */
+/* line 187, ../sass/home.scss */
 .topRow {
   margin-top: 50px;
 }
 
-/* line 187, ../sass/home.scss */
+/* line 191, ../sass/home.scss */
 .featured-route-card-title {
   font-size: 4.5em;
   font-family: din condensed bold;
@@ -526,17 +531,17 @@ a.btn.btn-default {
   text-shadow: 1px 1px #d8ee1a;
 }
 
-/* line 195, ../sass/home.scss */
+/* line 199, ../sass/home.scss */
 .title {
   border-bottom: 1px solid #d8ee1a;
 }
 
-/* line 199, ../sass/home.scss */
+/* line 203, ../sass/home.scss */
 .credits {
   text-align: right;
 }
 
-/* line 203, ../sass/home.scss */
+/* line 207, ../sass/home.scss */
 .credit-cost {
   font-size: 3em;
   font-weight: bold;
@@ -545,7 +550,7 @@ a.btn.btn-default {
   top: -6px;
 }
 
-/* line 211, ../sass/home.scss */
+/* line 215, ../sass/home.scss */
 .featured-route-card-subtitle {
   font-style: italic;
   color: white;
@@ -553,7 +558,7 @@ a.btn.btn-default {
   font-size: 1.2em;
 }
 
-/* line 218, ../sass/home.scss */
+/* line 222, ../sass/home.scss */
 .metrics {
   font-family: din condensed bold;
   font-size: 1.4em;
@@ -563,18 +568,18 @@ a.btn.btn-default {
   padding-right: 1%;
 }
 
-/* line 227, ../sass/home.scss */
+/* line 231, ../sass/home.scss */
 .metric-image {
   height: 1.4em;
 }
 
-/* line 231, ../sass/home.scss */
+/* line 235, ../sass/home.scss */
 .metric-guages {
   position: absolute;
   top: 257px;
 }
 
-/* line 236, ../sass/home.scss */
+/* line 240, ../sass/home.scss */
 .metric-numbers {
   font-size: 5em;
   font-family: din condensed bold;
@@ -582,14 +587,14 @@ a.btn.btn-default {
   color: #01394c;
 }
 
-/* line 243, ../sass/home.scss */
+/* line 247, ../sass/home.scss */
 .mins {
   position: absolute;
   bottom: 122px;
 }
 
 /*======bought route card =====*/
-/* line 250, ../sass/home.scss */
+/* line 254, ../sass/home.scss */
 .bought-route-card {
   background-image: url(../images/bought-route-card.png);
   -moz-background-size: cover;
@@ -604,7 +609,7 @@ a.btn.btn-default {
   position: relative;
 }
 
-/* line 259, ../sass/home.scss */
+/* line 263, ../sass/home.scss */
 .bought-route-card-title {
   font-family: din condensed bold;
   font-style: italic;
@@ -614,12 +619,12 @@ a.btn.btn-default {
   padding: 2% 0 0;
 }
 
-/* line 268, ../sass/home.scss */
+/* line 272, ../sass/home.scss */
 .bought-title {
   border-bottom: 1px solid #d8ee1a;
 }
 
-/* line 272, ../sass/home.scss */
+/* line 276, ../sass/home.scss */
 .bought-route-card-subtitle {
   font-style: italic;
   color: white;
@@ -627,7 +632,7 @@ a.btn.btn-default {
   font-size: 1.2em;
 }
 
-/* line 279, ../sass/home.scss */
+/* line 283, ../sass/home.scss */
 .bought-metrics {
   font-family: din condensed bold;
   font-size: 1.5em;
@@ -637,18 +642,18 @@ a.btn.btn-default {
   padding-right: 1%;
 }
 
-/* line 288, ../sass/home.scss */
+/* line 292, ../sass/home.scss */
 .bought-metric-image {
   height: 1.1em;
 }
 
-/* line 292, ../sass/home.scss */
+/* line 296, ../sass/home.scss */
 .bought-metric-guages {
   position: absolute;
   bottom: 60px;
 }
 
-/* line 297, ../sass/home.scss */
+/* line 301, ../sass/home.scss */
 .bought-metric-numbers {
   font-size: 3em;
   font-family: din condensed bold;
@@ -656,7 +661,7 @@ a.btn.btn-default {
   color: #01394c;
 }
 
-/* line 304, ../sass/home.scss */
+/* line 308, ../sass/home.scss */
 .bought-mins {
   position: absolute;
   bottom: 2px;
@@ -898,8 +903,13 @@ a.btn.btn-default {
   text-align: center;
 }
 
+/* line 12, ../sass/profile.scss */
+body {
+  color: #01394c;
+}
+
 /*===Profile main nav====*/
-/* line 14, ../sass/profile.scss */
+/* line 18, ../sass/profile.scss */
 #profile-background {
   background-image: url(../images/profile-background.png);
   -moz-background-size: cover;
@@ -910,32 +920,32 @@ a.btn.btn-default {
   width: 100%;
 }
 
-/* line 21, ../sass/profile.scss */
+/* line 25, ../sass/profile.scss */
 .user-info-small {
   position: absolute;
   top: 0;
   right: 0;
 }
 
-/* line 27, ../sass/profile.scss */
+/* line 31, ../sass/profile.scss */
 #profile-background {
   position: relative;
 }
 
-/* line 31, ../sass/profile.scss */
+/* line 35, ../sass/profile.scss */
 .user-info-top {
   position: absolute;
   top: 25%;
 }
 
-/* line 36, ../sass/profile.scss */
+/* line 40, ../sass/profile.scss */
 .logged-user-image {
   display: inline;
   border-radius: 50px;
   height: 200px;
 }
 
-/* line 43, ../sass/profile.scss */
+/* line 47, ../sass/profile.scss */
 h2.user-name {
   color: #fff;
   text-transform: uppercase;
@@ -946,90 +956,90 @@ h2.user-name {
   margin-left: 10px;
 }
 
-/* line 54, ../sass/profile.scss */
+/* line 58, ../sass/profile.scss */
 .profile-menu-option {
   height: 50px;
   text-align: center;
   border-right: 1px solid #01394c;
 }
-/* line 58, ../sass/profile.scss */
+/* line 62, ../sass/profile.scss */
 .profile-menu-option span {
   font-size: 0.9em;
   color: #01394c;
   position: relative;
   top: 18px;
 }
-/* line 64, ../sass/profile.scss */
+/* line 68, ../sass/profile.scss */
 .profile-menu-option:last-child {
   border: none;
 }
-/* line 67, ../sass/profile.scss */
+/* line 71, ../sass/profile.scss */
 .profile-menu-option.active {
   background-color: #01394c;
 }
-/* line 69, ../sass/profile.scss */
+/* line 73, ../sass/profile.scss */
 .profile-menu-option.active span {
   color: white;
 }
 
-/* line 75, ../sass/profile.scss */
+/* line 79, ../sass/profile.scss */
 .profile-menu {
   border-bottom: 1px solid #01394c !important;
 }
 
 /*====Mis rutas=====*/
-/* line 82, ../sass/profile.scss */
+/* line 86, ../sass/profile.scss */
 #ruta-map {
   margin: 3% 0;
 }
 
-/* line 86, ../sass/profile.scss */
+/* line 90, ../sass/profile.scss */
 #route-map {
   width: 100%;
 }
 
-/* line 90, ../sass/profile.scss */
+/* line 94, ../sass/profile.scss */
 .rc {
   margin: 3% 0;
 }
 
-/* line 94, ../sass/profile.scss */
+/* line 98, ../sass/profile.scss */
 .bought-cards {
   padding: 0;
 }
 
 /*====mis rutas menu====*/
-/* line 100, ../sass/profile.scss */
+/* line 104, ../sass/profile.scss */
 .mis-rutas-menu {
   width: 70%;
   display: inline-block;
 }
 
-/* line 105, ../sass/profile.scss */
+/* line 109, ../sass/profile.scss */
 .mis-rutas-menu-option {
   display: inline-block;
   width: 33%;
 }
-/* line 108, ../sass/profile.scss */
+/* line 112, ../sass/profile.scss */
 .mis-rutas-menu-option span {
   font-weight: bold;
   text-transform: uppercase;
   color: #01394c;
 }
 
-/* line 115, ../sass/profile.scss */
+/* line 119, ../sass/profile.scss */
 #mis-rutas-filtro {
   display: inline-block;
   float: right;
 }
 
 /*---Mis Rutas Compradas--*/
-/* line 123, ../sass/profile.scss */
+/* line 127, ../sass/profile.scss */
 #mis-rutas-panes {
   margin-bottom: 5%;
 }
 
-/* line 127, ../sass/profile.scss */
+/* line 131, ../sass/profile.scss */
 #mis-rutas-compradas-pane, #mis-rutas-creadas-pane, #mis-rutas-favoritas-pane {
   border-top: 1px solid #01394c;
   border-bottom: 1px solid #01394c;
@@ -1037,17 +1047,17 @@ h2.user-name {
   margin-bottom: 5%;
 }
 
-/* line 134, ../sass/profile.scss */
+/* line 138, ../sass/profile.scss */
 #mis-rutas-compradas-pane-wrapper, #mis-rutas-favoritas-pane-wrapper {
   display: none;
 }
 
-/* line 138, ../sass/profile.scss */
+/* line 142, ../sass/profile.scss */
 #comprar-rutas-button {
   margin: 2% 0 5%;
 }
 
-/* line 142, ../sass/profile.scss */
+/* line 146, ../sass/profile.scss */
 #comprar-ruta, #crear-ruta {
   margin-right: 1%;
   border-color: 1px solid #01394c;
@@ -1066,50 +1076,50 @@ h2.user-name {
 	width:100%;
 }
 */
-/* line 167, ../sass/profile.scss */
+/* line 171, ../sass/profile.scss */
 .titles {
   text-align: center;
 }
-/* line 169, ../sass/profile.scss */
+/* line 173, ../sass/profile.scss */
 .titles h2 {
   font-weight: bold;
   margin: 15% 0 2%;
   color: #01394c;
 }
 
-/* line 176, ../sass/profile.scss */
+/* line 180, ../sass/profile.scss */
 #circle {
   text-align: center;
   position: relative;
 }
-/* line 179, ../sass/profile.scss */
+/* line 183, ../sass/profile.scss */
 #circle canvas {
   margin: 10%;
 }
 
-/* line 184, ../sass/profile.scss */
+/* line 188, ../sass/profile.scss */
 .nivel-percentaje {
   position: absolute;
   top: 102px;
   left: 159px;
   font-family: din condensed bold;
 }
-/* line 189, ../sass/profile.scss */
+/* line 193, ../sass/profile.scss */
 .nivel-percentaje p {
   font-size: 1.1em;
 }
-/* line 192, ../sass/profile.scss */
+/* line 196, ../sass/profile.scss */
 .nivel-percentaje strong {
   font-size: 3.5em;
 }
 
-/* line 197, ../sass/profile.scss */
+/* line 201, ../sass/profile.scss */
 .estadisticas-menu {
   margin: 5% 0;
   border-bottom: 1px solid #01394c;
 }
 
-/* line 202, ../sass/profile.scss */
+/* line 206, ../sass/profile.scss */
 .estadisticas-menu-option {
   text-align: center;
   font-weight: bold;
@@ -1117,19 +1127,19 @@ h2.user-name {
   padding-bottom: 2%;
 }
 
-/* line 209, ../sass/profile.scss */
+/* line 213, ../sass/profile.scss */
 #rutas-completadas li {
   padding: 3% 0 1% 4%;
   border-bottom: 1px solid #01394c;
   color: #01394c;
 }
-/* line 213, ../sass/profile.scss */
+/* line 217, ../sass/profile.scss */
 #rutas-completadas li h3 {
   font-weight: bold;
   padding-bottom: 3%;
 }
 
-/* line 219, ../sass/profile.scss */
+/* line 223, ../sass/profile.scss */
 .points {
   font-family: din condensed bold;
   font-size: 2em;
@@ -1137,20 +1147,20 @@ h2.user-name {
   color: #d1005d;
 }
 
-/* line 226, ../sass/profile.scss */
+/* line 230, ../sass/profile.scss */
 .has {
   color: #01394c;
   font-weight: bold;
   text-align: center;
 }
 
-/* line 232, ../sass/profile.scss */
+/* line 236, ../sass/profile.scss */
 .lower {
   text-align: center;
   padding-top: 8%;
 }
 
-/* line 237, ../sass/profile.scss */
+/* line 241, ../sass/profile.scss */
 .pnum {
   display: inline-block;
   font-family: din condensed bold;
@@ -1159,43 +1169,43 @@ h2.user-name {
   padding-right: 2%;
 }
 
-/* line 245, ../sass/profile.scss */
+/* line 249, ../sass/profile.scss */
 .meas {
   display: inline-block;
   font-family: din condensed bold;
   font-size: 2em;
 }
 
-/* line 251, ../sass/profile.scss */
+/* line 255, ../sass/profile.scss */
 .recorrido-graphic {
   padding-bottom: 5%;
   border-bottom: 1px solid #d3d3d3;
   margin: 0;
 }
 
-/* line 257, ../sass/profile.scss */
+/* line 261, ../sass/profile.scss */
 .quemado, .entrenado {
   padding: 3% 0;
   border-bottom: 1px solid #d3d3d3;
   margin: 0;
 }
 
-/* line 263, ../sass/profile.scss */
+/* line 267, ../sass/profile.scss */
 .compare {
   color: #01394c;
 }
-/* line 265, ../sass/profile.scss */
+/* line 269, ../sass/profile.scss */
 .compare span {
   font-weight: bold;
 }
 
-/* line 270, ../sass/profile.scss */
+/* line 274, ../sass/profile.scss */
 .equal {
   font-weight: bold;
   padding-bottom: 3%;
 }
 
-/* line 275, ../sass/profile.scss */
+/* line 279, ../sass/profile.scss */
 #descargar-estadisticas {
   margin: 3% 0 10%;
   background-color: #01394c;
@@ -1206,13 +1216,13 @@ h2.user-name {
 }
 
 /*--=-----INFO Y AJUSTES------*/
-/* line 289, ../sass/profile.scss */
+/* line 293, ../sass/profile.scss */
 .info-title-wrapper {
   border-bottom: 1px solid #01394c;
   margin: 0;
 }
 
-/* line 294, ../sass/profile.scss */
+/* line 298, ../sass/profile.scss */
 .info-title {
   font-size: 1.2em;
   font-weight: bold;
@@ -1220,16 +1230,16 @@ h2.user-name {
   color: #01394c;
 }
 
-/* line 304, ../sass/profile.scss */
+/* line 308, ../sass/profile.scss */
 #info-adjusts {
   width: 85%;
   color: #01394c;
 }
-/* line 307, ../sass/profile.scss */
+/* line 311, ../sass/profile.scss */
 #info-adjusts .row {
   margin: 0;
 }
-/* line 310, ../sass/profile.scss */
+/* line 314, ../sass/profile.scss */
 #info-adjusts input, #info-adjusts select {
   line-height: 2em;
   background-color: #f0f0f0;
@@ -1237,11 +1247,11 @@ h2.user-name {
   width: 100%;
   color: #01394c;
 }
-/* line 317, ../sass/profile.scss */
+/* line 321, ../sass/profile.scss */
 #info-adjusts select {
   height: 2.2em;
 }
-/* line 320, ../sass/profile.scss */
+/* line 324, ../sass/profile.scss */
 #info-adjusts button {
   margin: 3% 1%;
   background-color: #01394c;
@@ -1251,31 +1261,31 @@ h2.user-name {
   padding: 1.5% 3%;
 }
 
-/* line 330, ../sass/profile.scss */
+/* line 334, ../sass/profile.scss */
 .info-gen-title {
   padding: 3% 1% 0;
   font-weight: bold;
   color: #01394c;
 }
 
-/* line 336, ../sass/profile.scss */
+/* line 340, ../sass/profile.scss */
 .labels {
   padding: 2% 0 0.5%;
 }
 
-/* line 340, ../sass/profile.scss */
+/* line 344, ../sass/profile.scss */
 .pref-dep {
   width: 85%;
   color: #01394c;
 }
-/* line 343, ../sass/profile.scss */
+/* line 347, ../sass/profile.scss */
 .pref-dep textarea {
   width: 40%;
   height: 150px;
   background-color: #f0f0f0;
   border: 1px solid #c0c0c0;
 }
-/* line 349, ../sass/profile.scss */
+/* line 353, ../sass/profile.scss */
 .pref-dep button {
   margin: 3% 1%;
   background-color: #01394c;
@@ -1284,18 +1294,18 @@ h2.user-name {
   border-radius: 29px;
   padding: 1.5% 3%;
 }
-/* line 358, ../sass/profile.scss */
+/* line 362, ../sass/profile.scss */
 .pref-dep .row {
   margin: 0;
 }
 
-/* line 363, ../sass/profile.scss */
+/* line 367, ../sass/profile.scss */
 .pref-labels {
   padding-top: 2%;
   padding-bottom: 1%;
 }
 
-/* line 368, ../sass/profile.scss */
+/* line 372, ../sass/profile.scss */
 #sportLevel {
   width: 20%;
   background-color: #f0f0f0;
@@ -1303,16 +1313,16 @@ h2.user-name {
   height: 2.2em;
 }
 
-/* line 375, ../sass/profile.scss */
+/* line 379, ../sass/profile.scss */
 .email-contrasena {
   width: 85%;
   color: #01394c;
 }
-/* line 378, ../sass/profile.scss */
+/* line 382, ../sass/profile.scss */
 .email-contrasena .row {
   margin: 0 15px;
 }
-/* line 381, ../sass/profile.scss */
+/* line 385, ../sass/profile.scss */
 .email-contrasena .email-input, .email-contrasena select {
   line-height: 2em;
   background-color: #f0f0f0;
@@ -1320,12 +1330,12 @@ h2.user-name {
   width: 40%;
   color: #01394c;
 }
-/* line 388, ../sass/profile.scss */
+/* line 392, ../sass/profile.scss */
 .email-contrasena select {
   height: 2.2em;
 }
 
-/* line 393, ../sass/profile.scss */
+/* line 397, ../sass/profile.scss */
 .email-button {
   margin: 3% 1%;
   background-color: #01394c;
@@ -1335,154 +1345,100 @@ h2.user-name {
   padding: 1.5% 3%;
 }
 
-/* line 406, ../sass/profile.scss */
-.green {
-  background-color: #B8FFDB;
-  height: 500px;
-  width: 100%;
+/*========CREDITOS----------*/
+/* line 412, ../sass/profile.scss */
+.history:nth-child(even) {
+  background-color: #fff;
 }
 
-/* line 412, ../sass/profile.scss */
+/* line 416, ../sass/profile.scss */
+.history:nth-child(odd) {
+  background-color: #dfeff5;
+}
+
+/* line 420, ../sass/profile.scss */
+.creditos-disponibles, .my-history-title {
+  margin: 0;
+  padding: 3% 0 2%;
+  font-weight: bold;
+}
+
+/* line 426, ../sass/profile.scss */
+.comprar-button {
+  margin: 0 0 5%;
+}
+/* line 428, ../sass/profile.scss */
+.comprar-button input {
+  background-color: #01394c;
+  color: #d8ee1a;
+  border: none;
+  padding: 1% 1.5%;
+  border-radius: 6px;
+}
+
+/* line 437, ../sass/profile.scss */
+.creditos-title {
+  margin: 0 -15px;
+  padding-left: 15px;
+  text-align: left;
+}
+
+/* line 443, ../sass/profile.scss */
+.hist-wrapper {
+  padding-top: 0;
+}
+
+/* line 447, ../sass/profile.scss */
+.hist {
+  border-bottom: 1px solid #01394c;
+  line-height: 1.5em;
+}
+
+/* line 452, ../sass/profile.scss */
+.my-history-title {
+  text-align: left;
+}
+
+/* line 456, ../sass/profile.scss */
+.history-menu {
+  display: inline;
+  text-align: center;
+}
+
+/* line 461, ../sass/profile.scss */
+.mi {
+  border-right: 1px solid #01394c;
+  line-height: 1.2em;
+}
+/* line 464, ../sass/profile.scss */
+.mi:last-child {
+  border: none;
+}
+
+/* line 469, ../sass/profile.scss */
+.history {
+  line-height: 50px;
+}
+
+/* line 473, ../sass/profile.scss */
+.center {
+  text-align: center;
+}
+
+/* line 477, ../sass/profile.scss */
+.creditos {
+  color: red;
+}
+
+/* line 481, ../sass/profile.scss */
+.pages {
+  font-weight: bold;
+  text-align: center;
+  padding: 5% 0;
+}
+
+/* line 491, ../sass/profile.scss */
 #estadisticas-profile, #creditos-profile,
 #informacion-profile {
   display: none;
-}
-
-/* line 10, ../sass/explora.scss */
-#explora-zona-exercises-wrapper {
-  color: #01394c;
-}
-
-/* line 14, ../sass/explora.scss */
-.user-map {
-  background-image: url(../images/explora/user-map.png);
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  -webkit-background-size: cover;
-  background-size: cover;
-  height: 500px;
-  margin: 2% 0;
-}
-
-/* line 21, ../sass/explora.scss */
-#user-photo {
-  display: inline-block;
-}
-
-/* line 25, ../sass/explora.scss */
-.creada-por {
-  display: inline-block;
-}
-
-/* line 29, ../sass/explora.scss */
-.explora-subtitle {
-  text-align: center;
-  font-size: 1.3em;
-  line-height: 1.3em;
-  padding: 2%;
-}
-/* line 34, ../sass/explora.scss */
-.explora-subtitle strong {
-  font-weight: bold;
-}
-
-/* line 40, ../sass/explora.scss */
-#explora-map {
-  background-image: url(../images/explora/explora-map-1.png);
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  -webkit-background-size: cover;
-  background-size: cover;
-  height: 800px;
-  margin: 0;
-  width: 100%;
-  position: relative;
-}
-
-/* line 49, ../sass/explora.scss */
-#barcelona-pin {
-  position: absolute;
-  top: 294px;
-  right: 212px;
-}
-
-/* line 55, ../sass/explora.scss */
-#joan-pin {
-  display: none;
-  position: absolute;
-  top: 544px;
-  left: 380px;
-}
-
-/* line 62, ../sass/explora.scss */
-#pop-up {
-  position: absolute;
-  top: 420px;
-  left: 335px;
-  display: none;
-}
-
-/* line 69, ../sass/explora.scss */
-#explora-zona-exercises-wrapper {
-  display: none;
-}
-
-/* line 73, ../sass/explora.scss */
-.zones {
-  padding: 0 15px;
-}
-
-/* line 77, ../sass/explora.scss */
-.explora-exercise-title-wrapper {
-  background-color: #01394c;
-  margin: 0 -30px;
-  line-height: 4;
-  padding-left: 2%;
-  color: white;
-  margin-bottom: 1%;
-}
-
-/* line 86, ../sass/explora.scss */
-.explora-exercise-name, .explora-exercise-info {
-  line-height: 2em;
-}
-
-/* line 90, ../sass/explora.scss */
-.explora-exercise-name {
-  font-weight: bold;
-}
-
-/* line 94, ../sass/explora.scss */
-hr {
-  border-color: #01394c;
-}
-
-/* line 98, ../sass/explora.scss */
-.image-subir {
-  margin: 5% 0;
-}
-
-/* line 102, ../sass/explora.scss */
-.crear-ex-form-input {
-  width: 100%;
-  height: 50px;
-  border-radius: 10px;
-  border: 1px solid #01394c;
-}
-
-/* line 109, ../sass/explora.scss */
-#descripcion-ejercicio {
-  height: 132px;
-}
-
-/* line 113, ../sass/explora.scss */
-#guardar-ejercicio {
-  margin: 2% 0 5%;
-  background-color: #d8ee1a;
-  color: #01394c;
-  font-weight: bold;
-  line-height: 3em;
-  padding: 0 5%;
-  border-radius: 30px;
-  float: right;
 }

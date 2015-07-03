@@ -9,3 +9,6 @@
 <!--[if IE]>
   <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
 <![endif]-->
+
+<!--HOVER-->
+<link rel="stylesheet" href="bower_components/Hover/css/hover-min.css">

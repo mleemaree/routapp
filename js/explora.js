@@ -11,4 +11,5 @@ $('#joan-pin').click(function(){
 
 $('#pop-up').click(function(){
 	$('#explora-zona-exercises-wrapper').show();
+	$('html, body').animate({scrollTop: $("#explora-zona-exercises-wrapper").offset().top}, 800);
 });

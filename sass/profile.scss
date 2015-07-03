@@ -9,6 +9,10 @@
 
 $pink: #d1005d;
 
+body{
+	color:$blue;
+}
+
 /*===Profile main nav====*/
 
 #profile-background{
@@ -403,11 +407,86 @@ $bordergray:#c0c0c0;
 
 
 
-.green{
-	background-color:#B8FFDB;
-	height:500px;
-	width:100%;
+/*========CREDITOS----------*/
+
+.history:nth-child(even){
+	background-color:#fff;
 }
+
+.history:nth-child(odd){
+	background-color:#dfeff5;
+}
+
+.creditos-disponibles, .my-history-title{
+  margin: 0;
+  padding: 3% 0 2%;
+  font-weight: bold;
+}
+
+.comprar-button{
+	margin:0 0 5%;
+	input{
+		 background-color: $blue;
+  		 color: $green;
+ 		 border: none;
+ 		 padding: 1% 1.5%;
+ 		 border-radius: 6px;
+	}
+}
+
+.creditos-title{
+  margin: 0 -15px;
+  padding-left: 15px;
+  text-align:left;
+}
+
+.hist-wrapper{
+	padding-top:0;
+}
+
+.hist{
+	border-bottom: 1px solid $blue;
+	line-height:1.5em;
+}
+
+.my-history-title{
+	text-align:left;
+}
+
+.history-menu{
+	display:inline;
+	text-align:center;
+}
+
+.mi{
+	border-right:1px solid $blue;
+	line-height:1.2em;
+	&:last-child{
+		border:none;
+	}
+}
+
+.history{
+	line-height:50px;
+}
+
+.center{
+	text-align:center;
+}
+
+.creditos{
+	color:red;
+}
+
+.pages{
+	font-weight:bold;
+	text-align:center;
+	padding:5% 0;
+}
+
+
+
+
 
 #estadisticas-profile, #creditos-profile,
 #informacion-profile{

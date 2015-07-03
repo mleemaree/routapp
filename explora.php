@@ -10,6 +10,7 @@ include('conexion-php-calls/conexion-routapp.php');
   <title>Routapp</title>
   <meta charset="utf-8">
   <?php include ('php-calls/header.php'); ?>
+  <link href="/stylesheets/explora.css" media="screen, projection" rel="stylesheet" type="text/css" />
 </head>
 <body>
   
@@ -86,7 +87,7 @@ include('conexion-php-calls/conexion-routapp.php');
     </div>
     <div class="hidden-xs col-sm-3"></div>
   </div>
-  <img id="barcelona-pin" src="images/explora/barcelona-pin.png">
+  <img id="barcelona-pin" class="hvr-bounce-in" src="images/explora/barcelona-pin.png">
   <img id="joan-pin" src="images/explora/pin.png">
   <img id="pop-up" src="images/explora/pop-up.png">
 </div>
