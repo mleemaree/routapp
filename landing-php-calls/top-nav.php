@@ -14,23 +14,31 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
+
+<!--    DISCUSS IF WE WANT IT TO THE LANDING!!!!!!!!!
+
         <li class="active"><a href="rutas.php">Rutas <span class="sr-only">(current)</span></a></li>
-        <li><a href="explora.php">Explora</a></li>
+        <li><a href="explora.php">Explora</a></li> -->
+
+
         <li><a href="be-trainer.php">BeTrainer</a></li>
         <li><a href="app.php">App</a></li>
-        <li><a href="#"><button type="button" class="btn btn-default login-button"
+        <li><a href="#"><button type="button" class="btn btn-default login-button" data-keyboard="true"
           data-toggle="modal" data-target="#login">LOGIN</button></a></li>
+
+<!--  ARE WE GOING TO HAVE TWO REGISTRATION BUTTONS???????
         <li>
           <button type="button" class="btn btn-default unete-button"
           data-toggle="modal" data-target="#unete">Únete Gratis</button>
         </li>
+-->
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
 
 
-<div id="unete" class="modal fade" role="dialog">
+<div id="unete" class="modal fade" role="dialog" tabindex="-1">
   <div class="modal-dialog">
 
     <!-- Modal content-->
@@ -51,7 +59,17 @@
   </div>
 </div>
 
-<div id="login" class="modal fade" role="dialog">
+<script>
+$(document).keypress(function(e) { 
+    if (e.keyCode == 27) { 
+        $("#unete").fadeOut(500);
+        //or
+        window.close();
+    } 
+});
+</script>
+
+<div id="login" class="modal fade" role="dialog" tabindex="-1">
   <div class="modal-dialog">
 
     <!-- Modal content-->

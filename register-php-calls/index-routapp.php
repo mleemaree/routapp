@@ -41,8 +41,9 @@ else if (isset($_POST['email']) and isset($_POST['password'])) {
 	    window.location = '../rutas.php';
 	  }, 2500);
 	</script>
-	<p align="center"><img src="../images/welcome-dinos.jpg"></p>
-	<p align="center">Bienvenido a Routapp! Le estamos dando a la página principal!</p>
+	<p align="center" style="margin-top:9cm; font-weight:bold; font-size:20px;">
+		Bienvenido a Routapp! Le estamos dando a la página principal!
+	</p>
 
 <?php
 

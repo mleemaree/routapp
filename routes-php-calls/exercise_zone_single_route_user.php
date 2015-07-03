@@ -5,6 +5,8 @@ $sql3="SELECT * FROM exercise where (zoneNum='".$y."') and (routeID='".$_GET['ro
 if ($result3 = $conexion->query($sql3)) {
 		$fila3 = $result3->fetch_assoc(); 
 
+		echo $y;
+
 		$i=1;
 
     	do  {     		

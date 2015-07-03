@@ -17,10 +17,10 @@
         <li class="active"><a href="index.php">Rutas <span class="sr-only">(current)</span></a></li>
         <li><a href="explora.php">Explora</a></li>
         <li><a href="app.php">App</a></li><li>
-        <li><a href="tienda.php">Tienda</a></li>
+        <li><img src="images/cart.png" href="tienda.php"><a href="tienda.php">Tienda</a></li>
         <li>
           <a class="btn btn-default" href="crear.php">
-            <span style="position:relative; top:-2.5px;">Crear Ruta</span>
+            <span style="position:relative; top:-1px;">Crear Ruta</span>
           </a>
         </li>
       </ul>
