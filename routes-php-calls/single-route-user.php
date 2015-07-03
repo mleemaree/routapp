@@ -59,18 +59,8 @@ $sql2="SELECT * FROM zones where routeID=".$_GET['routeID'];
 		</div>
 		<div class="hidden-xs col-sm-4"></div>
 		<div class="col-xs-12 col-sm-4">
-<<<<<<< Updated upstream
-			<p class="creada-por">Ruta creada por <span id="username"><?php echo $fila['username'];?></span></p>
-			<img id="user-photo" src="register-php-calls/user_images/<?php echo $fila['avatar'];?>">
-=======
-<<<<<<< HEAD
-			<p>Ruta creada por <span id="username"><?php echo $fila1['username'];?></span></p>
-			<img src="register-php-calls/user_images/<?php echo $fila1['avatar'];?>">
-=======
-			<p class="creada-por">Ruta creada por <span id="username"><?php echo $fila['username'];?></span></p>
-			<img id="user-photo" src="register-php-calls/user_images/<?php echo $fila['avatar'];?>">
->>>>>>> origin/master
->>>>>>> Stashed changes
+			<p class="creada-por">Ruta creada por:  <span id="username"><?php echo $fila1['username'];?></span></p>
+			<img id="user-photo" src="register-php-calls/user_images/<?php echo $fila1['avatar'];?>">
 		</div>
 	</div>
 </div>

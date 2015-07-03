@@ -24,6 +24,7 @@ if ($result = $conexion->query($sql)) {
 							</h2>
 						</div>
 						<div class="hidden-xs col-sm-6 credits">
+							<span class="stars-rating"><img src="images/stars.png"></span>
 							<span class="credit-cost"><?php echo $fila['credits']; ?></span>
 						</div>
 					</div>

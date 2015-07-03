@@ -24,6 +24,7 @@ if ($result = $conexion->query($sql)) {
 							</h2>
 						</div>
 						<div class="hidden-xs col-sm-6 credits">
+							<span class="stars-rating"><img src="images/stars.png"></span>
 							<span class="credit-cost"><?php echo $fila['credits']; ?></span>
 						</div>
 					</div>
@@ -73,7 +74,8 @@ if ($result = $conexion->query($sql)) {
 				</div>
 
 			</a>
-			<?php echo '<hr>'; ?>
+
+			<br><br>
 				<?php    			
     		}
 
@@ -136,14 +138,14 @@ if ($result = $conexion->query($sql)) {
 				</div>
 			</a>
 
+			<br><br>
 
-			<?php echo '<hr>'; ?>
+
 				<?php    			
     		}
 
     		else{
 
-    			$mapid=rand(1,2000);
     			?>
     		<a href="ind-route-user.php?routeID=<?php echo $fila['routeID']; ?>">
 		    	<div class="route-card">
@@ -191,7 +193,8 @@ if ($result = $conexion->query($sql)) {
 				</div>
 			</a>
 			
-						<?php echo '<hr>'; ?>
+			<br><br>
+			
 		    	<?php
 
 		    }

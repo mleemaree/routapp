@@ -203,11 +203,21 @@ $sql1="SELECT * FROM users WHERE username=".$_SESSION['user']['username'];
 			 		   onfocus="if (this.value == '<?php echo $fila['password'];?>') {this.value = '';}"
 			 		   placeholder="confirmar nueva contraseña">
 		</div>
-		<label for="avatar">Foto (avatar)</label></td>
-			<td><input type="file" name="avatar">
+	</div>
+
+<hr>
+	<div class="container email-contrasena">
+		<div class="row">
+			<h3 class="info-gen-title">Foto (avatar)</h3>
+		</div>
+		<div class="row">
+			<br><br><input type="file" size="60" name="avatar">
+		</div>
+		<br>
 		<div class="row">
 			<input class="email-button" type="submit" value="Guardar">			
 		</div>
+	</div>
 				
 		   
 		
