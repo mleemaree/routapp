@@ -314,6 +314,12 @@ a{
 
 /*-------MAPA USER CARDS--------*/
 
+
+#routes-map-pane-wrapper{
+	display:none;
+	padding-top:5%;
+}
+
 #routes-map-pane-wrapper{
 	margin-bottom:5%;
 }
@@ -366,3 +372,48 @@ a{
 	height:941px;
 	overflow-y:scroll;
 }
+
+
+.mapa-bought-card{
+	@include background-image(url(../images/route/mapa-bought-card.png));
+	@include background-size(cover);
+	background-position: center center;
+	height:244px;
+	position:relative;
+}
+
+.map-bought-card-title{
+  font-family: din condensed bold;
+  font-size: 3em;
+  color: white;
+  font-style: italic;
+  text-shadow: 1px 1px $green;
+  padding: 5% 0 1% 3%;
+}
+
+.mapa-bought-card-title{
+  padding-left: 5%;
+  color: white;
+  font-style: italic;
+  font-size: 0.9em;
+}
+
+.mapa-bought-metrics{
+  text-align: center;
+  position: absolute;
+  bottom: 29px;
+  width: 100%;
+  font-family: din condensed bold;
+  font-size: 3em;
+  font-style:italic;
+}
+
+#mapa-bought-card-distance{
+	float:right;
+	padding-right:7%;
+}
+
+#mapa-bought-card-exerciseNum{
+	padding-right:29%;
+}
+
