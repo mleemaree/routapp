@@ -142,17 +142,20 @@ if ($result = $conexion->query($sql)) {
     		}
 
     		else{
+
+    			$mapid=rand(1,2000);
     			?>
     		<a href="ind-route-user.php?routeID=<?php echo $fila['routeID']; ?>">
 		    	<div class="route-card">
 		    		<div class="row routes-list-row">
 						<div class="col-xs-12 col-sm-6" class="map" style="height:150px; padding:0;">
-							<div class="map" class="map">
+							<div class="map" class="map-<?php echo $mapid ?>">
 								<div class="user">
 		    						<img src="register-php-calls/user_images/<?php echo $fila['avatar']?>">
 		    					</div>
 							</div>
 						</div>
+						
 						<div class="col-xs-12 col-sm-6 whiteness">
 							<div class="row routes-list-row" style="padding: 2% 5%;">
 								<div class="col-xs-10">

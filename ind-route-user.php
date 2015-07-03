@@ -23,7 +23,9 @@ include('conexion-php-calls/conexion-routapp.php');
 
 </div><!--background-white-->
 
-<?php include ('php-calls/scripts.php'); ?>
+<?php include ('php-calls/scripts.php');
+		include ('php-calls/footer.php');
+	 ?>
 <script type="text/javascript" src="js/perfil.js"></script>
 </body>
 </html>

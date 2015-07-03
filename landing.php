@@ -185,7 +185,7 @@ $_SESSION['name']='user';
 				<h3 class="title" id="descarga-title">DESCARGA NUESTRA APLICACIÓN</h3>
 			</div>
 			<div class="descarga-wrapper">
-				<p class="sub">Sáca el máximo partido a cada uno de tus entrenamientos con nuestra aplicaión
+				<p class="sub">Sáca el máximo partido a cada uno de tus entrenamientos con nuestra aplicación
 			</div>
 			<button class="landing-button" id="descarga" type="button">
 					<span>DESCARGAR LA APLICACIÓN</span>
@@ -207,6 +207,12 @@ $_SESSION['name']='user';
 
 
 
-<?php include ('php-calls/scripts.php'); ?>
+<?php include ('php-calls/scripts.php');
+
+include ('php-calls/footer.php');
+
+
+
+ ?>
 </body>
 </html>

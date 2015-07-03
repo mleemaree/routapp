@@ -1,7 +1,9 @@
 <?php
 
-if ($result = $conexion->query($sql2)) {
-		$fila = $result->fetch_assoc();     		
+if ($result2 = $conexion->query($sql2)) {
+		$fila2 = $result2->fetch_assoc();  
+
+		do {   		
 
     				?>
 
@@ -30,7 +32,7 @@ if ($result = $conexion->query($sql2)) {
 				<div class="col-xs-12">
 					<h4 class="in-title zone-title">ZONE <span id="zone-num">1</span></h4>
 					<img class="in-title running-guy" src="images/iconos/runner.png">
-					<span class="in-title zone-distance"><?php echo $fila['km']; ?> Km</span>
+					<span class="in-title zone-distance"><?php echo $fila2['km']; ?> Km</span>
 				</div>
 			</div>
 			<div class="row zone-info-wrapper">
@@ -47,9 +49,9 @@ if ($result = $conexion->query($sql2)) {
 									<p>N° de Ejercicios</p>
 								</div>
 								<div class="col-xs-6 names">
-									<span class="name" id="exercType"><?php echo $fila['exercType']; ?></span>
-									<span class="name" id="exercParts"><?php echo $fila['exercParts'];?></span>
-									<span class="name" id="exercNumber"><?php echo $fila['exercNumber']; ?></span>
+									<span class="name" id="exercType"><?php echo $fila2['exercType']; ?></span>
+									<span class="name" id="exercParts"><?php echo $fila2['exercParts'];?></span>
+									<span class="name" id="exercNumber"><?php echo $fila2['exercNumber']; ?></span>
 								</div>
 							</div>
 						</div>
@@ -59,7 +61,7 @@ if ($result = $conexion->query($sql2)) {
 									<p>Descripción</p>
 								</div>
 								<div class="col-xs-9 zone-desc">
-									<span class="desc-name" id="zone-details"><?php echo $fila['descriptionZ'];?></span>
+									<span class="desc-name" id="zone-details"><?php echo $fila2['descriptionZ'];?></span>
 								</div>
 							</div>
 						</div>
@@ -75,17 +77,19 @@ if ($result = $conexion->query($sql2)) {
 
 
 					<?php
-    		
 
-		$result->close();
-		include('exercise_zone_single_route.php');
+					if ($fila2['zoneID']==1) {
+					include('exercise_zone_single_route.php'); }
+    		
+				} while($fila2 = $result2->fetch_assoc());
+		$result2->close();
 
 }
 
 ?>
 </div>
 </div>
-		<div class="col-xs-1 flags">
+		<!-- <div class="col-xs-1 flags">
 			<img class="start-flag" src="">
 		</div>
 		<div class="col-xs-11 zones-titles infosman">
@@ -110,9 +114,9 @@ if ($result = $conexion->query($sql2)) {
 									<p>N° de Ejercicios</p>
 								</div>
 								<div class="col-xs-6 names">
-									<span class="name" id="exercType">Potencia<?php echo $fila['exercType']; ?></span>
-									<span class="name" id="exercParts">Pierna - Cuadriceps<?php echo $fila['exercParts'];?></span>
-									<span class="name" id="exercNumber">4<?php echo $fila['exercNumber']; ?></span>
+									<span class="name" id="exercType">Potencia<?php echo $fila2['exercType']; ?></span>
+									<span class="name" id="exercParts">Pierna - Cuadriceps<?php echo $fila2['exercParts'];?></span>
+									<span class="name" id="exercNumber">4<?php echo $fila2['exercNumber']; ?></span>
 								</div>
 							</div>
 						</div>
@@ -122,7 +126,7 @@ if ($result = $conexion->query($sql2)) {
 									<p>Descripción</p>
 								</div>
 								<div class="col-xs-9 zone-desc">
-									<span class="desc-name" id="zone-details">In sed magna ullamcorper, interdum arcu non, dictum enim. Nulla id arcu ac dolor fermentum tincidunt.<?php echo $fila['descriptionZ'];?></span>
+									<span class="desc-name" id="zone-details">In sed magna ullamcorper, interdum arcu non, dictum enim. Nulla id arcu ac dolor fermentum tincidunt.<?php echo $fila2['descriptionZ'];?></span>
 								</div>
 							</div>
 						</div>
@@ -155,9 +159,9 @@ if ($result = $conexion->query($sql2)) {
 									<p>N° de Ejercicios</p>
 								</div>
 								<div class="col-xs-6 names">
-									<span class="name" id="exercType">Tonificación<?php echo $fila['exercType']; ?></span>
-									<span class="name" id="exercParts">Abdominales<?php echo $fila['exercParts'];?></span>
-									<span class="name" id="exercNumber">4<?php echo $fila['exercNumber']; ?></span>
+									<span class="name" id="exercType">Tonificación<?php echo $fila2['exercType']; ?></span>
+									<span class="name" id="exercParts">Abdominales<?php echo $fila2['exercParts'];?></span>
+									<span class="name" id="exercNumber">4<?php echo $fila2['exercNumber']; ?></span>
 								</div>
 							</div>
 						</div>
@@ -167,14 +171,14 @@ if ($result = $conexion->query($sql2)) {
 									<p>Descripción</p>
 								</div>
 								<div class="col-xs-9 zone-desc">
-									<span class="desc-name" id="zone-details">In sed magna ullamcorper, interdum arcu non, dictum enim. Nulla id arcu ac dolor fermentum tincidunt.<?php echo $fila['descriptionZ'];?></span>
+									<span class="desc-name" id="zone-details">In sed magna ullamcorper, interdum arcu non, dictum enim. Nulla id arcu ac dolor fermentum tincidunt.<?php echo $fila2['descriptionZ'];?></span>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
+		</div> -->
 
 	</div><!--inciniando-->
 

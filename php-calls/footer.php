@@ -1,0 +1,1 @@
+<img class="img img-responsive" style="width:100%" src="images/footer.png">

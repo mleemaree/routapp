@@ -58,7 +58,9 @@ $sql="SELECT * FROM users WHERE username=".$_SESSION['user']['username'];
 </div>
 
 
-<?php include ('php-calls/scripts.php'); ?>
+<?php include ('php-calls/scripts.php');
+		include ('php-calls/footer.php');
+ ?>
 <script type="text/javascript" src="js/perfil.js"></script>
 </body>
 </html>

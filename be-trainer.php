@@ -67,7 +67,9 @@
 
 
 
-<?php include ('php-calls/scripts.php'); ?>
+<?php include ('php-calls/scripts.php');
+		include ('php-calls/footer.php');
+ ?>
 <script type="text/javascript" src="js/mis-rutas.js"></script>
 </body>
 </html>
