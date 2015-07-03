@@ -10,19 +10,34 @@ if ($result = $conexion->query($sql)) {
     		if ($fila['username'] == "routapp") {
 
     			?>
+		<a href="ind-route-pro.php?routeID=<?php echo $fila['routeID']; ?>">
+			<div class="mapa-bought-card">
+				<div class="row not">
+					<div class="col-xs-12 map-bought-card-title">
+						<h3 class="mapa-bought-card-title"><?php echo $fila['title']; ?></h3>
+					</div>
+				</div>
+				<div class="row not">
+					<div class="col-xs-12 map-bought-card-subtitle">
+						<h3 class="mapa-bought-card-title"><?php echo $fila['subtitle']; ?></h3>
+					</div>
+				</div>
+				<div class="row mapa-bought-metrics">
+					<div class="col-xs-4">
+						<span id="mapa-bought-card-distance"><?php echo $fila['distance'];?></span>
+					</div>
+					<div class="col-xs-4">
+						<span id="mapa-bought-card-calories"><?php echo $fila['calories'];?></span>
+					</div>
+					<div class="col-xs-4">
+						<span id="mapa-bought-card-exerciseNum"><?php echo $fila['exerciseNum'];?></span>
+					</div>
+				</div>
+			</div>
+		</a>
 
-    			<p class="bought-route-card-mapa">
 
-						<?php echo $fila['title']; ?><br>
-						<?php echo $fila['subtitle']; ?><br>
-						<?php echo $fila['credits']; ?><br><br>
-						<?php echo $fila['distance'];?><br>
-						<?php echo $fila['calories'];?><br>
-						<?php echo $fila['exerciseNum'];?><br>
-						
 
-				</p>
-			
 						<?php echo '<hr>';?>
 				<?php    			
     		}
@@ -30,6 +45,7 @@ if ($result = $conexion->query($sql)) {
     		else{
     			?>
 
+		<a href="ind-route-user.php?routeID=<?php echo $fila['routeID']; ?>">
     		<div class="mapa-user-card">
     			<div class="row its">
     				<div class="col-xs-12 map-user-card-title">
@@ -59,6 +75,7 @@ if ($result = $conexion->query($sql)) {
 					</div>
 				</div>
 			</div>
+		</a>
 
 
 
