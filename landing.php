@@ -45,7 +45,7 @@ $_SESSION['name']='user';
 	<div class="row">
 		<div class="col-xs-12 col-sm-5 info">
 			<div class="crea-title-wrapper">
-				<h3 class="title" id="crea-title">CREA TUS PROPIAS RUTAS Y EJERCICIOS</h3>
+				<h3 class="title landing-title" id="crea-title">CREA TUS PROPIAS RUTAS Y EJERCICIOS</h3>
 			</div>
 			<div class="crea-list-wrapper">
 				<div class="row">
@@ -95,7 +95,7 @@ $_SESSION['name']='user';
 		</div>
 		<div class="col-xs-12 col-sm-6 info">
 			<div class="ciudad-title-wrapper">
-				<h3 class="title" id="ciudad-title">LA CIUDAD ES TU GIMNASIO, Y ES GRATIS</h3>
+				<h3 class="title landing-title" id="ciudad-title">LA CIUDAD ES TU GIMNASIO, Y ES GRATIS</h3>
 			</div>
 			<div class="ciudad-list-wrapper">
 				<div class="row">
@@ -136,7 +136,7 @@ $_SESSION['name']='user';
 	<div class="row trainer-row">
 		<div class="col-xs-12 col-sm-6 info">
 			<div class="trainer-title-wrapper">
-				<h3 class="title" id="trainer-title">ENTRENA Y GANA CON "BE A TRAINER"</h3>
+				<h3 class="title landing-title" id="trainer-title">ENTRENA Y GANA CON "BE A TRAINER"</h3>
 			</div>
 			<div class="trainer-list-wrapper">
 				<div class="row">
@@ -184,7 +184,7 @@ $_SESSION['name']='user';
 		</div>
 		<div class="col-xs-12 col-sm-6 info">
 			<div class="descarga-title-wrapper">
-				<h3 class="title" id="descarga-title">DESCARGA NUESTRA APLICACIÓN</h3>
+				<h3 class="title landing-title" id="descarga-title">DESCARGA NUESTRA APLICACIÓN</h3>
 			</div>
 			<div class="descarga-wrapper">
 				<p class="sub">Sáca el máximo partido a cada uno de tus entrenamientos con nuestra aplicación

@@ -170,7 +170,7 @@ if ($result = $conexion->query($sql)) {
 									</div>
 								</div>
 							</div>
-							<div class="row routes-list-row" style="padding:10% 5% 0;">
+							<div class="row routes-list-row" style="padding:13% 5% 0;">
 								<div class="col-xs-3 route-info">
 									<img src="../images/shoe.png">
 									<span class="number"><?php echo $fila['distance'];?></span>

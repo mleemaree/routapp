@@ -156,6 +156,35 @@ hr{
   border-radius: 8px;
 }
 
+.hint{
+	margin: 11% 10%;
+}
+
+.hint-title{
+	background-color:$blue;
+	text-align:center;
+	color:white;
+	border-top-left-radius:15px;
+	border-top-right-radius:15px;
+	font-size:1.3em;
+	line-height:3;
+	h4{
+		display:inline;
+	}
+}
+
+.hint-body{
+	background-color:white;
+	text-align:center;
+	font-weight:bold;
+	color:$blue;
+	border-bottom-left-radius:15px;
+	border-bottom-right-radius:15px;
+	p{
+		font-size:1.1em;
+		padding:5% 3%;
+	}
+}
 
 
 

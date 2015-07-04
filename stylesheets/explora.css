@@ -483,3 +483,38 @@ hr {
   text-align: center;
   border-radius: 8px;
 }
+
+/* line 159, ../sass/explora.scss */
+.hint {
+  margin: 11% 10%;
+}
+
+/* line 163, ../sass/explora.scss */
+.hint-title {
+  background-color: #01394c;
+  text-align: center;
+  color: white;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  font-size: 1.3em;
+  line-height: 3;
+}
+/* line 171, ../sass/explora.scss */
+.hint-title h4 {
+  display: inline;
+}
+
+/* line 176, ../sass/explora.scss */
+.hint-body {
+  background-color: white;
+  text-align: center;
+  font-weight: bold;
+  color: #01394c;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+/* line 183, ../sass/explora.scss */
+.hint-body p {
+  font-size: 1.1em;
+  padding: 5% 3%;
+}

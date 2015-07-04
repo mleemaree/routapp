@@ -128,6 +128,4 @@
 
 </div><!--ZONA EXPLORA WRAPPER-->
 </div>
-<div class="footer" style="background-color: #fff; padding-top: 5%; margin:0 -30px;">
-	<?php include('php-calls/footer.php');?>
-</div>
+

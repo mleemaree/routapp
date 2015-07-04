@@ -105,6 +105,10 @@ nav{
 	text-align:center;
 }
 
+.landing-title{
+	border:none;
+}
+
 #title{
 	width:75%;
 	margin:0 auto;
@@ -359,12 +363,11 @@ nav{
 }
 
 .titler{
-	width:100%;
-	margin: 0 auto 3%;
+	margin:0 15px 3% 15px;
+		border-bottom:1px solid $blue;
 }
 
 .eres-title{
-	border-bottom:1px solid $blue;
 	h3{
 		padding:3% 0;
 	}

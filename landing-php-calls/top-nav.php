@@ -8,21 +8,22 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
+      <a class="navbar-brand" style="padding:0;" href="landing.php"><img src="images/logo.png"></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-right">
+      <ul class="nav navbar-nav navbar-right nav-justified">
         <li><a href="be-trainer.php">BeTrainer</a></li>
         <li><a href="app.php">App</a></li>
         <li>
-          <a href="#">
-            <button type="button" class="btn btn-default login-button"
-            data-toggle="modal" data-keyboard="true" data-target="#login"><img src="images/login-icon.png"></img> Login</button>
+          <a class="login-button" style="padding-top:9px;"
+            data-toggle="modal" data-keyboard="true" data-target="#login">
+            <img style="float:left;"src="images/login-icon.png"> 
+            <p style="float:right; line-height:2;">Login</p>
           </a>
         </li>
-        <li>
+        <li style="margin-left:4%; margin-top:0.5%;">
           <button type="button" class="btn btn-default unete-button" data-keyboard="true"
           data-toggle="modal" data-target="#unete">Únete Gratis</button>
         </li>
