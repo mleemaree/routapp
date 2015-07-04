@@ -263,22 +263,27 @@
 
 /*-----------USER ROUTE-------*/
 /* line 239, ../sass/ind-route-pro.scss */
+#user-photo {
+  height: 50px;
+}
+
+/* line 243, ../sass/ind-route-pro.scss */
 .zone-info-wrapper {
   margin: 0 15px;
 }
 
-/* line 243, ../sass/ind-route-pro.scss */
+/* line 247, ../sass/ind-route-pro.scss */
 .desc-exer {
   margin: 0 15px;
   padding-bottom: 5%;
 }
 
-/* line 248, ../sass/ind-route-pro.scss */
+/* line 252, ../sass/ind-route-pro.scss */
 .user-route-title {
   font-size: 1.2em;
 }
 
-/* line 252, ../sass/ind-route-pro.scss */
+/* line 256, ../sass/ind-route-pro.scss */
 .user-route-title-wrapper {
   border-bottom: 1px solid #01394c;
 }

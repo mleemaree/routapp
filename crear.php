@@ -23,7 +23,7 @@ include('conexion-php-calls/conexion-routapp.php');
 			</button>
 		</li>
 		<li class="tool">
-			<button type="button">
+			<button id="lapiz" type="button">
 				<img src="images/iconos/lapiz.png">
 				<p class="herramienta-title">Añadir Trazo</p>
 			</button>
@@ -41,7 +41,7 @@ include('conexion-php-calls/conexion-routapp.php');
 			</button>
 		</li>
 		<li class="guardar-wrapper">
-			<button type="button">
+			<button id="guardar-crear-traz" type="button">
 				<p class="guardar">Guardar Trazado</p>
 			</button>
 		</li>
@@ -53,13 +53,44 @@ include('conexion-php-calls/conexion-routapp.php');
 
 
 <div class="container" id="crear-map-wrapper">
-	<?php include('creator/crear-map.php');?>
+
+	<div class="modal fade" id="crear-pref">
+	  <div class="modal-header">
+	    <a class="close" data-dismiss="modal">×</a>
+	    <h3 style="font-weight:bold;">¿Cómo prefieres crear tu ruta?</h3>
+	  </div>
+	  <div class="modal-body">
+	    <div class="row">
+	    	<div class="col-xs-6">
+	    		<a href="#" class="btn">
+	    			<img alt="man-icon" data-dismiss="modal" src="images/iconos/manual.png">
+	    		</a>
+	    		<p>Manualmente</p>
+	    	</div>
+	    	<div class="col-xs-6">
+	    		<a href="#" data-dismiss="modal" class="btn">
+	    			<img alt="arch-icon" src="images/iconos/archivo.png">
+	    		</a>
+	    		<p>Desde archivo</p>
+	    	</div>
+	    </div>
+	  </div>
+	</div>
+
+	<img alt="trazado" id="trazado" src="images/crear/trazo.png">
+
+	
+	<?php include('creator-php-calls/crear-map.php');?>
+</div><!--container crear-map-wrapper-->
+
+<div class="container" id="crear-ruta-char-wrapper">
+<?php include('creator-php-calls/creator-form.php') ?>
 </div>
 
 
-
-<?php include ('php-calls/scripts.php'); 
-		include ('php-calls/footer.php');
+<?php include ('php-calls/footer.php');
+include ('php-calls/scripts.php'); 
 ?>
+<script type="text/javascript" src="js/crear.js"></script>
 </body>
 </html>

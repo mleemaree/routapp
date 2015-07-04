@@ -14,7 +14,7 @@ if ($result2 = $conexion->query($sql2)) {
 
 
 
-	<div class="row inciniando">
+   	<div class="row" style="margin:0;">
 		<div class="col-xs-1 flags">
 			<img class="start-flag" src="">
 		</div>
@@ -59,6 +59,8 @@ if ($result2 = $conexion->query($sql2)) {
 					</div>
 				</div>
 			</div>
+		</div>
+	</div>
 
 
 
@@ -74,8 +76,8 @@ if ($result2 = $conexion->query($sql2)) {
 
 ?>
 </div>
-</div>
 
-	</div><!--inciniando-->
+
+
 
 	

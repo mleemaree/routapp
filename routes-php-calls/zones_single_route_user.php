@@ -24,7 +24,7 @@ if ($result2 = $conexion->query($sql2)) {
 				</div>
 			</div>
 		</div>
-	</div>
+
 
 	
 
@@ -44,4 +44,4 @@ if ($result2 = $conexion->query($sql2)) {
 
 ?>	
 
-
+</div>

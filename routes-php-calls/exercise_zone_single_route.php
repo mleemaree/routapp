@@ -12,6 +12,7 @@ if ($result3 = $conexion->query($sql3)) {
     			?>
 
 		<div style="float:right; margin:15px;">
+			<div style="width:91.667%; margin-left:8%;">
 			<div class="row ejercicio-title">
 				<div class="col-xs-12 exercise-title-wrapper">
 					<h3 id="exercise-title">Ejercicio <?php echo $i;?> - <?php echo $fila3['exName']; ?></h3>
@@ -54,6 +55,7 @@ if ($result3 = $conexion->query($sql3)) {
 					</div>
 				</div>
 			</div>
+		</div>
 
 
 			
@@ -66,7 +68,6 @@ if ($result3 = $conexion->query($sql3)) {
 } 
 
 ?>	
-		</div><!--container exercises-->
 
-</div><!--initial container.-->
+
 

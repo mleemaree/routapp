@@ -9,6 +9,7 @@
 	@include background-image(url(../images/crear/crear-mapa.png));
 	@include background-size(cover);
 	height:542px;
+	position:relative;
 }
 
 .herramienta-title{
@@ -27,4 +28,106 @@
 		background-color:transparent;
 		border:none;
 	}
+}
+
+.modal-header{
+	border:none;
+}
+
+#trazado{
+	position:absolute;
+	height:36.5%;
+	top:132px;
+	right:131px;
+	display:none;
+}
+
+#crear-ruta-char{
+	width:56%;
+	background-color:#EFEFEF;
+	-webkit-box-shadow: 3px 3px 5px 0px rgba(194,188,194,1);
+	box-shadow: 3px 3px 5px 0px rgba(194,188,194,1);
+	border-radius:15px;
+	margin-top:5%;
+}
+
+.crear-ruta-info-title{
+  font-weight: bold;
+  border-bottom: 1px solid $blue;
+  margin: 0 15px;
+  line-height: 2;
+  padding:1% 0;
+}
+
+.la{
+	padding:0;
+}
+
+.nombre,.desc{
+	margin:0;
+	padding:2% 0;
+	line-height:2;
+	input{
+		width:100%;
+	}
+	textarea{
+		width:100%;
+	}
+
+}
+
+.crear-input input, .crear-input textarea{
+	border:none;
+	border-radius:5px;
+}
+
+.crear-trazado-type{
+	margin:2% 0;
+	p{
+	display:inline;
+	padding:0 5%;
+	}
+}
+
+.crear-traz-title{
+	font-weight:bold;
+}
+
+.crear-char-chars{
+	margin:0;
+	ul{
+		background-color:#fff;
+		line-height:1.5em;
+		padding:5%;
+		height:250px;
+	}
+}
+
+.crear-char-names{
+	margin:2% 0;
+	font-weight:bold;
+}
+
+.submit{
+	text-align:center;
+	margin:5% 0;
+}
+
+#crear-char-submit{
+  background-color: $blue;
+  border: none;
+  color: white;
+  padding: 2% 5%;
+  border-radius: 32px;
+}
+
+#crear-pref{
+
+  width: 20%;
+  margin: 0 auto;
+  top: 250px;
+  background-color: #efefef;
+  text-align: center;
+  height: 200px;
+  border-radius: 15px;
 }

@@ -13,14 +13,14 @@
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav middle">
+      <ul class="nav navbar-nav middle nav-justified">
         <li class="active"><a href="index.php">Rutas <span class="sr-only">(current)</span></a></li>
         <li><a href="explora.php">Explora</a></li>
         <li><a href="app.php">App</a></li><li>
         <li><a href="tienda.php">Tienda</a></li>
         <li>
           <a class="btn btn-default" href="crear.php">
-            <span style="position:relative; top:-2.5px;">Crear Ruta</span>
+            <span style="position:relative; line-height:-1;">Crear Ruta</span>
           </a>
         </li>
       </ul>

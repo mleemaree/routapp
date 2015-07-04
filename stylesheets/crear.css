@@ -233,26 +233,145 @@ a.btn.btn-default {
   -webkit-background-size: cover;
   background-size: cover;
   height: 542px;
+  position: relative;
 }
 
-/* line 14, ../sass/crear.scss */
+/* line 15, ../sass/crear.scss */
 .herramienta-title {
   display: inline;
 }
 
-/* line 18, ../sass/crear.scss */
+/* line 19, ../sass/crear.scss */
 .button-large {
   background-color: #01394c;
   color: white;
   border-radius: 35px;
   padding: 5% 20%;
 }
-/* line 23, ../sass/crear.scss */
+/* line 24, ../sass/crear.scss */
 .button-large img {
   display: inline;
 }
-/* line 26, ../sass/crear.scss */
+/* line 27, ../sass/crear.scss */
 .button-large button {
   background-color: transparent;
   border: none;
+}
+
+/* line 33, ../sass/crear.scss */
+.modal-header {
+  border: none;
+}
+
+/* line 37, ../sass/crear.scss */
+#trazado {
+  position: absolute;
+  height: 36.5%;
+  top: 132px;
+  right: 131px;
+  display: none;
+}
+
+/* line 45, ../sass/crear.scss */
+#crear-ruta-char {
+  width: 56%;
+  background-color: #EFEFEF;
+  -webkit-box-shadow: 3px 3px 5px 0px #c2bcc2;
+  box-shadow: 3px 3px 5px 0px #c2bcc2;
+  border-radius: 15px;
+  margin-top: 5%;
+}
+
+/* line 54, ../sass/crear.scss */
+.crear-ruta-info-title {
+  font-weight: bold;
+  border-bottom: 1px solid #01394c;
+  margin: 0 15px;
+  line-height: 2;
+  padding: 1% 0;
+}
+
+/* line 62, ../sass/crear.scss */
+.la {
+  padding: 0;
+}
+
+/* line 66, ../sass/crear.scss */
+.nombre, .desc {
+  margin: 0;
+  padding: 2% 0;
+  line-height: 2;
+}
+/* line 70, ../sass/crear.scss */
+.nombre input, .desc input {
+  width: 100%;
+}
+/* line 73, ../sass/crear.scss */
+.nombre textarea, .desc textarea {
+  width: 100%;
+}
+
+/* line 79, ../sass/crear.scss */
+.crear-input input, .crear-input textarea {
+  border: none;
+  border-radius: 5px;
+}
+
+/* line 84, ../sass/crear.scss */
+.crear-trazado-type {
+  margin: 2% 0;
+}
+/* line 86, ../sass/crear.scss */
+.crear-trazado-type p {
+  display: inline;
+  padding: 0 5%;
+}
+
+/* line 92, ../sass/crear.scss */
+.crear-traz-title {
+  font-weight: bold;
+}
+
+/* line 96, ../sass/crear.scss */
+.crear-char-chars {
+  margin: 0;
+}
+/* line 98, ../sass/crear.scss */
+.crear-char-chars ul {
+  background-color: #fff;
+  line-height: 1.5em;
+  padding: 5%;
+  height: 250px;
+}
+
+/* line 106, ../sass/crear.scss */
+.crear-char-names {
+  margin: 2% 0;
+  font-weight: bold;
+}
+
+/* line 111, ../sass/crear.scss */
+.submit {
+  text-align: center;
+  margin: 5% 0;
+}
+
+/* line 116, ../sass/crear.scss */
+#crear-char-submit {
+  background-color: #01394c;
+  border: none;
+  color: white;
+  padding: 2% 5%;
+  border-radius: 32px;
+}
+
+/* line 124, ../sass/crear.scss */
+#crear-pref {
+  width: 20%;
+  margin: 0 auto;
+  top: 250px;
+  background-color: #efefef;
+  text-align: center;
+  height: 200px;
+  border-radius: 15px;
 }

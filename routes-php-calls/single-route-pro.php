@@ -224,7 +224,7 @@ $sql2="SELECT * FROM zones where routeID=".$_GET['routeID'];
 	} 
 	?>	
 
-</div>
+
 
 
 
