@@ -104,9 +104,15 @@ $sql2="SELECT * FROM zones where routeID=".$_GET['routeID'];
 		</div>
 	</div>
 	<div class="row char-info">
+
+<!-- GOOGLE MAP DIV BEGIN -->
+
 		<div class="col-xs-12 col-sm-7">
-			<div id="map"></div>
+			<div id="map-canvas-route-pro"></div>
 		</div>
+
+<!-- GOOGLE MAP DIV END -->
+
 		<div class="col-xs-12 col-sm-5">
 			<div class="row charac">
 				<div class="col-xs-6 name">

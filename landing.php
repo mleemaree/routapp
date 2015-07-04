@@ -28,7 +28,8 @@ $_SESSION['name']='user';
 						<h2 id="subtitle">Crear rutas y ejercicios para ponerte en forma</h2>
 					</div>
 				</div>
-				<button class="landing-button" id="unete-gratis" type="button">
+				<button class="landing-button" id="unete-gratis" type="button" data-keyboard="true"
+          data-toggle="modal" data-target="#unete">
 					<span>ÚNETE GRATIS</span>
 				</button>
 			</div>
@@ -36,6 +37,7 @@ $_SESSION['name']='user';
 		<div class="col-xs-2"></div>
 	</div>
 </div>
+
 
 <div class="content-wrapper">
 

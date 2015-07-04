@@ -7,6 +7,8 @@ $sql="SELECT * FROM routes ";
 <div class="container routes">
 <?php
 
+$i=1;
+
 if ($result = $conexion->query($sql)) {
 		$fila = $result->fetch_assoc(); 
     	do  { 
@@ -143,16 +145,15 @@ if ($result = $conexion->query($sql)) {
 
     		else{
 
-    			$mapid=rand(1,2000);
     			?>
     		<a href="ind-route-user.php?routeID=<?php echo $fila['routeID']; ?>">
 		    	<div class="route-card">
 		    		<div class="row routes-list-row">
 						<div class="col-xs-12 col-sm-6" class="map" style="height:150px; padding:0;">
-							<div class="map" class="map-<?php echo $mapid ?>">
+							<div class="map">
 								<div class="user">
 		    						<img class="user-route-card-img" src="register-php-calls/user_images/<?php echo $fila['avatar']?>">
-		    						<img src="images/<?php echo $fila['map']?>">
+		    						<img src="images/maps/<?php echo $fila['map'].$i.".png" ?>">
 
 		    					</div>
 							</div>
@@ -196,11 +197,15 @@ if ($result = $conexion->query($sql)) {
 						<?php echo '<hr>'; ?>
 		    	<?php
 
+		    	$i++;
+
 		    }
 
     				} while ($fila = $result->fetch_assoc());
 					$result->close();
 				} 
+
+				echo $i;
 
 
 				?>	

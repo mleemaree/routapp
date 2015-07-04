@@ -5,8 +5,7 @@ if ($result2 = $conexion->query($sql2)) {
 
 		do {   
 
-		$y=$fila2['zoneNum'];
-		echo $y;			
+		$y=$fila2['zoneNum'];		
 
     				?>
 

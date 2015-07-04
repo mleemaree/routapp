@@ -14,7 +14,7 @@ $sql1="SELECT * FROM users WHERE username=".$_SESSION['user']['username'];
 			<h3 class="info-gen-title">Información General de Perfil</h3>
 		</div>
 
-	<form action="../register-php-calls/register_user_profile.php" method="post" enctype="multipart/form-data">
+		<form action="../register-php-calls/register_user_profile.php" method="post" enctype="multipart/form-data">
 
 
 		<?php 
@@ -202,28 +202,107 @@ $sql1="SELECT * FROM users WHERE username=".$_SESSION['user']['username'];
 					   onblur="if (this.value == '') {this.value = '<?php echo $fila['password'];?>';}"
 			 		   onfocus="if (this.value == '<?php echo $fila['password'];?>') {this.value = '';}"
 			 		   placeholder="confirmar nueva contraseña">
+		</div>		
+	</div>			
+<hr>
+
+	<div class="container email-contrasena">
+		<div class="row">
+			<h3 class="info-gen-title">Foto (avatar)</h3>
 		</div>
-		<label for="avatar">Foto (avatar)</label></td>
-			<td><input type="file" name="avatar">
+		<div class="row pref-labels">
+			<label for="email">Aquí puedes subir tu avatar</label>
+		</div>
+		<div class="row">
+			<input type="file" name="avatar">
+		</div>
 		<div class="row">
 			<input class="email-button" type="submit" value="Guardar">			
 		</div>
-				
-		   
-		
-		
-		
-
-
- 
-		
-			
-				
+	</div>
 
 </form>
+<hr>
 
+	<div class="container general" id="info-adjusts">
+		<div class="row">
+			<h3 class="info-gen-title">Cuenta de Usuario</h3>
+		</div>
+		<div class="row labels">
+			<div class="col-xs-6">
+				<label for="credits">Tus Créditos</label>
+			</div>
+			<div class="col-xs-2"></div>
+		</div>
+		<div class="row">
+			<div class="col-xs-5">
+				<input type="text" name="credits" value="<?php echo $fila['credits'];?>">
+			</div>
+			<div class="row">
+				<button type="button">
+					<span>Comprar créditos</span>
+				</button>
+			</div>
+			<div class="col-xs-5">
+				<label for="userType">Tipo de usuario</label>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-5">
+				<input type="text" name="userType" value="<?php echo $fila['userType'];?>">
+			</div>
+		</div>
+		<div class="row labels">
+			<div class="col-xs-6">
+				<span>¿Quieres convertirte en Usuario Entrenador?</span>
+				<span>
+					<a href="be-trainer.php" style="text-decoration:underline">Infórmate aqui</a>
+				</span>
+			</div>
+			<div class="col-xs-4"></div>
+		</div>
 
+	</div>
+<br>
 
+	<div class="row info-title-wrapper">
+		<h2 class="info-title">AJUSTES</h2>
+	</div>
+	<div class="container general" id="info-adjusts">
+		<div class="row">
+			<h3 class="info-gen-title">Información de Cuenta</h3>
+		</div>
+		<hr>
+	</div>
+	<div class="container general" id="info-adjusts">
+		<div class="row">
+			<h3 class="info-gen-title">Privacidad</h3>
+		</div>
+		<hr>
+	</div>
+	<div class="container general" id="info-adjusts">
+		<div class="row">
+			<h3 class="info-gen-title">Notificaciones</h3>
+		</div>
+		<hr>
+	</div>
+	<div class="container general" id="info-adjusts">
+		<div class="row">
+			<h3 class="info-gen-title">Sincronización con Redes Sociales</h3>
+		</div>
+		<hr>
+	</div>
+	<div class="container general" id="info-adjusts">
+		<div class="row">
+			<h3 class="info-gen-title">Eliminar cuenta de usuario</h3>
+		</div>
+	</div>
+<br><br>
+	
+	<div class="row info-title-wrapper">
+	</div>
+
+<br><br>
 
 
 <?php    
