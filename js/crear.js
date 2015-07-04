@@ -16,20 +16,14 @@ $('#lapiz-zone').click(function(){
 });
 
 
-$('#deshacer').click(function(){
+$('.delete').click(function(){
 	$('#trazado').hide();
 	$('#zone').hide();
 });
 
-$('#borrar').click(function(){
-	$('#trazado').hide();
-	$('#zone').hide();
-});
 
-$('#borrar').click(function(){
-	$('#trazado').hide();
-	$('#zone').hide();
-});
+
+
 
 $('#crear-char-submit').click(function(){
 	$('#add-zone-wrapper').show();

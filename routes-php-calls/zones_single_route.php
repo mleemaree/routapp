@@ -13,7 +13,7 @@ if ($result2 = $conexion->query($sql2)) {
 
 
 
-
+<div class="border">
    	<div class="row" style="margin:0;">
 		<div class="col-xs-1 flags">
 			<img class="start-flag" src="">
@@ -68,7 +68,7 @@ if ($result2 = $conexion->query($sql2)) {
 
 					if ($fila2['zoneNum']==1) {
 					include('exercise_zone_single_route.php'); }
-    		
+    		?></div><?php
 				} while($fila2 = $result2->fetch_assoc());
 		$result2->close();
 
@@ -76,6 +76,7 @@ if ($result2 = $conexion->query($sql2)) {
 
 ?>
 </div>
+
 
 
 

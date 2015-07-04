@@ -237,33 +237,50 @@ a.btn.btn-default {
 }
 
 /* line 15, ../sass/crear.scss */
+.crear-herramientas {
+  margin: 1%;
+}
+
+/* line 19, ../sass/crear.scss */
+.herr-butt {
+  display: table-cell;
+  height: 50px;
+  border: none;
+  background-color: #01394c;
+  color: white;
+  border-radius: 30px;
+  margin: 1% 0;
+}
+/* line 27, ../sass/crear.scss */
+.herr-butt img {
+  display: inline;
+  vertical-align: middle;
+}
+
+/* line 33, ../sass/crear.scss */
+.large {
+  width: 200px;
+  border-radius: 30px;
+}
+
+/* line 38, ../sass/crear.scss */
 .herramienta-title {
   display: inline;
 }
 
-/* line 19, ../sass/crear.scss */
-.button-large {
-  background-color: #01394c;
-  color: white;
-  border-radius: 35px;
-  padding: 5% 20%;
-}
-/* line 24, ../sass/crear.scss */
-.button-large img {
-  display: inline;
-}
-/* line 27, ../sass/crear.scss */
-.button-large button {
-  background-color: transparent;
-  border: none;
+/* line 42, ../sass/crear.scss */
+#guardar-crear-traz {
+  background-color: #d8ee1a;
+  color: #01394c;
+  border: 1px solid #01394c;
 }
 
-/* line 33, ../sass/crear.scss */
+/* line 48, ../sass/crear.scss */
 .modal-header {
   border: none;
 }
 
-/* line 37, ../sass/crear.scss */
+/* line 52, ../sass/crear.scss */
 #trazado {
   position: absolute;
   height: 36.5%;
@@ -272,7 +289,7 @@ a.btn.btn-default {
   display: none;
 }
 
-/* line 45, ../sass/crear.scss */
+/* line 60, ../sass/crear.scss */
 #zone {
   position: absolute;
   right: 562px;
@@ -280,7 +297,7 @@ a.btn.btn-default {
   display: none;
 }
 
-/* line 52, ../sass/crear.scss */
+/* line 67, ../sass/crear.scss */
 #crear-ruta-char {
   width: 56%;
   background-color: #EFEFEF;
@@ -290,7 +307,7 @@ a.btn.btn-default {
   margin-top: 5%;
 }
 
-/* line 61, ../sass/crear.scss */
+/* line 76, ../sass/crear.scss */
 .crear-ruta-info-title {
   font-weight: bold;
   border-bottom: 1px solid #01394c;
@@ -299,52 +316,52 @@ a.btn.btn-default {
   padding: 1% 0;
 }
 
-/* line 69, ../sass/crear.scss */
+/* line 84, ../sass/crear.scss */
 .la {
   padding: 0;
 }
 
-/* line 73, ../sass/crear.scss */
+/* line 88, ../sass/crear.scss */
 .nombre, .desc {
   margin: 0;
   padding: 2% 0;
   line-height: 2;
 }
-/* line 77, ../sass/crear.scss */
+/* line 92, ../sass/crear.scss */
 .nombre input, .desc input {
   width: 100%;
 }
-/* line 80, ../sass/crear.scss */
+/* line 95, ../sass/crear.scss */
 .nombre textarea, .desc textarea {
   width: 100%;
 }
 
-/* line 86, ../sass/crear.scss */
+/* line 101, ../sass/crear.scss */
 .crear-input input, .crear-input textarea {
   border: none;
   border-radius: 5px;
 }
 
-/* line 91, ../sass/crear.scss */
+/* line 106, ../sass/crear.scss */
 .crear-trazado-type {
   margin: 2% 0;
 }
-/* line 93, ../sass/crear.scss */
+/* line 108, ../sass/crear.scss */
 .crear-trazado-type p {
   display: inline;
   padding: 0 5%;
 }
 
-/* line 99, ../sass/crear.scss */
+/* line 114, ../sass/crear.scss */
 .crear-traz-title {
   font-weight: bold;
 }
 
-/* line 103, ../sass/crear.scss */
+/* line 118, ../sass/crear.scss */
 .crear-char-chars {
   margin: 0;
 }
-/* line 105, ../sass/crear.scss */
+/* line 120, ../sass/crear.scss */
 .crear-char-chars ul {
   background-color: #fff;
   line-height: 1.5em;
@@ -352,19 +369,19 @@ a.btn.btn-default {
   height: 250px;
 }
 
-/* line 113, ../sass/crear.scss */
+/* line 128, ../sass/crear.scss */
 .crear-char-names {
   margin: 2% 0;
   font-weight: bold;
 }
 
-/* line 118, ../sass/crear.scss */
+/* line 133, ../sass/crear.scss */
 .submit {
   text-align: center;
   margin: 5% 0;
 }
 
-/* line 123, ../sass/crear.scss */
+/* line 138, ../sass/crear.scss */
 #crear-char-submit {
   background-color: #01394c;
   border: none;
@@ -373,7 +390,7 @@ a.btn.btn-default {
   border-radius: 32px;
 }
 
-/* line 131, ../sass/crear.scss */
+/* line 146, ../sass/crear.scss */
 #crear-pref {
   width: 20%;
   margin: 0 auto;
@@ -384,52 +401,52 @@ a.btn.btn-default {
   border-radius: 15px;
 }
 
-/* line 143, ../sass/crear.scss */
+/* line 158, ../sass/crear.scss */
 .zoneNum {
   background-color: #01394c;
   height: 50px;
   margin: 0;
 }
 
-/* line 149, ../sass/crear.scss */
+/* line 164, ../sass/crear.scss */
 .num-zones {
   color: white;
   line-height: 2;
 }
-/* line 152, ../sass/crear.scss */
+/* line 167, ../sass/crear.scss */
 .num-zones h4 {
   padding: 0 1%;
 }
-/* line 154, ../sass/crear.scss */
+/* line 169, ../sass/crear.scss */
 .num-zones h4 span {
   color: #d8ee1a;
   font-size: 1.4em;
 }
 
-/* line 161, ../sass/crear.scss */
+/* line 176, ../sass/crear.scss */
 #add-zone-wrapper {
   margin: 0 15px;
 }
 
-/* line 165, ../sass/crear.scss */
+/* line 180, ../sass/crear.scss */
 #zone-creator-form {
   margin: 0 15px;
 }
 
-/* line 169, ../sass/crear.scss */
+/* line 184, ../sass/crear.scss */
 .cr-ex-ti {
   line-height: 2;
 }
 
-/* line 173, ../sass/crear.scss */
+/* line 188, ../sass/crear.scss */
 .cet-inputs {
   margin: 0;
 }
-/* line 175, ../sass/crear.scss */
+/* line 190, ../sass/crear.scss */
 .cet-inputs .row {
   margin: 2% 0;
 }
-/* line 178, ../sass/crear.scss */
+/* line 193, ../sass/crear.scss */
 .cet-inputs input {
   width: 100%;
   height: 40px;
@@ -437,12 +454,12 @@ a.btn.btn-default {
   margin: 2% 0;
   border: 1px solid #01394c;
 }
-/* line 185, ../sass/crear.scss */
+/* line 200, ../sass/crear.scss */
 .cet-inputs .s {
   margin-bottom: 3%;
 }
 
-/* line 190, ../sass/crear.scss */
+/* line 205, ../sass/crear.scss */
 #type {
   border: 1px solid #01394c;
   height: 40px;
@@ -450,7 +467,7 @@ a.btn.btn-default {
   margin-bottom: 5%;
 }
 
-/* line 197, ../sass/crear.scss */
+/* line 212, ../sass/crear.scss */
 .descriptionEx {
   width: 100%;
   border: 1px solid #01394c;
@@ -458,32 +475,31 @@ a.btn.btn-default {
   border-radius: 15px;
 }
 
-/* line 205, ../sass/crear.scss */
+/* line 219, ../sass/crear.scss */
+.vid-title {
+  margin-bottom: 5%;
+}
+/* line 221, ../sass/crear.scss */
 .vid-title p, .vid-title div {
   display: inline;
 }
 
-/* line 210, ../sass/crear.scss */
+/* line 226, ../sass/crear.scss */
 .crear-media {
   margin: 5% 0;
 }
-/* line 212, ../sass/crear.scss */
+/* line 228, ../sass/crear.scss */
 .crear-media p {
   line-height: 2;
   margin-bottom: 2%;
 }
 
-/* line 218, ../sass/crear.scss */
-.vid-title {
-  margin-bottom: 3%;
-}
-
-/* line 222, ../sass/crear.scss */
+/* line 234, ../sass/crear.scss */
 .vid {
   text-align: center;
 }
 
-/* line 226, ../sass/crear.scss */
+/* line 238, ../sass/crear.scss */
 #zon-ex-sub {
   width: 100%;
   padding: 8%;
@@ -496,7 +512,7 @@ a.btn.btn-default {
   top: 145px;
 }
 
-/* line 238, ../sass/crear.scss */
+/* line 250, ../sass/crear.scss */
 #add-zone-wrapper {
   display: none;
 }

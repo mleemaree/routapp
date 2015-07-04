@@ -16,42 +16,39 @@ include('conexion-php-calls/conexion-routapp.php');
 <body>
 <?php include('php-calls/top-menu.php') ?>
 <div class="crear-herramientas-wrapper">
-	<ul class="crear-herramientas" style="position:absolute; z-index:100;">
+	<ul class="crear-herramientas nav nav-pills nav-stacked" style="position:absolute; z-index:100;">
 		<li class="button-large">
-			<button type="button">
+			<button type="button" class="herr-butt large">
 				<img src="images/iconos/plus-white.png">
 				<p class="herramienta-title">Herramientas</p>
 			</button>
 		</li>
 		<li class="tool">
-			<button id="lapiz" type="button">
+			<button id="lapiz" type="button" class="herr-butt">
 				<img src="images/iconos/lapiz.png">
 				<p class="herramienta-title">Añadir Trazo</p>
 			</button>
 		</li>
 		<li class="tool">
-			<button id="lapiz-zone" type="button">
+			<button id="lapiz-zone" type="button" class="herr-butt">
 				<img src="images/iconos/lapiz.png">
 				<p class="herramienta-title">Añadir Zona</p>
 			</button>
 		</li>
 		<li class="tool">
-			<button id="deshacer" type="button">
+			<button class="delete herr-butt" id="deshacer" type="button">
 				<img src="images/iconos/deshacer.png">
 				<p class="herramienta-title">Deshacer</p>
 			</button>
 		</li>
 		<li class="tool">
-			<button id="borrar$('#deshacer').click(function(){
-	$('#trazado').hide();
-	$('#zone').hide();
-});" type="button">
+			<button class="delete herr-butt" id="borrar" type="button">
 				<img src="images/iconos/trash.png">
 				<p class="herramienta-title">Borrar todo</p>
 			</button>
 		</li>
 		<li class="guardar-wrapper">
-			<button id="guardar-crear-traz" type="button">
+			<button id="guardar-crear-traz" type="button" class=" large herr-butt">
 				<p class="guardar">Guardar Trazado</p>
 			</button>
 		</li>

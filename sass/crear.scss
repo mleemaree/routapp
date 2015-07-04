@@ -12,22 +12,37 @@
 	position:relative;
 }
 
+.crear-herramientas{
+	margin:1%;
+}
+
+.herr-butt{
+	display:table-cell;
+	height:50px;
+	border:none;
+	background-color:$blue;
+	color:white;
+	border-radius:30px;
+	margin:1% 0;
+	img{
+		display:inline;
+		vertical-align:middle;
+	}
+}
+
+.large{
+	width:200px;
+	border-radius:30px;
+}
+
 .herramienta-title{
 	display:inline;
 }
 
-.button-large{
-	background-color:$blue;
-	color:white;
-	border-radius:35px;
-	padding:5% 20%;
-	img{
-		display:inline;
-	}
-	button{
-		background-color:transparent;
-		border:none;
-	}
+#guardar-crear-traz{
+	background-color:$green;
+	color:$blue;
+	border:1px solid $blue;
 }
 
 .modal-header{
@@ -202,6 +217,7 @@
 }
 
 .vid-title{
+	margin-bottom:5%;
 	p, div{
 		display:inline;
 	}
@@ -213,10 +229,6 @@
 		line-height:2;
 		margin-bottom:2%;
 	}
-}
-
-.vid-title{
-	margin-bottom:3%;
 }
 
 .vid{
