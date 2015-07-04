@@ -14,14 +14,12 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
-        <li class="active"><a href="rutas.php">Rutas <span class="sr-only">(current)</span></a></li>
-        <li><a href="explora.php">Explora</a></li>
         <li><a href="be-trainer.php">BeTrainer</a></li>
         <li><a href="app.php">App</a></li>
         <li><a href="#"><button type="button" class="btn btn-default login-button"
-          data-toggle="modal" data-target="#login">LOGIN</button></a></li>
+          data-toggle="modal" data-keyboard="true" data-target="#login">Login</button></a></li>
         <li>
-          <button type="button" class="btn btn-default unete-button"
+          <button type="button" class="btn btn-default unete-button" data-keyboard="true"
           data-toggle="modal" data-target="#unete">Únete Gratis</button>
         </li>
       </ul>
@@ -30,7 +28,7 @@
 </nav>
 
 
-<div id="unete" class="modal fade" role="dialog">
+<div id="unete" class="modal fade" role="dialog" tabindex="-1">
   <div class="modal-dialog">
 
     <!-- Modal content-->
@@ -51,7 +49,7 @@
   </div>
 </div>
 
-<div id="login" class="modal fade" role="dialog">
+<div id="login" class="modal fade" role="dialog" tabindex="-1">
   <div class="modal-dialog">
 
     <!-- Modal content-->
