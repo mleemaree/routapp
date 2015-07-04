@@ -61,17 +61,17 @@ $sql2 = "UPDATE routes SET avatar= '".$_SESSION['user']['avatar']."' WHERE usern
 			$conexion->query($sql);
 			$conexion->query($sql1);
 			$conexion->query($sql2);
+		?>
+  			
+  			<script> alert ("SUCCESS!"); window.location="../profile.php"; </script>
 
-
-
-			
+		<?php			
 
 		}
 
+ ?>
 
-echo "string";
 
-?>
 
 
 

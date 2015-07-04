@@ -98,7 +98,7 @@ include('conexion-php-calls/conexion-routapp.php');
 	</div>
 	<div class="row">
 		<div class="col-xs-12">
-			<h2 class="invite-friends-title">Puedes Conseguit créditos invitando a tus amigos a <strong>Routapp</strong></h2>
+			<h2 class="invite-friends-title">Puedes Conseguir créditos invitando a tus amigos a <strong>Routapp</strong></h2>
 		</div>
 	</div>
 	<hr>
