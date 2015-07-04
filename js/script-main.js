@@ -24,3 +24,7 @@ $("#fdb").click(function() {
     // "wrap around" when all handlers have been called
     counter %= handlers.length;
 });
+
+
+
+$('.checkers').prettyCheckable();

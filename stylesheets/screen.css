@@ -1620,3 +1620,9 @@ a.btn-danger:visited {
 a.btn-primary:visited {
   color: #fff;
 }
+
+/* line 48, ../sass/screen.scss */
+.has-pretty-child label {
+  position: relative;
+  bottom: 9px;
+}

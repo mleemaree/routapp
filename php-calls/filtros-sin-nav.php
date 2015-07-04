@@ -16,42 +16,41 @@
           <li class="filter">
             <span class="filtro-name">Tipo de Exjercicio</span>
             <ul class="tipo-exjercicio category">
-              <li class="filtro-type">
-                <input id="todos" type="checkbox">
+              <li class="filtro-type" style="display:none;">
+                <input id="todos" class="checkers" type="checkbox">
                 <label for="todos">Todos</label>
               </li>
               <li class="filtro-type">
-                <input id="resistencia" type="checkbox">
+                <input id="resistencia" class="checkers" type="checkbox">
                 <label for="resistencia">Resistencia</label>
               </li>
               <li class="filtro-type">
-                <input id="velocidad" type="checkbox">
+                <input id="velocidad" class="checkers" type="checkbox">
                 <label for="velocidad">Velocidad</label>
               </li>
               <li class="filtro-type">
-                <input id="potencia" type="checkbox">
+                <input id="potencia" class="checkers" type="checkbox">
                 <label for="potencia">Potencia</label>
               </li>
               <li class="filtro-type">
-                <input id="elasticidad" type="checkbox">
+                <input id="elasticidad" class="checkers" type="checkbox">
                 <label for="elasticidad">Elasticidad</label>
               </li>
               <li class="filtro-type">
-                <input id="musculation" type="checkbox">
+                <input id="musculation" class="checkers" type="checkbox">
                 <label for="musculation">Musculation</label>
               </li>
-              <li>Mostrar todos</li>
             </ul>
           </li>
           <li class="filter">
             <span class="filtro-name">Trazado</span>
             <ul class="trazado category">
               <li class="filtro-type">
-                <input id="lineal" type="checkbox">
+                <input id="lineal" class="checkers" type="checkbox">
                 <label for="lineal">Lineal</label>
               </li>
               <li class="filtro-type">
-                <input id="circular" type="checkbox">
+                <input id="circular" class="checkers" type="checkbox">
                 <label for="circular">Circular</label>
               </li>
             </ul>
@@ -60,27 +59,27 @@
             <span class="filtro-name">Distancia</span>
             <ul class="distancia category">
               <li class="filtro-type">
-                <input id="5km" type="checkbox">
+                <input id="5km" class="checkers" type="checkbox">
                 <label for="5km">Menos de 5 km</label>
               </li>
               <li class="filtro-type">
-                <input id="5-10km" type="checkbox">
+                <input id="5-10km" class="checkers" type="checkbox">
                 <label for="5-10km">De 5 a 10km</label>
               </li>
               <li class="filtro-type">
-                <input id="10-15km" type="checkbox">
+                <input id="10-15km" class="checkers" type="checkbox">
                 <label for="10-15km">De 10 a 15km</label>
               </li>
               <li class="filtro-type">
-                <input id="15-20km" type="checkbox">
+                <input id="15-20km" class="checkers" type="checkbox">
                 <label for="15-20km">De 15 a 20km</label>
               </li>
               <li class="filtro-type">
-                <input id="20-25km" type="checkbox">
+                <input id="20-25km" class="checkers" type="checkbox">
                 <label for="20-25km">De 20 a 25km</label>
               </li>
               <li class="filtro-type">
-                <input id="25km" type="checkbox">
+                <input id="25km" class="checkers" type="checkbox">
                 <label for="25km">Mas de 25km</label>
               </li>
             </ul>
@@ -89,27 +88,27 @@
             <span class="filtro-name">Zona a Ejercitar</span>
             <ul class="zona category">
               <li class="filtro-type">
-                <input id="todas" type="checkbox">
+                <input id="todas" class="checkers" type="checkbox">
                 <label for="todas">Todas</label>
               </li>
               <li class="filtro-type">
-                <input id="piernas" type="checkbox">
+                <input id="piernas" class="checkers" type="checkbox">
                 <label for="piernas">Piernas</label>
               </li>
               <li class="filtro-type">
-                <input id="brazos" type="checkbox">
+                <input id="brazos" class="checkers" type="checkbox">
                 <label for="brazos">Brazos</label>
               </li>
               <li class="filtro-type">
-                <input id="torso" type="checkbox">
+                <input id="torso" class="checkers" type="checkbox">
                 <label for="torso">Torso</label>
               </li>
               <li class="filtro-type">
-                <input id="espalda" type="checkbox">
+                <input id="espalda" class="checkers" type="checkbox">
                 <label for="espalda">Espalda</label>
               </li>
               <li class="filtro-type">
-                <input id="abdominales" type="checkbox">
+                <input id="abdominales" class="checkers" type="checkbox">
                 <label for="abdominales">Abdominales</label>
               </li>
             </ul>
@@ -118,27 +117,27 @@
             <span class="filtro-name">Material Adicional</span>
             <ul class="material category">
               <li class="filtro-type">
-                <input id="trx" type="checkbox">
+                <input id="trx" class="checkers" type="checkbox">
                 <label for="trx">TRX</label>
               </li>
               <li class="filtro-type">
-                <input id="balon" type="checkbox">
+                <input id="balon" class="checkers" type="checkbox">
                 <label for="balon">Balon de Pilates</label>
               </li>
               <li class="filtro-type">
-                <input id="teraband" type="checkbox">
+                <input id="teraband" class="checkers" type="checkbox">
                 <label for="teraband">Teraband</label>
               </li>
               <li class="filtro-type">
-                <input id="kettlebell" type="checkbox">
+                <input id="kettlebell" class="checkers" type="checkbox">
                 <label for="kettlebell">Kettlebell</label>
               </li>
               <li class="filtro-type">
-                <input id="espalda-tool" type="checkbox">
+                <input id="espalda-tool" class="checkers" type="checkbox">
                 <label for="espalda-tool">Espalda</label>
               </li>
               <li class="filtro-type">
-                <input id="abdominales-tool" type="checkbox">
+                <input id="abdominales-tool" class="checkers" type="checkbox">
                 <label for="abdominales-tool">Abdominales</label>
               </li>
             </ul>
@@ -147,27 +146,27 @@
             <span class="filtro-name">Caracteristicas Especiales</span>
             <ul class="especiales category">
               <li class="filtro-type">
-                <input id="fuentes" type="checkbox">
+                <input id="fuentes" class="checkers" type="checkbox">
                 <label for="fuentes">Fuentes de agua potable</label>
               </li>
               <li class="filtro-type">
-                <input id="public-transport" type="checkbox">
+                <input id="public-transport" class="checkers" type="checkbox">
                 <label for="public-transport">Transporte Publico</label>
               </li>
               <li class="filtro-type">
-                <input id="parking" type="checkbox">
+                <input id="parking" class="checkers" type="checkbox">
                 <label for="parking">Parking cercano</label>
               </li>
               <li class="filtro-type">
-                <input id="parques" type="checkbox">
+                <input id="parques" class="checkers" type="checkbox">
                 <label for="parques">Parques</label>
               </li>
               <li class="filtro-type">
-                <input id="iluminadas" type="checkbox">
+                <input id="iluminadas" class="checkers" type="checkbox">
                 <label for="iluminadas">Zonas iluminadas</label>
               </li>
               <li class="filtro-type">
-                <input id="sans-trafic" type="checkbox">
+                <input id="sans-trafic" class="checkers" type="checkbox">
                 <label for="sans-trafic">Zonas sin trafico</label>
               </li>
             </ul>

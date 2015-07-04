@@ -9,6 +9,9 @@
 <script src="bower_components/Chart.js/Chart.min.js"></script>
 
 
+<!--prettyCheckable-->
+<script src="bower_components/prettyCheckable/dev/prettyCheckable.js"></script>
+
 <!--stylesheet-->
 
 <script type="text/javascript" src="js/script-main.js"></script>

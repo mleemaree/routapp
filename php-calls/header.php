@@ -12,3 +12,6 @@
 
 <!--HOVER-->
 <link rel="stylesheet" href="bower_components/Hover/css/hover-min.css">
+
+<!--checkboxes-->
+<link rel="stylesheet" href="bower_components/prettyCheckable/dist/prettyCheckable.css">
