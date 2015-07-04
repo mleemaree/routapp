@@ -8,7 +8,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">routapp</a>
+      <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -39,7 +39,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title brand">routapp</h4>
+        <h4 class="modal-title brand"><img src="images/logo.png"></h4>
       </div>
       <div class="modal-body">
         <?php include('register-php-calls/register_form.php'); ?>
@@ -60,7 +60,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title brand">routapp</h4>
+        <h4 class="modal-title brand"><img src="images/logo.png"></h4>
       </div>
       <div class="modal-body">
         <?php include('register-php-calls/index-routapp.php'); ?>
