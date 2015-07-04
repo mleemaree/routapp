@@ -28,7 +28,8 @@ $_SESSION['name']='user';
 						<h2 id="subtitle">Crear rutas y ejercicios para ponerte en forma</h2>
 					</div>
 				</div>
-				<button class="landing-button" id="unete-gratis" type="button">
+				<button class="landing-button" id="unete-gratis" type="button" data-keyboard="true"
+          data-toggle="modal" data-target="#unete">
 					<span>ÚNETE GRATIS</span>
 				</button>
 			</div>
@@ -36,6 +37,28 @@ $_SESSION['name']='user';
 		<div class="col-xs-2"></div>
 	</div>
 </div>
+
+<div id="unete" class="modal fade" role="dialog" tabindex="-1">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title brand">routapp</h4>
+      </div>
+      <div class="modal-body">
+        <?php include('register-php-calls/register_form.php'); ?>
+      </div>
+      <div class="modal-footer">
+        <input type="submit" class="hvr-glow" value="¡VAMOS A POR ELLO!">
+      </form>
+      </div>
+    </div>
+
+  </div>
+</div>
+
 
 <div class="content-wrapper">
 
