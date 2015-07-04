@@ -16,8 +16,12 @@
       <ul class="nav navbar-nav navbar-right">
         <li><a href="be-trainer.php">BeTrainer</a></li>
         <li><a href="app.php">App</a></li>
-        <li><a href="#"><button type="button" class="btn btn-default login-button"
-          data-toggle="modal" data-keyboard="true" data-target="#login">Login</button></a></li>
+        <li>
+          <a href="#">
+            <button type="button" class="btn btn-default login-button"
+            data-toggle="modal" data-keyboard="true" data-target="#login"><img src="images/login-icon.png"></img> Login</button>
+          </a>
+        </li>
         <li>
           <button type="button" class="btn btn-default unete-button" data-keyboard="true"
           data-toggle="modal" data-target="#unete">Únete Gratis</button>
