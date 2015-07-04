@@ -208,20 +208,58 @@ $sql1="SELECT * FROM users WHERE username=".$_SESSION['user']['username'];
 		<div class="row">
 			<input class="email-button" type="submit" value="Guardar">			
 		</div>
-				
-		   
-		
-		
-		
-
-
- 
-		
-			
-				
+	</div>			
+<hr>
 
 </form>
 
+
+	<div class="container general" id="info-adjusts">
+		<div class="row">
+			<h3 class="info-gen-title">Cuenta de Usuario</h3>
+		</div>
+		<div class="row labels">
+			<div class="col-xs-4">
+				<label for="credits">Tus Créditos</label>
+			</div>
+			<div class="col-xs-4"></div>
+		</div>
+		<div class="row">
+			<div class="col-xs-4">
+				<input type="text" name="credits" value="<?php echo $fila['credits'];?>">
+			</div>
+			<div class="row">
+				<button type="button">
+					<span>Comprar créditos</span>
+				</button>		
+		</div>
+			<div class="col-xs-4"></div>
+		</div>
+
+		<div class="row labels">
+			<div class="col-xs-4">
+				<label for="userType">Tipo de usuario</label>
+			</div>
+			<div class="col-xs-4"></div>
+		</div>
+		<div class="row">
+			<div class="col-xs-4">
+				<input type="text" name="userType" value="<?php echo $fila['userType'];?>">
+			</div>
+			<div class="col-xs-4"></div>
+		</div>
+		<div class="row labels">
+			<div class="col-xs-4">
+				<span>¿Quieres convertirte en Usuario Entrenador?</span>
+				<span>
+					<a href="be-trainer.php" style="text-decoration:underline">Infórmate aqui</a>
+				</span>
+			</div>
+			<div class="col-xs-4"></div>
+		</div>
+
+	</div>
+<hr>
 
 
 
