@@ -17,7 +17,7 @@ include('conexion-php-calls/conexion-routapp.php');
 <body>
 <?php include('php-calls/top-menu.php') ?>
 	
-<div style="background-color:white; max-width:1200px; margin: 0 auto; padding-top:2%;">
+<div style="background-color:white; max-width:1200px; margin: 0 auto; padding-top:1%;">
 
 	<?php include('routes-php-calls/single-route-user.php');?>
 

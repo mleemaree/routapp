@@ -292,9 +292,20 @@
 /* line 261, ../sass/ind-route-pro.scss */
 .user-route-title {
   font-size: 1.2em;
+  line-height: 2;
 }
 
-/* line 265, ../sass/ind-route-pro.scss */
+/* line 266, ../sass/ind-route-pro.scss */
 .user-route-title-wrapper {
   border-bottom: 1px solid #01394c;
+  margin: 0;
+}
+/* line 269, ../sass/ind-route-pro.scss */
+.user-route-title-wrapper > div {
+  padding-left: 0;
+}
+
+/* line 274, ../sass/ind-route-pro.scss */
+.user-route-title-menu {
+  text-align: center;
 }

@@ -25,22 +25,32 @@ $sql2="SELECT * FROM zones where routeID=".$_GET['routeID'];
 		</div>
 		<div class="col-xs-12 col-sm-4">
 			<div class="row">
-				<div class="col-xs-6">
-					<img src="../images/iconos/rating.png">
-				</div>
-				<div class="col-xs-2">
-					<img src="../images/iconos/download_pro.png">
-				</div>
-				<div class="col-xs-2">
-					<img src="../images/iconos/share_pro.png">
-				</div>
-				<div class="col-xs-2">
-					<img src="../images/iconos/favorite_pro.png">
-				</div>
+				<ul class="nav nav-tabs nav-justified">
+					<li class="user-route-title-menu" style="line-height:3;">
+						<div class="col-xs-12">
+							<img src="../images/iconos/rating.png">
+						</div>
+					</li>
+					<li class="user-route-title-menu">
+						<div class="col-xs-12">
+							<img src="../images/iconos/download_pro.png">
+						</div>
+					</li>
+					<li class="user-route-title-menu">
+						<div class="col-xs-12">
+							<img src="../images/iconos/share_pro.png">
+						</div>
+					</li>
+					<li class="user-route-title-menu">
+						<div class="col-xs-12">
+							<img src="../images/iconos/favorite_pro.png">
+						</div>
+					</li>
+				</ul>
 			</div>
 		</div>
 	</div>
-	<div class="row">
+	<div class="row" style="padding:2% 0 1%;">
 		<div class="col-xs-12 col-sm-4">
 			<div class="row">
 				<div class="col-xs-4">
@@ -58,17 +68,16 @@ $sql2="SELECT * FROM zones where routeID=".$_GET['routeID'];
 			</div>
 		</div>
 		<div class="hidden-xs col-sm-4"></div>
-		<div class="col-xs-12 col-sm-4">
-			<p class="creada-por">Ruta creada por: 
-				<span id="username" style="font-weight:bold"><?php echo $fila1['username'];?>
-					<img id="user-photo" src="register-php-calls/user_images/<?php echo $fila1['avatar'];?>">
-				</span></p>
-			
+		<div class="col-xs-12 col-sm-4" style="display:table-cell; margin-top:-1%; float:right;">
+			<p class="creada-por" style="display:inline; vertical-align:middle;">Ruta creada por: <span id="username" style="font-weight:bold;"><?php echo $fila1['username'];?></span></p>
+			<img id="user-photo" style="display:inline; vertical-align:middle;" src="register-php-calls/user_images/<?php echo $fila1['avatar'];?>">
 		</div>
 	</div>
 </div>
 
-<div class="col-xs-12 user-map"><img src="images/maps/map4.png"></div>
+<div class="col-xs-12 user-map">
+	<img style="width:100%;" src="images/maps/map4.png">
+</div>
 
 
 <div class="container desc">

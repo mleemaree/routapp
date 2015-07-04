@@ -77,10 +77,10 @@ include('conexion-php-calls/conexion-routapp.php');
     </div>
     <div class="col-xs-12 col-sm-6">
       <div class="explora-busqueda-wrapper">
-        <div class="input-group">
-          <input type="text" class="form-control" placeholder="¿Dónde estás ahora?">
+        <div class="input-group" style="padding:2% 0;">
+          <input type="text" id="donde-busc" class="form-control" placeholder="¿Dónde estás ahora?">
           <span class="input-group-btn">
-            <button class="btn btn-default" type="button">BUSCAR</button>
+            <button class="btn btn-default donde-busc-butt" type="button">BUSCAR</button>
           </span>
         </div>
       </div>

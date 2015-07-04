@@ -126,3 +126,36 @@ hr{
   border-radius: 30px;
   float: right;
 }
+
+#donde-busc{
+  border-radius: 30px;
+  line-height: 2em;
+  height: 45px;
+  border: none;
+  font-style: italic;
+  left:12px;
+}
+
+.donde-busc-butt{
+  height: 45px;
+  position: relative;
+  right: 127px;
+  border: none;
+  font-size: 18px;
+  background-color: $green;
+  border-radius: 30px !important; 
+  width: 220%;
+  font-weight: bold;
+  color: $blue;
+}
+
+.explora-busqueda-wrapper{
+  margin-top:5%;
+  background-color: $blue;
+  text-align: center;
+  border-radius: 8px;
+}
+
+
+
+

@@ -451,3 +451,35 @@ hr {
   border-radius: 30px;
   float: right;
 }
+
+/* line 130, ../sass/explora.scss */
+#donde-busc {
+  border-radius: 30px;
+  line-height: 2em;
+  height: 45px;
+  border: none;
+  font-style: italic;
+  left: 12px;
+}
+
+/* line 139, ../sass/explora.scss */
+.donde-busc-butt {
+  height: 45px;
+  position: relative;
+  right: 127px;
+  border: none;
+  font-size: 18px;
+  background-color: #d8ee1a;
+  border-radius: 30px !important;
+  width: 220%;
+  font-weight: bold;
+  color: #01394c;
+}
+
+/* line 152, ../sass/explora.scss */
+.explora-busqueda-wrapper {
+  margin-top: 5%;
+  background-color: #01394c;
+  text-align: center;
+  border-radius: 8px;
+}

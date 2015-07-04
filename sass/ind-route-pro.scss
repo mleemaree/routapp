@@ -260,8 +260,17 @@ $gray: #d7d6d6;
 
 .user-route-title{
 	font-size:1.2em;
+	line-height:2;
 }
 
 .user-route-title-wrapper{
 	border-bottom:1px solid $blue;
+	margin:0;
+	> div{
+		padding-left:0;
+	}
+}
+
+.user-route-title-menu{
+	text-align:center;
 }
