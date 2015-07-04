@@ -1,13 +1,9 @@
 <?php
-include('conexion-routapp.php');
+include('../conexion-php-calls/conexion-routapp.php');
 
 session_start();
 $_SESSION['name']='route';
 $_SESSION['name']='user';
-
-
-echo $_SESSION['user']['username'];
-echo $_SESSION['user']['avatar'];
 
 
 if (($_POST['content'])== null or ($_POST['title'])==null) { 
@@ -32,37 +28,13 @@ if (($_POST['content'])== null or ($_POST['title'])==null) {
 			$conexion->query("SET foreign_key_checks=0");
 			$conexion->query("INSERT INTO comments (content, routeID, username, avatar, title, date) VALUES ('$content', '17', '$username', '$avatar', '$title', now())");
 
+			$_SESSION['route']['comments']=$_SESSION['route']['comments']+1;
+
+			$conexion->query("UPDATE routes SET comments= '".$_SESSION['route']['comments']."' where routeID='17'");
+
 } else { echo "Oops! Something went wrong...";
 }
 
 ?>
 
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Insert routes</title>
-</head>
-
-<body>
-
-
-
-
-<p>Success!!!</p>
-
-	<?php $msg='<a href="user_profile.php" class="success_message">User Profile »</a>';
-
-	echo $msg; ?>
-<br>
-	<?php
-
-	$msg='<a href="route-form.php" class="success_message">Add another route »</a>';
-
-	echo $msg; 
-
-	?>
-
-
-</body>
-</html>
+<script> alert ("Gracias por su comentario!"); window.location="../ind-route-user.php?routeID=17"; </script>

@@ -14,7 +14,6 @@ if ($_FILES['avatar']['error'] == 0) {
 	$img=", avatar='".$_SESSION['user']['username'].'-'.$image_name."'";
 
 	$_SESSION['user']['avatar']=$_SESSION['user']['username'].'-'.$image_name;
-	echo $_SESSION['user']['avatar'];
 
 
 }
@@ -41,6 +40,7 @@ $sql1 = "UPDATE users SET firstName='".$_POST['firstName']."',
          WHERE userID=".$_SESSION['user']['userID'];
 
 $sql2 = "UPDATE routes SET avatar= '".$_SESSION['user']['avatar']."' WHERE username='".$_SESSION['user']['username']."'";
+$sql3 = "UPDATE comments SET avatar= '".$_SESSION['user']['avatar']."' WHERE username='".$_SESSION['user']['username']."'";
 
 
 
@@ -61,6 +61,7 @@ $sql2 = "UPDATE routes SET avatar= '".$_SESSION['user']['avatar']."' WHERE usern
 			$conexion->query($sql);
 			$conexion->query($sql1);
 			$conexion->query($sql2);
+			$conexion->query($sql3);
 		?>
   			
   			<script> alert ("SUCCESS!"); window.location="../profile.php"; </script>
