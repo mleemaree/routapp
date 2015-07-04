@@ -76,15 +76,17 @@ $sql2="SELECT * FROM zones where routeID=".$_GET['routeID'];
 
 <div class="container desc">
 	<div class="row desc-title">
-		<div class="col-xs-12 col-sm-10">
+		<div class="col-xs-12 col-sm-10 bord">
 			<h2>Descripción</h2>
 		</div>
 		<div class="col-xs-12 col-sm-2">
-			<ul class="ruta-opt">
-				<li><img class="download" src="images/iconos/download_pro.png"></li>
-				<li><img class="share" src="images/iconos/share_pro.png"></li>
-				<li><img class="favorite" src="images/iconos/favorite_pro.png"></li>
-			</ul>
+			<div class="row">
+				<ul class="ruta-opt nav nav-tabs nav-justified">
+					<li><img class="download" src="images/iconos/download_pro.png"></li>
+					<li><img class="share" src="images/iconos/share_pro.png"></li>
+					<li><img class="favorite" src="images/iconos/favorite_pro.png"></li>
+				</ul>
+			</div>
 		</div>
 	</div>
 	<div class="row desc-text">
@@ -97,7 +99,7 @@ $sql2="SELECT * FROM zones where routeID=".$_GET['routeID'];
 
 <div class="container char">
 	<div class="row char-title">
-		<div class="col-xs-12">
+		<div class="col-xs-12 bord">
 			<h2>Características</h2>
 		</div>
 	</div>

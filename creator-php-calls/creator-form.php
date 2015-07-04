@@ -1,13 +1,11 @@
 <?php
-session_start();
-$_SESSION['name']='route';
 
-echo $_SESSION['user']['avatar'];
+
 
 ?>
 
 
-   <!--<form action="" method="post" enctype="multipart/form-data">-->
+   <form action="creator-php-calls/route-register.php" method="post" enctype="multipart/form-data">
 
 
 
@@ -126,5 +124,5 @@ echo $_SESSION['user']['avatar'];
 		<input id="crear-char-submit" data-dismiss="modal" type="submit" value="Guardar">
 	</div>
 </div><!--CHARACTERISTICS OF CREATED ROUTE CLOSE-->
-<!--</form>-->
+</form>
 

@@ -7,7 +7,7 @@ $sql="SELECT * FROM routes ";
 
 ?>
 
-<div class="container routes">
+<div class="container routes" style="margin:2% 0;">
 <?php
 
 if ($result = $conexion->query($sql)) {
@@ -74,7 +74,7 @@ if ($result = $conexion->query($sql)) {
 			</a>
 
 
-			<?php echo '<hr>'; ?>
+<hr style="border:none;">
 				<?php    			
     		}
 

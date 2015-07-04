@@ -18,6 +18,7 @@
 .user-map{
 	@include background-image(url(../images/explora/user-map.png));
 	@include background-size(cover);
+	background-position: center center;
 	height:500px;
 	margin:2% 0;
 }
@@ -44,6 +45,7 @@
 #explora-map{
 	@include background-image(url(../images/explora/explora-map-1.png));
 	@include background-size(cover);
+	background-position: center center;
 	height:800px;
 	margin:0;
 	width:100%;

@@ -91,7 +91,11 @@ $gray: #d7d6d6;
 .desc-title, .char-title{
 	padding-top:2%;
 	border-bottom:1px solid $blue;
-	margin-bottom:2%;
+	margin:0 0 2%;
+}
+
+.bord{
+	padding:0;
 }
 
 .char{
@@ -110,6 +114,11 @@ $gray: #d7d6d6;
 
 .ruta-opt li{
 	display:inline-block;
+	border-right:1px solid $blue;
+	text-align:center;
+	&:last-child{
+		border:none;
+	}
 }
 
 

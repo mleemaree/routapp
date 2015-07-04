@@ -10,3 +10,28 @@ $('#guardar-crear-traz').click(function(){
 $('#lapiz').click(function(){
 	$('#trazado').show();
 });
+
+$('#lapiz-zone').click(function(){
+	$('#zone').show();
+});
+
+
+$('#deshacer').click(function(){
+	$('#trazado').hide();
+	$('#zone').hide();
+});
+
+$('#borrar').click(function(){
+	$('#trazado').hide();
+	$('#zone').hide();
+});
+
+$('#borrar').click(function(){
+	$('#trazado').hide();
+	$('#zone').hide();
+});
+
+$('#crear-char-submit').click(function(){
+	$('#add-zone-wrapper').show();
+	$('html, body').animate({scrollTop: $(".zones").offset().top}, 800);
+});

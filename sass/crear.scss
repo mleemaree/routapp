@@ -42,6 +42,13 @@
 	display:none;
 }
 
+#zone{
+	position:absolute;
+	right:562px;
+	top:233px;
+	display:none;
+}
+
 #crear-ruta-char{
 	width:56%;
 	background-color:#EFEFEF;
@@ -130,4 +137,104 @@
   text-align: center;
   height: 200px;
   border-radius: 15px;
+}
+
+
+.zoneNum{
+	background-color:$blue;
+	height:50px;
+	margin:0;
+}
+
+.num-zones{
+	color:white;
+	line-height:2;
+	h4{
+		padding:0 1%;
+		span{
+			color:$green;
+			font-size:1.4em;
+		}
+	}
+}
+
+#add-zone-wrapper{
+	margin:0 15px;
+}
+
+#zone-creator-form{
+	margin:0 15px;
+}
+
+.cr-ex-ti{
+	line-height:2;
+}
+
+.cet-inputs{
+	margin:0;
+	.row{
+		margin:2% 0;
+	}
+	input{
+		width:100%;
+		height:40px;
+		border-radius: 15px;
+		margin:2% 0;
+		border:1px solid $blue;
+	}
+	.s{
+		margin-bottom:3%;
+	}
+}
+
+#type{
+  border: 1px solid $blue;
+  height: 40px;
+  width: 100%;
+  margin-bottom:5%;
+}
+
+.descriptionEx{
+	width:100%;
+	border:1px solid $blue;
+	height:194px;
+	border-radius:15px;
+}
+
+.vid-title{
+	p, div{
+		display:inline;
+	}
+}
+
+.crear-media{
+	margin:5% 0;
+	p{
+		line-height:2;
+		margin-bottom:2%;
+	}
+}
+
+.vid-title{
+	margin-bottom:3%;
+}
+
+.vid{
+	text-align:center;
+}
+
+#zon-ex-sub{
+	width:100%;
+	padding:8%;
+	border:none;
+	font-weight:bold;
+	background-color:$green;
+	border-radius:30px;
+	color:$blue;
+	position:relative;
+	top:145px;
+}
+
+#add-zone-wrapper{
+	display:none;
 }
