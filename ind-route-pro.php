@@ -57,7 +57,9 @@ include('conexion-php-calls/conexion-routapp.php');
 	
 <div style="background-color:white; max-width:1200px; margin: 0 auto; padding-top:2%; padding-bottom:10%;">
 
-	<?php include('routes-php-calls/single-route-pro.php');?>
+	<?php include('routes-php-calls/single-route-pro.php');
+		include('routes-php-calls/comments-on-route.php');
+	?>
 
 </div><!--background-white-->
 </div>

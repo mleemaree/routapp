@@ -19,7 +19,9 @@ include('conexion-php-calls/conexion-routapp.php');
 	
 <div style="background-color:white; max-width:1200px; margin: 0 auto; padding-top:1%;">
 
-	<?php include('routes-php-calls/single-route-user.php');?>
+	<?php include('routes-php-calls/single-route-user.php');
+			include('routes-php-calls/comments-on-route.php');
+	?>
 
 </div><!--background-white-->
 

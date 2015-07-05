@@ -176,7 +176,7 @@ $sql2="SELECT * FROM zones where routeID=".$_GET['routeID'];
 					<p>Información de la Ruta</p>
 				</li>
 				<li class="info-ruta-menu-option">
-					<span id="num-comments">4</span>
+					<span id="num-comments">( <?php echo $fila1['comments']; $_SESSION['route']['comments']=$fila1['comments'];?> )</span>
 					<p style="display:inline;">Comentarios</p>
 				</li>
 			</ul>
