@@ -19,7 +19,11 @@
         <li class="active"><a href="index.php">Rutas <span class="sr-only">(current)</span></a></li>
         <li><a href="explora.php">Explora</a></li>
         <li><a href="app.php">App</a></li><li>
-        <li><a href="tienda.php">Tienda</a></li>
+        <li>
+          <a style="padding:4%;"href="tienda.php">
+            <img alt="cart" style="display:inline; vertical-align:middle; height:30px;" src="images/iconos/cart.png">
+            <span style="display:inline; vertical-align:bottom; padding-left:3%;">Tienda</span>
+          </a></li>
         <li>
           <a class="btn btn-default" href="crear.php">
             <span style="position:relative; line-height:-1;">Crear Ruta</span>

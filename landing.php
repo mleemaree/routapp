@@ -20,7 +20,7 @@ $_SESSION['name']='user';
 		<div class="col-xs-2"></div>
 		<div class="col-xs-8">
 			<div class="title-wrapper">
-				<img class="img-responsive landing-foto" id="title" src="images/landing/title.png">
+				<h1 class="landing-title" id="title">LA CIUDAD ES TU GIMANSIO</h1>
 			</div>
 			<div class="title-content">
 				<div class="subtitle">
