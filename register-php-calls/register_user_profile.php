@@ -24,6 +24,8 @@ if ($_FILES['coverPhoto']['error'] == 0) {
 	chmod('user_images/'.$_SESSION['user']['username'].'-'.$image_name2, 511); 
 	$img2=", coverPhoto='".$_SESSION['user']['username'].'-'.$image_name2."'";
 
+	$_SESSION['user']['coverPhoto']=$_SESSION['user']['username'].'-'.$image_name2;
+
 
 }
 

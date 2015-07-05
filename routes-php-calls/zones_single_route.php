@@ -14,10 +14,7 @@ if ($result2 = $conexion->query($sql2)) {
 
 <div class="border">
    	<div class="row" style="margin:0;">
-		<div class="col-xs-1 flags">
-			<img class="start-flag" src="">
-		</div>
-		<div class="col-xs-11 zones-titles infosman">
+		<div class="col-xs-11 zones-titles infosman" style="float:right;">
 			<div class="row zone-title-wrapper zones-row">
 				<div class="col-xs-12">
 					<h4 class="in-title zone-title">ZONE <span id="zone-num"><?php echo $y; ?></span></h4>
@@ -59,23 +56,31 @@ if ($result2 = $conexion->query($sql2)) {
 				</div>
 			</div>
 		</div>
-	</div>
 
 
 
+			<div class="col-xs-11" style="float:right;">
 					<?php
 
 					if ($fila2['zoneNum']==1) {
 					include('exercise_zone_single_route.php'); }
-    		?></div><?php
+    		?>
+
+    	</div></div>
+
+
+
+
+
+    		<?php
 				} while($fila2 = $result2->fetch_assoc());
 		$result2->close();
 
 }
 
 ?>
-</div>
 
+</div>
 
 
 

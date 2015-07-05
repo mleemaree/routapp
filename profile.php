@@ -20,16 +20,17 @@ $sql="SELECT * FROM users WHERE username=".$_SESSION['user']['username'];
 <div style="background-color:white; max-width:1200px; margin: 0 auto;">
 	<div class="container">
 		<div class="row no-before">
-			<div class="col-xs-12" id="profile-background">
+			<div class="col-xs-12" style="padding:0;"id="profile-background">
 				<div class="user-info-top">
 					<img class="logged-user-image" src="register-php-calls/user_images/<?php echo $_SESSION['user']['avatar']; ?>">
 					<h2 class="user-name"><?php echo $_SESSION['user']['username'];?></h2>
 				</div>
+				<img id="bkg-img-perf" style="width:100%; z-index:0; height:420px;" alt="profile background image" src="register-php-calls/user_images/<?php echo $_SESSION['user']['coverPhoto']; ?>">
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-xs-12" style="padding:0;">
-				<ul class="profile-menu nav nav-tabs nav-justified" style="padding:0;">
+				<ul class="profile-menu nav nav-tabs nav-justified" style="padding:0; z-index:5; background-color:white;">
 					<li class="active profile-menu-option" id="mis-rutas"><span>Mis Rutas</span></li>
 					<li class="profile-menu-option" id="estadisticas"><span>Estadísticas</span></li>
 					<li class="profile-menu-option" id="creditos"><span>Créditos</span></li>
