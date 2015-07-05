@@ -205,7 +205,7 @@ $sql1="SELECT * FROM users WHERE username=".$_SESSION['user']['username'];
 			<input class="email-button" type="submit" value="Guardar">
  		</div>
  		<div class="row">
- 			<input class="email-input" type="password" name="password2" size="30" value="<?php echo $fila['password'];?>"
+ 			<input class="email-input" type="password" name="password" size="30" value="<?php echo $fila['password'];?>"
  					   onblur="if (this.value == '') {this.value = '<?php echo $fila['password'];?>';}"
  			 		   onfocus="if (this.value == '<?php echo $fila['password'];?>') {this.value = '';}"
  			 		   placeholder="confirmar nueva contraseña">
@@ -262,7 +262,7 @@ $sql1="SELECT * FROM users WHERE username=".$_SESSION['user']['username'];
 					<input type="text" name="credits" value="<?php echo $fila['credits'];?>">
 				</div>
 				<div class="row">
-					<button type="button" style="margin:0 15px; position:relative; bottom:7px;">
+					<a href="../tienda.php"><button type="button" style="margin:0 15px; position:relative; bottom:7px;">
 						<span>Comprar créditos</span>
 					</button>
 				</div>
