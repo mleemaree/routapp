@@ -152,8 +152,8 @@ if ($result = $conexion->query($sql)) {
 						<div class="col-xs-12 col-sm-6" class="map" style="height:150px; padding:0;">
 							<div class="map">
 								<div class="user">
-		    						<img class="user-route-card-img" src="register-php-calls/user_images/<?php echo $fila['avatar']?>">
-		    						<img src="images/maps/<?php echo $fila['map'].$i.".png" ?>">
+		    						<img class="user-route-card-img" style="position:absolute; z-index:1;" src="register-php-calls/user_images/<?php echo $fila['avatar']?>">
+		    						<img style="position:absolute; height: 150px; z-index:0; width:100%;" src="images/maps/<?php echo $fila['map'].$i.".png" ?>">
 
 		    					</div>
 							</div>
