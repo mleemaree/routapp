@@ -1,9 +1,5 @@
 <div class="container" id="my-routes">
-		<div class="row">
-			<div id="ruta-map">
-				<img class="img-responsive" id="route-map" src="images/trazado.png">
-			</div>
-		</div>
+<br>
 <div class="container">
 <div class="row">
 			<div class="col-xs-12 mis-rutas-menu-wrapper">

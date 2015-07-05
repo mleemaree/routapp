@@ -15,7 +15,7 @@ $sql="SELECT * FROM routes WHERE routeID=".$_SESSION['route']['routeID'];
 			</div>
 		</div>
 	</div>
-	<form id="zone-creator-form" action="creator-php-calls/zone-register.php" method="post" enctype="multipart/form-data">
+	<form id="zone-creator-form" action="zone-register.php" method="post" enctype="multipart/form-data">
 
 
 		<div class="row cr-ex-ti">
