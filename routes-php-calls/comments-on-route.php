@@ -13,7 +13,7 @@ $sql="SELECT * FROM comments WHERE (routeID = '".$_GET['routeID']."') ORDER BY `
 			    	do  { 
 			    			?>
 
-			    			<p class="bought-route-card">
+			    			<p class="route-comment">
 
 								<img src="../register-php-calls/user_images/<?php echo $fila['avatar'];?>"><br>
 								<?php echo $fila['title']; ?><br>
