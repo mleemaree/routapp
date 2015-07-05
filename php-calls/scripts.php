@@ -12,6 +12,10 @@
 <!--prettyCheckable-->
 <script src="bower_components/prettyCheckable/dev/prettyCheckable.js"></script>
 
+<!--chartist-->
+
+<script src="bower_components/chartist/dist/chartist.min.js"></script>
+
 <!--stylesheet-->
 
 <script type="text/javascript" src="js/script-main.js"></script>

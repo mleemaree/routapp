@@ -102,7 +102,7 @@
 	<div class="row recorrido-graphic">
 		<div class="hidden-xs col-sm-4"></div>
 		<div class="col-xs-12 col-sm-8">
-			<canvas id="myChart" width="800" height="400"></canvas>
+			<div class="ct-chart ct-perfect-fourth"></div>
 		</div>
 	</div>
 	<div class="row quemado">

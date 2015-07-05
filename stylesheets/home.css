@@ -276,33 +276,39 @@ a.btn.btn-default {
 
 /* line 43, ../sass/home/partials/_top-nav.scss */
 #userPhoto {
-  padding: 1% 10% 1% 0;
+  border-radius: 50%;
   height: 45px;
+  padding: 0 !important;
 }
 
-/* line 48, ../sass/home/partials/_top-nav.scss */
+/* line 49, ../sass/home/partials/_top-nav.scss */
 .menu-name {
   display: inline;
 }
 
-/* line 52, ../sass/home/partials/_top-nav.scss */
+/* line 53, ../sass/home/partials/_top-nav.scss */
 #logged-user-name {
   padding: 5%;
   position: relative;
   top: 18px;
 }
 
-/* line 58, ../sass/home/partials/_top-nav.scss */
+/* line 59, ../sass/home/partials/_top-nav.scss */
 #user-dropdown-menu {
   background-color: #01394c;
   position: absolute;
   top: 56px;
   width: 75%;
 }
-/* line 63, ../sass/home/partials/_top-nav.scss */
+/* line 64, ../sass/home/partials/_top-nav.scss */
 #user-dropdown-menu li a {
   color: #d8ee1a;
   text-align: center;
+}
+
+/* line 70, ../sass/home/partials/_top-nav.scss */
+.user-info-small {
+  margin-right: 15px;
 }
 
 /* line 10, ../sass/home.scss */
@@ -383,8 +389,14 @@ a {
   right: 18%;
 }
 
+@media screen and (max-width: 1023px) {
+  /* line 75, ../sass/home.scss */
+  #bottom-bar {
+    display: none;
+  }
+}
 /*===possible sidemenu ====*/
-/* line 76, ../sass/home.scss */
+/* line 82, ../sass/home.scss */
 .screw {
   width: 17%;
   background-color: #ffffff;
@@ -393,7 +405,7 @@ a {
   display: none;
 }
 
-/* line 84, ../sass/home.scss */
+/* line 90, ../sass/home.scss */
 #menu-search, #province-select {
   -moz-border-radius: 20px;
   -webkit-border-radius: 20px;
@@ -404,7 +416,7 @@ a {
   margin: 5% 0;
 }
 
-/* line 97, ../sass/home.scss */
+/* line 103, ../sass/home.scss */
 .filtro-name {
   font-size: 1em;
   font-color: #01394c !important;
@@ -412,22 +424,22 @@ a {
   margin-top: 5%;
 }
 
-/* line 104, ../sass/home.scss */
+/* line 110, ../sass/home.scss */
 .filtro-type {
   line-height: 1.5em;
 }
 
-/* line 108, ../sass/home.scss */
+/* line 114, ../sass/home.scss */
 .filter {
   margin: 5%;
 }
 
-/* line 112, ../sass/home.scss */
+/* line 118, ../sass/home.scss */
 .category {
   margin: 5% 0;
 }
 
-/* line 116, ../sass/home.scss */
+/* line 122, ../sass/home.scss */
 #submit-filters {
   background-color: #d8ee1a;
   width: 100%;
@@ -443,29 +455,29 @@ a {
 }
 
 /*=====Route cards ====*/
-/* line 128, ../sass/home.scss */
+/* line 134, ../sass/home.scss */
 .whiteness {
   background-color: white;
   height: 150px;
 }
 
-/* line 133, ../sass/home.scss */
+/* line 139, ../sass/home.scss */
 .route-info {
   padding: 0;
 }
-/* line 135, ../sass/home.scss */
+/* line 141, ../sass/home.scss */
 .route-info p {
   display: inline-block;
 }
 
-/* line 140, ../sass/home.scss */
+/* line 146, ../sass/home.scss */
 .route-card {
   -moz-box-shadow: #d7d6d6 1px 1px 8px;
   -webkit-box-shadow: #d7d6d6 1px 1px 8px;
   box-shadow: #d7d6d6 1px 1px 8px;
 }
 
-/* line 144, ../sass/home.scss */
+/* line 150, ../sass/home.scss */
 .map {
   background-image: url(../images/map.png);
   -moz-background-size: cover;
@@ -475,41 +487,43 @@ a {
   height: 100%;
 }
 
-/* line 150, ../sass/home.scss */
+/* line 156, ../sass/home.scss */
 .user-image {
   padding: 1%;
 }
 
-/* line 154, ../sass/home.scss */
+/* line 160, ../sass/home.scss */
 .user-route-card-img {
   height: 50px;
+  border-radius: 50%;
+  margin: 1%;
 }
 
 @media screen and (max-width: 768px) {
-  /* line 160, ../sass/home.scss */
+  /* line 168, ../sass/home.scss */
   .left {
     width: 100%;
   }
 
-  /* line 164, ../sass/home.scss */
+  /* line 172, ../sass/home.scss */
   .middle {
     padding: 0 2%;
     width: 20%;
   }
-  /* line 167, ../sass/home.scss */
+  /* line 175, ../sass/home.scss */
   .middle li {
     width: 100%;
     margin-bottom: 5%;
   }
 }
 @media screen and (min-width: 980px) {
-  /* line 175, ../sass/home.scss */
+  /* line 183, ../sass/home.scss */
   .navbar-toggle {
     display: none;
   }
 }
 /*========FEATURED ROUTE=======*/
-/* line 183, ../sass/home.scss */
+/* line 191, ../sass/home.scss */
 .featured-route {
   background-image: url(../images/featured-route.png);
   -moz-background-size: cover;
@@ -521,31 +535,27 @@ a {
   position: relative;
 }
 
-/* line 191, ../sass/home.scss */
+/* line 199, ../sass/home.scss */
 .topRow {
   margin-top: 50px;
 }
 
-/* line 195, ../sass/home.scss */
+/* line 203, ../sass/home.scss */
 .featured-route-card-title {
   font-size: 4.5em;
   font-family: din condensed bold;
   font-style: italic;
   color: white;
   text-shadow: 1px 1px #d8ee1a;
-}
-
-/* line 203, ../sass/home.scss */
-.title {
   border-bottom: 1px solid #d8ee1a;
 }
 
-/* line 207, ../sass/home.scss */
+/* line 212, ../sass/home.scss */
 .credits {
   text-align: right;
 }
 
-/* line 211, ../sass/home.scss */
+/* line 216, ../sass/home.scss */
 .credit-cost {
   font-size: 3em;
   font-weight: bold;
@@ -554,7 +564,7 @@ a {
   top: -6px;
 }
 
-/* line 219, ../sass/home.scss */
+/* line 224, ../sass/home.scss */
 .featured-route-card-subtitle {
   font-style: italic;
   color: white;
@@ -562,7 +572,7 @@ a {
   font-size: 1.2em;
 }
 
-/* line 226, ../sass/home.scss */
+/* line 231, ../sass/home.scss */
 .metrics {
   font-family: din condensed bold;
   font-size: 1.4em;
@@ -572,18 +582,18 @@ a {
   padding-right: 1%;
 }
 
-/* line 235, ../sass/home.scss */
+/* line 240, ../sass/home.scss */
 .metric-image {
   height: 1.4em;
 }
 
-/* line 239, ../sass/home.scss */
+/* line 244, ../sass/home.scss */
 .metric-guages {
   position: absolute;
   top: 257px;
 }
 
-/* line 244, ../sass/home.scss */
+/* line 249, ../sass/home.scss */
 .metric-numbers {
   font-size: 5em;
   font-family: din condensed bold;
@@ -591,14 +601,14 @@ a {
   color: #01394c;
 }
 
-/* line 251, ../sass/home.scss */
+/* line 256, ../sass/home.scss */
 .mins {
   position: absolute;
   bottom: 122px;
 }
 
 /*======bought route card =====*/
-/* line 258, ../sass/home.scss */
+/* line 263, ../sass/home.scss */
 .bought-route-card {
   background-image: url(../images/bought-route-card.png);
   -moz-background-size: cover;
@@ -613,7 +623,7 @@ a {
   position: relative;
 }
 
-/* line 267, ../sass/home.scss */
+/* line 272, ../sass/home.scss */
 .bought-route-card-title {
   font-family: din condensed bold;
   font-style: italic;
@@ -623,12 +633,12 @@ a {
   padding: 2% 0 0;
 }
 
-/* line 276, ../sass/home.scss */
+/* line 281, ../sass/home.scss */
 .bought-title {
   border-bottom: 1px solid #d8ee1a;
 }
 
-/* line 280, ../sass/home.scss */
+/* line 285, ../sass/home.scss */
 .bought-route-card-subtitle {
   font-style: italic;
   color: white;
@@ -636,7 +646,7 @@ a {
   font-size: 1.2em;
 }
 
-/* line 287, ../sass/home.scss */
+/* line 292, ../sass/home.scss */
 .bought-metrics {
   font-family: din condensed bold;
   font-size: 1.5em;
@@ -646,18 +656,18 @@ a {
   padding-right: 1%;
 }
 
-/* line 296, ../sass/home.scss */
+/* line 301, ../sass/home.scss */
 .bought-metric-image {
   height: 1.1em;
 }
 
-/* line 300, ../sass/home.scss */
+/* line 305, ../sass/home.scss */
 .bought-metric-guages {
   position: absolute;
   bottom: 60px;
 }
 
-/* line 305, ../sass/home.scss */
+/* line 310, ../sass/home.scss */
 .bought-metric-numbers {
   font-size: 3em;
   font-family: din condensed bold;
@@ -665,30 +675,30 @@ a {
   color: #01394c;
 }
 
-/* line 312, ../sass/home.scss */
+/* line 317, ../sass/home.scss */
 .bought-mins {
   position: absolute;
   bottom: 2px;
 }
 
 /*-------MAPA USER CARDS--------*/
-/* line 322, ../sass/home.scss */
+/* line 327, ../sass/home.scss */
 #routes-map-pane-wrapper {
   display: none;
   padding-top: 5%;
 }
 
-/* line 327, ../sass/home.scss */
+/* line 332, ../sass/home.scss */
 #routes-map-pane-wrapper {
   margin-bottom: 5%;
 }
 
-/* line 331, ../sass/home.scss */
+/* line 336, ../sass/home.scss */
 #mapa-mapa {
   width: 100%;
 }
 
-/* line 335, ../sass/home.scss */
+/* line 340, ../sass/home.scss */
 .mapa-user-card {
   background-color: #fff;
   height: 150px;
@@ -697,7 +707,7 @@ a {
   padding-top: 3%;
 }
 
-/* line 343, ../sass/home.scss */
+/* line 348, ../sass/home.scss */
 .mapa-user-card-metrics {
   position: absolute;
   bottom: 0;
@@ -706,41 +716,42 @@ a {
   margin-left: -8px;
 }
 
-/* line 352, ../sass/home.scss */
+/* line 357, ../sass/home.scss */
 .mapa-user-card-info {
   display: inline;
+  font-size: 0.8em;
 }
 
-/* line 356, ../sass/home.scss */
+/* line 362, ../sass/home.scss */
 .ind-metric {
   padding: 0;
   text-align: center;
 }
 
-/* line 361, ../sass/home.scss */
+/* line 367, ../sass/home.scss */
 .met-num {
   font-family: din condensed bold;
   font-size: 2em;
   font-style: italic;
 }
 
-/* line 367, ../sass/home.scss */
+/* line 373, ../sass/home.scss */
 .mapa-user-card-info {
   font-weight: bold;
 }
 
-/* line 371, ../sass/home.scss */
+/* line 377, ../sass/home.scss */
 .its {
   margin: 0;
 }
 
-/* line 375, ../sass/home.scss */
+/* line 381, ../sass/home.scss */
 .mapa-route-card-list {
   height: 941px;
   overflow-y: scroll;
 }
 
-/* line 381, ../sass/home.scss */
+/* line 387, ../sass/home.scss */
 .mapa-bought-card {
   background-image: url(../images/route/mapa-bought-card.png);
   -moz-background-size: cover;
@@ -752,7 +763,7 @@ a {
   position: relative;
 }
 
-/* line 389, ../sass/home.scss */
+/* line 395, ../sass/home.scss */
 .map-bought-card-title {
   font-family: din condensed bold;
   font-size: 3em;
@@ -762,7 +773,7 @@ a {
   padding: 5% 0 1% 3%;
 }
 
-/* line 398, ../sass/home.scss */
+/* line 404, ../sass/home.scss */
 .mapa-bought-card-title {
   padding-left: 5%;
   color: white;
@@ -770,7 +781,7 @@ a {
   font-size: 0.9em;
 }
 
-/* line 405, ../sass/home.scss */
+/* line 411, ../sass/home.scss */
 .mapa-bought-metrics {
   text-align: center;
   position: absolute;
@@ -781,13 +792,18 @@ a {
   font-style: italic;
 }
 
-/* line 415, ../sass/home.scss */
+/* line 421, ../sass/home.scss */
 #mapa-bought-card-distance {
   float: right;
   padding-right: 7%;
 }
 
-/* line 420, ../sass/home.scss */
+/* line 426, ../sass/home.scss */
 #mapa-bought-card-exerciseNum {
   padding-right: 29%;
+}
+
+/* line 430, ../sass/home.scss */
+.rating-wrapper {
+  margin: 1% 0;
 }

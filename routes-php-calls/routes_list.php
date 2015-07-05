@@ -20,7 +20,7 @@ if ($result = $conexion->query($sql)) {
     		<a href="ind-route-pro.php?routeID=15">
     			<div class="container featured-route">
     				<div class="row routes-list-row topRow routes-list-row">
-    					<div class="col-xs-12 col-sm-6 title" style="padding:0; margin:15px;">
+    					<div class="col-xs-12 col-sm-6 title">
     						<h2 class="featured-route-card-title">
 								<?php echo $fila['title']; ?>
 							</h2>

@@ -22,7 +22,7 @@ include('conexion-php-calls/conexion-routapp.php');
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="nav navbar-default bottom-nav" id="bs-example-navbar-collapse-2">
-      <ul class="nav navbar-nav" id="bottom-bar">
+      <ul class="nav navbar-nav nav-justified" id="bottom-bar">
         <li id="fdb">
           <a href="#"><img src="images/filtros.png"><span class="menu-name">Filtro de Busqueda</span></a>
         </li>

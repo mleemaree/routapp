@@ -24,6 +24,7 @@ body{
 
 .user-info-small{
 	position:absolute;
+	padding:0.5%;
 	top:0;
 	right:0;
 }
@@ -286,9 +287,40 @@ h2.user-name{
 }
 
 
+/*chart--*/
+
+.ct-series-a .ct-line {
+  /* Set the colour of this series line */
+  stroke: #d1005d!important;
+  /* Control the thikness of your lines */
+  stroke-width: 6px;
+}
+
+/* This selector overrides the points style on line charts. Points on line charts are actually just very short strokes. This allows you to customize even the point size in CSS */
+.ct-series-a .ct-point {
+  /* Colour of your points */
+  stroke: #d1005d!important;
+  /* Size of your points */
+  stroke-width: 20px;
+  /* Make your points appear as squares */
+}
+
+
+
 
 /*--=-----INFO Y AJUSTES------*/
 
+
+#informacion-profile{
+	padding-bottom:10%;
+}
+.adjusts-gen-title{
+	padding-left:15px;
+}
+
+#adjusts{
+	padding-bottom:10%;
+}
 
 .info-title-wrapper{
 	border-bottom:1px solid $blue;
@@ -332,7 +364,6 @@ $bordergray:#c0c0c0;
 }
 
 .info-gen-title{
-	padding:3% 1% 0;
 	font-weight:bold;
 	color:$blue;
 }
@@ -403,7 +434,10 @@ $bordergray:#c0c0c0;
     	padding: 1.5% 3%;
 }
 
-
+.adjusts-gen-title{
+	font-weight:bold;
+	padding:0;
+}
 
 
 

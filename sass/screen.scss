@@ -1,5 +1,9 @@
+@import "compass/utilities";
+
 @import "home";
 @import "profile";
+@import "scss/settings/_chartist-settings.scss";
+@import "scss/chartist.scss";
 
 textarea:focus,
 input[type="text"]:focus,

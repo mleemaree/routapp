@@ -105,7 +105,7 @@ include('conexion-php-calls/conexion-routapp.php');
 </div>
 
 
-<div class="footer" style="padding-top: 5%; margin:0 -30px; clear:both;">
+<div class="footer" style="padding-top: 5%; margin:0 -30px; clear:both; position:relative; top:1200px;">
   <?php include('php-calls/footer.php');?>
 </div>
 

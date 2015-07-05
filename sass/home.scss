@@ -71,6 +71,12 @@ a{
 	right:18%;
 }
 
+@media screen and (max-width: 1023px) {
+	#bottom-bar{
+		display:none;
+	}
+}
+
 /*===possible sidemenu ====*/
 
 .screw{
@@ -153,6 +159,8 @@ a{
 
 .user-route-card-img{
 	height:50px;
+	border-radius:50%;
+	margin:1%;
 }
 	
 
@@ -198,10 +206,7 @@ a{
   font-style: italic;
   color: white;
   text-shadow: 1px 1px $green;
-}
-
-.title{
-	border-bottom:1px solid $green;
+  border-bottom:1px solid $green;
 }
 
 .credits{
@@ -351,6 +356,7 @@ a{
 
 .mapa-user-card-info{
 	display:inline;
+	font-size:0.8em;
 }
 
 .ind-metric{
@@ -419,5 +425,9 @@ a{
 
 #mapa-bought-card-exerciseNum{
 	padding-right:29%;
+}
+
+.rating-wrapper{
+	margin:1% 0;
 }
 

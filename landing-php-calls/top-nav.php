@@ -13,11 +13,11 @@
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-right nav-justified">
+      <ul class="nav navbar-nav navbar-right nav-justified" style="position:absolute; right:-14%;">
         <li><a href="be-trainer.php">BeTrainer</a></li>
         <li><a href="app.php">App</a></li>
         <li>
-          <a class="login-button" style="padding-top:9px;"
+          <a class="login-button" style="padding-top:9px; width:120px;"
             data-toggle="modal" data-keyboard="true" data-target="#login">
             <img style="float:left;"src="images/login-icon.png"> 
             <p style="float:right; line-height:2;">Login</p>

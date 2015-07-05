@@ -41,8 +41,9 @@ a.btn.btn-default{
 }
 
 #userPhoto{
-	padding:1% 10% 1% 0;
+	border-radius:50%;
 	height:45px;
+	padding:0 !important;
 }
 
 .menu-name{
@@ -65,3 +66,8 @@ a.btn.btn-default{
 		text-align:center;
 	}
 }
+
+.user-info-small{
+	margin-right:15px;
+}
+

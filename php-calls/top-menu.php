@@ -8,7 +8,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" style="padding:0;" href="index.php">
+      <a class="navbar-brand" style="padding:0 15px;" href="index.php">
         <img src="images/logo.png">
       </a>
     </div>

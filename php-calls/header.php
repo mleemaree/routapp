@@ -15,3 +15,6 @@
 
 <!--checkboxes-->
 <link rel="stylesheet" href="bower_components/prettyCheckable/dist/prettyCheckable.css">
+
+<!--chartist-->
+<link rel="stylesheet" href="bower_components/chartist/dist/chartist.min.css">

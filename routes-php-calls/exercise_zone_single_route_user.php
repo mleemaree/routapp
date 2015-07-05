@@ -46,10 +46,10 @@ if ($result3 = $conexion->query($sql3)) {
 							<img src="images/route/zone-img.png">
 						</div>
 						<div class="col-xs-4">
-							<img src="images/route/zone-img.png">
+							<img src="images/route/zone-img-2.png">
 						</div>
 						<div class="col-xs-4">
-							<img src="images/route/zone-img.png">
+							<img src="images/route/zone-img-3.png">
 						</div>
 					</div>
 				</div>
