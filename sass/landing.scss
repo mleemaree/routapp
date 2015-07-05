@@ -32,6 +32,25 @@
 
 }
 
+@mixin title-wrapper-left($img-title){
+	@include background(image-url($img-title));
+	@include background-size(contain);
+	background-repeat:no-repeat;
+	font-size: 2.5em;
+    color: $green ;
+    font-family: din condensed bold;
+    height:80px;
+}
+
+@mixin list-wrapper-left($img-list){
+	@include background(image-url($img-list));
+	@include background-size(contain);
+	width:97%;
+	font-family:raleway;
+	color:$blue;
+
+}
+
 nav{
 	margin-top:1%;
 }
@@ -142,6 +161,7 @@ nav{
 
 .crea{
 	@include landing-background("../images/landing/background-crea.png");
+	@include background-size(contain);
 }
 
 .ciudad{
@@ -157,11 +177,11 @@ nav{
 }
 
 .crea-title-wrapper{
-	@include title-wrapper("../images/landing/crea-bg-title.png");
+	@include title-wrapper-left("../images/landing/crea-bg-title.png");
 }
 
 .crea-list-wrapper{
-	@include list-wrapper("../images/landing/crea-bg.png");
+	@include list-wrapper-left("../images/landing/crea-bg.png");
 }
 
 #crea-title, #ciudad-title{
@@ -177,19 +197,30 @@ nav{
 }
 
 .trainer-title-wrapper{
-	@include title-wrapper("../images/landing/trainer-bg-title.png");
+	@include title-wrapper-left("../images/landing/trainer-bg-title.png");
 }
 
 .trainer-list-wrapper{
-	@include list-wrapper("../images/landing/trainer-bg.png");
+	@include list-wrapper-left("../images/landing/trainer-bg.png");
 }
 
 .descarga-title-wrapper{
 	@include title-wrapper("../images/landing/descarga-bg-title.png");
 }
 
-.descarga-list-wrapper{
+.descarga-wrapper{
 	@include list-wrapper("../images/landing/descarga-bg.png");
+	position:absolute;
+	right:0;
+	width:96%;
+	@include background-size(cover);
+	p{
+		margin:5%;
+	}
+}
+
+#descarga{
+	margin-top:20%;
 }
 
 /*===------lists-----*/
