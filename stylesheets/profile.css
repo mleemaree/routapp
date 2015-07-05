@@ -340,11 +340,12 @@ body {
   display: inline;
   border-radius: 50%;
   height: 200px;
+  width: 200px;
   position: relative;
   left: 20px;
 }
 
-/* line 50, ../sass/profile.scss */
+/* line 51, ../sass/profile.scss */
 h2.user-name {
   color: #fff;
   text-transform: uppercase;
@@ -356,90 +357,90 @@ h2.user-name {
   margin-left: 10px;
 }
 
-/* line 62, ../sass/profile.scss */
+/* line 63, ../sass/profile.scss */
 .profile-menu-option {
   height: 50px;
   text-align: center;
   border-right: 1px solid #01394c;
 }
-/* line 66, ../sass/profile.scss */
+/* line 67, ../sass/profile.scss */
 .profile-menu-option span {
   font-size: 0.9em;
   color: #01394c;
   position: relative;
   top: 18px;
 }
-/* line 72, ../sass/profile.scss */
+/* line 73, ../sass/profile.scss */
 .profile-menu-option:last-child {
   border: none;
 }
-/* line 75, ../sass/profile.scss */
+/* line 76, ../sass/profile.scss */
 .profile-menu-option.active {
   background-color: #01394c;
 }
-/* line 77, ../sass/profile.scss */
+/* line 78, ../sass/profile.scss */
 .profile-menu-option.active span {
   color: white;
 }
 
-/* line 83, ../sass/profile.scss */
+/* line 84, ../sass/profile.scss */
 .profile-menu {
   border-bottom: 1px solid #01394c !important;
 }
 
 /*====Mis rutas=====*/
-/* line 90, ../sass/profile.scss */
+/* line 91, ../sass/profile.scss */
 #ruta-map {
   margin: 3% 0;
 }
 
-/* line 94, ../sass/profile.scss */
+/* line 95, ../sass/profile.scss */
 #route-map {
   width: 100%;
 }
 
-/* line 98, ../sass/profile.scss */
+/* line 99, ../sass/profile.scss */
 .rc {
   margin: 3% 0;
 }
 
-/* line 102, ../sass/profile.scss */
+/* line 103, ../sass/profile.scss */
 .bought-cards {
   padding: 0;
 }
 
 /*====mis rutas menu====*/
-/* line 108, ../sass/profile.scss */
+/* line 109, ../sass/profile.scss */
 .mis-rutas-menu {
   width: 70%;
   display: inline-block;
 }
 
-/* line 113, ../sass/profile.scss */
+/* line 114, ../sass/profile.scss */
 .mis-rutas-menu-option {
   display: inline-block;
   width: 33%;
 }
-/* line 116, ../sass/profile.scss */
+/* line 117, ../sass/profile.scss */
 .mis-rutas-menu-option span {
   font-weight: bold;
   text-transform: uppercase;
   color: #01394c;
 }
 
-/* line 123, ../sass/profile.scss */
+/* line 124, ../sass/profile.scss */
 #mis-rutas-filtro {
   display: inline-block;
   float: right;
 }
 
 /*---Mis Rutas Compradas--*/
-/* line 131, ../sass/profile.scss */
+/* line 132, ../sass/profile.scss */
 #mis-rutas-panes {
   margin-bottom: 5%;
 }
 
-/* line 135, ../sass/profile.scss */
+/* line 136, ../sass/profile.scss */
 #mis-rutas-compradas-pane, #mis-rutas-creadas-pane, #mis-rutas-favoritas-pane {
   border-top: 1px solid #01394c;
   border-bottom: 1px solid #01394c;
@@ -447,17 +448,17 @@ h2.user-name {
   margin-bottom: 5%;
 }
 
-/* line 142, ../sass/profile.scss */
+/* line 143, ../sass/profile.scss */
 #mis-rutas-compradas-pane-wrapper, #mis-rutas-favoritas-pane-wrapper {
   display: none;
 }
 
-/* line 146, ../sass/profile.scss */
+/* line 147, ../sass/profile.scss */
 #comprar-rutas-button {
   margin: 2% 0 5%;
 }
 
-/* line 150, ../sass/profile.scss */
+/* line 151, ../sass/profile.scss */
 #comprar-ruta, #crear-ruta {
   margin-right: 1%;
   border-color: 1px solid #01394c;
@@ -476,50 +477,50 @@ h2.user-name {
 	width:100%;
 }
 */
-/* line 175, ../sass/profile.scss */
+/* line 176, ../sass/profile.scss */
 .titles {
   text-align: center;
 }
-/* line 177, ../sass/profile.scss */
+/* line 178, ../sass/profile.scss */
 .titles h2 {
   font-weight: bold;
   margin: 15% 0 2%;
   color: #01394c;
 }
 
-/* line 184, ../sass/profile.scss */
+/* line 185, ../sass/profile.scss */
 #circle {
   text-align: center;
   position: relative;
 }
-/* line 187, ../sass/profile.scss */
+/* line 188, ../sass/profile.scss */
 #circle canvas {
   margin: 10%;
 }
 
-/* line 192, ../sass/profile.scss */
+/* line 193, ../sass/profile.scss */
 .nivel-percentaje {
   position: absolute;
   top: 102px;
   left: 159px;
   font-family: din condensed bold;
 }
-/* line 197, ../sass/profile.scss */
+/* line 198, ../sass/profile.scss */
 .nivel-percentaje p {
   font-size: 1.1em;
 }
-/* line 200, ../sass/profile.scss */
+/* line 201, ../sass/profile.scss */
 .nivel-percentaje strong {
   font-size: 3.5em;
 }
 
-/* line 205, ../sass/profile.scss */
+/* line 206, ../sass/profile.scss */
 .estadisticas-menu {
   margin: 5% 0;
   border-bottom: 1px solid #01394c;
 }
 
-/* line 210, ../sass/profile.scss */
+/* line 211, ../sass/profile.scss */
 .estadisticas-menu-option {
   text-align: center;
   font-weight: bold;
@@ -527,19 +528,19 @@ h2.user-name {
   padding-bottom: 2%;
 }
 
-/* line 217, ../sass/profile.scss */
+/* line 218, ../sass/profile.scss */
 #rutas-completadas li {
   padding: 3% 0 1% 4%;
   border-bottom: 1px solid #01394c;
   color: #01394c;
 }
-/* line 221, ../sass/profile.scss */
+/* line 222, ../sass/profile.scss */
 #rutas-completadas li h3 {
   font-weight: bold;
   padding-bottom: 3%;
 }
 
-/* line 227, ../sass/profile.scss */
+/* line 228, ../sass/profile.scss */
 .points {
   font-family: din condensed bold;
   font-size: 2em;
@@ -547,20 +548,20 @@ h2.user-name {
   color: #d1005d;
 }
 
-/* line 234, ../sass/profile.scss */
+/* line 235, ../sass/profile.scss */
 .has {
   color: #01394c;
   font-weight: bold;
   text-align: center;
 }
 
-/* line 240, ../sass/profile.scss */
+/* line 241, ../sass/profile.scss */
 .lower {
   text-align: center;
   padding-top: 8%;
 }
 
-/* line 245, ../sass/profile.scss */
+/* line 246, ../sass/profile.scss */
 .pnum {
   display: inline-block;
   font-family: din condensed bold;
@@ -569,43 +570,43 @@ h2.user-name {
   padding-right: 2%;
 }
 
-/* line 253, ../sass/profile.scss */
+/* line 254, ../sass/profile.scss */
 .meas {
   display: inline-block;
   font-family: din condensed bold;
   font-size: 2em;
 }
 
-/* line 259, ../sass/profile.scss */
+/* line 260, ../sass/profile.scss */
 .recorrido-graphic {
   padding-bottom: 5%;
   border-bottom: 1px solid #d3d3d3;
   margin: 0;
 }
 
-/* line 265, ../sass/profile.scss */
+/* line 266, ../sass/profile.scss */
 .quemado, .entrenado {
   padding: 3% 0;
   border-bottom: 1px solid #d3d3d3;
   margin: 0;
 }
 
-/* line 271, ../sass/profile.scss */
+/* line 272, ../sass/profile.scss */
 .compare {
   color: #01394c;
 }
-/* line 273, ../sass/profile.scss */
+/* line 274, ../sass/profile.scss */
 .compare span {
   font-weight: bold;
 }
 
-/* line 278, ../sass/profile.scss */
+/* line 279, ../sass/profile.scss */
 .equal {
   font-weight: bold;
   padding-bottom: 3%;
 }
 
-/* line 283, ../sass/profile.scss */
+/* line 284, ../sass/profile.scss */
 #descargar-estadisticas {
   margin: 3% 0 10%;
   background-color: #01394c;
@@ -616,7 +617,7 @@ h2.user-name {
 }
 
 /*chart--*/
-/* line 295, ../sass/profile.scss */
+/* line 296, ../sass/profile.scss */
 .ct-series-a .ct-line {
   /* Set the colour of this series line */
   stroke: #d1005d !important;
@@ -625,7 +626,7 @@ h2.user-name {
 }
 
 /* This selector overrides the points style on line charts. Points on line charts are actually just very short strokes. This allows you to customize even the point size in CSS */
-/* line 303, ../sass/profile.scss */
+/* line 304, ../sass/profile.scss */
 .ct-series-a .ct-point {
   /* Colour of your points */
   stroke: #d1005d !important;
@@ -635,28 +636,28 @@ h2.user-name {
 }
 
 /*--=-----INFO Y AJUSTES------*/
-/* line 317, ../sass/profile.scss */
+/* line 318, ../sass/profile.scss */
 #informacion-profile {
   padding-bottom: 10%;
 }
 
-/* line 320, ../sass/profile.scss */
+/* line 321, ../sass/profile.scss */
 .adjusts-gen-title {
   padding-left: 15px;
 }
 
-/* line 324, ../sass/profile.scss */
+/* line 325, ../sass/profile.scss */
 #adjusts {
   padding-bottom: 10%;
 }
 
-/* line 328, ../sass/profile.scss */
+/* line 329, ../sass/profile.scss */
 .info-title-wrapper {
   border-bottom: 1px solid #01394c;
   margin: 0;
 }
 
-/* line 333, ../sass/profile.scss */
+/* line 334, ../sass/profile.scss */
 .info-title {
   font-size: 1.2em;
   font-weight: bold;
@@ -664,16 +665,16 @@ h2.user-name {
   color: #01394c;
 }
 
-/* line 343, ../sass/profile.scss */
+/* line 344, ../sass/profile.scss */
 #info-adjusts {
   width: 85%;
   color: #01394c;
 }
-/* line 346, ../sass/profile.scss */
+/* line 347, ../sass/profile.scss */
 #info-adjusts .row {
   margin: 0;
 }
-/* line 349, ../sass/profile.scss */
+/* line 350, ../sass/profile.scss */
 #info-adjusts input, #info-adjusts select {
   line-height: 2em;
   background-color: #f0f0f0;
@@ -681,11 +682,11 @@ h2.user-name {
   width: 100%;
   color: #01394c;
 }
-/* line 356, ../sass/profile.scss */
+/* line 357, ../sass/profile.scss */
 #info-adjusts select {
   height: 2.2em;
 }
-/* line 359, ../sass/profile.scss */
+/* line 360, ../sass/profile.scss */
 #info-adjusts button {
   margin: 3% 1%;
   background-color: #01394c;
@@ -695,30 +696,30 @@ h2.user-name {
   padding: 1.5% 3%;
 }
 
-/* line 369, ../sass/profile.scss */
+/* line 370, ../sass/profile.scss */
 .info-gen-title {
   font-weight: bold;
   color: #01394c;
 }
 
-/* line 374, ../sass/profile.scss */
+/* line 375, ../sass/profile.scss */
 .labels {
   padding: 2% 0 0.5%;
 }
 
-/* line 378, ../sass/profile.scss */
+/* line 379, ../sass/profile.scss */
 .pref-dep {
   width: 85%;
   color: #01394c;
 }
-/* line 381, ../sass/profile.scss */
+/* line 382, ../sass/profile.scss */
 .pref-dep textarea {
   width: 40%;
   height: 150px;
   background-color: #f0f0f0;
   border: 1px solid #c0c0c0;
 }
-/* line 387, ../sass/profile.scss */
+/* line 388, ../sass/profile.scss */
 .pref-dep button {
   margin: 3% 1%;
   background-color: #01394c;
@@ -727,18 +728,18 @@ h2.user-name {
   border-radius: 29px;
   padding: 1.5% 3%;
 }
-/* line 396, ../sass/profile.scss */
+/* line 397, ../sass/profile.scss */
 .pref-dep .row {
   margin: 0;
 }
 
-/* line 401, ../sass/profile.scss */
+/* line 402, ../sass/profile.scss */
 .pref-labels {
   padding-top: 2%;
   padding-bottom: 1%;
 }
 
-/* line 406, ../sass/profile.scss */
+/* line 407, ../sass/profile.scss */
 #sportLevel {
   width: 20%;
   background-color: #f0f0f0;
@@ -746,16 +747,16 @@ h2.user-name {
   height: 2.2em;
 }
 
-/* line 413, ../sass/profile.scss */
+/* line 414, ../sass/profile.scss */
 .email-contrasena {
   width: 85%;
   color: #01394c;
 }
-/* line 416, ../sass/profile.scss */
+/* line 417, ../sass/profile.scss */
 .email-contrasena .row {
   margin: 0 15px;
 }
-/* line 419, ../sass/profile.scss */
+/* line 420, ../sass/profile.scss */
 .email-contrasena .email-input, .email-contrasena select {
   line-height: 2em;
   background-color: #f0f0f0;
@@ -763,12 +764,12 @@ h2.user-name {
   width: 40%;
   color: #01394c;
 }
-/* line 426, ../sass/profile.scss */
+/* line 427, ../sass/profile.scss */
 .email-contrasena select {
   height: 2.2em;
 }
 
-/* line 431, ../sass/profile.scss */
+/* line 432, ../sass/profile.scss */
 .email-button {
   margin: 3% 1%;
   background-color: #01394c;
@@ -778,35 +779,35 @@ h2.user-name {
   padding: 1.5% 3%;
 }
 
-/* line 440, ../sass/profile.scss */
+/* line 441, ../sass/profile.scss */
 .adjusts-gen-title {
   font-weight: bold;
   padding: 0;
 }
 
 /*========CREDITOS----------*/
-/* line 449, ../sass/profile.scss */
+/* line 450, ../sass/profile.scss */
 .history:nth-child(even) {
   background-color: #fff;
 }
 
-/* line 453, ../sass/profile.scss */
+/* line 454, ../sass/profile.scss */
 .history:nth-child(odd) {
   background-color: #dfeff5;
 }
 
-/* line 457, ../sass/profile.scss */
+/* line 458, ../sass/profile.scss */
 .creditos-disponibles, .my-history-title {
   margin: 0;
   padding: 3% 0 2%;
   font-weight: bold;
 }
 
-/* line 463, ../sass/profile.scss */
+/* line 464, ../sass/profile.scss */
 .comprar-button {
   margin: 0 0 5%;
 }
-/* line 465, ../sass/profile.scss */
+/* line 466, ../sass/profile.scss */
 .comprar-button input {
   background-color: #01394c;
   color: #d8ee1a;
@@ -815,68 +816,68 @@ h2.user-name {
   border-radius: 6px;
 }
 
-/* line 474, ../sass/profile.scss */
+/* line 475, ../sass/profile.scss */
 .creditos-title {
   margin: 0 -15px;
   padding-left: 15px;
   text-align: left;
 }
 
-/* line 480, ../sass/profile.scss */
+/* line 481, ../sass/profile.scss */
 .hist-wrapper {
   padding-top: 0;
 }
 
-/* line 484, ../sass/profile.scss */
+/* line 485, ../sass/profile.scss */
 .hist {
   border-bottom: 1px solid #01394c;
   line-height: 1.5em;
 }
 
-/* line 489, ../sass/profile.scss */
+/* line 490, ../sass/profile.scss */
 .my-history-title {
   text-align: left;
 }
 
-/* line 493, ../sass/profile.scss */
+/* line 494, ../sass/profile.scss */
 .history-menu {
   display: inline;
   text-align: center;
 }
 
-/* line 498, ../sass/profile.scss */
+/* line 499, ../sass/profile.scss */
 .mi {
   border-right: 1px solid #01394c;
   line-height: 1.2em;
 }
-/* line 501, ../sass/profile.scss */
+/* line 502, ../sass/profile.scss */
 .mi:last-child {
   border: none;
 }
 
-/* line 506, ../sass/profile.scss */
+/* line 507, ../sass/profile.scss */
 .history {
   line-height: 50px;
 }
 
-/* line 510, ../sass/profile.scss */
+/* line 511, ../sass/profile.scss */
 .center {
   text-align: center;
 }
 
-/* line 514, ../sass/profile.scss */
+/* line 515, ../sass/profile.scss */
 .creditos {
   color: red;
 }
 
-/* line 518, ../sass/profile.scss */
+/* line 519, ../sass/profile.scss */
 .pages {
   font-weight: bold;
   text-align: center;
   padding: 5% 0;
 }
 
-/* line 528, ../sass/profile.scss */
+/* line 529, ../sass/profile.scss */
 #estadisticas-profile, #creditos-profile,
 #informacion-profile {
   display: none;

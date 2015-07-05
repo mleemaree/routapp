@@ -15,7 +15,7 @@ $sql="SELECT * FROM comments WHERE (routeID = '".$_GET['routeID']."') ORDER BY `
 
 			    			<p class="route-comment">
 
-								<img src="../register-php-calls/user_images/<?php echo $fila['avatar'];?>"><br>
+								<img style="height:50px; width:50px; border-radius:50%;" src="../register-php-calls/user_images/<?php echo $fila['avatar'];?>"><br>
 								<?php echo $fila['title']; ?><br>
 								<?php echo $fila['rating']; ?><br>
 								<?php echo $fila['date']; ?><br><br>

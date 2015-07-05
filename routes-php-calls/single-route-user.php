@@ -68,9 +68,9 @@ $sql2="SELECT * FROM zones where routeID=".$_GET['routeID'];
 			</div>
 		</div>
 		<div class="hidden-xs col-sm-4"></div>
-		<div class="col-xs-12 col-sm-4" style="display:table-cell; margin-top:-1%; float:right;">
-			<p class="creada-por" style="display:inline; vertical-align:middle;">Ruta creada por: <span id="username" style="font-weight:bold;"><?php echo $fila1['username'];?></span></p>
-			<img id="user-photo" style="display:inline; vertical-align:middle;" src="register-php-calls/user_images/<?php echo $fila1['avatar'];?>">
+		<div class="col-xs-12 col-sm-4" style="display:table-cell; margin-top:-1%; float:right; text-align:right;">
+			<p class="creada-por" style="display:inline; vertical-align:middle; padding-right:2%;">Ruta creada por: <span id="username" style="font-weight:bold;"><?php echo $fila1['username'];?></span></p>
+			<img id="user-photo" style="display:inline; vertical-align:middle; border-radius:50%; width:50px;" src="register-php-calls/user_images/<?php echo $fila1['avatar'];?>">
 		</div>
 	</div>
 </div>

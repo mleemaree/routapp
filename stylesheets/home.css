@@ -122,11 +122,11 @@ body {
 
 @font-face {
   font-family: "DIN Condensed Bold";
-  src: url('/fonts/DIN Condensed Bold.ttf?1434550259') format('truetype');
+  src: url('/fonts/DIN Condensed Bold.ttf?1436107898') format('truetype');
 }
 @font-face {
   font-family: "raleway";
-  src: url('/fonts/Raleway-Regular.ttf?1415107620') format('truetype');
+  src: url('/fonts/Raleway-Regular.ttf?1436107887') format('truetype');
 }
 /* line 5, ../sass/home/partials/_typography.scss */
 body {
@@ -278,35 +278,36 @@ a.btn.btn-default {
 #userPhoto {
   border-radius: 50%;
   height: 45px;
+  width: 45px;
   padding: 0 !important;
 }
 
-/* line 49, ../sass/home/partials/_top-nav.scss */
+/* line 50, ../sass/home/partials/_top-nav.scss */
 .menu-name {
   display: inline;
 }
 
-/* line 53, ../sass/home/partials/_top-nav.scss */
+/* line 54, ../sass/home/partials/_top-nav.scss */
 #logged-user-name {
   padding: 5%;
   position: relative;
   top: 18px;
 }
 
-/* line 59, ../sass/home/partials/_top-nav.scss */
+/* line 60, ../sass/home/partials/_top-nav.scss */
 #user-dropdown-menu {
   background-color: #01394c;
   position: absolute;
   top: 56px;
   width: 75%;
 }
-/* line 64, ../sass/home/partials/_top-nav.scss */
+/* line 65, ../sass/home/partials/_top-nav.scss */
 #user-dropdown-menu li a {
   color: #d8ee1a;
   text-align: center;
 }
 
-/* line 70, ../sass/home/partials/_top-nav.scss */
+/* line 71, ../sass/home/partials/_top-nav.scss */
 .user-info-small {
   margin-right: 15px;
 }
@@ -495,35 +496,36 @@ a {
 /* line 160, ../sass/home.scss */
 .user-route-card-img {
   height: 50px;
+  width: 50px;
   border-radius: 50%;
   margin: 1%;
 }
 
 @media screen and (max-width: 768px) {
-  /* line 168, ../sass/home.scss */
+  /* line 169, ../sass/home.scss */
   .left {
     width: 100%;
   }
 
-  /* line 172, ../sass/home.scss */
+  /* line 173, ../sass/home.scss */
   .middle {
     padding: 0 2%;
     width: 20%;
   }
-  /* line 175, ../sass/home.scss */
+  /* line 176, ../sass/home.scss */
   .middle li {
     width: 100%;
     margin-bottom: 5%;
   }
 }
 @media screen and (min-width: 980px) {
-  /* line 183, ../sass/home.scss */
+  /* line 184, ../sass/home.scss */
   .navbar-toggle {
     display: none;
   }
 }
 /*========FEATURED ROUTE=======*/
-/* line 191, ../sass/home.scss */
+/* line 192, ../sass/home.scss */
 .featured-route {
   background-image: url(../images/featured-route.png);
   -moz-background-size: cover;
@@ -535,12 +537,12 @@ a {
   position: relative;
 }
 
-/* line 199, ../sass/home.scss */
+/* line 200, ../sass/home.scss */
 .topRow {
   margin-top: 50px;
 }
 
-/* line 203, ../sass/home.scss */
+/* line 204, ../sass/home.scss */
 .featured-route-card-title {
   font-size: 4.5em;
   font-family: din condensed bold;
@@ -550,12 +552,12 @@ a {
   border-bottom: 1px solid #d8ee1a;
 }
 
-/* line 212, ../sass/home.scss */
+/* line 213, ../sass/home.scss */
 .credits {
   text-align: right;
 }
 
-/* line 216, ../sass/home.scss */
+/* line 217, ../sass/home.scss */
 .credit-cost {
   font-size: 3em;
   font-weight: bold;
@@ -564,7 +566,7 @@ a {
   top: -6px;
 }
 
-/* line 224, ../sass/home.scss */
+/* line 225, ../sass/home.scss */
 .featured-route-card-subtitle {
   font-style: italic;
   color: white;
@@ -572,7 +574,7 @@ a {
   font-size: 1.2em;
 }
 
-/* line 231, ../sass/home.scss */
+/* line 232, ../sass/home.scss */
 .metrics {
   font-family: din condensed bold;
   font-size: 1.4em;
@@ -582,18 +584,18 @@ a {
   padding-right: 1%;
 }
 
-/* line 240, ../sass/home.scss */
+/* line 241, ../sass/home.scss */
 .metric-image {
   height: 1.4em;
 }
 
-/* line 244, ../sass/home.scss */
+/* line 245, ../sass/home.scss */
 .metric-guages {
   position: absolute;
   top: 257px;
 }
 
-/* line 249, ../sass/home.scss */
+/* line 250, ../sass/home.scss */
 .metric-numbers {
   font-size: 5em;
   font-family: din condensed bold;
@@ -601,14 +603,14 @@ a {
   color: #01394c;
 }
 
-/* line 256, ../sass/home.scss */
+/* line 257, ../sass/home.scss */
 .mins {
   position: absolute;
   bottom: 122px;
 }
 
 /*======bought route card =====*/
-/* line 263, ../sass/home.scss */
+/* line 264, ../sass/home.scss */
 .bought-route-card {
   background-image: url(../images/bought-route-card.png);
   -moz-background-size: cover;
@@ -623,7 +625,7 @@ a {
   position: relative;
 }
 
-/* line 272, ../sass/home.scss */
+/* line 273, ../sass/home.scss */
 .bought-route-card-title {
   font-family: din condensed bold;
   font-style: italic;
@@ -633,12 +635,12 @@ a {
   padding: 2% 0 0;
 }
 
-/* line 281, ../sass/home.scss */
+/* line 282, ../sass/home.scss */
 .bought-title {
   border-bottom: 1px solid #d8ee1a;
 }
 
-/* line 285, ../sass/home.scss */
+/* line 286, ../sass/home.scss */
 .bought-route-card-subtitle {
   font-style: italic;
   color: white;
@@ -646,7 +648,7 @@ a {
   font-size: 1.2em;
 }
 
-/* line 292, ../sass/home.scss */
+/* line 293, ../sass/home.scss */
 .bought-metrics {
   font-family: din condensed bold;
   font-size: 1.5em;
@@ -656,18 +658,18 @@ a {
   padding-right: 1%;
 }
 
-/* line 301, ../sass/home.scss */
+/* line 302, ../sass/home.scss */
 .bought-metric-image {
   height: 1.1em;
 }
 
-/* line 305, ../sass/home.scss */
+/* line 306, ../sass/home.scss */
 .bought-metric-guages {
   position: absolute;
   bottom: 60px;
 }
 
-/* line 310, ../sass/home.scss */
+/* line 311, ../sass/home.scss */
 .bought-metric-numbers {
   font-size: 3em;
   font-family: din condensed bold;
@@ -675,30 +677,30 @@ a {
   color: #01394c;
 }
 
-/* line 317, ../sass/home.scss */
+/* line 318, ../sass/home.scss */
 .bought-mins {
   position: absolute;
   bottom: 2px;
 }
 
 /*-------MAPA USER CARDS--------*/
-/* line 327, ../sass/home.scss */
+/* line 328, ../sass/home.scss */
 #routes-map-pane-wrapper {
   display: none;
   padding-top: 5%;
 }
 
-/* line 332, ../sass/home.scss */
+/* line 333, ../sass/home.scss */
 #routes-map-pane-wrapper {
   margin-bottom: 5%;
 }
 
-/* line 336, ../sass/home.scss */
+/* line 337, ../sass/home.scss */
 #mapa-mapa {
   width: 100%;
 }
 
-/* line 340, ../sass/home.scss */
+/* line 341, ../sass/home.scss */
 .mapa-user-card {
   background-color: #fff;
   height: 150px;
@@ -707,7 +709,7 @@ a {
   padding-top: 3%;
 }
 
-/* line 348, ../sass/home.scss */
+/* line 349, ../sass/home.scss */
 .mapa-user-card-metrics {
   position: absolute;
   bottom: 0;
@@ -716,42 +718,42 @@ a {
   margin-left: -8px;
 }
 
-/* line 357, ../sass/home.scss */
+/* line 358, ../sass/home.scss */
 .mapa-user-card-info {
   display: inline;
   font-size: 0.8em;
 }
 
-/* line 362, ../sass/home.scss */
+/* line 363, ../sass/home.scss */
 .ind-metric {
   padding: 0;
   text-align: center;
 }
 
-/* line 367, ../sass/home.scss */
+/* line 368, ../sass/home.scss */
 .met-num {
   font-family: din condensed bold;
   font-size: 2em;
   font-style: italic;
 }
 
-/* line 373, ../sass/home.scss */
+/* line 374, ../sass/home.scss */
 .mapa-user-card-info {
   font-weight: bold;
 }
 
-/* line 377, ../sass/home.scss */
+/* line 378, ../sass/home.scss */
 .its {
   margin: 0;
 }
 
-/* line 381, ../sass/home.scss */
+/* line 382, ../sass/home.scss */
 .mapa-route-card-list {
   height: 941px;
   overflow-y: scroll;
 }
 
-/* line 387, ../sass/home.scss */
+/* line 388, ../sass/home.scss */
 .mapa-bought-card {
   background-image: url(../images/route/mapa-bought-card.png);
   -moz-background-size: cover;
@@ -763,7 +765,7 @@ a {
   position: relative;
 }
 
-/* line 395, ../sass/home.scss */
+/* line 396, ../sass/home.scss */
 .map-bought-card-title {
   font-family: din condensed bold;
   font-size: 3em;
@@ -773,7 +775,7 @@ a {
   padding: 5% 0 1% 3%;
 }
 
-/* line 404, ../sass/home.scss */
+/* line 405, ../sass/home.scss */
 .mapa-bought-card-title {
   padding-left: 5%;
   color: white;
@@ -781,7 +783,7 @@ a {
   font-size: 0.9em;
 }
 
-/* line 411, ../sass/home.scss */
+/* line 412, ../sass/home.scss */
 .mapa-bought-metrics {
   text-align: center;
   position: absolute;
@@ -792,18 +794,18 @@ a {
   font-style: italic;
 }
 
-/* line 421, ../sass/home.scss */
+/* line 422, ../sass/home.scss */
 #mapa-bought-card-distance {
   float: right;
   padding-right: 7%;
 }
 
-/* line 426, ../sass/home.scss */
+/* line 427, ../sass/home.scss */
 #mapa-bought-card-exerciseNum {
   padding-right: 29%;
 }
 
-/* line 430, ../sass/home.scss */
+/* line 431, ../sass/home.scss */
 .rating-wrapper {
   margin: 1% 0;
 }

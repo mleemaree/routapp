@@ -122,11 +122,11 @@ body {
 
 @font-face {
   font-family: "DIN Condensed Bold";
-  src: url('/fonts/DIN Condensed Bold.ttf?1434550259') format('truetype');
+  src: url('/fonts/DIN Condensed Bold.ttf?1436107898') format('truetype');
 }
 @font-face {
   font-family: "raleway";
-  src: url('/fonts/Raleway-Regular.ttf?1415107620') format('truetype');
+  src: url('/fonts/Raleway-Regular.ttf?1436107887') format('truetype');
 }
 /* line 5, ../sass/home/partials/_typography.scss */
 body {
@@ -278,35 +278,36 @@ a.btn.btn-default {
 #userPhoto {
   border-radius: 50%;
   height: 45px;
+  width: 45px;
   padding: 0 !important;
 }
 
-/* line 49, ../sass/home/partials/_top-nav.scss */
+/* line 50, ../sass/home/partials/_top-nav.scss */
 .menu-name {
   display: inline;
 }
 
-/* line 53, ../sass/home/partials/_top-nav.scss */
+/* line 54, ../sass/home/partials/_top-nav.scss */
 #logged-user-name {
   padding: 5%;
   position: relative;
   top: 18px;
 }
 
-/* line 59, ../sass/home/partials/_top-nav.scss */
+/* line 60, ../sass/home/partials/_top-nav.scss */
 #user-dropdown-menu {
   background-color: #01394c;
   position: absolute;
   top: 56px;
   width: 75%;
 }
-/* line 64, ../sass/home/partials/_top-nav.scss */
+/* line 65, ../sass/home/partials/_top-nav.scss */
 #user-dropdown-menu li a {
   color: #d8ee1a;
   text-align: center;
 }
 
-/* line 70, ../sass/home/partials/_top-nav.scss */
+/* line 71, ../sass/home/partials/_top-nav.scss */
 .user-info-small {
   margin-right: 15px;
 }
