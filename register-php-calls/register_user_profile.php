@@ -18,6 +18,15 @@ if ($_FILES['avatar']['error'] == 0) {
 
 }
 
+if ($_FILES['coverPhoto']['error'] == 0) {
+	$image_name2=$_FILES['coverPhoto']['name'];
+	move_uploaded_file($_FILES['coverPhoto']['tmp_name'], 'user_images/'.$_SESSION['user']['username'].'-'.$image_name2); 
+	chmod('user_images/'.$_SESSION['user']['username'].'-'.$image_name2, 511); 
+	$img2=", coverPhoto='".$_SESSION['user']['username'].'-'.$image_name2."'";
+
+
+}
+
 $sql = "SET foreign_key_checks=0";
 
 $sql1 = "UPDATE users SET firstName='".$_POST['firstName']."',
@@ -36,7 +45,7 @@ $sql1 = "UPDATE users SET firstName='".$_POST['firstName']."',
 							 goals='".$_POST['goals']."',
 							 email='".$_POST['email']."',
 							 password='".$_POST['password']."'
-							 ".$img."
+							 ".$img.$img2."
          WHERE userID=".$_SESSION['user']['userID'];
 
 $sql2 = "UPDATE routes SET avatar= '".$_SESSION['user']['avatar']."' WHERE username='".$_SESSION['user']['username']."'";

@@ -235,6 +235,12 @@ $sql1="SELECT * FROM users WHERE username=".$_SESSION['user']['username'];
 			<div class="row">
 				<input type="file" name="avatar">
 			</div>
+			<div class="row pref-labels">
+				<label for="email">Aquí puedes subir tu Foto de portada</label>
+			</div>
+			<div class="row">
+				<input type="file" name="coverPhoto">
+			</div>
 			<div class="row">
 				<input style="margin-left:0;" class="email-button" type="submit" value="Guardar">			
 			</div>
