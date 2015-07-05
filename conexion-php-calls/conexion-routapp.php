@@ -1,9 +1,9 @@
 <?php
 
-$database = "db457893_6"; 
-$hostname = "mysql5.colortwister.abcde.biz"; 
-$username = "db457893_6";
-$password = "Routapp2015!"; 
+$database = "routapp"; 
+$hostname = "localhost"; 
+$username = "root";
+$password = "root"; 
 $conexion = new mysqli($hostname, $username, $password, $database);
 $conexion->set_charset("utf8");
 

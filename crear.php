@@ -61,7 +61,7 @@ include('conexion-php-calls/conexion-routapp.php');
 
 <div class="container" id="crear-map-wrapper">
 
-	<div class="modal fade" id="crear-pref">
+	<div class="modal fade modal-sm" id="crear-pref">
 	  <div class="modal-header">
 	    <a class="close" data-dismiss="modal">×</a>
 	    <h3 style="font-weight:bold;">¿Cómo prefieres crear tu ruta?</h3>
