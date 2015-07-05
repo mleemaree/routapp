@@ -147,11 +147,11 @@ $_SESSION['name']='user';
 								<p class="sub-left">Si eres un profesional del mundo del deporte, puedes veneficiarte de las ventajas de nuestro perfil "BE A TRAINER"</p>
 							</li>
 							<li>
-								<img src="">
+								<img src="images/landing/icoland2.png">
 								<p>Promociona tu trabajo como profesional.</p>
 							</li>
 							<li>
-								<img src="">
+								<img src="images/landing/icoland5.png">
 								<p>Crea rutinas de entrenamientos y ejercicios.</p>
 							</li>
 							<li>
@@ -159,7 +159,7 @@ $_SESSION['name']='user';
 								<p>Genera beneficios a través de tus rutinas.</p>
 							</li>
 							<li>
-								<img src="">
+								<img src="images/landing/icoland6.png">
 								<p>Monitoriza a tus principales usuarios.</p>
 							</li>
 						</ul>
