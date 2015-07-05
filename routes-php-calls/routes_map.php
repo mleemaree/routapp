@@ -23,13 +23,13 @@ if ($result = $conexion->query($sql)) {
 					</div>
 				</div>
 				<div class="row mapa-bought-metrics">
-					<div class="col-xs-4">
-						<span id="mapa-bought-card-distance"><?php echo $fila['distance'];?></span>
+					<div class="col-xs-4" >
+						<span id="mapa-bought-card-distance" style="float:none;"><?php echo $fila['distance'];?></span>
 					</div>
-					<div class="col-xs-4">
+					<div class="col-xs-4" style="text-align:left;">
 						<span id="mapa-bought-card-calories"><?php echo $fila['calories'];?></span>
 					</div>
-					<div class="col-xs-4">
+					<div class="col-xs-4" style="text-align:left;"> 
 						<span id="mapa-bought-card-exerciseNum"><?php echo $fila['exerciseNum'];?></span>
 					</div>
 				</div>

@@ -53,23 +53,23 @@ $_SESSION['name']='user';
 					<div class="col-xs-12 col-sm-8">
 						<ul class="crea-list">
 							<li>
-								<img src="">
+								<img style="float:left;" src="">
 								<p>Crea rutas con nuestro potente gestor.</p>
 							</li>
 							<li>
-								<img src="images/landing/pinmap_landing.png">
+								<img style="float:left;" src="images/landing/pinmap_landing.png">
 								<p>Añade zonas de la ciudad donde ejercitarte.</p>
 							</li>
 							<li>
-								<img src="images/landing/icoland5.png">
+								<img style="float:left;" src="images/landing/icoland5.png">
 								<p>Configura y crea completos ejercicios.</p>
 							</li>
 							<li>
-								<img src="images/landing/icoland4.png">
+								<img style="float:left;" src="images/landing/icoland4.png">
 								<p>Comparte las rutas con otros usuarios.</p>
 							</li>
 							<li>
-								<img src="images/landing/icoland6.png">
+								<img style="float:left;" src="images/landing/icoland6.png">
 								<p>Controla y gestiona todus tus estadisticas.</p>
 							</li>
 						</ul>
@@ -106,19 +106,19 @@ $_SESSION['name']='user';
 							</li>
 							<li>
 								<p>Descubre y añade zonas para ejercitarte</p>
-								<img src="images/landing/pinmap_landing.png">
+								<im style="float:left;"g src="images/landing/pinmap_landing.png">
 							</li>
 							<li>
 								<p>Realiza clientos de ejercicios al aire libre</p>
-								<img src="images/landing/icoland5.png">
+								<im style="float:left;"g src="images/landing/icoland5.png">
 							</li>
 							<li>
 								<p>Sigue entrenamientos personalizados</p>
-								<img src="images/landing/icoland3.png">
+								<im style="float:left;"g src="images/landing/icoland3.png">
 							</li>
 							<li>
 								<p>Monitoriza y comparte tus progresos</p>
-								<img src="">
+								<im style="float:left;"g src="">
 							</li>
 						</ul>
 					</div>
@@ -147,19 +147,19 @@ $_SESSION['name']='user';
 								<p class="sub-left">Si eres un profesional del mundo del deporte, puedes veneficiarte de las ventajas de nuestro perfil "BE A TRAINER"</p>
 							</li>
 							<li>
-								<img src="images/landing/icoland2.png">
+								<img style="float:left;" src="images/landing/icoland2.png">
 								<p>Promociona tu trabajo como profesional.</p>
 							</li>
 							<li>
-								<img src="images/landing/icoland5.png">
+								<img style="float:left;" src="images/landing/icoland5.png">
 								<p>Crea rutinas de entrenamientos y ejercicios.</p>
 							</li>
 							<li>
-								<img src="">
+								<img style="float:left;" src="">
 								<p>Genera beneficios a través de tus rutinas.</p>
 							</li>
 							<li>
-								<img src="images/landing/icoland6.png">
+								<img style="float:left;" src="images/landing/icoland6.png">
 								<p>Monitoriza a tus principales usuarios.</p>
 							</li>
 						</ul>
