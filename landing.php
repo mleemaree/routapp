@@ -57,19 +57,19 @@ $_SESSION['name']='user';
 								<p>Crea rutas con nuestro potente gestor.</p>
 							</li>
 							<li>
-								<img src="">
+								<img src="images/landing/pinmap_landing.png">
 								<p>Añade zonas de la ciudad donde ejercitarte.</p>
 							</li>
 							<li>
-								<img src="">
+								<img src="images/landing/icoland5.png">
 								<p>Configura y crea completos ejercicios.</p>
 							</li>
 							<li>
-								<img src="">
+								<img src="images/landing/icoland4.png">
 								<p>Comparte las rutas con otros usuarios.</p>
 							</li>
 							<li>
-								<img src="">
+								<img src="images/landing/icoland6.png">
 								<p>Controla y gestiona todus tus estadisticas.</p>
 							</li>
 						</ul>
@@ -106,15 +106,15 @@ $_SESSION['name']='user';
 							</li>
 							<li>
 								<p>Descubre y añade zonas para ejercitarte</p>
-								<img src="">
+								<img src="images/landing/pinmap_landing.png">
 							</li>
 							<li>
 								<p>Realiza clientos de ejercicios al aire libre</p>
-								<img src="">
+								<img src="images/landing/icoland5.png">
 							</li>
 							<li>
 								<p>Sigue entrenamientos personalizados</p>
-								<img src="">
+								<img src="images/landing/icoland3.png">
 							</li>
 							<li>
 								<p>Monitoriza y comparte tus progresos</p>
