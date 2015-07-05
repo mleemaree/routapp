@@ -5,6 +5,7 @@ session_start();
 $_SESSION['name']='route';
 $_SESSION['name']='user';
 
+$routeIDcommentario=$_GET['routeID'];
 
 if (($_POST['content'])== null or ($_POST['title'])==null) { 
 
@@ -26,15 +27,30 @@ if (($_POST['content'])== null or ($_POST['title'])==null) {
 
 			// Execute queries
 			$conexion->query("SET foreign_key_checks=0");
-			$conexion->query("INSERT INTO comments (content, routeID, username, avatar, title, date) VALUES ('$content', '17', '$username', '$avatar', '$title', now())");
+			$conexion->query("INSERT INTO comments (content, routeID, username, avatar, title, date) VALUES ('$content', '".$routeIDcommentario."', '$username', '$avatar', '$title', now())");
 
 			$_SESSION['route']['comments']=$_SESSION['route']['comments']+1;
 
-			$conexion->query("UPDATE routes SET comments= '".$_SESSION['route']['comments']."' where routeID='17'");
+			$conexion->query("UPDATE routes SET comments= '".$_SESSION['route']['comments']."' where routeID='".$routeIDcommentario."'");
 
 } else { echo "Oops! Something went wrong...";
 }
 
+
+if ($_GET['username']=='routapp') {
+
+	?>
+
+<script> alert ("Gracias por su comentario!"); window.location="../ind-route-pro.php?routeID=<?php echo $routeIDcommentario?>"; </script>
+
+<?php
+}
+else {
+	
 ?>
 
-<script> alert ("Gracias por su comentario!"); window.location="../ind-route-user.php?routeID=17"; </script>
+<script> alert ("Gracias por su comentario!"); window.location="../ind-route-user.php?routeID=<?php echo $routeIDcommentario?>"; </script>
+<?php
+}
+
+?>

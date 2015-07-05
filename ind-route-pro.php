@@ -22,30 +22,24 @@ include('conexion-php-calls/conexion-routapp.php');
 
 <!-- GOOGLE MAP BEGIN -->
 
-	<style>
-      #map-canvas-route-pro {
-         width:100%; height: 100%;
-      }
-    </style>
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script>
     <script>
+function initialize() {
+  var barcelona = new google.maps.LatLng(41.3833,2.1833);
+  var mapOptions = {
+    zoom: 11,
+    center: barcelona
+  }
 
-		function initialize() {
-		  var barcelona = new google.maps.LatLng(41.3833,2.1833);
-		  var mapOptions = {
-		    zoom: 11,
-		    center: barcelona
-		  }
+  var map = new google.maps.Map(document.getElementById('map-canvas-route-pro'), mapOptions);
 
-		  var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+  var ctaLayer = new google.maps.KmlLayer({
+    url: 'http://a06.elisava.net/ikiMap_Routapp-Barcelona_Pe.kml?uwufwgffuwg'
+  });
+  ctaLayer.setMap(map);
+}
 
-		  var ctaLayer = new google.maps.KmlLayer({
-		    url: 'http://a06.elisava.net/ikiMap_Routapp-Del_Camp_Nou.kml'
-		  });
-		  ctaLayer.setMap(map);
-		}
-
-		google.maps.event.addDomListener(window, 'load', initialize);
+google.maps.event.addDomListener(window, 'load', initialize);
 
     </script>
 

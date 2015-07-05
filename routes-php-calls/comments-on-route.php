@@ -33,7 +33,7 @@ $sql="SELECT * FROM comments WHERE (routeID = '".$_GET['routeID']."') ORDER BY `
 			?>
 
 
-			<form action="register-php-calls/comment-register.php?<?php $_GET['routeID']?>" method="post" enctype="multipart/form-data">
+			<form action="register-php-calls/comment-register.php?routeID=<?php echo $_GET['routeID']?>&username=<?php echo $_GET['username']?>" method="post" enctype="multipart/form-data">
 
 			<ul>
 				<li>

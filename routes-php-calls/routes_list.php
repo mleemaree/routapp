@@ -17,7 +17,7 @@ if ($result = $conexion->query($sql)) {
 
     			?>
 
-    		<a href="ind-route-pro.php?routeID=15">
+    		<a href="ind-route-pro.php?routeID=15&username=<?php echo $fila['username']?>">
     			<div class="container featured-route">
     				<div class="row routes-list-row topRow routes-list-row">
     					<div class="col-xs-12 col-sm-6 title">
@@ -82,7 +82,7 @@ if ($result = $conexion->query($sql)) {
     		else if ($fila['username'] == "routapp") {
 
     			?>
-    		<a href="ind-route-pro.php?routeID=<?php echo $fila['routeID']; ?>">
+    		<a href="ind-route-pro.php?routeID=<?php echo $fila['routeID'];?>&username=<?php echo $fila['username']?>">
     			<div class="bought-route-card">
     				<div class="row routes-list-row bought-topRow">
     					<div class="col-xs-12 col-sm-6 bought-title">
@@ -146,7 +146,7 @@ if ($result = $conexion->query($sql)) {
     		else{
 
     			?>
-    		<a href="ind-route-user.php?routeID=<?php echo $fila['routeID']; ?>">
+    		<a href="ind-route-user.php?routeID=<?php echo $fila['routeID']; ?>&username=<?php echo $fila['username']?>">
 		    	<div class="route-card">
 		    		<div class="row routes-list-row">
 						<div class="col-xs-12 col-sm-6" class="map" style="height:150px; padding:0;">
