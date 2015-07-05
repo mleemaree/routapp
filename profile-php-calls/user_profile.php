@@ -13,7 +13,6 @@ $sql1="SELECT * FROM users WHERE username=".$_SESSION['user']['username'];
 		<div class="row">
 			<h3 class="info-gen-title" data-toggle="collapse" 
 			data-target="#general" value="Toggle Button">Información General de Perfil</h3>
-			<p style="float:right;">&#x25BC;</p>
 		</div>
 
 		<form action="../register-php-calls/register_user_profile.php" method="post" enctype="multipart/form-data">
@@ -126,6 +125,9 @@ $sql1="SELECT * FROM users WHERE username=".$_SESSION['user']['username'];
 				</select>
 			</div>
 		</div>
+		<div class="row">
+			<button value="submit">Guardar Cambios</button>
+		</div>
 	</div>
 	<hr>
 </div>
@@ -176,6 +178,9 @@ $sql1="SELECT * FROM users WHERE username=".$_SESSION['user']['username'];
 			</div>
 			<div class="row">
 			</div>
+			<div class="row">
+					<button value="submit">Guardar Cambios</button>
+		 		</div>
 		</div>
 		<hr>
 	</div>
@@ -194,26 +199,26 @@ $sql1="SELECT * FROM users WHERE username=".$_SESSION['user']['username'];
 			</div>
 			<div class="row">
 				<input class="email-input" type="text" name="email" size="30" value="<?php echo $fila['email'];?>"
-						   onblur="if (this.value == '') {this.value = '<?php echo $fila['email'];?>';}"
-				 		   onfocus="if (this.value == '<?php echo $fila['email'];?>') {this.value = '';}" 
-				 		   placeholder="introduce el nuevo email">
-			</div>
-			<div class="row pref-labels">
-				<label for="password">Cambiar contraseña</label>
-			</div>
-			<div class="row">
-				<input class="email-input" type="password" name="password" size="30" value="<?php echo $fila['password'];?>"
 						   onblur="if (this.value == '') {this.value = '<?php echo $fila['password'];?>';}"
-				 		   onfocus="if (this.value == '<?php echo $fila['password'];?>') {this.value = '';}"
-				 		   placeholder="entrar nueva contraseña">
-			</div>
-			<div class="row">
-				<input class="email-input" type="password" name="password2" size="30" value="<?php echo $fila['password'];?>"
-						   onblur="if (this.value == '') {this.value = '<?php echo $fila['password'];?>';}"
-				 		   onfocus="if (this.value == '<?php echo $fila['password'];?>') {this.value = '';}"
-				 		   placeholder="confirmar nueva contraseña">
-			</div>		
+ 			 		   onfocus="if (this.value == '<?php echo $fila['password'];?>') {this.value = '';}"
+ 			 		   placeholder="entrar nueva contraseña">
+			<input class="email-button" type="submit" value="Guardar">
+ 		</div>
+ 		<div class="row">
+ 			<input class="email-input" type="password" name="password2" size="30" value="<?php echo $fila['password'];?>"
+ 					   onblur="if (this.value == '') {this.value = '<?php echo $fila['password'];?>';}"
+ 			 		   onfocus="if (this.value == '<?php echo $fila['password'];?>') {this.value = '';}"
+ 			 		   placeholder="confirmar nueva contraseña">
+			<input class="email-button" type="submit" value="Guardar">
+		</div>
+		<div class="row">
+			<input class="email-input" type="password" name="password2" size="30" value="<?php echo $fila['password'];?>"
+					   onblur="if (this.value == '') {this.value = '<?php echo $fila['password'];?>';}"
+			 		   onfocus="if (this.value == '<?php echo $fila['password'];?>') {this.value = '';}"
+			 		   placeholder="confirmar nueva contraseña">
 		</div>	
+	</div>	
+
 		<hr>
 	</div>		
 
@@ -231,7 +236,7 @@ $sql1="SELECT * FROM users WHERE username=".$_SESSION['user']['username'];
 				<input type="file" name="avatar">
 			</div>
 			<div class="row">
-				<input class="email-button" type="submit" value="Guardar">			
+				<input style="margin-left:0;" class="email-button" type="submit" value="Guardar">			
 			</div>
 		</div>
 		<hr>
@@ -257,7 +262,7 @@ $sql1="SELECT * FROM users WHERE username=".$_SESSION['user']['username'];
 					<input type="text" name="credits" value="<?php echo $fila['credits'];?>">
 				</div>
 				<div class="row">
-					<button type="button">
+					<button type="button" style="margin:0 15px; position:relative; bottom:7px;">
 						<span>Comprar créditos</span>
 					</button>
 				</div>
