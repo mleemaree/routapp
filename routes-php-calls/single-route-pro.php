@@ -107,8 +107,31 @@ $sql2="SELECT * FROM zones where routeID=".$_GET['routeID'];
 
 <!-- GOOGLE MAP DIV BEGIN -->
 
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script>
+    <script>
+function initialize() {
+  var barcelona = new google.maps.LatLng(41.3833,2.1833);
+  var mapOptions = {
+    zoom: 11,
+    center: barcelona
+  }
+
+  var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+
+  var ctaLayer = new google.maps.KmlLayer({
+    url: 'http://a06.elisava.net/ikiMap_Routapp-Barcelona_Pe.kml?uwufwgffuwg'
+  });
+  ctaLayer.setMap(map);
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+
+    </script>
+
+
+
 		<div class="col-xs-12 col-sm-7">
-			<div id="map-canvas-route-pro"></div>
+			<div id="map-canvas"></div>
 		</div>
 
 <!-- GOOGLE MAP DIV END -->
