@@ -254,7 +254,7 @@ nav {
 
 /* line 114, ../sass/landing.scss */
 .intro {
-  background: url('/images/landing/landing-background.png?1436107996');
+  background: url('/images/landing/landing-background.png?1436109222');
   -moz-background-size: cover;
   -o-background-size: cover;
   -webkit-background-size: cover;
@@ -326,7 +326,7 @@ nav {
 
 /* line 170, ../sass/landing.scss */
 .crea {
-  background: url('/images/../images/landing/background-crea.png?1436107965');
+  background: url('/images/../images/landing/background-crea.png?1436108980');
   -moz-background-size: cover;
   -o-background-size: cover;
   -webkit-background-size: cover;
@@ -338,7 +338,7 @@ nav {
 
 /* line 174, ../sass/landing.scss */
 .ciudad {
-  background: url('/images/../images/landing/background-ciudad.png?1436107957');
+  background: url('/images/../images/landing/background-ciudad.png?1436108570');
   -moz-background-size: cover;
   -o-background-size: cover;
   -webkit-background-size: cover;
@@ -350,7 +350,7 @@ nav {
 
 /* line 178, ../sass/landing.scss */
 .trainer {
-  background: url('/images/../images/landing/background-trainer.png?1436107977');
+  background: url('/images/../images/landing/background-trainer.png?1436109160');
   -moz-background-size: cover;
   -o-background-size: cover;
   -webkit-background-size: cover;
@@ -362,7 +362,7 @@ nav {
 
 /* line 182, ../sass/landing.scss */
 .descarga {
-  background: url('/images/../images/landing/background-descarga.png?1436107945');
+  background: url('/images/../images/landing/background-descarga.png?1436109288');
   -moz-background-size: cover;
   -o-background-size: cover;
   -webkit-background-size: cover;
@@ -374,7 +374,7 @@ nav {
 
 /* line 186, ../sass/landing.scss */
 .crea-title-wrapper {
-  background: url('/images/../images/landing/crea-bg-title.png?1436107967');
+  background: url('/images/../images/landing/crea-bg-title.png?1436107092');
   -moz-background-size: contain;
   -o-background-size: contain;
   -webkit-background-size: contain;
@@ -388,7 +388,7 @@ nav {
 
 /* line 190, ../sass/landing.scss */
 .crea-list-wrapper {
-  background: url('/images/../images/landing/crea-bg.png?1436107988');
+  background: url('/images/../images/landing/crea-bg.png?1436107092');
   -moz-background-size: contain;
   -o-background-size: contain;
   -webkit-background-size: contain;
@@ -396,11 +396,12 @@ nav {
   width: 97%;
   font-family: raleway;
   color: #01394c;
+  background-repeat: no-repeat;
 }
 
-/* line 197, ../sass/landing.scss */
+/* line 198, ../sass/landing.scss */
 .ciudad-title-wrapper {
-  background: url('/images/../images/landing/ciudad-bg-title.png?1436107967');
+  background: url('/images/../images/landing/ciudad-bg-title.png?1436107092');
   -moz-background-size: cover;
   -o-background-size: cover;
   -webkit-background-size: cover;
@@ -412,9 +413,9 @@ nav {
   height: 80px;
 }
 
-/* line 201, ../sass/landing.scss */
+/* line 202, ../sass/landing.scss */
 .ciudad-list-wrapper {
-  background: url('/images/../images/landing/ciudad-bg.png?1436107934');
+  background: url('/images/../images/landing/ciudad-bg.png?1436107090');
   -moz-background-size: cover;
   -o-background-size: cover;
   -webkit-background-size: cover;
@@ -425,9 +426,9 @@ nav {
   float: right;
 }
 
-/* line 206, ../sass/landing.scss */
+/* line 207, ../sass/landing.scss */
 .trainer-title-wrapper {
-  background: url('/images/../images/landing/trainer-bg-title.png?1436107981');
+  background: url('/images/../images/landing/trainer-bg-title.png?1436107092');
   -moz-background-size: contain;
   -o-background-size: contain;
   -webkit-background-size: contain;
@@ -439,9 +440,9 @@ nav {
   height: 80px;
 }
 
-/* line 210, ../sass/landing.scss */
+/* line 211, ../sass/landing.scss */
 .trainer-list-wrapper {
-  background: url('/images/../images/landing/trainer-bg.png?1436107966');
+  background: url('/images/../images/landing/trainer-bg.png?1436107090');
   -moz-background-size: contain;
   -o-background-size: contain;
   -webkit-background-size: contain;
@@ -449,11 +450,12 @@ nav {
   width: 97%;
   font-family: raleway;
   color: #01394c;
+  background-repeat: no-repeat;
 }
 
-/* line 214, ../sass/landing.scss */
+/* line 216, ../sass/landing.scss */
 .descarga-title-wrapper {
-  background: url('/images/../images/landing/descarga-bg-title.png?1436107968');
+  background: url('/images/../images/landing/descarga-bg-title.png?1436107092');
   -moz-background-size: cover;
   -o-background-size: cover;
   -webkit-background-size: cover;
@@ -465,9 +467,9 @@ nav {
   height: 80px;
 }
 
-/* line 218, ../sass/landing.scss */
+/* line 220, ../sass/landing.scss */
 .descarga-wrapper {
-  background: url('/images/../images/landing/descarga-bg.png?1436107933');
+  background: url('/images/../images/landing/descarga-bg.png?1436107090');
   -moz-background-size: cover;
   -o-background-size: cover;
   -webkit-background-size: cover;
@@ -483,108 +485,108 @@ nav {
   -webkit-background-size: cover;
   background-size: cover;
 }
-/* line 224, ../sass/landing.scss */
+/* line 226, ../sass/landing.scss */
 .descarga-wrapper p {
   margin: 5%;
 }
 
-/* line 229, ../sass/landing.scss */
+/* line 231, ../sass/landing.scss */
 #descarga {
   margin-top: 20%;
 }
 
 /*===------lists-----*/
-/* line 235, ../sass/landing.scss */
+/* line 237, ../sass/landing.scss */
 .sub {
   font-size: 1.2em;
   font-weight: bold;
 }
 
-/* line 240, ../sass/landing.scss */
+/* line 242, ../sass/landing.scss */
 .sub-left {
   font-size: 1.2em;
   font-weight: bold;
 }
 
-/* line 245, ../sass/landing.scss */
+/* line 247, ../sass/landing.scss */
 .landing-foto {
   padding: 5%;
 }
 
-/* line 249, ../sass/landing.scss */
+/* line 251, ../sass/landing.scss */
 .info {
   margin: 5% 0;
   padding: 0;
 }
 
-/* line 254, ../sass/landing.scss */
+/* line 256, ../sass/landing.scss */
 .title {
   position: relative;
   top: 28px;
   font-style: italic;
 }
 
-/* line 260, ../sass/landing.scss */
+/* line 262, ../sass/landing.scss */
 .content-wrapper li {
   padding: 5%;
 }
 
-/* line 264, ../sass/landing.scss */
+/* line 266, ../sass/landing.scss */
 .content-wrapper ul {
   padding: 5%;
 }
 
-/* line 269, ../sass/landing.scss */
+/* line 271, ../sass/landing.scss */
 .crea-title-wrapper {
   text-align: right;
   padding-right: 15%;
 }
 
-/* line 274, ../sass/landing.scss */
+/* line 276, ../sass/landing.scss */
 #crear-rutas {
   float: right;
   margin-right: 20%;
 }
 
-/* line 279, ../sass/landing.scss */
+/* line 281, ../sass/landing.scss */
 .ciudad-list {
   margin-left: 15%;
 }
 
-/* line 283, ../sass/landing.scss */
+/* line 285, ../sass/landing.scss */
 .sub-ciudad {
   margin-left: -5%;
 }
 
-/* line 287, ../sass/landing.scss */
+/* line 289, ../sass/landing.scss */
 #ciudad-title {
   padding-left: 15%;
 }
 
-/* line 291, ../sass/landing.scss */
+/* line 293, ../sass/landing.scss */
 #trainer-title {
   text-align: right;
   padding-right: 17%;
 }
 
-/* line 296, ../sass/landing.scss */
+/* line 298, ../sass/landing.scss */
 #crear-perfil {
   position: relative;
   left: 29%;
 }
 
-/* line 301, ../sass/landing.scss */
+/* line 303, ../sass/landing.scss */
 #descarga-title {
   padding-left: 10%;
 }
 
-/* line 305, ../sass/landing.scss */
+/* line 307, ../sass/landing.scss */
 .modal-dialog {
   width: 25%;
 }
 
 /*------Unete Modal -----*/
-/* line 313, ../sass/landing.scss */
+/* line 315, ../sass/landing.scss */
 .unete-input, .login-input {
   display: block;
   margin: 2% auto;
@@ -594,12 +596,12 @@ nav {
   border: 1px solid #01394c;
 }
 
-/* line 324, ../sass/landing.scss */
+/* line 326, ../sass/landing.scss */
 .modal-footer {
   text-align: center;
 }
 
-/* line 328, ../sass/landing.scss */
+/* line 330, ../sass/landing.scss */
 .hvr-glow {
   border: none;
   background-color: #d8ee1a;
@@ -610,14 +612,14 @@ nav {
   border-radius: 10px;
 }
 
-/* line 338, ../sass/landing.scss */
+/* line 340, ../sass/landing.scss */
 #register-modal-subtitle, .header {
   font-weight: bold;
   color: #01394c;
   padding: 5%;
 }
 
-/* line 344, ../sass/landing.scss */
+/* line 346, ../sass/landing.scss */
 .modal-header {
   background-color: #01394c;
   font-weight: bold;
@@ -625,7 +627,7 @@ nav {
   height: 100px;
 }
 
-/* line 351, ../sass/landing.scss */
+/* line 353, ../sass/landing.scss */
 .brand {
   color: #d8ee1a;
   font-size: 1.5em;
@@ -634,24 +636,24 @@ nav {
 }
 
 /*------BE TRAINER----*/
-/* line 366, ../sass/landing.scss */
+/* line 368, ../sass/landing.scss */
 .nav-wrapper {
   background-color: #01394c;
 }
 
-/* line 370, ../sass/landing.scss */
+/* line 372, ../sass/landing.scss */
 .trainer-img {
   text-align: center;
   margin-top: 5%;
 }
 
-/* line 375, ../sass/landing.scss */
+/* line 377, ../sass/landing.scss */
 #trainers {
   position: relative;
   top: 2px;
 }
 
-/* line 380, ../sass/landing.scss */
+/* line 382, ../sass/landing.scss */
 .trainer-title {
   font-family: din condensed bold;
   font-style: italic;
@@ -664,7 +666,7 @@ nav {
   border-top-right-radius: 10px;
 }
 
-/* line 392, ../sass/landing.scss */
+/* line 394, ../sass/landing.scss */
 .round {
   background-color: #fff;
   border-bottom-left-radius: 10px;
@@ -676,37 +678,37 @@ nav {
   box-shadow: 6px 9px 8px -2px rgba(189, 189, 189, 0.67);
 }
 
-/* line 403, ../sass/landing.scss */
+/* line 405, ../sass/landing.scss */
 .titler {
   margin: 0 15px 3% 15px;
   border-bottom: 1px solid #01394c;
 }
 
-/* line 409, ../sass/landing.scss */
+/* line 411, ../sass/landing.scss */
 .eres-title h3 {
   padding: 3% 0;
 }
 
-/* line 414, ../sass/landing.scss */
+/* line 416, ../sass/landing.scss */
 .bt-puntos-wrapper {
   padding: 0 5%;
 }
 
-/* line 418, ../sass/landing.scss */
+/* line 420, ../sass/landing.scss */
 .subtitles {
   padding-bottom: 4%;
   font-weight: bold;
   font-size: 1.1em;
 }
 
-/* line 425, ../sass/landing.scss */
+/* line 427, ../sass/landing.scss */
 .bt-puntos {
   list-style-type: disc;
   padding: 0 5%;
   line-height: 2.8em;
 }
 
-/* line 431, ../sass/landing.scss */
+/* line 433, ../sass/landing.scss */
 .email {
   border: 1px solid #01394c;
   width: 90%;
@@ -715,17 +717,17 @@ nav {
   border-radius: 20px;
 }
 
-/* line 439, ../sass/landing.scss */
+/* line 441, ../sass/landing.scss */
 .add {
   padding-top: 10%;
 }
 
-/* line 443, ../sass/landing.scss */
+/* line 445, ../sass/landing.scss */
 #bt-archivo {
   padding: 5% 0;
 }
 
-/* line 447, ../sass/landing.scss */
+/* line 449, ../sass/landing.scss */
 #esol {
   width: 90%;
   font-weight: bold;
@@ -738,9 +740,9 @@ nav {
 }
 
 /*=====app====*/
-/* line 462, ../sass/landing.scss */
+/* line 464, ../sass/landing.scss */
 .app {
-  background: url('/images/app-bkg.png?1436108039');
+  background: url('/images/app-bkg.png?1436107862');
   -moz-background-size: cover;
   -o-background-size: cover;
   -webkit-background-size: cover;
@@ -749,9 +751,9 @@ nav {
   background-position: center center;
 }
 
-/* line 469, ../sass/landing.scss */
+/* line 471, ../sass/landing.scss */
 #app-title {
-  background: url('/images/bkg-title-app.png?1436107911');
+  background: url('/images/bkg-title-app.png?1436107090');
   -moz-background-size: cover;
   -o-background-size: cover;
   -webkit-background-size: cover;
@@ -759,7 +761,7 @@ nav {
   height: 100%;
 }
 
-/* line 475, ../sass/landing.scss */
+/* line 477, ../sass/landing.scss */
 .title-app {
   color: #d8ee1a;
   font-family: din condensed bold;
@@ -771,7 +773,7 @@ nav {
   top: 5px;
 }
 
-/* line 486, ../sass/landing.scss */
+/* line 488, ../sass/landing.scss */
 .subtitle-app {
   color: #01394c;
   font-weight: bold;
@@ -780,7 +782,7 @@ nav {
   padding: 3%;
 }
 
-/* line 494, ../sass/landing.scss */
+/* line 496, ../sass/landing.scss */
 .app-puntos {
   width: 55%;
   list-style-type: disc;
@@ -789,7 +791,7 @@ nav {
   color: #01394c;
 }
 
-/* line 502, ../sass/landing.scss */
+/* line 504, ../sass/landing.scss */
 .descarga-app {
   width: 61%;
   margin: 0 auto;
@@ -798,7 +800,7 @@ nav {
   color: #01394c;
 }
 
-/* line 510, ../sass/landing.scss */
+/* line 512, ../sass/landing.scss */
 .tiendas {
   width: 60%;
   margin: 0 auto;

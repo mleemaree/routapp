@@ -66,7 +66,7 @@ if ($result2 = $conexion->query($sql2)) {
 					include('exercise_zone_single_route.php'); }
     		?>
 
-    	</div></div>
+    	</div></div></div>
 
 
 
@@ -80,7 +80,7 @@ if ($result2 = $conexion->query($sql2)) {
 
 ?>
 
-</div>
+
 
 
 

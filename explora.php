@@ -50,10 +50,8 @@ include('conexion-php-calls/conexion-routapp.php');
   <?php include ('php-calls/filtros-sin-nav.php'); ?>
 </div>
 
-<div class="content-wrapper" style="background-color:#fff; height:100%; max-width:1200px; margin: 0 auto;">
 
-
-<div class="container">
+<div class="container" style="max-width:1200px; background-color:white;">
   <div class="row explora-subtitle">
     <h2>No tienes tiempo para ir al gimnasio? ¿Viajas continuamente y quieres estar en forma?</h2>
     <h2>¿Te gustaría disfrutar de la ciudad de una forma diferente? ¿A qué esperas?</h2>
@@ -61,7 +59,7 @@ include('conexion-php-calls/conexion-routapp.php');
   </div>
 </div>
 
-<div class="container" id="explora-map">
+<div class="container" id="explora-map" style="max-width:1170px; margin:0 auto; background-color:white;">
   <div class="row">
     <div class="hidden-xs col-sm-3">
       <div class="hint">
@@ -91,12 +89,10 @@ include('conexion-php-calls/conexion-routapp.php');
   <img id="joan-pin" src="images/explora/pin.png">
   <img id="pop-up" src="images/explora/pop-up.png">
 </div>
-<div class="container zones" style="width:100;">
+<div class="container zones" style="width:1170; margin:0 auto; padding:0; background-color:white;">
   <?php include('explora-php-calls/zones-explora.php'); ?>
 </div>
-<div class="container zones-explora-add-form" style="margin:0; width:100%;">
-  <?php include('explora-php-calls/zones-explora-add-form.php'); ?>
-</div>
+
 
 
 
@@ -104,8 +100,8 @@ include('conexion-php-calls/conexion-routapp.php');
 
 </div>
 
-
-<div class="footer" style="padding-top: 5%; margin:0 -30px; clear:both; position:relative; top:1200px;">
+<div style="background-color:white; height: 100px; max-width:1170px; margin:0 auto;"></div>
+<div class="footer" style="">
   <?php include('php-calls/footer.php');?>
 </div>
 

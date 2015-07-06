@@ -1,4 +1,4 @@
-<div style="background-color:white; margin:0 -30px;">
+<div>
 <div id="explora-zona-exercises-wrapper" style="margin:0 30px;">
 
 <div class="row explora-exercise-title-wrapper">
@@ -124,8 +124,7 @@
 	<button id="guardar-ejercicio" type="submit">Guardar Ejercicio</button>
 </div>
 
+</div></div></div></div>
 
 
-</div><!--ZONA EXPLORA WRAPPER-->
-</div>
 

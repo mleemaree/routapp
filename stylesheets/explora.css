@@ -241,40 +241,40 @@ a.btn.btn-default {
   width: 20%;
 }
 
-/* line 15, ../sass/home/partials/_top-nav.scss */
+/* line 16, ../sass/home/partials/_top-nav.scss */
 .middle {
   width: 60%;
 }
-/* line 17, ../sass/home/partials/_top-nav.scss */
+/* line 18, ../sass/home/partials/_top-nav.scss */
 .middle li {
   width: 20%;
 }
 
-/* line 22, ../sass/home/partials/_top-nav.scss */
+/* line 23, ../sass/home/partials/_top-nav.scss */
 a.btn.btn-default {
   height: 48px;
   border-radius: 10px;
   padding: 7.5% 0;
 }
 
-/* line 28, ../sass/home/partials/_top-nav.scss */
+/* line 29, ../sass/home/partials/_top-nav.scss */
 .right {
   width: 20%;
   text-align: right;
   position: relative;
   bottom: 50px;
 }
-/* line 33, ../sass/home/partials/_top-nav.scss */
+/* line 34, ../sass/home/partials/_top-nav.scss */
 .right a span {
   color: #d8ee1a;
 }
 
-/* line 39, ../sass/home/partials/_top-nav.scss */
+/* line 40, ../sass/home/partials/_top-nav.scss */
 #userName, #userPhoto {
   display: inline-block;
 }
 
-/* line 43, ../sass/home/partials/_top-nav.scss */
+/* line 44, ../sass/home/partials/_top-nav.scss */
 #userPhoto {
   border-radius: 50%;
   height: 45px;
@@ -282,34 +282,39 @@ a.btn.btn-default {
   padding: 0 !important;
 }
 
-/* line 50, ../sass/home/partials/_top-nav.scss */
+/* line 51, ../sass/home/partials/_top-nav.scss */
 .menu-name {
   display: inline;
 }
 
-/* line 54, ../sass/home/partials/_top-nav.scss */
+/* line 55, ../sass/home/partials/_top-nav.scss */
 #logged-user-name {
   padding: 5%;
   position: relative;
   top: 18px;
 }
 
-/* line 60, ../sass/home/partials/_top-nav.scss */
+/* line 61, ../sass/home/partials/_top-nav.scss */
 #user-dropdown-menu {
   background-color: #01394c;
   position: absolute;
   top: 56px;
   width: 75%;
 }
-/* line 65, ../sass/home/partials/_top-nav.scss */
+/* line 66, ../sass/home/partials/_top-nav.scss */
 #user-dropdown-menu li a {
   color: #d8ee1a;
   text-align: center;
 }
 
-/* line 71, ../sass/home/partials/_top-nav.scss */
+/* line 72, ../sass/home/partials/_top-nav.scss */
 .user-info-small {
   margin-right: 15px;
+}
+
+/* line 76, ../sass/home/partials/_top-nav.scss */
+.topper > .active > a {
+  color: #d8ee1a !important;
 }
 
 /* line 9, ../sass/explora.scss */
@@ -335,29 +340,29 @@ a.btn.btn-default {
   margin: 2% 0;
 }
 
-/* line 26, ../sass/explora.scss */
+/* line 27, ../sass/explora.scss */
 #user-photo {
   display: inline-block;
 }
 
-/* line 30, ../sass/explora.scss */
+/* line 31, ../sass/explora.scss */
 .creada-por {
   display: inline-block;
 }
 
-/* line 34, ../sass/explora.scss */
+/* line 35, ../sass/explora.scss */
 .explora-subtitle {
   text-align: center;
   font-size: 1.3em;
   line-height: 1.3em;
   padding: 2%;
 }
-/* line 39, ../sass/explora.scss */
+/* line 40, ../sass/explora.scss */
 .explora-subtitle strong {
   font-weight: bold;
 }
 
-/* line 45, ../sass/explora.scss */
+/* line 46, ../sass/explora.scss */
 #explora-map {
   background-image: url(../images/explora/explora-map-1.png);
   -moz-background-size: cover;
@@ -371,40 +376,40 @@ a.btn.btn-default {
   position: relative;
 }
 
-/* line 55, ../sass/explora.scss */
+/* line 56, ../sass/explora.scss */
 #barcelona-pin {
   position: absolute;
   top: 294px;
   right: 212px;
 }
 
-/* line 61, ../sass/explora.scss */
+/* line 62, ../sass/explora.scss */
 #joan-pin {
   display: none;
   position: absolute;
-  top: 544px;
-  left: 380px;
+  top: 534px;
+  left: 370px;
 }
 
-/* line 68, ../sass/explora.scss */
+/* line 69, ../sass/explora.scss */
 #pop-up {
   position: absolute;
   top: 420px;
-  left: 335px;
+  left: 324px;
   display: none;
 }
 
-/* line 75, ../sass/explora.scss */
+/* line 76, ../sass/explora.scss */
 #explora-zona-exercises-wrapper {
   display: none;
 }
 
-/* line 79, ../sass/explora.scss */
+/* line 80, ../sass/explora.scss */
 .zones {
   padding: 0 15px;
 }
 
-/* line 83, ../sass/explora.scss */
+/* line 84, ../sass/explora.scss */
 .explora-exercise-title-wrapper {
   background-color: #01394c;
   margin: 0 -30px;
@@ -414,27 +419,27 @@ a.btn.btn-default {
   margin-bottom: 1%;
 }
 
-/* line 92, ../sass/explora.scss */
+/* line 93, ../sass/explora.scss */
 .explora-exercise-name, .explora-exercise-info {
   line-height: 2em;
 }
 
-/* line 96, ../sass/explora.scss */
+/* line 97, ../sass/explora.scss */
 .explora-exercise-name {
   font-weight: bold;
 }
 
-/* line 100, ../sass/explora.scss */
+/* line 101, ../sass/explora.scss */
 hr {
   border-color: #01394c;
 }
 
-/* line 104, ../sass/explora.scss */
+/* line 105, ../sass/explora.scss */
 .image-subir {
   margin: 5% 0;
 }
 
-/* line 108, ../sass/explora.scss */
+/* line 109, ../sass/explora.scss */
 .crear-ex-form-input {
   width: 100%;
   height: 50px;
@@ -442,12 +447,12 @@ hr {
   border: 1px solid #01394c;
 }
 
-/* line 115, ../sass/explora.scss */
+/* line 116, ../sass/explora.scss */
 #descripcion-ejercicio {
   height: 132px;
 }
 
-/* line 119, ../sass/explora.scss */
+/* line 120, ../sass/explora.scss */
 #guardar-ejercicio {
   margin: 2% 0 5%;
   background-color: #d8ee1a;
@@ -459,7 +464,7 @@ hr {
   float: right;
 }
 
-/* line 130, ../sass/explora.scss */
+/* line 131, ../sass/explora.scss */
 #donde-busc {
   border-radius: 30px;
   line-height: 2em;
@@ -469,7 +474,7 @@ hr {
   left: 12px;
 }
 
-/* line 139, ../sass/explora.scss */
+/* line 140, ../sass/explora.scss */
 .donde-busc-butt {
   height: 45px;
   position: relative;
@@ -483,7 +488,7 @@ hr {
   color: #01394c;
 }
 
-/* line 152, ../sass/explora.scss */
+/* line 153, ../sass/explora.scss */
 .explora-busqueda-wrapper {
   margin-top: 5%;
   background-color: #01394c;
@@ -491,12 +496,12 @@ hr {
   border-radius: 8px;
 }
 
-/* line 159, ../sass/explora.scss */
+/* line 160, ../sass/explora.scss */
 .hint {
   margin: 11% 10%;
 }
 
-/* line 163, ../sass/explora.scss */
+/* line 164, ../sass/explora.scss */
 .hint-title {
   background-color: #01394c;
   text-align: center;
@@ -506,12 +511,12 @@ hr {
   font-size: 1.3em;
   line-height: 3;
 }
-/* line 171, ../sass/explora.scss */
+/* line 172, ../sass/explora.scss */
 .hint-title h4 {
   display: inline;
 }
 
-/* line 176, ../sass/explora.scss */
+/* line 177, ../sass/explora.scss */
 .hint-body {
   background-color: white;
   text-align: center;
@@ -520,7 +525,7 @@ hr {
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
 }
-/* line 183, ../sass/explora.scss */
+/* line 184, ../sass/explora.scss */
 .hint-body p {
   font-size: 1.1em;
   padding: 5% 3%;

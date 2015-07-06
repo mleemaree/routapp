@@ -309,3 +309,16 @@
 .user-route-title-menu {
   text-align: center;
 }
+
+/*coments*/
+/* line 281, ../sass/ind-route-pro.scss */
+.comment-img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+/* line 287, ../sass/ind-route-pro.scss */
+.date {
+  text-align: right;
+}

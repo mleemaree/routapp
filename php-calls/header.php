@@ -18,3 +18,7 @@
 
 <!--chartist-->
 <link rel="stylesheet" href="bower_components/chartist/dist/chartist.min.css">
+
+<!--meta-->
+
+<meta name="viewport" content="width=device-width, initial-scale=1">

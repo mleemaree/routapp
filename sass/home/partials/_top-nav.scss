@@ -12,6 +12,7 @@
 	width:20%;
 }
 
+
 .middle{
 	width:60%;
 	li{
@@ -70,5 +71,9 @@ a.btn.btn-default{
 
 .user-info-small{
 	margin-right:15px;
+}
+
+.topper > .active > a {
+	color:$green !important;
 }
 

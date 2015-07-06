@@ -17,7 +17,7 @@ $sql="SELECT * FROM users WHERE username=".$_SESSION['user']['username'];
 <body>
 <?php include('php-calls/top-menu.php') ?>
 	
-<div style="background-color:white; max-width:1200px; margin: 0 auto;">
+<div style="background-color:white; max-width:1200px; margin: 0 auto; position:relative; bottom:1px;">
 	<div class="container">
 		<div class="row no-before">
 			<div class="col-xs-12" style="padding:0;"id="profile-background">

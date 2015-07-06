@@ -52,8 +52,11 @@ google.maps.event.addDomListener(window, 'load', initialize);
 <div style="background-color:white; max-width:1200px; margin: 0 auto; padding-top:2%; padding-bottom:10%;">
 
 	<?php include('routes-php-calls/single-route-pro.php');
-		include('routes-php-calls/comments-on-route.php');
 	?>
+
+  <div class="container" id="profile-comments">
+    <?php include('routes-php-calls/comments-on-route.php'); ?>
+  </div>
 
 </div><!--background-white-->
 </div>

@@ -43,7 +43,7 @@ $_SESSION['name']='user';
 
 <div class="container-fluid crea">
 	<div class="row">
-		<div class="col-xs-12 col-sm-5 info">
+		<div class="col-xs-12 col-sm-6 info">
 			<div class="crea-title-wrapper">
 				<h3 class="title landing-title" id="crea-title">CREA TUS PROPIAS RUTAS Y EJERCICIOS</h3>
 			</div>
@@ -207,8 +207,6 @@ $_SESSION['name']='user';
 
 
 
-
-
 <?php include ('php-calls/scripts.php');
 
 include ('php-calls/footer.php');
@@ -216,5 +214,7 @@ include ('php-calls/footer.php');
 
 
  ?>
+
+
 </body>
 </html>

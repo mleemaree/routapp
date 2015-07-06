@@ -28,3 +28,4 @@ $("#fdb").click(function() {
 
 
 $('.checkers').prettyCheckable();
+
