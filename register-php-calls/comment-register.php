@@ -9,9 +9,11 @@ $routeIDcommentario=$_GET['routeID'];
 
 if (($_POST['content'])== null or ($_POST['title'])==null) { 
 
+		?>
 
-		$previousPage = $_SERVER["HTTP_REFERER"];
-	    header('Location: '.$previousPage);
+		<script> alert ("Tienes que rellenar todos los campos"); window.history.back(); </script>
+
+		<?php
 			
 
 		}
@@ -33,24 +35,27 @@ if (($_POST['content'])== null or ($_POST['title'])==null) {
 
 			$conexion->query("UPDATE routes SET comments= '".$_SESSION['route']['comments']."' where routeID='".$routeIDcommentario."'");
 
+
+				if ($_GET['username']=='routapp') {
+
+						?>
+
+					<script> alert ("Gracias por su comentario!"); window.location="../ind-route-pro.php?routeID=<?php echo $routeIDcommentario?>"; </script>
+
+					<?php
+					}
+					else {
+						
+					?>
+
+					<script> alert ("Gracias por su comentario!"); window.location="../ind-route-user.php?routeID=<?php echo $routeIDcommentario?>"; </script>
+					<?php
+					}
+
+
+
 } else { echo "Oops! Something went wrong...";
-}
+
+} ?>
 
 
-if ($_GET['username']=='routapp') {
-
-	?>
-
-<script> alert ("Gracias por su comentario!"); window.location="../ind-route-pro.php?routeID=<?php echo $routeIDcommentario?>"; </script>
-
-<?php
-}
-else {
-	
-?>
-
-<script> alert ("Gracias por su comentario!"); window.location="../ind-route-user.php?routeID=<?php echo $routeIDcommentario?>"; </script>
-<?php
-}
-
-?>

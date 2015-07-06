@@ -39,11 +39,14 @@ else if (isset($_POST['email']) and isset($_POST['password'])) {
 	<script>
 	window.setTimeout(function() {
 	    window.location = '../rutas.php';
-	  }, 2500);
+	  }, 5500);
 	</script>
-	<p align="center" style="margin-top:9cm; font-weight:bold; font-size:20px;">
+	<p align="center" style="margin-top:2cm; font-weight:bold; font-size:20px;">
 		Bienvenido a Routapp! Le estamos dando a la página principal!
-	</p>
+	<br>
+	<img src="../images/carrera.png">
+</p>
+
 
 <?php
 

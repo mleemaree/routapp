@@ -4,6 +4,21 @@ session_start();
 $_SESSION['name']='user';
 $_SESSION['name']='route';
 
+?>
+
+<p>				
+	<select id="mis-rutas-filtro">
+	<option>Filtrar Por</option>
+	<option>1</option>
+	<option>2</option>
+	<option>3</option>
+	<option>4</option>
+	</select>
+</p>
+
+
+
+<?php
 
 $sql="SELECT * FROM comments WHERE (routeID = '".$_GET['routeID']."') ORDER BY `comments`.`date` DESC";
 
@@ -32,12 +47,25 @@ $sql="SELECT * FROM comments WHERE (routeID = '".$_GET['routeID']."') ORDER BY `
 
 			?>
 
+			<p>
+				Comentarios (<?php echo $_SESSION['route']['comments'];?>)
+
+				<hr>
+				¿Que te ha parecido la ruta? ¿Te ha gustado? Tu opinion es importante para nosotros y la comunidad de Routapp!
+
+			</p>
+
+
 
 			<form action="register-php-calls/comment-register.php?routeID=<?php echo $_GET['routeID']?>&username=<?php echo $_GET['username']?>" method="post" enctype="multipart/form-data">
 
 			<ul>
+
 				<li>
-					<label for="title">title</label>
+					<p>Valora la ruta <img src="images/stars.png"></p>
+				</li>
+				<li>
+					<label for="title">Titulo</label>
 					<input type="text" name="title">
 				</li>
 				<li>

@@ -7,8 +7,11 @@ $_SESSION['name']='user';
 if (($_POST['username'])== null or ($_POST['email'])== null or ($_POST['password'])== null) { 
 
 
-		$previousPage = $_SERVER["HTTP_REFERER"];
-	    header('Location: '.$previousPage);	
+		?>
+
+		<script> alert ("Tienes que rellenar todos los campos"); window.history.back(); </script>
+
+		<?php
 
 		} 
 
@@ -30,17 +33,6 @@ if (($_POST['username'])== null or ($_POST['email'])== null or ($_POST['password
 		} 
 ?>
 
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Insert Users</title>
-</head>
-
-<body>
-
-
-
 <?php  
 
 if (($_SESSION['user']['userID']) == 0) {
@@ -53,12 +45,14 @@ if (($_SESSION['user']['userID']) == 0) {
 
 else {
 ?>
-<meta http-equiv="refresh" content="0;URL=../rutas.php" /> 
+
+<script>
+	window.setTimeout(function() {
+	    window.location = '../rutas.php';
+	  }, 500);
+	</script>
+
 <?php
 }
 
 ?>
-
-
-</body>
-</html>
