@@ -2,52 +2,63 @@
 
 $('#estadisticas').click(function(){
 	$('#estadisticas-profile').show();
-	$('#mis-rutas-profile').hide();
-	$('#creditos-profile').hide();
-	$('#informacion-profile').hide();
+	$('#creditos-profile, #informacion-profile, #mis-rutas-profile').hide();
 });
 
 $('#mis-rutas').click(function(){
-	$('#estadisticas-profile').hide();
+	$('#estadisticas-profile, #informacion-profile, #creditos-profile').hide();
 	$('#mis-rutas-profile').show();
-	$('#creditos-profile').hide();
-	$('#informacion-profile').hide();
 });
 
 $('#creditos').click(function(){
-	$('#estadisticas-profile').hide();
-	$('#mis-rutas-profile').hide();
+	$('#mis-rutas-profile, #estadisticas-profile, #informacion-profile').hide();
 	$('#creditos-profile').show();
-	$('#informacion-profile').hide();
 });
 
 $('#informacion').click(function(){
-	$('#estadisticas-profile').hide();
-	$('#mis-rutas-profile').hide();
-	$('#creditos-profile').hide();
+	$('#estadisticas-profile, #creditos-profile, #mis-rutas-profile').hide();
 	$('#informacion-profile').show();
 });
 
 
 
+//---Mis Rutas Menu
+
+$('#mis-rutas').click(function(){
+  $('#mis-rutas').addClass('active');
+  $('#estadisticas, #creditos, #informacion').removeClass('active');
+});
+
+$('#estadisticas').click(function(){
+  $('#estadisticas').addClass('active');
+  $('#mis-rutas, #creditos, #informacion').removeClass('active');
+});
+
+$('#creditos').click(function(){
+  $('#creditos').addClass('active');
+  $('#estadisticas, #mis-rutas, #informacion').removeClass('active');
+});
+
+$('#informacion').click(function(){
+  $('#informacion').addClass('active');
+  $('#estadisticas, #creditos, #mis-rutas').removeClass('active');
+});
+
 //----Mis Rutas Panes
 
 $('#mis-rutas-creadas').click(function(){
 	$('#mis-rutas-creadas-pane-wrapper').show();
-	$('#mis-rutas-favoritas-pane-wrapper').hide();
-	$('#mis-rutas-compradas-pane-wrapper').hide();
+	$('#mis-rutas-favoritas-pane-wrapper, #mis-rutas-compradas-pane-wrapper').hide();
 });
 
 $('#mis-rutas-favoritas').click(function(){
 	$('#mis-rutas-favoritas-pane-wrapper').show();
-	$('#mis-rutas-creadas-pane-wrapper').hide();
-	$('#mis-rutas-compradas-pane-wrapper').hide();
+	$('#mis-rutas-creadas-pane-wrapper, #mis-rutas-compradas-pane-wrapper').hide();
 });
 
 $('#mis-rutas-compradas').click(function(){
 	$('#mis-rutas-compradas-pane-wrapper').show();
-	$('#mis-rutas-creadas-pane-wrapper').hide();
-	$('#mis-rutas-favoritas-pane-wrapper').hide();
+	$('#mis-rutas-creadas-pane-wrapper, #mis-rutas-favoritas-pane-wrapper').hide();
 });
 
 

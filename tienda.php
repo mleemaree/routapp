@@ -46,6 +46,7 @@ include('conexion-php-calls/conexion-routapp.php');
 					<button type="button">COMPRAR</button>
 				</div>
 			</div>-->
+			<div id="comprar-button-100"></div>
 			<img src="images/tienda/100.png">
 		</div>
 		<div class="col-xs-12 col-sm-4 credit-container">
@@ -66,6 +67,7 @@ include('conexion-php-calls/conexion-routapp.php');
 					<button type="button">COMPRAR</button>
 				</div>
 			</div>-->
+			<div id="comprar-button-200"></div>
 			<img src="images/tienda/200.png">
 		</div>
 		<div class="col-xs-12 col-sm-4 credit-container">
@@ -86,6 +88,7 @@ include('conexion-php-calls/conexion-routapp.php');
 					<button type="button">COMPRAR</button>
 				</div>
 			</div>-->
+			<div id="comprar-button-300"></div>
 			<img src="images/tienda/300.png">
 		</div>
 	</div>

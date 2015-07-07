@@ -86,7 +86,7 @@ include('conexion-php-calls/conexion-routapp.php');
     <div class="hidden-xs col-sm-3"></div>
   </div>
   <img id="barcelona-pin" class="hvr-bounce-in" src="images/explora/barcelona-pin.png">
-  <img id="joan-pin" src="images/explora/pin.png">
+  <img id="joan-pin" class="bounce animated infinite" style="height:35px;" src="images/explora/pin.png">
   <img id="pop-up" src="images/explora/pop-up.png">
 </div>
 <div class="container zones" style="width:1170; margin:0 auto; padding:0; background-color:white;">

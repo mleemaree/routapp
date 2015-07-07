@@ -105,29 +105,6 @@ $sql2="SELECT * FROM zones where routeID=".$_GET['routeID'];
 	</div>
 	<div class="row char-info">
 
-<!-- GOOGLE MAP DIV BEGIN -->
-
-    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script>
-    <script>
-function initialize() {
-  var barcelona = new google.maps.LatLng(41.3833,2.1833);
-  var mapOptions = {
-    zoom: 11,
-    center: barcelona
-  }
-
-  var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
-
-  var ctaLayer = new google.maps.KmlLayer({
-    url: 'http://a06.elisava.net/ikiMap_Routapp-Barcelona_Pe.kml?uwufwgffuwg'
-  });
-  ctaLayer.setMap(map);
-}
-
-google.maps.event.addDomListener(window, 'load', initialize);
-
-    </script>
-
 
 
 		<div class="col-xs-12 col-sm-7">
@@ -195,10 +172,10 @@ google.maps.event.addDomListener(window, 'load', initialize);
 	<div class="row info-ruta-menu-wrapper" style="margin:2% -15px;">
 		<div class="col-xs-12">
 			<ul class="info-ruta-menu nav nav-tabs nav-justified">
-				<li class="active info-ruta-menu-option">
+				<li id="info-ruta-desc" class="active info-ruta-menu-option">
 					<p>Información de la Ruta</p>
 				</li>
-				<li class="info-ruta-menu-option">
+				<li id="info-ruta-com" class="info-ruta-menu-option">
 					<span id="num-comments">( <?php echo $fila1['comments']; $_SESSION['route']['comments']=$fila1['comments'];?> )</span>
 					<p style="display:inline;">Comentarios</p>
 				</li>
@@ -206,7 +183,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
 		</div>
 	</div>
 </div>
-
+<div id="route-info">
 <div class="container" id="zones-info">
 
 	<div class="row inciniando">
@@ -247,6 +224,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
 		</div>
 	</div>
 
+
 	<?php			 
 
 			$result1->close();
@@ -254,6 +232,8 @@ google.maps.event.addDomListener(window, 'load', initialize);
 						
 	} 
 	?>	
+
+	</div><!-- ROUTE INFO-->
 
 
 

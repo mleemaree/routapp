@@ -22,3 +22,8 @@
 <!--meta-->
 
 <meta name="viewport" content="width=device-width, initial-scale=1, initial-scale=1.0, user-scalable=no">
+
+
+<!--animate-->
+
+<link rel="stylesheet" href="bower_components/animate.css/animate.min.css">

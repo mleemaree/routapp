@@ -16,6 +16,11 @@
 
 <script src="bower_components/chartist/dist/chartist.min.js"></script>
 
+
+<!-- google maps-->
+
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script>
+
 <!--stylesheet-->
 
 <script type="text/javascript" src="js/script-main.js"></script>

@@ -93,15 +93,14 @@ $sql2="SELECT * FROM zones where routeID=".$_GET['routeID'];
 	</div>
 </div>
 
-
 <div class="container">
 	<div class="row info-ruta-menu-wrapper" style="margin:2% -15px;">
 		<div class="col-xs-12">
 			<ul class="info-ruta-menu nav nav-tabs nav-justified">
-				<li class="active info-ruta-menu-option">
+				<li id="info-ruta-desc" class="active info-ruta-menu-option">
 					<p>Información de la Ruta</p>
 				</li>
-				<li class="info-ruta-menu-option">
+				<li id="info-ruta-com" class="info-ruta-menu-option">
 					<span id="num-comments">( <?php echo $fila1['comments']; $_SESSION['route']['comments']=$fila1['comments'];?> )</span>
 					<p style="display:inline;">Comentarios</p>
 				</li>
@@ -109,6 +108,7 @@ $sql2="SELECT * FROM zones where routeID=".$_GET['routeID'];
 		</div>
 	</div>
 </div>
+<div id="route-info">
 
 <div class="container" id="zones-info">
 
@@ -156,6 +156,7 @@ $sql2="SELECT * FROM zones where routeID=".$_GET['routeID'];
 						
 	} 
 	?>	
+	</div><!--route-info-->
 </div>
 </div><!---inciniando-->
 

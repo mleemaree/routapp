@@ -16,17 +16,17 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav topper middle nav-justified">
-        <li><a href="index.php">Rutas <span class="sr-only">(current)</span></a></li>
-        <li><a href="explora.php">Explora</a></li>
+        <li id="rutas"><a href="index.php">Rutas <span class="sr-only">(current)</span></a></li>
+        <li id="explora"><a href="explora.php">Explora</a></li>
         <li><a href="app.php">App</a></li><li>
-        <li>
+        <li id="tienda">
           <a style="padding:4%;"href="tienda.php">
             <img alt="cart" style="display:inline; vertical-align:middle; height:30px;" src="images/iconos/cart.png">
             <span style="display:inline; vertical-align:bottom; padding-left:3%;">Tienda</span>
           </a>
         </li>
         <li>
-          <a class="btn btn-default" href="crear.php">
+          <a id="crear-tm"class="btn btn-default" href="crear.php">
             <span style="position:relative; line-height:-1;">Crear Ruta</span>
           </a>
         </li>

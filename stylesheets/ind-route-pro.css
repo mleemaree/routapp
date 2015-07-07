@@ -171,16 +171,26 @@
 .info-ruta-menu-option {
   vertical-align: middle;
   padding: 2%;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
 }
-/* line 164, ../sass/ind-route-pro.scss */
+/* line 162, ../sass/ind-route-pro.scss */
 .info-ruta-menu-option.active {
   background-color: #01394c;
   color: white;
 }
 
-/* line 170, ../sass/ind-route-pro.scss */
+/* line 168, ../sass/ind-route-pro.scss */
+#info-ruta-desc {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+/* line 173, ../sass/ind-route-pro.scss */
+#info-ruta-com {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+/* line 178, ../sass/ind-route-pro.scss */
 .zones-row {
   margin: 2% 0;
   background-color: #01394c;
@@ -189,212 +199,217 @@
   border-radius: 15px;
 }
 
-/* line 178, ../sass/ind-route-pro.scss */
+/* line 186, ../sass/ind-route-pro.scss */
 .in-title {
   display: inline-block;
 }
 
-/* line 182, ../sass/ind-route-pro.scss */
+/* line 190, ../sass/ind-route-pro.scss */
 .names span {
   display: block;
 }
 
-/* line 186, ../sass/ind-route-pro.scss */
+/* line 194, ../sass/ind-route-pro.scss */
 .zone-title {
   padding-right: 5%;
 }
 
-/* line 190, ../sass/ind-route-pro.scss */
+/* line 198, ../sass/ind-route-pro.scss */
 .running-guy {
   vertical-align: middle;
   padding-right: 1%;
 }
 
-/* line 195, ../sass/ind-route-pro.scss */
+/* line 203, ../sass/ind-route-pro.scss */
 .zone-distance {
   color: #d8ee1a;
   vertical-align: middle;
 }
 
-/* line 200, ../sass/ind-route-pro.scss */
+/* line 208, ../sass/ind-route-pro.scss */
 .zone-img {
   text-align: center;
 }
 
-/* line 204, ../sass/ind-route-pro.scss */
+/* line 212, ../sass/ind-route-pro.scss */
 #zone-img {
   width: 80%;
 }
 
-/* line 208, ../sass/ind-route-pro.scss */
+/* line 216, ../sass/ind-route-pro.scss */
 .types p, .name {
   color: #01394c;
   line-height: 2em;
 }
 
-/* line 213, ../sass/ind-route-pro.scss */
+/* line 221, ../sass/ind-route-pro.scss */
 .name {
   font-weight: bold;
 }
 
-/* line 217, ../sass/ind-route-pro.scss */
+/* line 225, ../sass/ind-route-pro.scss */
 .desc-name {
   color: #01394c;
   font-weight: bold;
   line-height: 1.2em;
 }
 
-/* line 223, ../sass/ind-route-pro.scss */
+/* line 231, ../sass/ind-route-pro.scss */
 #exercise-title {
   font-weight: bold;
   padding-bottom: 1%;
   color: #01394c;
 }
 
-/* line 229, ../sass/ind-route-pro.scss */
+/* line 237, ../sass/ind-route-pro.scss */
 .exercise-title-wrapper {
   border-bottom: 1px solid #01394c;
   margin: 3%;
   width: 96%;
 }
 
-/* line 235, ../sass/ind-route-pro.scss */
+/* line 243, ../sass/ind-route-pro.scss */
 .descriptionΕ-title {
   margin: 5% 0;
   font-weight: bold;
   color: #01394c;
 }
 
-/* line 241, ../sass/ind-route-pro.scss */
+/* line 249, ../sass/ind-route-pro.scss */
 .descriptionΕ-text {
   margin: 0;
   color: #01394c;
   line-height: 1.2em;
 }
 
-/* line 247, ../sass/ind-route-pro.scss */
+/* line 255, ../sass/ind-route-pro.scss */
 .infosman2 {
   float: right;
   margin-bottom: 10%;
 }
 
 /*-----------USER ROUTE-------*/
-/* line 254, ../sass/ind-route-pro.scss */
+/* line 262, ../sass/ind-route-pro.scss */
 #user-photo {
   height: 50px;
 }
 
-/* line 258, ../sass/ind-route-pro.scss */
+/* line 266, ../sass/ind-route-pro.scss */
 .zone-info-wrapper {
   margin: 0 15px;
 }
 
-/* line 262, ../sass/ind-route-pro.scss */
+/* line 270, ../sass/ind-route-pro.scss */
 .desc-exer {
   margin: 0 15px;
   padding-bottom: 5%;
 }
 
-/* line 267, ../sass/ind-route-pro.scss */
+/* line 275, ../sass/ind-route-pro.scss */
 .user-route-title {
   font-size: 1.2em;
   line-height: 2;
 }
 
-/* line 272, ../sass/ind-route-pro.scss */
+/* line 280, ../sass/ind-route-pro.scss */
 .user-route-title-wrapper {
   border-bottom: 1px solid #01394c;
   margin: 0;
 }
-/* line 275, ../sass/ind-route-pro.scss */
+/* line 283, ../sass/ind-route-pro.scss */
 .user-route-title-wrapper > div {
   padding-left: 0;
 }
 
-/* line 280, ../sass/ind-route-pro.scss */
+/* line 288, ../sass/ind-route-pro.scss */
 .user-route-title-menu {
   text-align: center;
 }
 
 /*coments*/
-/* line 287, ../sass/ind-route-pro.scss */
+/* line 295, ../sass/ind-route-pro.scss */
+#route-com {
+  display: none;
+}
+
+/* line 300, ../sass/ind-route-pro.scss */
 .comment-img {
   height: 100px;
   width: 100px;
   border-radius: 50%;
 }
 
-/* line 293, ../sass/ind-route-pro.scss */
+/* line 306, ../sass/ind-route-pro.scss */
 .date {
   text-align: right;
 }
 
-/* line 297, ../sass/ind-route-pro.scss */
+/* line 310, ../sass/ind-route-pro.scss */
 .comment-title {
   margin: 0;
   border-bottom: 1px solid #01394c;
 }
 
-/* line 302, ../sass/ind-route-pro.scss */
+/* line 315, ../sass/ind-route-pro.scss */
 .comment-date {
   margin: 0;
 }
 
-/* line 307, ../sass/ind-route-pro.scss */
+/* line 320, ../sass/ind-route-pro.scss */
 .comment-title-wrapper h3 {
   padding: 1% 0;
   text-transform: uppercase;
   font-weight: bold;
 }
 
-/* line 314, ../sass/ind-route-pro.scss */
+/* line 327, ../sass/ind-route-pro.scss */
 hr {
   border-color: #01394c;
 }
 
-/* line 318, ../sass/ind-route-pro.scss */
+/* line 331, ../sass/ind-route-pro.scss */
 #mis-rutas-filtro {
   border: 1px solid #01394c;
 }
 
-/* line 322, ../sass/ind-route-pro.scss */
+/* line 335, ../sass/ind-route-pro.scss */
 .comment-rating {
   padding: 0 5%;
 }
 
-/* line 326, ../sass/ind-route-pro.scss */
+/* line 339, ../sass/ind-route-pro.scss */
 .content {
   padding: 1.5%;
 }
 
-/* line 330, ../sass/ind-route-pro.scss */
+/* line 343, ../sass/ind-route-pro.scss */
 .make-comment {
   background-color: #01394c;
   color: white;
   padding-bottom: 2%;
 }
 
-/* line 336, ../sass/ind-route-pro.scss */
+/* line 349, ../sass/ind-route-pro.scss */
 .make-comment-title {
   padding: 2% 0;
 }
 
-/* line 340, ../sass/ind-route-pro.scss */
+/* line 353, ../sass/ind-route-pro.scss */
 .tit-row {
   text-align: center;
   line-height: 2;
 }
-/* line 343, ../sass/ind-route-pro.scss */
+/* line 356, ../sass/ind-route-pro.scss */
 .tit-row:first-of-type {
   text-align: right;
 }
 
-/* line 348, ../sass/ind-route-pro.scss */
+/* line 361, ../sass/ind-route-pro.scss */
 .new-comment-title {
   padding: 1% 0;
 }
 
-/* line 352, ../sass/ind-route-pro.scss */
+/* line 365, ../sass/ind-route-pro.scss */
 .new-comment-titled {
   width: 100%;
   padding: 1%;
@@ -403,7 +418,7 @@ hr {
   color: #01394c;
 }
 
-/* line 362, ../sass/ind-route-pro.scss */
+/* line 375, ../sass/ind-route-pro.scss */
 .new-comment-text {
   border: 1px solid #01394c;
   border-radius: 15px;
@@ -413,7 +428,7 @@ hr {
   padding: 1%;
 }
 
-/* line 371, ../sass/ind-route-pro.scss */
+/* line 384, ../sass/ind-route-pro.scss */
 .new-comment-submit {
   background-color: #d8ee1a;
   border: none;
@@ -423,8 +438,19 @@ hr {
   border-radius: 30px;
 }
 
-/* line 380, ../sass/ind-route-pro.scss */
+/* line 393, ../sass/ind-route-pro.scss */
 .button-wrapper {
   text-align: right;
   padding: 0;
+}
+
+/* line 400, ../sass/ind-route-pro.scss */
+.descargar-ruta {
+  background-color: #d8ee1a;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #01394c;
+  border: none;
+  padding: 2% 4%;
+  border-radius: 30px;
 }

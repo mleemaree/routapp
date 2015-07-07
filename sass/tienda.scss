@@ -33,6 +33,18 @@ hr{
 .credits{
 	background-color:$blue;
 	height:100px;
+	border-top-right-radius:15px;
+	border-top-left-radius:15px;
+}
+
+#comprar-button-200, #comprar-button-100,
+#comprar-button-300{
+	/*background-color:aqua;*/
+	height:50px;
+	width:64%;
+	position:absolute;
+	top:315px;
+	left:70px;
 }
 
 .smiley{
@@ -87,4 +99,8 @@ span.w{
 .resend, .delete{
 	background-color:transparent;
 	border:none;
+}
+
+.invite-friends{
+	padding-bottom:5%;
 }
