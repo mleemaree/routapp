@@ -454,3 +454,27 @@ hr {
   padding: 2% 4%;
   border-radius: 30px;
 }
+/* line 408, ../sass/ind-route-pro.scss */
+.descargar-ruta:hover {
+  color: #d8ee1a;
+  background-color: #01394c;
+}
+
+/* line 414, ../sass/ind-route-pro.scss */
+.descargar-mg {
+  background-color: #01394c;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* line 421, ../sass/ind-route-pro.scss */
+.descargar-ruta-button {
+  background-color: #d8ee1a;
+  color: #01394c;
+  padding: 2% 6%;
+  border-radius: 30px;
+  border: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}

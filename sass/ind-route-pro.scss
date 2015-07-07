@@ -405,4 +405,25 @@ hr{
   border: none;
   padding: 2% 4%;
   border-radius: 30px;
+  &:hover{
+  	color:$green;
+  	background-color:$blue;
+  }
+}
+
+.descargar-mg{
+	background-color:$blue; 
+	color:white; 
+	text-transform:uppercase; 
+	font-weight:bold;
+}
+
+.descargar-ruta-button{
+	  background-color: $green;
+  color: $blue;
+  padding: 2% 6%;
+  border-radius: 30px;
+  border: none;
+  text-transform:uppercase;
+  font-weight:bold;
 }

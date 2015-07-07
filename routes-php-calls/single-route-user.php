@@ -33,7 +33,9 @@ $sql2="SELECT * FROM zones where routeID=".$_GET['routeID'];
 					</li>
 					<li class="user-route-title-menu">
 						<div class="col-xs-12">
-							<img src="../images/iconos/download_pro.png">
+							<button type="button" style="background-color:transparent; border:none;" data-toggle="modal" data-target="#descargar-ruta-user">
+								<img src="../images/iconos/download_pro.png">
+							</button>
 						</div>
 					</li>
 					<li class="user-route-title-menu">
