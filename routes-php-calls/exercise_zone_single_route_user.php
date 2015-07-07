@@ -19,7 +19,7 @@ if ($result3 = $conexion->query($sql3)) {
 							<p>Nombre del ejercicio: <span class="result-zone-info" style="font-weight:bold;"><?php echo $fila3['exName']; ?></span></p>
 						</div>
 						<div class="col-xs-6 col-sm-2">
-							<p>Tipo: <span class="result-zone-info" style="font-weight:bold;"><?php echo $fila3['type']; ?></span></p>
+							<p>Tipo: <span class="result-zone-info" style="font-weight:bold;"><?php echo $fila3['exercType']; ?></span></p>
 						</div>
 						<div class="col-xs-6 col-sm-2">
 							<p>Series: <span class="result-zone-info" style="font-weight:bold;"><?php echo $fila3['series']; ?></span></p>

@@ -35,7 +35,7 @@ include('conexion-php-calls/conexion-routapp.php');
 
 
 
-    <div class="modal fade" id="descargar-ruta-user" role="dialog">
+    <div class="modal fade" id="descargar-ruta-user" role="dialog" tabindex="-1">
     <div class="modal-dialog">
     
       <!-- Modal content-->

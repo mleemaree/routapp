@@ -1,6 +1,7 @@
 <?php
 session_start();
 $_SESSION['name']='route';
+$_SESSION['name']='zone';
 
 include('../conexion-php-calls/conexion-routapp.php');
 
@@ -40,42 +41,21 @@ if (($_POST['title'])== null  or ($_POST['description'])==null or ($_POST['traza
 							VALUES ('$title', '$description', '$trazando', '$exercType_array', '$exercZones_array', '$material_array', '$other_array', '".$_SESSION['user']['avatar']."', '".$_SESSION['user']['username']."')");
 
 			$_SESSION['route']['routeID']=$conexion->insert_id;
+			$_SESSION['zone']['exercType']=$exercType_array;
 
 
 } else { echo "Oops! Something went wrong...";
 }
 
-?>
-
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Insert routes</title>
-</head>
-
-<body>
-
-
-<?php echo $_SESSION['route']['routeID'];?>
-
-
-
-
-<p>Success!!!</p>
-
-	<?php $msg='<a href="user_profile.php" class="success_message">User Profile »</a>';
-
-	echo $msg; ?>
-<br>
-	<?php
-
-	$msg='<a href="route-form.php" class="success_message">Add another route »</a>';
-
-	echo $msg; 
 
 	?>
 
+<script> 
 
-</body>
-</html>
+alert ("SUCCESS!"); window.location="../crear-2.php";
+</script>
+
+
+
+
+

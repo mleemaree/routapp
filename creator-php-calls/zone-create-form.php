@@ -15,7 +15,7 @@ $sql="SELECT * FROM routes WHERE routeID=".$_SESSION['route']['routeID'];
 			</div>
 		</div>
 	</div>
-	<form id="zone-creator-form" action="zone-register.php" method="post" enctype="multipart/form-data">
+	<form id="zone-creator-form" action="creator-php-calls/zone-register.php" method="post" enctype="multipart/form-data">
 
 
 		<div class="row cr-ex-ti">
@@ -38,8 +38,13 @@ $sql="SELECT * FROM routes WHERE routeID=".$_SESSION['route']['routeID'];
 		<div class="row cet-inputs">
 			<div class="col-xs-3">
 				<div class="row">
-					<select id="type">
+					<select id="type" name="exercType">
+						<option></option>
 						<option>Musculación</option>
+						<option>Resistencia</option>
+						<option>Elasticidad</option>
+						<option>Agilidad</option>
+						<option>Equilibrio</option>
 					</select>
 				</div>
 				<div class="row">
@@ -49,13 +54,17 @@ $sql="SELECT * FROM routes WHERE routeID=".$_SESSION['route']['routeID'];
 					<input type="text" name="exName">
 				</div>
 				<div class="row" style="margin:0 -15px;">
-					<div class="col-xs-6">
-						<label  class="s" for="repetition">Repeticiónes</label>
+					<div class="col-xs-4">
+						<label  class="s" for="repetition">Rep.</label>
 						<input type="text" name="repetition">
 					</div>
-					<div class="col-xs-6">
+					<div class="col-xs-4">
 						<label  class="s" for="series">Series</label>
 						<input type="text" name="series">
+					</div>
+					<div class="col-xs-4">
+						<label  class="s" for="rest">Desc.</label>
+						<input type="text" name="rest">
 					</div>
 				</div>
 			</div>
